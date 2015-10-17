@@ -4,12 +4,14 @@ date: 2010-05-21 08:00:00
 categories: movil aplicaciones j2me blackberry
 ---
 La aplicaciones móviles son posibles de diversas maneras:
+
 - Aplicación nativa para una familia de dispositivos (Blackberry, iPhone, Android, Windows Mobile
 - Aplicación Web móvil (xhtml o WAP) accesible desde un browser de un dispositivo móvil
 - Aplicación vía SMS
 - Aplicación vía STK
 
 Hay dos formas de programar una aplicación móvil nativa para Blackberry:
+
 - Aplicación que utiliza J2ME (CLDC/MIDP)
 - Aplicación que implementa las interfaces específicas de los dispositivos Blackberry
 
