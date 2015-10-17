@@ -13,3 +13,12 @@ safe: true
 timezone: America/Caracas
 # Build settings
 markdown: kramdown
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Alexander A. Ramírez M."

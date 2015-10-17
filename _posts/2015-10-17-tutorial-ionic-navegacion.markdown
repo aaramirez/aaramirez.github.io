@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Navegación en Ionic"
 date:   2015-10-17 08:16:10
 categories: ionic angularjs cordova tutorial
