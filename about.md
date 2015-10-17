@@ -4,9 +4,10 @@ title: Acerca
 permalink: /about/
 ---
 
-Soy Alexander A. Ramírez M., Ingeniero en Computación de la [USB](http://www.usb.ve) me desempeño como Director de Tecnología en [Synergy-GB](http://www.synergy-gb.com/). 
+Soy Alexander A. Ramírez M., Ingeniero en Computación de la [USB](http://www.usb.ve), me desempeño como Director de Tecnología en [Synergy-GB](http://www.synergy-gb.com/) y me encargo 
+del diseño y desarrollo de la línea de nuevos productos y servicios [bySynergyGB](http://www.bysynergygb.com) con un enfoque innovador e inclusive disruptivo.
 
-Me interesa y disfruto la tecnología con un enfoque instrumental, es decir, para resolver problemas de una forma distinta, generar nuevas experiencias, facilitar el acceso a los servicios o Innovar nuevos, con especial interés en canales electrónicos y servicios para Bancos.
+Me interesa y disfruto la tecnología con un enfoque instrumental, es decir, para resolver problemas de una forma distinta, generar nuevas experiencias, facilitar el acceso a los servicios o innovar en existentes o nuevos, con especial interés en canales electrónicos y servicios para Bancos.
 
 Por otra parte me gusta la especulación en mercados, las inversiones y las finanzas. Me gusta dar clases y compartir lo que he aprendido a través del emprendimiento [Synergy Vision](http://synergy.vision).
 
