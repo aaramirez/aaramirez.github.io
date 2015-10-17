@@ -14,13 +14,14 @@ NetKernel es un producto de [1060 Research](http://www.1060research.com), que es
 Hay varias razones que me hacen pensar que este modelo tiene el potencial de convertirse en una referencia para la arquitectura de aplicaciones web, la construcción de nuevos frameworks de desarrollo, integración de aplicaciones, exposición de funcionalidades o servicios vía REST, etc.
 
 Los atributos principales son:
+
 - Servidor de Aplicación basado en Recursos. No requiere de otro Servidor de Aplicaciones o Frameworks de Desarrollo tipo Spring.
 - El Servidor de Aplicación tiene una Arquitectura de MicroKernel, Multithreaded que permite atender cada requerimiento aprovechando procesadores MultiCore. El arquitecto y el programador tiene algo menos en que pensar.
 - Cada recurso es accesible a través de un Identificador Universal (URI) público o privado. El MicroKernel se encarga de resolver cada URI a la respectiva Representación de un Recurso. Un URI puede ser http://myempresa.com/cliente/Id. Un URI como el anterior podría servir para consultar los datos de un cliente utilizando su Identificación.
 - Cada requerimiento de un Recurso es independiente (Stateless).
 - Un Recurso puede tener varias Representaciones (XML, HTML, Email, Archivo, un Objeto, etc)
 - La lógica de las aplicaciones se pueden programar en distintos lenguajes: Java, Beanshell, Groovy, Ruby, Python, JavaScript (cualquiera que corra en una JVM).
-- Cuenta con un Motor de almacenamiento temporal (Cache)
+- Cuenta con un Motor de almacenamiento temporal (Cache).
 - Cuenta con librerías para: HTTP, JMS, SOAP, LDAP, Email, RDBMS, Seguridad, etc.
 - Es extensible.
 
