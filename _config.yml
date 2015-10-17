@@ -1,8 +1,8 @@
 # Site settings
-title: Back to the future...
+title: Volver al futuro...
 email: timoto@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Experiencias desarrollando servicios que valgan la pena usar. Algunos tutoriales 
+  Experiencias desarrollando aplicaciones para hacer la vida más fácil. Algunos tutoriales 
   para ayudarme a mi mismo a dominar la tecnología.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://aaramirez.github.io" # the base hostname & protocol for your site
