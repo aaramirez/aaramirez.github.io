@@ -12,3 +12,5 @@ Me interesa y disfruto la tecnología con un enfoque instrumental, es decir, par
 Por otra parte me gusta la especulación en mercados, las inversiones y las finanzas. Me gusta dar clases y compartir lo que he aprendido a través del emprendimiento [Synergy Vision](http://synergy.vision).
 
 Actualmente estoy iniciando una [Maestría en Modelos Aleatorios](http://www.matematica.ciens.ucv.ve/modelos/)  en la Facultad de Ciencias de la [UCV](http://www.ucv.edu.ve). Puedes consultar el [tríptico](http://www.matematica.ciens.ucv.ve/modelos/Descargas/Triptico%20de%20Modelos%20Aleatorios.pdf) si es de tu interés.
+
+Este blog es el resultado de la migración de otro que estaba un poco abandonado llamado Ciberespacios y nuevos artículos ahora en [aaramirez.github.io](http://aaramirez.github.io).
