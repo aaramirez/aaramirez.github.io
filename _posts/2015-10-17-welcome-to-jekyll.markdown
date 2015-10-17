@@ -1,25 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Back to basics!"
 date:   2015-10-17 08:16:10
-categories: jekyll update
+categories: ionic angularjs cordova tutorial
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Vamos a iniciar con una serie de tutoriales sobre Ionic y la construcción de aplicaciones móviles basadas en tecnología Web.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Ionic es un ambiente (framework) que permite desarrollar aplicaciones móviles atractivas y con buen desempeño. Por mucho tiempo el desempeño de las aplicaciones móviles basadas en tecnología web (híbridas) han sufrido de problemas de lentitud en la interacción y de una experiencia limitada. Con Ionic se pueden construir interfaces atractivas y con buen desempeño, además está basado en AngularJS y Cordova, lo que facilita y enriquece la forma de desarrollar dichas aplicaciones.
 
-Jekyll also offers powerful support for code snippets:
+Hay mucho material en Inglés y muy poco en español, por lo que trataremos de contribuir en ese sentido.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+El primer [tutorial][tutorial] se trata de cómo generar nuevos estados y navegarlos utilizando el tag <ion-nav-view>.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+[tutorial]:	
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
