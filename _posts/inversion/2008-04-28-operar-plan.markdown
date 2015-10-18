@@ -5,7 +5,7 @@ categories: trading plan
 ---
 Durante el 2008 tuve la oportunidad de trabajar en una empresa de entrenamiento dirigida a traders del mercado monetario. Los artículos del 2008 se centran en aplicar el análisis técnico como herramienta y el enfoque que planteo consiste en seguir tendencias. El artículo está adaptado y corregido. Este es el primer artículo que publiqué en dicha época. Espero les guste.
 
-## Operar con un plan
+***
 
 Bienvenidos a este nuevo espacio. La idea es compartir con Uds. algunos aspectos del análisis técnico que pueden ayudar a estructurar su estilo de operación. Espero que sea de su mayor agrado.
 
