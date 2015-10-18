@@ -1,0 +1,22 @@
+---
+title: "KDK - Kindle Development Kit"
+date: 2010-11-04 08:00:00
+categories: kindle amazon kdk
+---
+Para los amantes de la lectura desde ya hace más de 10 años se comenzaron a ofrecer dispositivos para la lectura de libros en formato digital o electrónico, también conocido como ebooks. Yo compré el eRocket book en que tenía soporte de Amazon para comprar libros principalmente relacionados con el desarrollo de Internet a principios del 2000.
+
+La nueva generación de dispositivos liderada por Amazon, que lleva varios años ofreciendo el Kindle, ahora en su nueva generación de dispositivos lanzados el Julio del 2010 con la versión 3G/Wifi y Wifi, ofrecen varias características interesantes como, su tamaño compacto, conectividad, amplia disponibilidad de títulos, larga duración de la batería, etc, han superado las barreras que existían para el uso de este tipo de dispositivos.
+
+Aunque son muchos los dispositivos para la lectura de libros en formato digital, todas las descripciones se basan en el hardware del dispositivo y no en el aspecto más importante para los lectores que es la disponibilidad de títulos a través del dispositivo. En este punto Amazon ofrece la propuesta más completa.
+
+Existen otros dispositivos de propósito general como el iPad que además de ofrecer la posibilidad de leer libros con una interfaz gráfica enriquecida también proveen funcionalidad de Tablet PC.
+
+El Kindle no es un Tablet PC ni pretende serlo; es un dispositivo de propósito específico y con muchas facilidades para el acceso a libros en formato digital, ya sean gratuitos o pagos. El soporte que provee Amazon es el atractivo principal para los amantes de la lectura.
+
+Hace algunos meses Amazon anuncio la prueba contralada de su Kindle Development Kit.
+A partir de la prueba ya se han publicado algunos juegos, unos gratuitos y otros por un costo muy realmente bajo.
+
+Con la próxima publicación del KDK los desarrolladores podrán crear aplicaciones para el Kindle como acceso a portales de comercio electrónico, acceso a portales bancarios, acceso a intranets, ¿acceso al email via Web?, en fin, acceso a aplicaciones Web con interfaces enriquecidas. Este hecho abre el abanico de posibilidades de uso del dispositivo para leer información de distintas fuentes.
+
+El reto de Amazon ahora es como crear la tinta digital a color y así superar los dispositivos con pantallas a color.
+
