@@ -13,4 +13,4 @@ Esto puede generar situaciones que he visto en organizaciones de muy alto nivel,
 
 Esto es lo que yo llamaría Planificación con los ojos abiertos (Planning [with open eyes!!][1]).
 
-[1] "" "Frase de Barack Obama"
+[1]: "" "Frase de Barack Obama"
