@@ -1,0 +1,22 @@
+---
+title: "Los modelos son compromisos"
+date: 2006-02-04 08:00:00
+categories: gerencia planificacion
+---
+En las empresas es necesario un conjunto de herramientas que permitan entender el entorno y modelarlo para apoyar la toma de decisiones.
+
+Un ejemplo de este tipo de herramientas es un modelo financiero. 
+
+Una de las diversas formas de evaluar los proyectos es mediante el valor presente neto (valor de los flujos de caja descontados, en un período de tiempo, a una tasa determinada, que recoge el costo de capital y otros aspectos). El hecho de que el VPN de un proyecto sea positivo ya genera la confianza sobre su ejecución, sin embargo la realidad es que un proyecto con VPN positivo tiene mucha más probabilidad de ser rentable que uno que no lo es. La realidad detrás de un modelo de este tipo, la reflejan unos números que representan flujos de efectivo, tanto de ingresos, ahorros, gastos, depreciación, premisas económicas, etc.
+
+Resulta que cada uno de estos números plantea una serie de compromisos que se deben asumir para obtener los beneficios del modelo y lograr la rentabilidad. Lograr que el VPN sea mayor que cero es un reto, pero mucho mayor es comprometerse a ejecutar y obtener los beneficios modelados. Como resultado de esto, es muy usual que se realice un seguimiento de los compromisos y se pueda, proactivamente y no post morten, rectificar y replantear la ejecución.
+
+En la cabeza de un ejecutivo es tan importante, el modelo que recoge la intención de un proyecto, como la ejecución y su resultado final. El modelo recoge los beneficios de cada una de las acciones que se van a realizar, aunque solamente se vean de forma escueta y numérica.
+
+En los modelos también se plantean premisas, que usualmente no están controladas o influenciadas por la empresa y cualquier cambio en estas premisas afecta el resultado final. 
+
+Es por esta razón que se realiza un análisis de sensibilidad que permita entender cual es el impacto, en la rentabilidad de un proyecto, de la variación de una premisa.
+
+Por otra parte los modelos no pretenden predecir, sencillamente pretenden responder la pregunta ¿Qué pasa si …? y a partir del resultado apoyar la toma de decisiones.
+
+Cada premisa, sobre la cual tenemos control, que está planteada en los modelos con nuestro compromiso para lograr la meta y finalmente captar los beneficios que se modelaron.
