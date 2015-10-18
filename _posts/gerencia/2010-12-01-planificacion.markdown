@@ -11,6 +11,6 @@ Un planificador que no le hace seguimiento a la ejecución del plan no puede val
 
 Esto puede generar situaciones que he visto en organizaciones de muy alto nivel, como que el planificador culpa al ejecutor y el ejecutor culpa al planificador cuando un proyecto no se materializa y en la medida que pasa el tiempo los problemas aumentan en lugar de disminuir durante la ejecución.
 
-Esto es lo que yo llamaría Planificación con los ojos abiertos (Planning [with open eyes!!][1]).
+Esto es lo que yo llamaría Planificación con los ojos abiertos (Planning with open eyes!![1]).
 
 [1]: "Frase de Barack Obama"
