@@ -11,5 +11,5 @@ Hay mucho material en Inglés y muy poco en español, por lo que trataremos de c
 
 El primer [tutorial][tutoriallink] se trata de cómo generar nuevos estados y navegarlos utilizando el tag ion-nav-view.
 
-[tutoriallink]:	"https://github.com/aaramirez/tutorial-ionic-navegacion"
+[tutoriallink]:	https://github.com/aaramirez/tutorial-ionic-navegacion
 
