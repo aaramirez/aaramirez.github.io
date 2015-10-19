@@ -7,6 +7,8 @@ Siguiendo con los tutoriales sobre Ionic vamos a trabajar con listas y su uso b�
 
 Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial.
 
+> El objetivo es mostrar una lista de items en pantalla usando ion-list y ion-item. Se debe especificar el controlador de la pantalla, agregar una lista a la pantalla y crear el controlador para dar acceso a los datos y luego mostrarlos en pantalla utilizando ng-repeat.
+
 Se va a conseguir con una mini aplicación con una pantalla con un encabezado con fondo azul en el *HTML* y en el *JS* está definido el módulo __app__.
 
 El código del *HTML* es el siguiente:
@@ -117,7 +119,7 @@ Ahora debemos utilizar *items* en la vista. Para ello vamos a recorrer el arregl
 </ion-item>
 {% endhighlight %}
 
-Note que en la vista no es necesario colocar *$scope.items*, es suficiente con especificar *items* para acceder a esta variable definida en el controlador.
+Note que en la vista no es necesario colocar *$scope.items*, es suficiente con especificar *items* (en el *ng-repeat*) para acceder a esta variable definida en el controlador.
 
 Puede verificar el [resultado final][2] si lo desea.
 
