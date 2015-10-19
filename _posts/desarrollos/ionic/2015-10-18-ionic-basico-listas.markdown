@@ -46,10 +46,10 @@ Vamos a crear una lista dentro del tag __ion-content__ utilizando el tag __ion-l
 
 {% highlight html %}
 <ion-content>
-  <ion-list>
-  	<ion-item>
-  		Item
-  	</ion-item>
+	<ion-list>
+		<ion-item>
+			Item
+		</ion-item>
 	</ion-list>
 </ion-content>
 {% endhighlight %}
@@ -106,7 +106,7 @@ Ahora debemos utilizar *items* en la vista. Para ello vamos a recorrer el arregl
 
 {% highlight html %}
 <ion-item ng-repeat="item in items">
-	Item {{ item.id }}
+	Item \{\{ item.id \}\}
 </ion-item>
 {% endhighlight %}
 
