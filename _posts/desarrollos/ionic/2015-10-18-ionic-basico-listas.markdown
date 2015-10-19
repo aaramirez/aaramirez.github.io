@@ -16,9 +16,16 @@ El código del *HTML* es el siguiente:
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <link href="https://code.ionicframework.com/1.0.0/css/ionic.min.css" rel="stylesheet">
-    <script src="https://code.ionicframework.com/1.0.0/js/ionic.bundle.js"></script>
+    <meta 
+      name="viewport" 
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, 
+        width=device-width">
+    <link 
+      href="https://code.ionicframework.com/1.0.0/css/ionic.min.css" 
+      rel="stylesheet">
+    <script 
+      src="https://code.ionicframework.com/1.0.0/js/ionic.bundle.js">
+    </script>
   </head>
   <body ng-app="app">
     <ion-pane>
@@ -84,7 +91,7 @@ Normalmente a los controladores se le inyecta *$scope*, nuestro controlador qued
 
 Ahora debemos especificar los datos que le vamos a exponer a la pantalla (la vista) a través de *$scope*. Vamos a definir un arreglo denominado *items* (*$scope.items*) y le vamos a asignar los valores. El arreglo va a estar compuesto por 10 *items* con un atributo de nombre *id* y un valor numérico.
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 .controller('contentController', function($scope){
   // Contenido del controlador
   $scope.items = [
@@ -106,7 +113,7 @@ Ahora debemos utilizar *items* en la vista. Para ello vamos a recorrer el arregl
 
 {% highlight html linenos %}
 <ion-item ng-repeat="item in items">
-  Item \{\{ item.id \}\}
+  Item { { item.id } }
 </ion-item>
 {% endhighlight %}
 

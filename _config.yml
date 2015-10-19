@@ -13,7 +13,7 @@ safe: true
 timezone: America/Caracas
 # Build settings
 markdown: kramdown
-highlighter: pigments
+#highlighter: pygments
 # Defaults
 defaults:
   -
