@@ -114,8 +114,8 @@ Note que en la vista no es necesario colocar *$scope.items*, es suficiente con e
 
 Puede verificar el [resultado final][2] si lo desea.
 
-[1]: "Primer paso - Base de inicio" "http://play.ionic.io/app/d5fde9db2473"
-[2]: "Resultado del tutorial" "http://play.ionic.io/app/ba2ef3020ef6"
+[1]: "http://play.ionic.io/app/d5fde9db2473" "Primer paso - Base de inicio" 
+[2]: "http://play.ionic.io/app/ba2ef3020ef6" "Resultado del tutorial" 
 
 
 
