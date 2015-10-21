@@ -34,7 +34,7 @@ $scope.doListUpdate = function() {
 
 Ahora en la lista haga el gesto de actualización (Pull to refresh) y observe el comportamiento.
 
-Ahora como ejercicio adicional siga la documentación de la directiva __ion-refresher__ y utilice los atributos adicionales para agregar un ícono distinto.
+Ahora como ejercicio adicional siga la documentación de la directiva [__ion-refresher__][3] y utilice los atributos adicionales para agregar un ícono distinto.
 
 Puede verificar el [resultado final][2] si lo desea.
 
