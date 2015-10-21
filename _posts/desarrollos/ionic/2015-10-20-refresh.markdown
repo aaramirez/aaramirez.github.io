@@ -1,0 +1,43 @@
+---
+title: "Refrescando contenido en una pantalla"
+date: 2015-10-20 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+Una de las actividades frecuentes en una pantalla de una aplicación móvil es la actualización de contenido. Para ello Ionic provee la directiva __ionRefresher__.
+
+Partiendo el tutorial anterior vamos a hacer una modificación para mostrar la manera de utilizar __Pull to Refresh__ en una pantalla con una lista..
+
+Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
+
+> El objetivo es actualizar la lista con nuevos elementos cada vez que se desliza la lista con un gesto hacia abajo (Pull to Refresh).
+
+En el *HTML* hay que agregar el tag [__ion-refresher__][3] luego del tag __ion-content__.
+
+{% highlight html linenos %}
+<ion-content ng-controller="contentController">
+  <ion-refresher
+    pulling-text="Pull to refresh..."
+    on-refresh="doListUpdate()">
+  </ion-refresher>
+<ion-list>
+{% endhighlight %}
+
+Luego modifique el controlador y agregue la definición de la función *doListUpdate*.
+
+{% highlight js linenos %}
+$scope.doListUpdate = function() {
+  var newItemId = $scope.items[0].id + "1";
+  $scope.items.unshift({ id: newItemId });
+  $scope.$broadcast('scroll.refreshComplete');
+};
+{% endhighlight %}
+
+Ahora en la lista haga el gesto de actualización (Pull to refresh) y observe el comportamiento.
+
+Ahora como ejercicio adicional siga la documentación de la directiva __ion-refresher__ y utilice los atributos adicionales para agregar un ícono distinto.
+
+Puede verificar el [resultado final][2] si lo desea.
+
+[1]: http://play.ionic.io/app/4b718c0aa1df "Inicio del tutorial" 
+[2]: http://play.ionic.io/app/5909ef640623 "Resultado del tutorial"
+[3]: http://ionicframework.com/docs/api/directive/ionRefresher/ "ionRefresher directive"
