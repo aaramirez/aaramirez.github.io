@@ -19,7 +19,7 @@ Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y 
 En el *HTML* hay que agregar el atributo [__show-reorder__][3] al [tag __ion-list__][3].
 
 {% highlight html linenos %}
-
+<ion-list show-reorder="showReorder">
 {% endhighlight %}
 
 Ahora vamos a crear un botón que permita al usuario indicar si desea borrar un elemento de la lista.
@@ -27,40 +27,42 @@ Ahora vamos a crear un botón que permita al usuario indicar si desea borrar un 
 {% highlight html linenos %}
 <ion-header-bar class="bar-positive">
   <div class="buttons">
-    <button class="button button-icon icon ion-ios-minus-outline"
-      ng-click="showDeleteItem = !showDeleteItem"></button>
+    <button class="button button-icon icon ion-shuffle"
+      ng-click="showReorder = !showReorder">
+    </button>
     <h1 class="title">Ionic List</h1>
   </div>
 </ion-header-bar>
 {% endhighlight %}
 
-Ahora puede ver que hay un botón en la barra superior, pero no hace nada. Nos corresponde ahora indicar en cada elemento de la lista qué debe hacer cuando se presiona el botón borrar.
+Ahora puede ver que hay un botón en la barra superior, pero no hace nada. Nos corresponde ahora indicar en cada elemento de la lista qué debe hacer cuando se presiona el botón borrar. Eso lo hacemos agregando el tag __ion-reorder-button__ dentro de cada elemento de la lista, es decir, dentro del __ion-item__.
 
 {% highlight html linenos %}
 <ion-item ng-repeat="item in items">
-  <ion-delete-button class="ion-minus-circled">
-  </ion-delete-button>
+  <ion-reorder-button class="ion-navicon">
+  </ion-reorder-button>
   Item {{ item.id }}
 </ion-item>
 {% endhighlight %}
 
-Ahora si presiona de nuevo el botón en la barra superior para borrar, aparece en cada elemento de la lista el ícono para borrar el elemento, pero si el botón de un elemento de la lista no pasa nada. Ahora hay que manejar el evento __ng-click__ de Angular al tab __ion-delete-button__ y especificar la función en el controlador que va a realizar la operación de borrar el elemento de la lista.
+Ahora si presiona de nuevo el botón en la barra superior para reordenar, aparece en cada elemento de la lista el ícono para reordenarlo, pero mueve un elemento de la lista todavía no pasa nada. Ahora hay que manejar el evento __on-reorder__ de Ionic al tab __ion-reorder-button__ y especificar la función en el controlador que va a realizar la operación de reordenar los elementos.
 
 {% highlight html linenos %}
 <ion-item ng-repeat="item in items">
-  <ion-delete-button class="ion-minus-circled" ng-click="deleteItem(item)">
-  </ion-delete-button>
+  <ion-reorder-button class="ion-navicon"
+    on-reorder="reorderItem(item, $fromIndex, $toIndex)">
+  </ion-reorder-button>
   Item {{ item.id }}
 </ion-item>
 {% endhighlight %}
 
-Ahora en *JS* cree la función *deleteItem* para ejecutar la acción de borrar. La función debe llamar el servicio que manipula la lista y ejecutar la función para borrar un elemento.
+Ahora en *JS* cree la función *reorderItem* para ejecutar la acción de reordenar.
 
 Tenemos que agregar una función en el controlador y otra en el servicio. Vamos con la primera.
 
 {% highlight javascript linenos %}
-$scope.deleteItem = function(item) {
-  dataService.deleteDataItem($scope.items.indexOf(item));
+$scope.reorderItem = function(item, fromIndex, toIndex) {
+  dataService.reorderDataItem(item, fromIndex, toIndex);
 };
 {% endhighlight %}
 
@@ -70,12 +72,13 @@ Ahora modifiquemos el servicio para borrar un elemento de la lista.
 getData: function() {
   return this.data;
 },
-deleteDataItem: function(index) {
-  return this.data.splice(index, 1);
+reorderDataItem: function(item, from, to) {
+  this.data.splice(from, 1);
+  this.data.splice(to, 0, item);
 }
 {% endhighlight %}
 
-Ahora en la lista presione el botón de borrado en la barra superior y pruebe la funcionalidad.
+Ahora en la lista presione el botón para reordenar en la barra superior y pruebe la funcionalidad.
 
 Puede verificar el [resultado final][2] si lo desea.
 
