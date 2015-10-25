@@ -35,7 +35,7 @@ Ahora vamos a crear un botón que permita al usuario indicar si desea borrar un 
 </ion-header-bar>
 {% endhighlight %}
 
-Ahora puede ver que hay un botón en la barra superior, pero no hace nada. Nos corresponde ahora indicar en cada elemento de la lista qué debe hacer cuando se presiona el botón borrar. Eso lo hacemos agregando el tag __ion-reorder-button__ dentro de cada elemento de la lista, es decir, dentro del __ion-item__.
+Ahora puede ver que hay un botón en la barra superior, pero no hace nada. Nos corresponde ahora indicar en cada elemento de la lista qué debe hacer cuando se presiona el botón. Eso lo hacemos agregando el tag __ion-reorder-button__ dentro de cada elemento de la lista, es decir, dentro del __ion-item__.
 
 {% highlight html linenos %}
 <ion-item ng-repeat="item in items">
@@ -66,7 +66,7 @@ $scope.reorderItem = function(item, fromIndex, toIndex) {
 };
 {% endhighlight %}
 
-Ahora modifiquemos el servicio para borrar un elemento de la lista.
+Ahora modifiquemos el servicio para reordenar la lista.
 
 {% highlight javascript linenos %}
 getData: function() {
