@@ -10,10 +10,10 @@ Partiendo el tutorial anterior vamos a hacer una modificación para mostrar la m
 Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
 
   > El objetivo es:
-  > Especificar el atributo __show-delete__ en el tag __ion-list__.
-  > Crear un botón que sea presionado cuando se desea borrar un elemento de la lista.
-  > Indicar al __ion-item__ qué mostrar y qué hacer cuando se presiona el botón "Borrar" utilizando el tag __ion-delete-button__.
-  > Modificar el controlador para manipular la lista y borrar un elemento. 
+  - Especificar el atributo __show-delete__ en el tag __ion-list__.
+  - Crear un botón que sea presionado cuando se desea borrar un elemento de la lista.
+  - Indicar al __ion-item__ qué mostrar y qué hacer cuando se presiona el botón "Borrar" utilizando el tag __ion-delete-button__.
+  - Modificar el controlador para manipular la lista y borrar un elemento. 
 
 En el *HTML* hay que agregar el atributo [__show-delete__][3] al tag __ion-list__.
 
