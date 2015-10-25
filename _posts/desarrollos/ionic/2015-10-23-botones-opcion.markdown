@@ -126,6 +126,8 @@ $scope.downClick = function(item) {
 };
 {% endhighlight %}
 
+Ahora puede revisar la funcionalidad de cada botón. El propósito de las opciones puede ser Editar o Compartir un elemento de la lista. Se hizo la prueba para Borrar o reordenar aunque para borrar existe la directiva __ion-delete-button__ y para reordenar existe __ion-reorder-button__ visto en los tutoriales respectivos, [Borrar elementos de una lista][7] y [Reordenar elementos de una lista][8]. 
+
 Puede verificar el [resultado final][2] si lo desea.
 
 [1]: http://play.ionic.io/app/ba2ef3020ef6 "Inicio del tutorial" 
@@ -134,3 +136,5 @@ Puede verificar el [resultado final][2] si lo desea.
 [4]: http://ionicframework.com/docs/api/directive/ionOptionButton/ "ion-option-button"
 [5]: http://ionicframework.com/docs/api/service/$ionicListDelegate/ "$ionicListDelegate"
 [6]: http://ionicframework.com/docs/api/directive/ionItem/ "ion-item"
+[7]: http://aaramirez.github.io/ionic/angularjs/cordova/tutorial/2015/10/21/delete-item-list.html "ion-delete-button"
+[8]: http://aaramirez.github.io/ionic/angularjs/cordova/tutorial/2015/10/21/reordenar-elementos.html "ion-reorder-button"
