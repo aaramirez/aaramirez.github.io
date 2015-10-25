@@ -80,6 +80,6 @@ Ahora en la lista presione el botón de borrado en la barra superior y pruebe la
 Puede verificar el [resultado final][2] si lo desea.
 
 [1]: http://play.ionic.io/app/4b718c0aa1df "Inicio del tutorial" 
-[2]: http://play.ionic.io/app/4b718c0aa1df "Resultado del tutorial"
+[2]: http://play.ionic.io/app/6320ecffa017 "Resultado del tutorial"
 [3]: http://ionicframework.com/docs/api/directive/ionList/ "ion-list"
 [4]: http://ionicframework.com/docs/api/directive/ionReorderButton/ "ion-reorder-button"
