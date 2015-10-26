@@ -5,7 +5,7 @@ categories: ionic angularjs cordova tutorial
 ---
 A veces hace falta llamar la atención sobre alguna información emergente o sencillamente quitarle un poco de relevancia a lo que está en la pantalla actualmente, por ejemplo cuando se están cargando nuevos datos.
 
-Para ello [__Ionic__][1] ofrece el *Backdrop* y adicionalmente el *Loading*. El punto es que es único en toda la aplicación y lo provee el servicio [__$ionicBackdrop__][2] y [__$ionicLoading__][3]
+Para ello [__Ionic__][1] ofrece el *Backdrop* y adicionalmente el *Loading*. El punto es que es único en toda la aplicación y lo provee el servicio [__$ionicBackdrop__][2]. Por otra parte cuando estamos cargando datos se suele utilizar un indicador de carga de datos, este servicio se llama [__$ionicLoading__][3]
 
 Ingrese a [play.ionic.io][4] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
 
@@ -47,7 +47,8 @@ $scope.showBackdrop = function(milis) {
 Ahora vamos a usar el servicio [__$ionicLoading__][3]. Primero lo debemos inyectar al controlador.
 
 {% highlight javascript linenos %}
-.controller('contentController', function($scope, $ionicBackdrop, $timeout, $ionicLoading) {
+.controller('contentController', function($scope, $ionicBackdrop, 
+  $timeout, $ionicLoading) {
 {% endhighlight %}
 
 Los métodos de [__$ionicLoading__][3] son *show* y *hide*. En el caso de *show*  se especifica un objeto con los parámetros que utiliza el servicio. Ahora vamos a incorporarlo en la rutina *showBackdrop*.
