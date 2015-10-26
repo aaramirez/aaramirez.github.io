@@ -1,0 +1,79 @@
+---
+title: "Uso del Backdrop y Loading"
+date: 2015-10-25 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+A veces hace falta llamar la atención sobre alguna información emergente o sencillamente quitarle un poco de relevancia a lo que está en la pantalla actualmente, por ejemplo cuando se están cargando nuevos datos.
+
+Para ello [__Ionic__][1] ofrece el *Backdrop* y adicionalmente el *Loading*. El punto es que es único en toda la aplicación y lo provee el servicio [__$ionicBackdrop__][2] y [__$ionicLoading__][3]
+
+Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
+
+  > El objetivo es:
+
+  > - Mostrar el Backdrop por 5 segundos.
+  > - Mostrar el Loading 1 segundo después que inicia el Backdrop.
+
+En el *HTML*, en el contenido cree un botón para activar el Backdrop. Debe especificar a través de la directiva __ng-click__ de AngularJS la rutina que se va a ejecutar para iniciar el Backdrop.
+
+{% highlight html linenos %}
+<p>
+  Como usar el Backdrop...  y el Loading de Ionic
+</p>
+<button class="button button-block button-positive icon ion-flag" 
+  ng-click="showBackdrop(5000)">
+</button>
+{% endhighlight %}
+
+Fíjese que a la rutina *showBackdrop* le estamos especificando un número 5000. Este sería el tiempo en *ms* que se va a mostrar el Backdrop.
+
+Ahora en el *JS* inyecte el servicio para utilizar el Backdrop [__$ionicBackdrop__][2] y también el servicio [__$timeout__][6] de AngularJS. El servicio [__$timeout__][6] nos devuelve una promesa que retorna después de que pasa el tiempo especificado y se ejecuta la función especificada. Sirve para ejecutar alguna acción o sencillamente devolver una promesa después de un tiempo definido. 
+
+{% highlight javascript linenos %}
+.controller('contentController', function($scope, $ionicBackdrop, $timeout) {
+{% endhighlight %}
+
+Ahora vamos a definir nuestra rutina *showBackdrop*.
+
+{% highlight javascript linenos %}
+$scope.showBackdrop = function(milis) {
+  $ionicBackdrop.retain();
+  $timeout(function(){
+    $ionicBackdrop.release();
+  }, milis);
+};
+{% endhighlight %}
+
+Ahora vamos a usar el servicio [__$ionicLoading__][3]. Primero lo debemos inyectar al controlador.
+
+{% highlight javascript linenos %}
+.controller('contentController', function($scope, $ionicBackdrop, $timeout, $ionicLoading) {
+{% endhighlight %}
+
+Los métodos de [__$ionicLoading__][3] son *show* y *hide*. En el caso de *show*  se especifica un objeto con los parámetros que utiliza el servicio. Ahora vamos a incorporarlo en la rutina *showBackdrop*.
+
+{% highlight javascript linenos %}
+$scope.showBackdrop = function(milis) {
+  $ionicBackdrop.retain();
+  $ionicLoading.show({
+    template: 'Loading...',
+    delay: "1000"
+  });
+  
+  $timeout(function(){
+    $ionicLoading.hide();
+    $ionicBackdrop.release();
+  }, milis);
+};
+{% endhighlight %}
+
+Como puede observar ahora, cada vez que presiona el botón en la pantalla principal, aparece el Backdrop y luego de un segundo aparece el Loading.
+
+Puede consultar el [resultado final][5] si lo desea.
+
+[1]: http://ionicframework.com "Ionic Framework"
+[2]: http://ionicframework.com/docs/api/service/$ionicBackdrop/ "$ionicBackdrop"
+[3]: http://ionicframework.com/docs/api/service/$ionicLoading/ "$ionicLoading"
+[4]: http://play.ionic.io/app/37b61c378428 "Inicio del tutorial"
+[5]: http://play.ionic.io/app/0e91dee9c8e8 "Resultado del tutorial"
+[6]: https://docs.angularjs.org/api/ng/service/$timeout "$timeout"
