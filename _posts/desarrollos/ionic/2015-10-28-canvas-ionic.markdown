@@ -1,5 +1,5 @@
 ---
-title: "Cancas en Ionic"
+title: "Canvas en Ionic"
 date: 2015-10-28 08:00:00
 categories: ionic angularjs cordova tutorial
 ---
