@@ -32,10 +32,12 @@ $scope.showActionSheet = function (i) {
 
 Como puede observar al mantener presionado el elemento de la lista aparece una alerta con el número del item.
 
-Ahora vamos a inyectar el servicio [__$ionicActionSheet__][5] en el controlador. Para fines del ejercicio también vamos a inyectar [__$timeout__][]
+Ahora vamos a inyectar el servicio [__$ionicActionSheet__][5] en el controlador. Para fines del ejercicio también vamos a inyectar [__$timeout__][9]
 
 {% highlight js linenos %}
-.controller('contentController', function($scope, dataService, $ionicListDelegate, $ionicActionSheet, $timeout){
+.controller('contentController', 
+  function($scope, dataService, $ionicListDelegate, 
+    $ionicActionSheet, $timeout){
 {% endhighlight %}
 
 Ahora vamos a implementar *showActionSheet* agregando un botón para cancelar, otro para borrar, uno para mover un item arriba y otro para mover un item abajo, aprovechando el código de los tutoriales previos.
@@ -69,7 +71,7 @@ $scope.showActionSheet = function (item) {
 }
 {% endhighlight %}
 
-Para mantener el orden se definió el título con *titleText*, luego los botones (realmente opciones) con *buttons* y el manejo de el evento con *buttonClicked*. Luego el texto de la acción "peligrosa" como Borrar usando *destructiveText* y *destructiveButtonClicked* y por último la opción de cancelar con *cancelText* y la función *cancel*.
+Para mantener el orden se definió el título con *titleText*, luego los botones (realmente opciones) con *buttons* y el manejo del evento con *buttonClicked*. Luego el texto de la acción "peligrosa" como Borrar usando *destructiveText* y *destructiveButtonClicked* y por último la opción de cancelar con *cancelText* y la función *cancel*.
 
 Por último leyendo la documentación resulta que __$ionicActionSheet.show()__ retorna una función que cuando la invocas oculta y cancela el __ActionSheet__.
 
