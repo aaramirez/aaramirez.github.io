@@ -11,10 +11,10 @@ Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y 
 
   > El objetivo es:
 
-  > - Indicar cual es la acción que inicia el modal. En nuestro caso usando __ng-click__ en el botón de la pantalla inicial e indicar la rutina que se ejecuta para abrir el modal.
-  > - Crear la plantilla de angular con el contenido de la pantalla modal utilizando la directiva __ion-modal-view__ en lugar de __ion-view__.
+  > - Indicar cual es la acción que inicia el modal. En nuestro caso usando __ng-click__ en el botón de la pantalla inicial e indicar la rutina que se ejecuta para abrir el modal
+  > - Crear la plantilla de angular con el contenido de la pantalla modal utilizando la directiva __ion-modal-view__ en lugar de __ion-view__
   > - Se inyecta el servicio [__$ionicModal__][2] en el controlador
-  > - Se implementa el uso del [__Action Sheet__][5] con sus diferentes opciones
+  > - Se implementa el uso del servicio [__$ionicModal__][2] con sus diferentes opciones
 
 En el botón de la pantalla principal agregue la directiva __ng-click__ e indique la rutina que va a manejar el evento.
 
@@ -24,7 +24,7 @@ En el botón de la pantalla principal agregue la directiva __ng-click__ e indiqu
 </button>
 {% endhighlight %}
 
-Ahora vamos a crear la plantilla de angular debajo del tag __ion-content__ utilizando el tag __script__ de la manera siguiente.
+Ahora vamos a crear la plantilla de angular debajo del tag __ion-content__ utilizando el tag __script__ de la manera siguiente. Recuerde el uso del tag __ion-modal-view__ en lugar de __ion-view__.
 
 {% highlight html linenos %}
 <script id="modal.html" type="text/ng-template">
