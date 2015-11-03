@@ -1,0 +1,145 @@
+---
+title: "Diálogos Modales (Modals)"
+date: 2015-11-1 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+Los diálogos modales son ventanas emergentes, temporales, que demandan la atención del usuario que interactua con la aplicación, normalmente para que tome una decisión o proporcione información.
+
+En [__ionic__][1] este comportamiento se logra con el servicio [__$ionicModal__][2]. Es muy sencillo de usar.
+
+Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
+
+  > El objetivo es:
+
+  > - Indicar cual es la acción que inicia el modal. En nuestro caso usando __ng-click__ en el botón de la pantalla inicial e indicar la rutina que se ejecuta para abrir el modal.
+  > - Crear la plantilla de angular con el contenido de la pantalla modal utilizando la directiva __ion-modal-view__ en lugar de __ion-view__.
+  > - Se inyecta el servicio [__$ionicModal__][2] en el controlador
+  > - Se implementa el uso del [__Action Sheet__][5] con sus diferentes opciones
+
+En el botón de la pantalla principal agregue la directiva __ng-click__ e indique la rutina que va a manejar el evento.
+
+{% highlight html linenos %}
+<button ng-click="abrirModal()" 
+    class="button button-block button-assertive">Abrir el Modal
+</button>
+{% endhighlight %}
+
+Ahora vamos a crear la plantilla de angular debajo del tag __ion-content__ utilizando el tag __script__ de la manera siguiente.
+
+{% highlight html linenos %}
+<script id="modal.html" type="text/ng-template">
+  <ion-modal-view>
+    <ion-header-bar>
+      <div class="buttons">
+        <h1 class="title">Título Modal</h1>
+        <button class="button button-icon ion-close-circled" ng-click="cerrarModal()">
+        </button>
+      </div>
+    </ion-header-bar>
+    <ion-content class="padding">
+      <h3>Seleccione entre las opciones</h3>
+      <ion-list>
+        <ion-radio class="onlytopborder">
+          Opción 1
+        </ion-radio>
+        <ion-radio class="onlytopborder">
+          Opción 2
+        </ion-radio>
+        <ion-radio class="onlytopborder">
+          Opción 3
+        </ion-radio>
+      </ion-list>
+      <button class="button button-block button-dark">Continuar...</button>
+    </ion-content>
+  </ion-modal-view>
+</script>
+{% endhighlight %}
+
+Coloque en *CSS* la definición de la clase *onlytopborder*.
+
+{% highlight css linenos %}
+.onlytopborder {
+  border-top: 1px dotted #cccccc;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+{% endhighlight %}
+
+Ahora en el controlador (*JS*) inyecte el servicio [__$ionicModal__][2].
+
+{% highlight js linenos %}
+.controller('contentController', function($scope, $ionicModal) {
+{% endhighlight %}
+
+Luego vamos a definir la ventana modal mediante el método *fromTemplateUrl* del servicio [__$ionicModal__][2] de la manera siguiente:
+
+{% highlight js linenos %}
+$ionicModal.fromTemplateUrl('modal.html', {
+  scope: $scope,
+  animation: 'slide-in-up'
+}).then(function(modal) { 
+  $scope.modal = modal; 
+});
+{% endhighlight %}
+
+Fíjese que se define cual es la plantilla de Angular que va a proporcionar el Layout de la pantalla y se especifican los parámetros de acuerdo a la documentación.
+
+Ahora definamos nuestra rutina *abrirModal*.
+
+{% highlight js linenos %}
+$scope.abrirModal = function() {
+  $scope.modal.show();
+};
+{% endhighlight %}
+
+Si se fija ya el diálogo funciona, pero no lo puede cerrar. Explore y defina la rutina que hace falta para cerrar la ventana Modal.
+
+{% highlight js linenos %}
+$scope.cerrarModal = function() {
+  $scope.modal.hide();
+};
+{% endhighlight %}
+
+Por último, vamos a manejar los eventos que el servicio [__$ionicModal__][2]
+
+Su controlador debe quedar de la manera siguiente:
+
+{% highlight js linenos %}
+.controller('contentController', function($scope, $ionicModal) {
+  $ionicModal.fromTemplateUrl('modal.html', {
+      scope: $scope,
+      animation: 'slide-in-up'
+  }).then(function(modal){
+    $scope.modal = modal; 
+  });
+
+  $scope.abrirModal = function() {
+    $scope.modal.show();
+  };
+
+  $scope.cerrarModal = function() {
+    $scope.modal.hide();
+  };
+
+  $scope.$on('$destroy', function() {
+    alert("Modal destroy");
+  });
+
+  $scope.$on('modal.hidden', function() {
+    alert("Modal hidden");
+  });
+
+  $scope.$on('modal.removed', function() {
+    alert("Modal removed");
+  });
+});
+{% endhighlight %}
+
+Si desea, puede ver el [resultado][4].
+
+[1]: http://ionicframework.com/ "ionic Framework"
+[2]: http://ionicframework.com/docs/api/service/$ionicModal/ "$ionicModal"
+[3]: http://play.ionic.io/app/39dce7f0ca8d "Inicio del tutorial"
+[4]: http://play.ionic.io/app/6b115ef276ce "Resultado del tutorial"
+
