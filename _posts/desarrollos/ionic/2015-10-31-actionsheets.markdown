@@ -71,6 +71,45 @@ $scope.showActionSheet = function (item) {
 
 Para mantener el orden se definió el título con *titleText*, luego los botones (realmente opciones) con *buttons* y el manejo de el evento con *buttonClicked*. Luego el texto de la acción "peligrosa" como Borrar usando *destructiveText* y *destructiveButtonClicked* y por último la opción de cancelar con *cancelText* y la función *cancel*.
 
+Por último leyendo la documentación resulta que __$ionicActionSheet.show()__ retorna una función que cuando la invocas oculta y cancela el __ActionSheet__.
+
+La rutina *showActionSheet* queda así:
+
+{% highlight js linenos %}
+$scope.showActionSheet = function (item) {
+  var functionToHideSheet = $ionicActionSheet.show({
+    titleText: 'Manipula elementos de la lista...',
+    buttons: [
+      { text: 'Subir' },
+      { text: 'Bajar' }
+    ],
+    buttonClicked: function(index, buttonObj) {
+      switch(index) {
+        case 0:
+          dataService.upData(item,$scope.items.indexOf(item));
+          return true;
+        case 1:
+          dataService.downData(item,$scope.items.indexOf(item));
+          return true;
+      }
+    },
+    destructiveText: 'Borrar',
+    destructiveButtonClicked: function() {
+      dataService.deleteData($scope.items.indexOf(item));
+      return true;
+    },
+    cancelText: 'Cancelar',
+    cancel: function() {}
+  });
+  
+ $timeout(function() {
+   functionToHideSheet();
+ }, 3000);
+}
+{% endhighlight %}
+
+Si en tres segundos no se hace nada el __ActionSheet__ se cierra solo ayudado con el servicio __$timeout__.
+
 Si desea ver el [resultado][7] lo puede revisar.
 
 [1]: http://aaramirez.github.io/ionic/angularjs/cordova/tutorial/2015/10/18/ionic-basico-listas.html "ion-list"
