@@ -112,7 +112,7 @@ $scope.showActionSheet = function (item) {
 
 Si en tres segundos no se hace nada el __ActionSheet__ se cierra solo ayudado con el servicio __$timeout__.
 
-Si desea ver el [resultado][7] lo puede revisar.
+Si desea ver el [resultado][7] lo puede revisar. Otro [ejemplo hecho en clase][10].
 
 [1]: http://aaramirez.github.io/ionic/angularjs/cordova/tutorial/2015/10/18/ionic-basico-listas.html "ion-list"
 [2]: http://aaramirez.github.io/ionic/angularjs/cordova/tutorial/2015/10/23/botones-opcion.html "ion-option-button"
@@ -123,4 +123,5 @@ Si desea ver el [resultado][7] lo puede revisar.
 [7]: http://play.ionic.io/app/1cd8b0ca7174 "Resultado del tutorial"
 [8]: http://ionicframework.com/docs/api/directive/onHold/ "on-hold"
 [9]: https://docs.angularjs.org/api/ng/service/$timeout "$timeout"
+[10]: http://play.ionic.io/app/da7e7a802c21 "Ejemplo en clase"
 
