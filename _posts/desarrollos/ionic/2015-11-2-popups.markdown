@@ -98,6 +98,31 @@ confirmPopupPromise.then(function(res) {
 });
 {% endhighlight %}
 
+Ahora sigamos de manera análoga con *prompt()*.
+
+{% highlight js linenos %}
+$scope.showPrompt = function() {
+  var promptPopupPromise = $ionicPopup.prompt({
+    title: 'Chequeo de Seguridad',
+    subTitle: 'Introduzca sus credenciales',
+    template: 'Introduzca su clave de operaciones especiales',
+    inputType: 'password',
+    inputPlaceholder: 'Clave',
+    cancelText: 'Cancelar',
+    cancelType: 'button-light',
+    okText: 'Continuar',
+    okType: 'button-calm'
+  });
+
+  promptPopupPromise.then(function(res) {
+    alert('Su clave es ', res);
+    console.log(res);
+  });
+};
+{% endhighlight %}
+
+Fíjese que cuando el tipo de *inputType* es password algunas cosas curiosas pasan.
+
 
 
 Si desea, puede ver el [resultado][4].
