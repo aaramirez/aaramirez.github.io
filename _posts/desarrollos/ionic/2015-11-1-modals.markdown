@@ -136,11 +136,14 @@ Su controlador debe quedar de la manera siguiente:
 });
 {% endhighlight %}
 
-Si desea, puede ver el [resultado][4]. Les dejo un [ejemplo de las parte de la pantalla][5] y su manejo con Header, Sub Header, Content, Sub Footer y Footer.
+Si desea, puede ver el [resultado][4]. Les dejo un [ejemplo de las parte de la pantalla][5] y su manejo con Header, Sub Header, Content, Sub Footer y Footer. 
+
+Hicimos un [ejemplo con una nueva animación][6].
 
 [1]: http://ionicframework.com/ "ionic Framework"
 [2]: http://ionicframework.com/docs/api/service/$ionicModal/ "$ionicModal"
 [3]: http://play.ionic.io/app/39dce7f0ca8d "Inicio del tutorial"
 [4]: http://play.ionic.io/app/6b115ef276ce "Resultado del tutorial"
 [5]: http://play.ionic.io/app/df448c7e5e3f "Partes de la pantalla"
+[6]: http://play.ionic.io/app/e1907c22bbdc "Ejemplo con una nueva animación"
 
