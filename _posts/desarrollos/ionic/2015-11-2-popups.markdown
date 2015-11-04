@@ -1,0 +1,63 @@
+---
+title: "Popups en Ionic"
+date: 2015-11-2 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+En [__ionic__][1] ofrece el manejo de ventanas de diálogo emergentes (Popups) que requieren de que el usuario interactue y responda para continuar.
+
+[__ionic__][1] ofrece esta facilidad a través del servicio [__$ionicPopup__][2] y los tipos de ventanas de diálogo son: *alert()*, *promt()*, *confirm()* y *custom*.
+
+Vamos a trabajar cada tipo para dejar claro la forma de usarlas.
+
+Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
+
+  > El objetivo es:
+
+  > - Inyectar el servicio [__$ionicPopup__][2] en el controlador.
+  > - Implementar la rutina que muestra la alerta, utilizando sus parámetros usando [__$ionicPopup.alert__][2] y crear una variable para la promesa que devuelve.
+  > - 
+  > - Se implementa el uso del servicio [__$ionicModal__][2] con sus diferentes opciones
+
+Primero en *JS* inyecta el servicio [__$ionicPopup__][2] en el controlador.
+
+{% highlight js linenos %}
+.controller('contentController', function($scope, $ionicPopup) {
+{% endhighlight %}
+
+Ahora vamos a definir la rutina *showAlert* que va a manejar la alerta en el modelo. Revise los parámetros que recibe [__$ionicPopup.alert__][2].
+
+{% highlight js linenos %}
+$scope.showAlert = function() {
+  var alertPopupPromise = $ionicPopup.alert({
+    title: 'Alerta de Seguridad',
+    subTitle: 'Su sesión ha expirado',
+    template: 'Vuelva a Ingresar!',
+    okText: 'Cerrar',
+    okType: 'button-assertive'
+  });
+  // $ionicPopup.alert() devuelve una promesa que se resuelve 
+  // cuando se cierra la alerta
+  alertPopupPromise.then(function(res) {
+    alert('Cerrada la alerta');
+  });
+};
+{% endhighlight %}
+
+Fíjese que [__$ionicPopup.alert__][2] devuelve una promesa y esta se resuelve cuando se cierra la alerta. Es opcional que el desarrollador use la promesa devuelta.
+
+Ahora en *HTML* indique en el primer botón el nombre de la rutina que va a generar la alerta utilizando la directiva de Angular __ng-click__.
+
+{% highlight html linenos %}
+<button ng-click="showAlert()" class="button button-block button-assertive">Alert</button>
+{% endhighlight %}
+
+Ahora si puede presionar el primer botón y ver el resultado de la alerta.
+
+
+
+Si desea, puede ver el [resultado][4].
+
+[1]: http://ionicframework.com/ "ionic Framework"
+[2]: http://ionicframework.com/docs/api/service/$ionicPopup/ "$ionicPopup"
+[3]: http://play.ionic.io/app/8aa6e4ffaf57 "Inicio del tutorial"
+[4]: http://play.ionic.io/app/98e58c028887 "Resultado del tutorial"
