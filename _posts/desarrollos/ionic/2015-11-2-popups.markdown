@@ -122,10 +122,12 @@ $scope.showPrompt = function() {
 
 Si desea, puede ver el [resultado][4].
 
-Les dejo [otro experimiento][5] con todos los atributos que se pueden configurar en un alerta.
+Les dejo [otro experimiento][5] con todos los atributos que se pueden configurar en un alerta. En clase definimos un [*custom* Popup][] que maneja dos campos en lugar de uno, se los dejo.
 
 [1]: http://ionicframework.com/ "ionic Framework"
 [2]: http://ionicframework.com/docs/api/service/$ionicPopup/ "$ionicPopup"
 [3]: http://play.ionic.io/app/8aa6e4ffaf57 "Inicio del tutorial"
 [4]: http://play.ionic.io/app/98e58c028887 "Resultado del tutorial"
 [5]: http://play.ionic.io/app/ba68d5eb800c "Otro experimento"
+[6]: http://play.ionic.io/app/567c6ec814b5 "custom Popup"
+
