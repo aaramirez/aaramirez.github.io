@@ -5,7 +5,7 @@ categories: ionic angularjs cordova tutorial
 ---
 En [__ionic__][1] ofrece el manejo de ventanas de diálogo emergentes (Popups) que requieren de que el usuario interactue y responda para continuar.
 
-[__ionic__][1] ofrece esta facilidad a través del servicio [__$ionicPopup__][2] y los tipos de ventanas de diálogo son: *alert()*, *promt()*, *confirm()* y *custom*.
+[__ionic__][1] ofrece esta facilidad a través del servicio [__$ionicPopup__][2] y los tipos de ventanas de diálogo son: *alert()*, *prompt()*, *confirm()* y *custom*.
 
 Vamos a trabajar cada tipo para dejar claro la forma de usarlas.
 
@@ -15,8 +15,7 @@ Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y 
 
   > - Inyectar el servicio [__$ionicPopup__][2] en el controlador.
   > - Implementar la rutina que muestra la alerta, utilizando sus parámetros usando [__$ionicPopup.alert__][2] y crear una variable para la promesa que devuelve.
-  > - 
-  > - Se implementa el uso del servicio [__$ionicModal__][2] con sus diferentes opciones
+  > - Análogamente haga el uso de *prompt* y *confirm*.
 
 Primero en *JS* inyecta el servicio [__$ionicPopup__][2] en el controlador.
 
@@ -115,15 +114,11 @@ $scope.showPrompt = function() {
   });
 
   promptPopupPromise.then(function(res) {
-    alert('Su clave es ', res);
+    alert('Su clave es '+ res);
     console.log(res);
   });
 };
 {% endhighlight %}
-
-Fíjese que cuando el tipo de *inputType* es password algunas cosas curiosas pasan.
-
-
 
 Si desea, puede ver el [resultado][4].
 
