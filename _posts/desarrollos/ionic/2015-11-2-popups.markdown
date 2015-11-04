@@ -53,7 +53,39 @@ Ahora en *HTML* indique en el primer botón el nombre de la rutina que va a gene
 
 Ahora si puede presionar el primer botón y ver el resultado de la alerta.
 
+Aprovechando que estamos en el *HTML* vamos a agregar al segundo botón la directiva __ng-click__ y especifiquemos la rutina que va a manejar el evento con el nombre *showConfirm*.
 
+{% highlight html linenos %}
+
+{% endhighlight %}
+
+Y por su parte en el *JS* definamos en el modelo *showConfirm*.
+
+{% highlight js linenos %}
+$scope.showConfirm = function() {
+  var confirmPopupPromise = $ionicPopup.confirm({});
+};
+{% endhighlight %}
+
+De la misma manera verifique la documentación y los parámetros que puede usar para el título, subtítulo, contenido y los botones de *ok* y *cancel*.
+
+{% highlight js linenos %}
+$scope.showConfirm = function() {
+  var confirmPopupPromise = $ionicPopup.confirm({
+    title: 'Transferencias y Pagos',
+    subTitle: 'Confirme la operación',
+    template: '¿Está seguro que desea realizar la operación?',
+    cancelText: 'No',
+    cancelType: 'button-light',
+    okText: 'Si',
+    okType: 'button-balanced'
+  });
+  
+  confirmPopupPromise.then(function(res) {
+    alert('Cerrada la confirmación');
+  });
+};
+{% endhighlight %}
 
 Si desea, puede ver el [resultado][4].
 
