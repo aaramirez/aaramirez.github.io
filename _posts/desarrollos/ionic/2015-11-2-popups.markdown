@@ -87,6 +87,19 @@ $scope.showConfirm = function() {
 };
 {% endhighlight %}
 
+Si se fija bien es la misma estructura del *Alert*. Sin embargo, la promesa cuando se resuelve nos proporciona información sobre la selección del usuario en una variable. Ud. puede tomar esa variable y ejecutar distintas acciones que se basen en la respuesta del usuario de la forma siguiente.
+
+{% highlight js linenos %}
+confirmPopupPromise.then(function(res) {
+  if (res)
+    alert('Operación realizada!!');
+  else
+    alert('Operación cancelada');
+});
+{% endhighlight %}
+
+
+
 Si desea, puede ver el [resultado][4].
 
 [1]: http://ionicframework.com/ "ionic Framework"
