@@ -125,7 +125,7 @@ Si desea, puede ver el [resultado][4].
   position: absolute;
   width: 320px !important;
   height: 578px;
-  top: 104px;
+  top: 114px;
   left: 37px;
 }
 .text {
