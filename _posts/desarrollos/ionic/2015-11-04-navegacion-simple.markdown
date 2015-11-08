@@ -60,7 +60,9 @@ Dentro del cuerpo del *HTML* definamos la barra de navegación mediante la direc
 </script>
 {% endhighlight %}
 
-<p data-height="291" data-theme-id="0" data-slug-hash="odqCz" data-default-tab="result" data-user="ionic" class='codepen'>See the Pen <a href='http://codepen.io/ionic/pen/odqCz/'>Tabs And Navigation: Nightly</a> by Ionic (<a href='http://codepen.io/ionic'>@ionic</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<iframe id="result-iframe" sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-popups allow-forms" src="//s.codepen.io/ionic/fullembedgrid/odqCz?type=embed&amp;animations=run" allowtransparency="true" frameborder="0" scrolling="yes" style="height: 534px;" allowfullscreen="true" name="CodePen Preview for Tabs And Navigation: Nightly" title="CodePen Preview for Tabs And Navigation: Nightly">
+      </iframe>
+
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 {% highlight js linenos %}
