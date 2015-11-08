@@ -113,7 +113,6 @@ Si desea, puede ver el [resultado][4].
 
 <style>
 .phone {
-  float: right;
   position: relative;
   z-index: 1;
   width: 380px;
