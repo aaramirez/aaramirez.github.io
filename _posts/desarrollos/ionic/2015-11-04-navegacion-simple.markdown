@@ -145,8 +145,8 @@ Si desea, puede ver el [resultado][4].
 [5]: https://github.com/angular-ui/ui-router/wiki "ui-router"
 [6]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.directive:ui-sref "ui-sref"
 [7]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
-[8]: 
-[9]:
-[10]:
-[11]:
-[12]:
+[8]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
+[9]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
+[10]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
+[11]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
+[12]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
