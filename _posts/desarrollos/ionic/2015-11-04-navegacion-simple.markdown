@@ -109,7 +109,7 @@ This is useful when you want to get the title from an API call. This is a basic 
 
 Si desea, puede ver el [resultado][4]. 
 
-
+Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
 
 <style>
 .phone {
@@ -132,9 +132,6 @@ Si desea, puede ver el [resultado][4].
 }
 </style>
 <div>
-  <div class="text">
-    <span>Adicionalmente pueden ver el ejemplo de la página de ionic.</span>
-  </div>
   <div class="phone">
   <iframe id="cp_embed_odqCz" src="//codepen.io/ionic/embed/odqCz?height=568&amp;theme-id=3572&amp;slug-hash=odqCz&amp;default-tab=result&amp;user=ionic" scrolling="no" frameborder="0" height="578" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
   </div>
