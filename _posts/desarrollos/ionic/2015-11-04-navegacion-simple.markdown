@@ -137,7 +137,7 @@ Si desea, puede ver el [resultado][4].
     <span>Adicionalmente pueden ver el ejemplo de la página de ionic.</span>
   </div>
   <div class="phone">
-  <iframe id="cp_embed_odqCz" src="//codepen.io/ionic/embed/odqCz?height=568&amp;theme-id=3572&amp;slug-hash=odqCz&amp;default-tab=result&amp;user=ionic" scrolling="no" frameborder="0" height="568" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+  <iframe id="cp_embed_odqCz" src="//codepen.io/ionic/embed/odqCz?height=568&amp;theme-id=3572&amp;slug-hash=odqCz&amp;default-tab=result&amp;user=ionic" scrolling="no" frameborder="0" height="578" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
   </div>
 </div>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
