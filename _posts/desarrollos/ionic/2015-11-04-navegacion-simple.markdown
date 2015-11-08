@@ -127,9 +127,6 @@ Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
   top: 114px;
   left: 37px;
 }
-.text {
-  float: left;
-}
 </style>
 <div>
   <div class="phone">
