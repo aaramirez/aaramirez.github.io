@@ -1,0 +1,133 @@
+---
+title: "Popups en Ionic"
+date: 2015-11-02 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+En [__ionic__][1] ofrece el manejo de ventanas de diálogo emergentes (Popups) que requieren de que el usuario interactue y responda para continuar.
+
+[__ionic__][1] ofrece esta facilidad a través del servicio [__$ionicPopup__][2] y los tipos de ventanas de diálogo son: *alert()*, *prompt()*, *confirm()* y *custom*.
+
+Vamos a trabajar cada tipo para dejar claro la forma de usarlas.
+
+Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
+
+  > El objetivo es:
+
+  > - Inyectar el servicio [__$ionicPopup__][2] en el controlador.
+  > - Implementar la rutina que muestra la alerta, utilizando sus parámetros usando [__$ionicPopup.alert__][2] y crear una variable para la promesa que devuelve.
+  > - Análogamente haga el uso de *prompt* y *confirm*. Verifique la documentación y agregue los atributos al objeto que reciben los métodos *prompt* y *confirm*.
+
+Primero en *JS* inyecta el servicio [__$ionicPopup__][2] en el controlador.
+
+{% highlight js linenos %}
+.controller('contentController', function($scope, $ionicPopup) {
+{% endhighlight %}
+
+Ahora vamos a definir la rutina *showAlert* que va a manejar la alerta en el modelo. Revise los parámetros que recibe [__$ionicPopup.alert__][2].
+
+{% highlight js linenos %}
+$scope.showAlert = function() {
+  var alertPopupPromise = $ionicPopup.alert({
+    title: 'Alerta de Seguridad',
+    subTitle: 'Su sesión ha expirado',
+    template: 'Vuelva a Ingresar!',
+    okText: 'Cerrar',
+    okType: 'button-assertive'
+  });
+  // $ionicPopup.alert() devuelve una promesa que se resuelve 
+  // cuando se cierra la alerta
+  alertPopupPromise.then(function(res) {
+    alert('Cerrada la alerta');
+  });
+};
+{% endhighlight %}
+
+Fíjese que [__$ionicPopup.alert__][2] devuelve una promesa y esta se resuelve cuando se cierra la alerta. Es opcional que el desarrollador use la promesa devuelta.
+
+Ahora en *HTML* indique en el primer botón el nombre de la rutina que va a generar la alerta utilizando la directiva de Angular __ng-click__.
+
+{% highlight html linenos %}
+<button ng-click="showAlert()" class="button button-block button-assertive">Alert</button>
+{% endhighlight %}
+
+Ahora si puede presionar el primer botón y ver el resultado de la alerta.
+
+Aprovechando que estamos en el *HTML* vamos a agregar al segundo botón la directiva __ng-click__ y especifiquemos la rutina que va a manejar el evento con el nombre *showConfirm*.
+
+{% highlight html linenos %}
+
+{% endhighlight %}
+
+Y por su parte en el *JS* definamos en el modelo *showConfirm*.
+
+{% highlight js linenos %}
+$scope.showConfirm = function() {
+  var confirmPopupPromise = $ionicPopup.confirm({});
+};
+{% endhighlight %}
+
+De la misma manera verifique la documentación y los parámetros que puede usar para el título, subtítulo, contenido y los botones de *ok* y *cancel*.
+
+{% highlight js linenos %}
+$scope.showConfirm = function() {
+  var confirmPopupPromise = $ionicPopup.confirm({
+    title: 'Transferencias y Pagos',
+    subTitle: 'Confirme la operación',
+    template: '¿Está seguro que desea realizar la operación?',
+    cancelText: 'No',
+    cancelType: 'button-light',
+    okText: 'Si',
+    okType: 'button-balanced'
+  });
+  
+  confirmPopupPromise.then(function(res) {
+    alert('Cerrada la confirmación');
+  });
+};
+{% endhighlight %}
+
+Si se fija bien es la misma estructura del *Alert*. Sin embargo, la promesa cuando se resuelve nos proporciona información sobre la selección del usuario en una variable. Ud. puede tomar esa variable y ejecutar distintas acciones que se basen en la respuesta del usuario de la forma siguiente.
+
+{% highlight js linenos %}
+confirmPopupPromise.then(function(res) {
+  if (res)
+    alert('Operación realizada!!');
+  else
+    alert('Operación cancelada');
+});
+{% endhighlight %}
+
+Ahora sigamos de manera análoga con *prompt()*.
+
+{% highlight js linenos %}
+$scope.showPrompt = function() {
+  var promptPopupPromise = $ionicPopup.prompt({
+    title: 'Chequeo de Seguridad',
+    subTitle: 'Introduzca sus credenciales',
+    template: 'Introduzca su clave de operaciones especiales',
+    inputType: 'password',
+    inputPlaceholder: 'Clave',
+    cancelText: 'Cancelar',
+    cancelType: 'button-light',
+    okText: 'Continuar',
+    okType: 'button-calm'
+  });
+
+  promptPopupPromise.then(function(res) {
+    alert('Su clave es '+ res);
+    console.log(res);
+  });
+};
+{% endhighlight %}
+
+Si desea, puede ver el [resultado][4].
+
+Les dejo [otro experimiento][5] con todos los atributos que se pueden configurar en un alerta. En clase definimos un [*custom* Popup][6] que maneja dos campos en lugar de uno, se los dejo.
+
+[1]: http://ionicframework.com/ "ionic Framework"
+[2]: http://ionicframework.com/docs/api/service/$ionicPopup/ "$ionicPopup"
+[3]: http://play.ionic.io/app/8aa6e4ffaf57 "Inicio del tutorial"
+[4]: http://play.ionic.io/app/98e58c028887 "Resultado del tutorial"
+[5]: http://play.ionic.io/app/ba68d5eb800c "Otro experimento"
+[6]: http://play.ionic.io/app/567c6ec814b5 "custom Popup"
+
