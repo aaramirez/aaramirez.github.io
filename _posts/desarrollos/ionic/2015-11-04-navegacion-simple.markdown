@@ -60,10 +60,7 @@ Dentro del cuerpo del *HTML* definamos la barra de navegación mediante la direc
 </script>
 {% endhighlight %}
 
-<iframe id="result-iframe" sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-popups allow-forms" src="//s.codepen.io/ionic/fullembedgrid/odqCz?type=embed&amp;animations=run" allowtransparency="true" frameborder="0" scrolling="yes" style="height: 534px;" allowfullscreen="true" name="CodePen Preview for Tabs And Navigation: Nightly" title="CodePen Preview for Tabs And Navigation: Nightly">
-      </iframe>
 
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 {% highlight js linenos %}
 .config(function($stateProvider, $urlRouterProvider) {
@@ -111,6 +108,25 @@ Now, after you navigate, you will be able to go back to the previous page, using
 This is useful when you want to get the title from an API call. This is a basic introduction to the layout of a mobile app, built with Ionic.
 
 Si desea, puede ver el [resultado][4]. 
+
+Adicionalmente pueden ver el ejemplo de la página de __ionic__.
+
+<style>
+.phone {
+  float: right;
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url("/assets/img/phone.png") no-repeat right top;
+  margin-left: 20px;
+}
+</style>
+<div class="phone">
+<iframe id="cp_embed_odqCz" src="//codepen.io/ionic/embed/odqCz?height=568&amp;theme-id=3572&amp;slug-hash=odqCz&amp;default-tab=result&amp;user=ionic" scrolling="no" frameborder="0" height="568" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="cp_embed_iframe undefined" style="width: 100%; overflow: hidden;"></iframe>
+</div>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 [1]: http://ionicframework.com "ionic Framework"
 [2]: http://ionicframework.com/docs/api/directive/ionNavView/ "ion-nav-view"
