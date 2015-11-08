@@ -121,9 +121,16 @@ Adicionalmente pueden ver el ejemplo de la página de __ionic__.
   background: url("/assets/img/phone.png") no-repeat right top;
   margin-left: 20px;
 }
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 568px;
+  top: 104px;
+  left: 37px;
+}
 </style>
 <div class="phone">
-<iframe id="cp_embed_odqCz" src="//codepen.io/ionic/embed/odqCz?height=568&amp;theme-id=3572&amp;slug-hash=odqCz&amp;default-tab=result&amp;user=ionic" scrolling="no" frameborder="0" height="568" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="cp_embed_iframe undefined" style="width: 100%; overflow: hidden;"></iframe>
+<iframe id="cp_embed_odqCz" src="//codepen.io/ionic/embed/odqCz?height=568&amp;theme-id=3572&amp;slug-hash=odqCz&amp;default-tab=result&amp;user=ionic" scrolling="no" frameborder="0" height="568" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
 </div>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
