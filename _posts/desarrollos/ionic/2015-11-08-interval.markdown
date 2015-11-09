@@ -1,0 +1,34 @@
+---
+title: "Uso de $interval"
+date: 2015-11-08 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+
+Les dejo un ejemplo de cómo se puede manejar un aviso previo al vencimiento de la sesión, utilizando [__$ionicModal__][1] y [__$interval__][2].
+
+Les dejo el ejemplo.
+
+<style>
+.phone {
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url("/assets/img/phone.png") no-repeat right top;
+  margin-left: 20px;
+}
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 578px;
+  top: 114px;
+  left: 37px;
+}
+</style>
+<div>
+  <div class="phone">
+    <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/ZbqNZY/?height=578&theme-id=0&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/ZbqNZY/'>Uso de $interval</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+  </div>
+</div>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
