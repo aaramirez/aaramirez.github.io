@@ -119,8 +119,8 @@ Agreguemos la plantilla de la lista de empleados y definamos el estado *empleado
 En el controlador debemos definir el estado y también la lógica del controlador.
 
 {% highlight js linenos %}
-.state('empleado', {
-  url: '/empleado/:id',
+.state('empleados', {
+  url: '/empleados',
   templateUrl: 'states/empleados/empleados.html',
   controller: 'emplController'
 });
@@ -129,14 +129,55 @@ En el controlador debemos definir el estado y también la lógica del controlado
 Y el controlador queda de la siguiente manera.
 
 {% highlight js linenos %}
-.controller('emplController', function($scope) {
-  $scope.empleados = [
-    { id: 1, name: "Geraldine Ganaim", cargo: "Ingeniero de Proyectos" },
-    { id: 2, name: "Jonathan Duarte", cargo: "Ingeniero de Proyectos" },
-    { id: 3, name: "David Prieto", cargo: "Ingeniero de Proyectos" },
-    { id: 4, name: "María Rodríguez", cargo: "Ingeniero de Proyectos" }
-  ];
+.controller('emplController', function($scope, datoFactory) {
+  $scope.empleados = datoFactory.empleados();
 })
+{% endhighlight %}
+
+Haga un *Factory* con los datos y los métodos *empleados* y *empleado* que toma el identificador del empleado.
+
+{% highlight js linenos %}
+.factory('datoFactory', function() {
+return {
+  datos: [
+  { 
+    id: 1, 
+    nombre: "Geraldine Ganaim", 
+    cargo: "Ingeniero de Proyectos", 
+    foto: "http://placehold.it/48x48"
+  },
+  { 
+    id: 2, 
+    nombre: "Jonathan Duarte", 
+    cargo: "Ingeniero de Proyectos", 
+    foto: "http://placehold.it/48x48"
+  },
+  { 
+    id: 3, 
+    nombre: "David Prieto", 
+    cargo: "Ingeniero de Proyectos", 
+    foto: "http://placehold.it/48x48"
+  },
+  { 
+    id: 4, 
+    nombre: "María Rodríguez", 
+    cargo: "Ingeniero de Proyectos", 
+    foto: "http://placehold.it/48x48"
+  }
+  ],
+  empleados: function() {
+    return this.datos;
+  },
+  empleado: function(id) {
+    var i;
+    for(i=0; i<this.datos.length;i++) {
+      if (this.datos[i].id == id) {
+        return this.datos[i];
+      }
+    }
+    return {};
+  }
+};
 {% endhighlight %}
 
 Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado y la otra pantalla para la información de contacto. De forma análoga debemos, crear las plantillas, configurar los dos nuevos estados y crear los controladores. En cada controlador hay que colocar en el modelo (__$scope__) los datos que consume la vista. Agreguemos adicionalmente un botón en la pantalla de presentación para acceder a los datos de contacto.
