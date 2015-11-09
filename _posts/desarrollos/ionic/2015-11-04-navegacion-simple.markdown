@@ -105,9 +105,9 @@ Agreguemos la plantilla de la lista de empleados y definamos el estado *empleado
           <i class="icon ion-android-people"></i> 
           Nuestro talento
         </div>
-        <a ng-href="/empleado/{{e.id}}" class="item" 
+        <a ng-href="/empleado/ { { e.id } }" class="item" 
           ng-repeat="e in empleados">
-          {{e.name}}
+          { { e.name } }
         </a>
       </div>
     </ion-content>
@@ -139,8 +139,6 @@ Y el controlador queda de la siguiente manera.
 {% endhighlight %}
 
 Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado.
-
-
 
 he key here is the ui-sref directive. It allows you to navigate to a state based on the stateName. Note that this is not using the url property in the stateConfig object, but the first parameter passed to the state() method, stateName. You can now click on this button to go to Page 2.
 
@@ -186,9 +184,6 @@ Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
   height: 578px;
   top: 114px;
   left: 37px;
-  border: 0;
-  background-color: white;
-  transition: opacity .5s ease-in;
 }
 </style>
 <div>
