@@ -88,7 +88,7 @@ Ahora en la plantilla que ya definimos vamos a agregar un botón para navegar a 
 {% highlight html linenos %}
 <ion-content class="padding">
   <h1>Presentación contenido</h1>
-  <button ui-sref="empleado" class="button button-block">Ver el equipo de trabajo</button>
+  <button ui-sref="empleados" class="button button-block">Ver el equipo de trabajo</button>
 </ion-content>
 {% endhighlight %}
 
@@ -106,9 +106,10 @@ Agreguemos la plantilla de la lista de empleados y definamos el estado *empleado
           <i class="icon ion-android-people"></i> 
           Nuestro talento
         </div>
-        <a ng-href="#/empleado/ { { e.id } }" class="item" 
+        <a ng-href="#/empleado/ { { e.id } }" class="item item-avatar" 
           ng-repeat="e in empleados">
-          { { e.name } }
+          <img ng-src=" { { e.foto } }">
+          {{e.nombre}}
         </a>
       </div>
     </ion-content>
@@ -123,7 +124,7 @@ En el controlador debemos definir el estado y también la lógica del controlado
   url: '/empleados',
   templateUrl: 'states/empleados/empleados.html',
   controller: 'emplController'
-});
+})
 {% endhighlight %}
 
 Y el controlador queda de la siguiente manera.
@@ -216,7 +217,7 @@ Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado
         <a ng-href="#/empleado/ { { e.id } }" class="item item-avatar" 
           ng-repeat="e in empleados">
           <img ng-src=" { { e.foto } }">
-          {{e.nombre}}
+          { { e.nombre } }
         </a>
       </div>
     </ion-content>
@@ -232,7 +233,7 @@ Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado
         </div>
         <div class="item item-thumbnail">
           <img ng-src=" { { empleado.foto } }">
-          {{empleado.nombre}}
+          { { empleado.nombre } }
         </div>
       </div>
     </ion-content>
@@ -369,6 +370,33 @@ Como nota aparte hay un servicio que provee __ionic__ denominado [__$ionicConfig
 
 Si desea, puede ver el [resultado][4]. 
 
+Veamos el resultado.
+
+<style>
+.phone {
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url("/assets/img/phone.png") no-repeat right top;
+  margin-left: 20px;
+}
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 578px;
+  top: 114px;
+  left: 37px;
+}
+</style>
+<div>
+  <div class="phone">
+  <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/xwyBKg/?height=578&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/xwyBKg/'>Navegación en Ionic</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+  </div>
+</div>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
 
 <style>
@@ -390,11 +418,10 @@ Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
 </style>
 <div>
   <div class="phone">
-  <iframe id="cp_embed_odqCz" src="//codepen.io/ionic/embed/odqCz?height=568&amp;theme-id=3572&amp;slug-hash=odqCz&amp;default-tab=result&amp;user=ionic" scrolling="no" frameborder="0" height="578" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+    <iframe id="cp_embed_odqCz" src="//codepen.io/ionic/embed/odqCz?height=578&amp;theme-id=3572&amp;slug-hash=odqCz&amp;default-tab=result&amp;user=ionic" scrolling="no" frameborder="0" height="578" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
   </div>
 </div>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
 
 [1]: http://ionicframework.com "ionic Framework"
 [2]: http://ionicframework.com/docs/api/directive/ionNavView/ "ion-nav-view"
