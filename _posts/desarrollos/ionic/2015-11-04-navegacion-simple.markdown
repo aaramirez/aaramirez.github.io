@@ -175,17 +175,17 @@ Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
 .phone {
   position: relative;
   z-index: 1;
-  width: 409px;
-  height: 836px;
+  width: 380px;
+  height: 810px;
   background: url("/assets/img/phone.png") no-repeat right top;
   margin-left: 20px;
 }
 .embed_iframe {
   position: absolute;
   width: 320px !important;
-  height: 568px;
-  top: 124px;
-  left: 44px;
+  height: 578px;
+  top: 114px;
+  left: 37px;
   border: 0;
   background-color: white;
   transition: opacity .5s ease-in;
