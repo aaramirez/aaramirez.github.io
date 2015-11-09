@@ -1,0 +1,36 @@
+---
+title: "Manejo de sesión con $timeout"
+date: 2015-11-09 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+
+Les dejo un ejemplo de cómo se puede manejar la sesión con vencimiento dentro de una aplicación.
+
+Implementé un *factory* sencillo que considera los casos que se pueden presentar.
+
+Les dejo el ejemplo.
+
+<style>
+.phone {
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url("/assets/img/phone.png") no-repeat right top;
+  margin-left: 20px;
+}
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 578px;
+  top: 114px;
+  left: 37px;
+}
+</style>
+<div>
+  <div class="phone">
+  <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/mezYPW/?height=578&theme-id=0&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true'  style="width: 100%; overflow: hidden;">See the Pen <a href='http://codepen.io/aaramirez/pen/mezYPW/'>Manejo de sesión</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+  </div>
+</div>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
