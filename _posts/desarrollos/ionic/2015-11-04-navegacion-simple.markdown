@@ -106,7 +106,7 @@ Agreguemos la plantilla de la lista de empleados y definamos el estado *empleado
           <i class="icon ion-android-people"></i> 
           Nuestro talento
         </div>
-        <a ng-href="/empleado/ { { e.id } }" class="item" 
+        <a ng-href="#/empleado/ { { e.id } }" class="item" 
           ng-repeat="e in empleados">
           { { e.name } }
         </a>
@@ -139,7 +139,7 @@ Y el controlador queda de la siguiente manera.
 })
 {% endhighlight %}
 
-Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado y la otra pantalla para la información de contacto. De forma análoga debemos, crear las plantillas, configurar los dos nuevos estados y crear los controladores. En cada controlador hay que colocar en el modelo (__$scope__) los datos que consume la vista.
+Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado y la otra pantalla para la información de contacto. De forma análoga debemos, crear las plantillas, configurar los dos nuevos estados y crear los controladores. En cada controlador hay que colocar en el modelo (__$scope__) los datos que consume la vista. Agreguemos adicionalmente un botón en la pantalla de presentación para acceder a los datos de contacto.
 
 {% highlight html linenos %}
 <ion-nav-bar  class="bar-assertive">
@@ -172,9 +172,9 @@ Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado
           <i class="icon ion-android-people"></i> 
           Nuestro talento
         </div>
-        <a ng-href="#/empleado/{{e.id}}" class="item item-avatar" 
+        <a ng-href="#/empleado/ { { e.id } }" class="item item-avatar" 
           ng-repeat="e in empleados">
-          <img ng-src="{{e.foto}}">
+          <img ng-src=" { { e.foto } }">
           {{e.nombre}}
         </a>
       </div>
@@ -187,10 +187,10 @@ Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado
     <ion-content class="padding">
       <div class="card">
         <div class="item item-assertive">
-          {{ empleado.id  }}
+          { { empleado.id } }
         </div>
         <div class="item item-thumbnail">
-          <img ng-src="{{empleado.foto}}">
+          <img ng-src=" { { empleado.foto } }">
           {{empleado.nombre}}
         </div>
       </div>
