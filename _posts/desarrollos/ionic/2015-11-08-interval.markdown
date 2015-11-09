@@ -6,6 +6,8 @@ categories: ionic angularjs cordova tutorial
 
 Les dejo un ejemplo de cómo se puede manejar un aviso previo al vencimiento de la sesión, utilizando [__$ionicModal__][1] y [__$interval__][2].
 
+Hay que arreglar el *CSS* un poco para que sea más responsive.
+
 Les dejo el ejemplo.
 
 <style>
