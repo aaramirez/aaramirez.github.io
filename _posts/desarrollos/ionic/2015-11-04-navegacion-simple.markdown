@@ -391,7 +391,7 @@ Veamos el resultado.
 </style>
 <div>
   <div class="phone">
-  <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/xwyBKg/?height=578&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/xwyBKg/'>Navegación en Ionic</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
+  <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/xwyBKg/?height=578&theme-id=0&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/xwyBKg/'>Navegación en Ionic</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
   </div>
 </div>
