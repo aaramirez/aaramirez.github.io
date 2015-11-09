@@ -146,6 +146,6 @@ Hicimos un [ejemplo con una nueva animación][6]. Por otra parte una idea para [
 [4]: http://play.ionic.io/app/6b115ef276ce "Resultado del tutorial"
 [5]: http://play.ionic.io/app/df448c7e5e3f "Partes de la pantalla"
 [6]: http://play.ionic.io/app/e1907c22bbdc "Ejemplo con una nueva animación"
-[7]: http://play.ionic.io/app/d86167258442 "Extender sesión"
+[7]: http://play.ionic.io/app/3a69bbefecf7 "Extender sesión"
 
 
