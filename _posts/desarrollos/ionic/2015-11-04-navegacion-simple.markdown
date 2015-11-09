@@ -93,6 +93,7 @@ Ahora en la plantilla que ya definimos vamos a agregar un botón para navegar a 
 {% endhighlight %}
 
 Ahora tenemos un botón que nos debería llevar al estado *empleados* que no está definido.
+En este caso estamos usando la directiva __ui-sref__ que permite navegar de un estado a otro utilizando el nombre del estado y no la ruta. No se está utilizando el atributo __url__ definido en la configuración del estado (stateConfig).
 
 Agreguemos la plantilla de la lista de empleados y definamos el estado *empleados*.
 
@@ -138,12 +139,168 @@ Y el controlador queda de la siguiente manera.
 })
 {% endhighlight %}
 
-Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado.
+Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado y la otra pantalla para la información de contacto. De forma análoga debemos, crear las plantillas, configurar los dos nuevos estados y crear los controladores. En cada controlador hay que colocar en el modelo (__$scope__) los datos que consume la vista.
 
-he key here is the ui-sref directive. It allows you to navigate to a state based on the stateName. Note that this is not using the url property in the stateConfig object, but the first parameter passed to the state() method, stateName. You can now click on this button to go to Page 2.
+{% highlight html linenos %}
+<ion-nav-bar  class="bar-assertive">
+<ion-nav-title>
+  Padre
+</ion-nav-title>
+</ion-nav-bar>
 
+<ion-nav-view>
+</ion-nav-view>
 
-You should be able to navigate from Page 1 all the way to Page 3. You will notice the header changes to show the value of the view-title attribute. You may have also noticed that there is no way to go back.
+<script id="states/pres/pres.html" type="text/ng-template">
+  <ion-view view-title="Presentación">
+    <ion-nav-title>
+      Hijo!
+    </ion-nav-title>
+<ion-content class="padding">
+  <h1>Presentación contenido</h1>
+  <button ui-sref="empleados" class="button button-block">Ver el equipo de trabajo</button>
+  <button ui-sref="contacto" class="button button-block">Ver datos de contacto</button>
+</ion-content>
+  </ion-view>
+</script>
+
+<script id="states/empleados/empleados.html" type="text/ng-template">
+  <ion-view view-title="Empleados">
+    <ion-content class="padding">
+      <div class="list">
+        <div class="item item-divider item-assertive item-icon-left">
+          <i class="icon ion-android-people"></i> 
+          Nuestro talento
+        </div>
+        <a ng-href="#/empleado/{{e.id}}" class="item item-avatar" 
+          ng-repeat="e in empleados">
+          <img ng-src="{{e.foto}}">
+          {{e.nombre}}
+        </a>
+      </div>
+    </ion-content>
+  </ion-view>
+</script>
+
+<script id="states/detalle/detalle.html" type="text/ng-template">
+  <ion-view view-title="Empleado">
+    <ion-content class="padding">
+      <div class="card">
+        <div class="item item-assertive">
+          {{ empleado.id  }}
+        </div>
+        <div class="item item-thumbnail">
+          <img ng-src="{{empleado.foto}}">
+          {{empleado.nombre}}
+        </div>
+      </div>
+    </ion-content>
+  </ion-view>
+</script>
+
+<script id="states/contacto/contacto.html" type="text/ng-template">
+  <ion-view>
+    <ion-content class="padding">
+      Datos de contacto
+    </ion-content>
+  </ion-view>
+</script>
+{% endhighlight %}
+
+El *JS* debe quedar de la forma siguiente:
+
+{% highlight js linenos %}
+angular.module('app', ['ionic'])
+
+.controller('presController', function($scope) {
+
+})
+
+.controller('emplController', function($scope, datoFactory) {
+  $scope.empleados = datoFactory.empleados();
+})
+
+.controller('detaController', function($scope, datoFactory, $stateParams) {
+  $scope.empleado = datoFactory.empleado($stateParams.id);
+})
+
+.controller('contController', function($scope) {
+  $scope.contactInfo = {
+    
+  };
+})
+
+.config(function($stateProvider, $urlRouterProvider){
+  $stateProvider
+    .state('pres', {
+      url: '/pres',
+      templateUrl: 'states/pres/pres.html',
+      controller: 'presController'
+    })
+    .state('empleados', {
+      url: '/empleados',
+      templateUrl: 'states/empleados/empleados.html',
+      controller: 'emplController'
+    })
+    .state('detalle', {
+      url: "/empleado/{id:int}",
+      templateUrl: 'states/detalle/detalle.html',
+      controller: 'detaController'
+    })
+    .state('contacto', {
+      url: '/contacto',
+      templateUrl: 'states/contacto/contacto.html',
+      controller: 'contController'
+    });
+    
+  $urlRouterProvider.otherwise('/pres');
+})
+
+.factory('datoFactory', function() {
+  return {
+    datos: [
+    { 
+      id: 1, 
+      nombre: "Geraldine Ganaim", 
+      cargo: "Ingeniero de Proyectos", 
+      foto: "http://placehold.it/48x48"
+    },
+    { 
+      id: 2, 
+      nombre: "Jonathan Duarte", 
+      cargo: "Ingeniero de Proyectos", 
+      foto: "http://placehold.it/48x48"
+    },
+    { 
+      id: 3, 
+      nombre: "David Prieto", 
+      cargo: "Ingeniero de Proyectos", 
+      foto: "http://placehold.it/48x48"
+    },
+    { 
+      id: 4, 
+      nombre: "María Rodríguez", 
+      cargo: "Ingeniero de Proyectos", 
+      foto: "http://placehold.it/48x48"
+    }
+    ],
+    empleados: function() {
+      return this.datos;
+    },
+    empleado: function(id) {
+      var i;
+      for(i=0; i<this.datos.length;i++) {
+        if (this.datos[i].id == id) {
+          return this.datos[i];
+        }
+      }
+      return {};
+    }
+  };
+});
+{% endhighlight %}
+
+Si se dan cuenta en la aplicación no se puede navegar a la pantalla previa. Esto se hace de una manera muy sencilla en __ionic__ y además ofrecen algunas opciones de configuración.
 
 {% highlight html linenos %}
 <ion-nav-bar class="bar-positive">
@@ -151,19 +308,23 @@ You should be able to navigate from Page 1 all the way to Page 3. You will notic
 </ion-nav-bar>
 {% endhighlight %}
 
-Now, after you navigate, you will be able to go back to the previous page, using the button in the header. You can customize the back button to use a different icon or hide the previous page's title, if you would like. Take a look at Ionic's documentation for more cool things!
+Ahora después de navegar se puede ir al estado previo utilizando el botón superior a la izquierda.
+
+Hemos configurado el título de forma estática. La verdad es que se puede colocar un título dinámico. Modifique una de las plantillas y agregue una expresión para colocar en el título el valor de la variable *titulo*.
 
 {% highlight html linenos %}
-<ion-view view-title="{{myTitle}}">
+<ion-view view-title="{{titulo}}">
 {% endhighlight %}
+
+Defina la variabla *titulo* en el controlador correspondiente.
 
 {% highlight js linenos %}
-.controller('Page1Ctrl', function($scope) {
-  $scope.myTitle = 'My New Title';
-})
+  $scope.titulo = 'EL TITULO QUE DESEE COLOCAR';
 {% endhighlight %}
 
-This is useful when you want to get the title from an API call. This is a basic introduction to the layout of a mobile app, built with Ionic.
+Esta facilidad es útil cuando se desea colocar un título que proviene de los datos que se descargan.
+
+Como nota aparte hay un servicio que provee __ionic__ denominado [__$ionicConfigProvider__][14]. Este servicio ofrece opciones de configuración en la aplicación que permite cambiar el comportamiento del botón de regreso (Back button). Se puede cambiar el ícono, el texto por defecto o si el título de la pantalla previa debería ser el texto del botón para regresar.
 
 Si desea, puede ver el [resultado][4]. 
 
@@ -207,4 +368,5 @@ Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
 [11]: http://ionicframework.com/docs/api/directive/ionNavTitle/ "ion-nav-title"
 [12]: http://ionicframework.com/docs/api/directive/navTransition/ "nav-transition"
 [13]: http://ionicframework.com/docs/api/directive/navDirection/ "nav-direction"
+[14]: http://ionicframework.com/docs/api/provider/$ionicConfigProvider/ "$ionicConfigProvider"
 
