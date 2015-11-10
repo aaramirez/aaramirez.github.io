@@ -1,5 +1,5 @@
 ---
-title: "Tutorial con menú lateral (ion-side-menus)"	
+title: "Tutorial con menú lateral (ion-side-menus)" 
 date: 2015-11-06 08:00:00
 categories: ionic angularjs cordova tutorial
 ---
@@ -20,59 +20,59 @@ El ejemplo sólo tiene la complejidad de entender la estructura de la aplicació
 
 <pre>
 .
-+--	ion-nav-bar
-|	|
-|	+-- ion-nav-back-button
-|	|
-|	+-- ion-nav-buttons
++-- ion-nav-bar
+|   |
+|   +-- ion-nav-back-button
+|   |
+|   +-- ion-nav-buttons
 |
 +-- ion-nav-view
-	|
-	+-- ion-tabs
-	|	|
-	|	+-- ion-tab
-	|		|
-	|		+-- ion-nav-view (named)
-	|			|
-	|			+-- ion-view
-	|
-	+-- ion-view
-	|	|
-	|	+-- ion-nav-buttons
-	|	|
-	|	+-- ion-nav-title
-	|	|
-	|	+-- ion-content
-	|
-	+-- ion-pane
-	|
-   	+-- ion-side-menus
-   		|
-   		+-- ion-side-menu-content
-   		|	|
-		|	+-- ion-nav-bar
-		|	|	|
-		|	|	+-- ion-nav-back-button
-		|	|	|	
-		|	|	+-- ion-nav-buttons
-		|	|
-		|	+-- ion-nav-view
-		|		|
-		|		+-- ion-view
-		|			|
-		|			+-- ion-nav-buttons
-		|			|
-		|			+-- ion-nav-title
-		|			|
-		|			+-- ion-content
-		|
-		+-- ion-side-menu (side={left|right})
-			|
-			+-- ion-header-bar
-			|
-			+-- ion-content
-			|
-			+-- ion-footer-bar
+    |
+    +-- ion-tabs
+    |   |
+    |   +-- ion-tab
+    |       |
+    |       +-- ion-nav-view (named)
+    |           |
+    |           +-- ion-view
+    |
+    +-- ion-view
+    |   |
+    |   +-- ion-nav-buttons
+    |   |
+    |   +-- ion-nav-title
+    |   |
+    |   +-- ion-content
+    |
+    +-- ion-pane
+    |
+    +-- ion-side-menus
+        |
+        +-- ion-side-menu-content
+        |   |
+        |   +-- ion-nav-bar
+        |   |   |
+        |   |   +-- ion-nav-back-button
+        |   |   | 
+        |   |   +-- ion-nav-buttons
+        |   |
+        |   +-- ion-nav-view
+        |       |
+        |       +-- ion-view
+        |           |
+        |           +-- ion-nav-buttons
+        |           |
+        |           +-- ion-nav-title
+        |           |
+        |           +-- ion-content
+        |
+        +-- ion-side-menu (side={left|right})
+            |
+            +-- ion-header-bar
+            |
+            +-- ion-content
+            |
+            +-- ion-footer-bar
 </pre>
 
 
