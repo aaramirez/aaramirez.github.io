@@ -1,0 +1,105 @@
+---
+title: "Uso de Popover"
+date: 2015-11-10 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+
+Hay otro artefacto que permite presentar información emergente aparte de los Popups y estos son los [__Poppover__][3].
+Son ventanas emergentes que se activan cuando se interactuan con algún elemento en la pantalla. Principalmente se utilizan para resentar información complementaria, aunque realmente pueden servir para obtener datos u otra función similar a los Popup.
+
+La idea de este tutorial es presentar de forma sencilla su uso.
+
+Ingrese a [play.ionic.io][1] e inicie un proyecto desde cero.
+
+  > El objetivo es:
+
+  > - Crear una aplicación con varios botones que activan el Popover mediante la directiva __ng-click__.
+  > - Crear el Popover en el controlador utilizando el servicio [__$ionicPopover__][3] y manejar sus eventos.
+
+  {% highlight html linenos %}
+<body ng-app="app" ng-controller="contentController">
+<ion-pane>
+  <ion-header-bar class="bar-stable">
+    <h1 class="title">Popover</h1>
+  </ion-header-bar>
+  <ion-content class="padding">
+    <button ng-click="abrirPopover($event)" 
+      class="button button-block button-assertive">Abrir Popover</button>
+    <button ng-click="abrirPopover($event)" 
+      class="button button-block">Abrir Popover</button>
+    <button ng-click="abrirPopover($event)" 
+      class="button button-block button-positive">Abrir Popover</button>
+  </ion-content>
+</ion-pane>
+</body>
+  {% endhighlight %}
+
+Ahora vamos a definir la plantilla del [__$ionicPopover__][3]. Fíjese que debe utilizar la directiva [__ion-popover-view__][3]. De resto es como definir una vista normal en __ionic__.
+
+{% highlight html linenos %}
+<script id="popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      <h3 class="title">Título</h3>
+      <button ng-click="cerrarPopover()" 
+        class="button button-icon"><i class="icon ion-close"></i></button>
+    </ion-header-bar>
+    <ion-content class="padding">
+      Mensaje informativo para el usuario.
+      <button ng-click="cerrarPopover()" 
+        class="button button-block button-assertive">Cerrar</button>
+    </ion-content>
+  </ion-popover-view>
+</script>
+{% endhighlight %}
+
+Primero vamos a crear el Popover inyectando el servicio [__$ionicPopover__][3]. Es muy similar al uso de Poppups.
+
+{% highlight js linenos %}
+$ionicPopover.fromTemplateUrl('popover.html', {
+  scope: $scope
+}).then(function(p) {
+  $scope.popover = p;
+});
+{% endhighlight %}
+
+No olvide inyectar el servicio en el controlador.
+
+{% highlight js linenos %}
+.controller('contentController', function($scope, $ionicPopover){
+{% endhighlight %}
+
+Ahora vamos a trabajar el controlador. Hay que definir las funciones *abrirPopover* y *cerrarPopover*.
+
+{% highlight js linenos %}
+$scope.abrirPopover = function($event) {
+  $scope.popover.show($event);
+};
+$scope.cerrarPopover = function() {
+  $scope.popover.hide();
+};
+{% endhighlight %}
+
+También se pueden manejar los eventos que se generan en el ciclo de vida del [__$ionicPopover__][3].
+
+{% highlight js linenos %}
+//Cleanup the popover when we're done with it!
+$scope.$on('$destroy', function() {
+  $scope.popover.remove();
+});
+// Execute action on hide popover
+$scope.$on('popover.hidden', function() {
+  // Execute action
+});
+// Execute action on remove popover
+$scope.$on('popover.removed', function() {
+  // Execute action
+});
+{% endhighlight %}
+
+Pueden ver el [resultado][2] si lo desea.
+
+[1]: http://play.ionic.io "Inicio del tutorial"
+[2]: http://play.ionic.io/app/f9fe2ff1aae2 "Resultado del tutorial"
+[3]: http://ionicframework.com/docs/api/service/$ionicPopover/ "$ionicPopover"
+
