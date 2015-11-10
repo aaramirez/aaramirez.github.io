@@ -16,7 +16,9 @@ Ingrese a [play.ionic.io][1] e inicie un proyecto desde cero.
   > - Crear una aplicación con varios botones que activan el Popover mediante la directiva __ng-click__.
   > - Crear el Popover en el controlador utilizando el servicio [__$ionicPopover__][3] y manejar sus eventos.
 
-  {% highlight html linenos %}
+Vamos a iniciar con el contenido de la pantalla principal y agreguemos tres botones que activen el Popover.
+
+{% highlight html linenos %}
 <body ng-app="app" ng-controller="contentController">
 <ion-pane>
   <ion-header-bar class="bar-stable">
@@ -32,9 +34,11 @@ Ingrese a [play.ionic.io][1] e inicie un proyecto desde cero.
   </ion-content>
 </ion-pane>
 </body>
-  {% endhighlight %}
+{% endhighlight %}
 
-Ahora vamos a definir la plantilla del [__$ionicPopover__][3]. Fíjese que debe utilizar la directiva [__ion-popover-view__][3]. De resto es como definir una vista normal en __ionic__.
+Ahora vamos a definir la plantilla del [__$ionicPopover__][3]. Fíjese que debe utilizar la directiva [__ion-popover-view__][3].
+
+De resto es como definir una vista normal en __ionic__.
 
 {% highlight html linenos %}
 <script id="popover.html" type="text/ng-template">
