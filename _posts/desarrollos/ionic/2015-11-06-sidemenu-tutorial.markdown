@@ -6,17 +6,16 @@ categories: ionic angularjs cordova tutorial
 
 En las aplicaciones móviles hay un patrón de navegación muy común que es mediate menú laterales que se activan con algún botón en la barra superior.
 
-[__ionic__][] proporciona la directiva [__ion-side-menus__][] que viene acompañada por otras directivas como:
+[__ionic__][4] proporciona la directiva [__ion-side-menus__][5] que viene acompañada por otras directivas como:
 
-- [__ion-side-menus__][]
-- [__ion-side-menu-content__][] - Es el contenedor principal donde se especifican los elementos de contenido a los cuales se podría navegar a través del menú.
-- [__ion-side-menu__][] - Es el menú en sí mismo. Se comporta como un [__ion-view__][] ya que tiene la misma estructura interna. Es decir, puede contener un __ion-header-bar__, __ion-content__ y un __ion-footer-bar__ entre otros. Es decir es una vista que se utiliza para mostrar el menú.
-- [__expose-aside-when__][]
-- [__menu-toggle__][]
-- [__menu-close__][]
+- [__ion-side-menus__][5] - Contenedor principal del menú y su contenido. Padre de [__ion-side-menu-content__][6] y [__ion-side-menu__][7].
+- [__ion-side-menu-content__][6] - Es el contenedor principal donde se especifican los elementos de contenido a los cuales se podría navegar a través del menú.
+- [__ion-side-menu__][7] - Es el menú en sí mismo. Se comporta como un [__ion-view__][11] ya que tiene la misma estructura interna. Es decir, puede contener un [__ion-header-bar__][14], [__ion-content__][16] y un [__ion-footer-bar__][15] entre otros. Es decir es una vista que se utiliza para mostrar el menú.
+- [__expose-aside-when__][8] - Se utiliza para cambiar el comportamiento del menú en formatos (dispositivos) con pantalla más grande como los tablets.
+- [__menu-toggle__][9] - Activa el menú lateral. Se utiliza en botones que activan el menú usualmente en la barra de navegación.
+- [__menu-close__][10] - Cierra el menú lateral. Se utiliza en los elementos del menú para cerrarlos una vez escogida una opción.
 
-El ejemplo sólo tiene la complejidad de entender la estructura de la aplicación utilizando estas directivas. Podríamos verlo de forma jerarquica...
-
+El ejemplo sólo tiene la complejidad de entender la estructura de la aplicación utilizando estas directivas. Podríamos verlo de forma visual.
 
 <pre>
 .
@@ -75,7 +74,18 @@ El ejemplo sólo tiene la complejidad de entender la estructura de la aplicació
             +-- ion-footer-bar
 </pre>
 
-Primero definamos nuestro contenedor principal con la directiva [__ion-nav-view__] y luego nuestra primera plantilla *menu.html*. Dentro de nuestra plantilla hay que definir el contenedor del menú [__ion-side-menus__][]. Este contenedor cuenta con dos directivas hijas [__ion-side-menu-content__][] y [__ion-side-menu__][]. [__ion-side-menu-content__][] puede tener dos hermanas (siblings) del tipo [__ion-side-menu__][] que pueden colocarse a la derecha o a la izquierda.
+Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
+
+  > El objetivo es:
+
+  > - Crear una aplicación con múltiples páginas (o vistas) y con navegación a través de un menú lateral.
+  > - Crear el menú y el resto de las vistas.
+  > - Definir los estados de la aplicación.
+  > - Definir los controladores.
+
+Estamos partiendo de una aplicación sin nada.
+
+Primero definamos nuestro contenedor principal con la directiva [__ion-nav-view__] y luego nuestra primera plantilla *menu.html*. Dentro de nuestra plantilla hay que definir el contenedor del menú [__ion-side-menus__][5]. Este contenedor cuenta con dos directivas hijas [__ion-side-menu-content__][6] y [__ion-side-menu__][7]. [__ion-side-menu-content__][6] puede tener dos hermanas (siblings) del tipo [__ion-side-menu__][7] que pueden colocarse a la derecha o a la izquierda.
 
 {% highlight html linenos %}
 <ion-nav-view>
@@ -94,7 +104,7 @@ Primero definamos nuestro contenedor principal con la directiva [__ion-nav-view_
 </script>
 {% endhighlight %}
 
-Ahora dentro del [__ion-side-menu-content__][] definamos una barra de navegación con sus botones y la vista de navegación que servirá para desplegar las vistas. Esta vista de navegación [__ion-nav-view__][] es la que se utiliza en cada plantilla para desplegar contenido.
+Ahora dentro del [__ion-side-menu-content__][6] definamos una barra de navegación con sus botones y la vista de navegación que servirá para desplegar las vistas. Esta vista de navegación [__ion-nav-view__][12] es la que se utiliza en cada plantilla para desplegar contenido.
 
 {% highlight html linenos %}
 <script id="templates/menu.html" type="text/ng-template">
@@ -119,7 +129,7 @@ Ahora dentro del [__ion-side-menu-content__][] definamos una barra de navegació
 </script>
 {% endhighlight %}
 
-Completemos la barra de navegación incluyendo el botón para navegar al estado previo [__ion-nav-back-button__][] y agreguemos el botón que va a activar el menú. Ese botón que activa el menú debe utilizar la directiva [__menu-toggle__][] que es la que activa el menú del lado que se indique. Esta directiva se coloca en un link o un botón.
+Completemos la barra de navegación incluyendo el botón para navegar al estado previo [__ion-nav-back-button__][13] y agreguemos el botón que va a activar el menú. Ese botón que activa el menú debe utilizar la directiva [__menu-toggle__][9] que es la que activa el menú del lado que se indique. Esta directiva se coloca en un link o un botón.
 
 {% highlight html linenos %}
 <script id="templates/menu.html" type="text/ng-template">
@@ -147,7 +157,7 @@ Completemos la barra de navegación incluyendo el botón para navegar al estado 
 </script>
 {% endhighlight %}
 
-Ahora vamos a definir el contenido del menú. Este menú es un contenedor que permite definir un [__ion-header-bar__][], [__ion-footer-bar__][] y [__ion-content__][]. También se podría definir un sub-footer o sub-header. Es una plantilla contenedora que se puede generar dinámicamente utilizando el controlador del menú. Defina una lista con tres elementos que nos permitan navegar a las tres vistas que vamos a crear.
+Ahora vamos a definir el contenido del menú. Este menú es un contenedor que permite definir un [__ion-header-bar__][14], [__ion-footer-bar__][15] y [__ion-content__][16]. También se podría definir un sub-footer o sub-header. Es una plantilla contenedora que se puede generar dinámicamente utilizando el controlador del menú. Defina una lista con tres elementos que nos permitan navegar a las tres vistas que vamos a crear. Fíjese en el uso de la directiva [__menu-close__][10]. Sin ella el menú no se cierra solo. Esta se debe usar en cada elemento del menú.
 
 {% highlight html linenos %}
 <script id="templates/menu.html" type="text/ng-template">
@@ -235,7 +245,7 @@ Vamos al modulo principal y definamos los estados y los controladores respectivo
 });
 {% endhighlight %}
 
-Como puede ver todavía no aparece nada en pantalla. Ahora definamos el resto de los estados y mediante el servicio [__$urlRouterProvider__][] indiquemos cual es la pantalla por defecto.
+Como puede ver todavía no aparece nada en pantalla. Ahora definamos el resto de los estados y mediante el servicio [__$urlRouterProvider__][18] indiquemos cual es la pantalla por defecto. Revise también la documentación de [__$stateProvider__][17] como referencia.
 
 {% highlight js linenos %}
 .config(function($stateProvider, $urlRouterProvider) {
@@ -312,7 +322,7 @@ Tenemos que crear un estado nuevo y un controlador nuevo para la plantilla de in
 })
 {% endhighlight %}
 
-Ahora vamos a definir la vista nueva y modificamos la de *Empleados* para crear una lista de empleados y cambiar de estado con __ui-sref__ y el parámetro respectivo.
+Ahora vamos a definir la vista nueva y modificamos la de *Empleados* para crear una lista de empleados y cambiar de estado con [__ui-sref__][19] y el parámetro respectivo.
 
 {% highlight html linenos %}
 <script id="templates/empleados.html" type="text/ng-template">
@@ -345,7 +355,7 @@ Ahora vamos a crear la vista nueva de *Empleado* y mostremos el parámetro que n
 
 Este es un flujo muy usual para manejar parámetros a las pantallas siguientes y generar un tipo de comunicación entre las vistas.
 
-Como se puede dar cuenta todavía falta algo. Eso es el controlador de la nueva pantalla que es el que toma el parámetro que envió la pantalla anterior y define en el modelo el que va a consumir la vista. Los parámetros son accesibles a través de [__$stateParams__].
+Como se puede dar cuenta todavía falta algo. Eso es el controlador de la nueva pantalla que es el que toma el parámetro que envió la pantalla anterior y define en el modelo el que va a consumir la vista. Los parámetros son accesibles a través de [__$stateParams__][20].
 
 {% highlight js linenos %}
 .controller('empleadoController', function($scope, $stateParams) {
@@ -355,7 +365,7 @@ Como se puede dar cuenta todavía falta algo. Eso es el controlador de la nueva 
 
 Ya tenemos la aplicación completamente funcional.
 
-Si desea, puede ver el [resultado][2].
+Si desea, puede ver el [resultado][2]. Hicimos [otro ejemplo][3] un poco más funcional.
 
 Veamos el resultado.
 
@@ -387,3 +397,20 @@ Veamos el resultado.
 [1]: http://play.ionic.io/app/528e2a0aa18f "Inicio del tutorial"
 [2]: http://play.ionic.io/app/6e861bffb2e8 "Resultado del tutorial"
 [3]: http://play.ionic.io/app/72629b9f4038 "Otro ejemplo con un poco de sal"
+[4]: http://ionicframework.com "ionic Framework"
+[5]: http://ionicframework.com/docs/api/directive/ionSideMenus/ "ion-side-menus"
+[6]: http://ionicframework.com/docs/api/directive/ionSideMenuContent/ "ion-side-menu-content"
+[7]: http://ionicframework.com/docs/api/directive/ionSideMenu/ "ion-side-menu"
+[8]: http://ionicframework.com/docs/api/directive/exposeAsideWhen/ "expose-aside-when"
+[9]: http://ionicframework.com/docs/api/directive/menuToggle/ "menu-toggle"
+[10]: http://ionicframework.com/docs/api/directive/menuClose/ "menu-close"
+[11]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
+[12]: http://ionicframework.com/docs/api/directive/ionNavView/ "ion-nav-view"
+[13]: http://ionicframework.com/docs/api/directive/ionNavBackButton/ "ion-nav-back-button"
+[14]: http://ionicframework.com/docs/api/directive/ionHeaderBar/ "ion-header-bar"
+[15]: http://ionicframework.com/docs/api/directive/ionFooterBar/ "ion-footer-bar"
+[16]: http://ionicframework.com/docs/api/directive/ionContent/ "ion-content"
+[17]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.$stateProvider "$stateProvider"
+[18]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.router.$urlRouterProvider "$urlRouterProvider"
+[19]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.directive:ui-sref "ui-sref"
+[20]: https://github.com/angular-ui/ui-router/wiki/URL-Routing#stateparams-service "$stateParams"
