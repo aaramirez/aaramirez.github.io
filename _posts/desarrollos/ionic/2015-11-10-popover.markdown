@@ -87,17 +87,17 @@ $scope.cerrarPopover = function() {
 También se pueden manejar los eventos que se generan en el ciclo de vida del [__$ionicPopover__][3].
 
 {% highlight js linenos %}
-//Cleanup the popover when we're done with it!
+//Limpiar el popover cuando ya no lo necesitemos
 $scope.$on('$destroy', function() {
   $scope.popover.remove();
 });
-// Execute action on hide popover
+//Ejecutar alguna acción cuando se oculta el popover
 $scope.$on('popover.hidden', function() {
-  // Execute action
+  // Ejecutar acción
 });
-// Execute action on remove popover
+//Ejecutar una acción cuando se borra
 $scope.$on('popover.removed', function() {
-  // Execute action
+  // Ejecutar acción
 });
 {% endhighlight %}
 
