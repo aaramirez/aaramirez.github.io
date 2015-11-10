@@ -365,7 +365,7 @@ Como se puede dar cuenta todavía falta algo. Eso es el controlador de la nueva 
 
 Ya tenemos la aplicación completamente funcional.
 
-Si desea, puede ver el [resultado][2]. Hicimos [otro ejemplo][3] un poco más funcional. Otro ejemplo donde [el menú está gestionado por el padre][].
+Si desea, puede ver el [resultado][2]. Hicimos [otro ejemplo][3] un poco más funcional. Otro ejemplo donde [el menú está gestionado por el padre][21].
 
 Veamos el resultado.
 
