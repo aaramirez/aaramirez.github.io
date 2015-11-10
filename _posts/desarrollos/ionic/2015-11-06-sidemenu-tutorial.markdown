@@ -75,23 +75,301 @@ El ejemplo sólo tiene la complejidad de entender la estructura de la aplicació
             +-- ion-footer-bar
 </pre>
 
+Primero definamos nuestro contenedor principal con la directiva [__ion-nav-view__] y luego nuestra primera plantilla *menu.html*. Dentro de nuestra plantilla hay que definir el contenedor del menú [__ion-side-menus__][]. Este contenedor cuenta con dos directivas hijas [__ion-side-menu-content__][] y [__ion-side-menu__][]. [__ion-side-menu-content__][] puede tener dos hermanas (siblings) del tipo [__ion-side-menu__][] que pueden colocarse a la derecha o a la izquierda.
 
+{% highlight html linenos %}
+<ion-nav-view>
+</ion-nav-view>
 
+<script id="templates/menu.html" type="text/ng-template">
+  <ion-side-menus>
+    <ion-side-menu-content>
+     
+    </ion-side-menu-content>
+    
+    <ion-side-menu side="left">
+      
+    </ion-side-menu>
+  </ion-side-menus>
+</script>
+{% endhighlight %}
 
+{% highlight html linenos %}
+<ion-nav-view>
+</ion-nav-view>
 
+Ahora dentro del [__ion-side-menu-content__][] definamos una barra de navegación con sus botones y la vista de navegación que servirá para desplegar las vistas. Esta vista de navegación [__ion-nav-view__][] es la que se utiliza en cada plantilla para desplegar contenido.
 
+<script id="templates/menu.html" type="text/ng-template">
+  <ion-side-menus>
+    <ion-side-menu-content>
+      <ion-nav-bar class="bar-assertive">
+        <ion-nav-bar-button>
 
+        </ion-nav-bar-button>
+        <ion-nav-buttons side="left">
+ 
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-nav-view name="menuContent">
+      </ion-nav-view>
+    </ion-side-menu-content>
+    
+    <ion-side-menu side="left">
 
+    </ion-side-menu>
+  </ion-side-menus>
+</script>
+{% endhighlight %}
 
+Completemos la barra de navegación incluyendo el botón para navegar al estado previo [__ion-nav-back-button__][] y agreguemos el botón que va a activar el menú. Ese botón que activa el menú debe utilizar la directiva [__menu-toggle__][] que es la que activa el menú del lado que se indique. Esta directiva se coloca en un link o un botón.
 
+{% highlight html linenos %}
+<ion-nav-view>
+</ion-nav-view>
 
+<script id="templates/menu.html" type="text/ng-template">
+  <ion-side-menus>
+    <ion-side-menu-content>
+      <ion-nav-bar class="bar-assertive">
+        <ion-nav-bar-button>
+          <ion-nav-back-button>
+          </ion-nav-back-button>
+        </ion-nav-bar-button>
+        <ion-nav-buttons side="left">
+          <button class="button button-icon button-clear ion-navicon"
+            menu-toggle="left">
+          </button>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-nav-view name="menuContent">
+      </ion-nav-view>
+    </ion-side-menu-content>
+    
+    <ion-side-menu side="left">
 
+    </ion-side-menu>
+  </ion-side-menus>
+</script>
+{% endhighlight %}
 
+Ahora vamos a definir el contenido del menú. Este menú es un contenedor que permite definir un [__ion-header-bar__][], [__ion-footer-bar__][] y [__ion-content__][]. También se podría definir un sub-footer o sub-header. Es una plantilla contenedora que se puede generar dinámicamente utilizando el controlador del menú. Defina una lista con tres elementos que nos permitan navegar a las tres vistas que vamos a crear.
 
+{% highlight html linenos %}
+<ion-nav-view>
+</ion-nav-view>
 
+<script id="templates/menu.html" type="text/ng-template">
+  <ion-side-menus>
+    <ion-side-menu-content>
+      <ion-nav-bar class="bar-assertive">
+        <ion-nav-bar-button>
+          <ion-nav-back-button>
+          </ion-nav-back-button>
+        </ion-nav-bar-button>
+        <ion-nav-buttons side="left">
+          <button class="button button-icon button-clear ion-navicon"
+            menu-toggle="left">
+          </button>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-nav-view name="menuContent">
+      </ion-nav-view>
+    </ion-side-menu-content>
+    
+    <ion-side-menu side="left">
+      <ion-header-bar class="bar-assertive">
+        <h1 class="title">Top</h1>
+      </ion-header-bar>
+      <ion-content>
+        <ion-list>
+          <ion-item menu-close href="#/app/presenta">
+            Presentación
+          </ion-item>
+          <ion-item menu-close href="#/app/empleados">
+            Empleados
+          </ion-item>
+          <ion-item menu-close href="#/app/contacto">
+            Contacto
+          </ion-item>
+        </ion-list>
+      </ion-content>
+      <ion-footer-bar class="bar-stable">
+        <h1 class="title">Bottom</h1>
+      </ion-footer-bar>
+    </ion-side-menu>
+  </ion-side-menus>
+</script>
+{% endhighlight %}
 
+Ahora vamos a crear las plantillas de las tres vistas que vamos a utilizar de la manera usual.
 
+{% highlight html linenos %}
+<script id="templates/presenta.html" type="text/ng-template">
+  <ion-view view-title="Presentación">
+    <ion-content>
+      <h1>Aquí presentamos</h1>
+    </ion-content>
+  </ion-view>
+</script>
 
+<script id="templates/empleados.html" type="text/ng-template">
+  <ion-view view-title="Empleados">
+    <ion-content>
+      <h1>Empleados</h1>
+    </ion-content>
+  </ion-view>
+</script>
+
+<script id="templates/contacto.html" type="text/ng-template">
+  <ion-view view-title="Contacto">
+    <ion-content>
+      <h1>Contacto</h1>
+    </ion-content>
+  </ion-view>
+</script>
+{% endhighlight %}
+
+Vamos al modulo principal y definamos los estados y los controladores respectivos. Esto se hace con la rutina __.config__. Primero se define el estado principal o padre que es donde está el menú. Esto lo que significa es que todos los estados (en esta aplicación) van a ser hijos de este principal. Hay que utilizar el atributo __abstract__ para indicar que no es un estado al que se navega directamente sino que es un padre. Luego definamos 
+
+{% highlight js linenos %}
+.config(function($stateProvider, $urlRouterProvider) {
+  $stateProvider
+    .state('app', {
+      url: "/app",
+      abstract: true,
+      templateUrl: "templates/menu.html",
+      controller: 'appController'
+    });
+    
+});
+{% endhighlight %}
+
+Como puede ver todavía no aparece nada en pantalla. Ahora definamos el resto de los estados y mediante el servicio [__$urlRouterProvider__][] indiquemos cual es la pantalla por defecto.
+
+{% highlight js linenos %}
+.config(function($stateProvider, $urlRouterProvider) {
+  $stateProvider
+    .state('app', {
+      url: "/app",
+      abstract: true,
+      templateUrl: "templates/menu.html",
+      controller: 'appController'
+    })
+    .state('app.presenta', {
+      url: "/presenta",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/presenta.html",
+          controller: "presentaController"
+        }
+      }
+    })
+    .state('app.empleados', {
+      url: "/empleados",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/empleados.html",
+          controller: "empleadosController"
+        }
+      }
+    })
+    .state('app.contacto', {
+      url: "/contacto",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/contacto.html",
+          controller: 'contactoController'
+        }
+      }
+    });
+    
+    $urlRouterProvider.otherwise('/app/presenta');
+});
+{% endhighlight %}
+
+Ahora definamos los controladores respectivos.
+
+{% highlight js linenos %}
+.controller('appController', function($scope) {
+
+})  
+
+.controller('presentaController', function($scope) {
+
+})
+
+.controller('empleadosController', function($scope) {
+
+})
+
+.controller('contactoController', function($scope) {
+
+})
+{% endhighlight %}
+
+Ya debe ver una aplicación que se puede navegar a los diferentes estados.
+
+Para darle un poco de más funcionalidad vamos a agregar una lista de empleados en la plantilla de empleados y vamos a crear una nueva plantilla para ver la información específica de un empleado.
+
+Tenemos que crear un estado nuevo y un controlador nuevo para la plantilla de información específica de un empleado. La particularidad de este estado es que en el __url__ podemos indicar que se reciben parámetros que luego vamos a utilizar en el controlador y en la vista.
+
+{% highlight js linenos %}
+.state('app.empleado', {
+  url: "/empleado/{id:int}",
+  views: {
+    'menuContent': {
+      templateUrl: "templates/empleado.html",
+      controller: 'empleadoController'
+    }
+  }
+})
+{% endhighlight %}
+
+Ahora vamos a definir la vista nueva y modificamos la de *Empleados* para crear una lista de empleados y cambiar de estado con __ui-sref__ y el parámetro respectivo.
+
+{% highlight html linenos %}
+<script id="templates/empleados.html" type="text/ng-template">
+  <ion-view view-title="Empleados">
+    <ion-content>
+      <ion-list>
+        <ion-item ui-sref="app.empleado({id:1})">
+          Empleado del mes
+        </ion-item>
+        <ion-item ui-sref="app.empleado({id:2})">
+          Otro empleado
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-view>
+</script>
+{% endhighlight %}
+
+Ahora vamos a crear la vista nueva de *Empleado* y mostremos el parámetro que nos envió la pantalla de *Empleados*.
+
+{% highlight html linenos %}
+<script id="templates/empleado.html" type="text/ng-template">
+  <ion-view view-title="Empleado">
+    <ion-content>
+      <h1>Empleado {{id}}</h1>
+    </ion-content>
+  </ion-view>
+</script>
+{% endhighlight %}
+
+Este es un flujo muy usual para manejar parámetros a las pantallas siguientes y generar un tipo de comunicación entre las vistas.
+
+Como se puede dar cuenta todavía falta algo. Eso es el controlador de la nueva pantalla que es el que toma el parámetro que envió la pantalla anterior y define en el modelo el que va a consumir la vista. Los parámetros son accesibles a través de [__$stateParams__].
+
+{% highlight js linenos %}
+.controller('empleadoController', function($scope, $stateParams) {
+  $scope.id = $stateParams.id;
+})
+{% endhighlight %}
+
+Ya tenemos la aplicación completamente funcional.
+
+Si desea, puede ver el [resultado][2].
 
 
 [1]: http://play.ionic.io/app/528e2a0aa18f "Inicio del tutorial"
