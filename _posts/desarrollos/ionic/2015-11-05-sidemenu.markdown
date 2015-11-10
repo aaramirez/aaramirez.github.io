@@ -1,0 +1,59 @@
+---
+title: "Side menu en Ionic"
+date: 2015-11-05 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+
+Los menús laterales (tipo Drawer) o en [__ionic__][2] [__ion-side-menus__][1] son una de las maneras más frecuentes de navegar dentro de una aplicación.
+
+Les dejo un *pen* que cambia la opción en la medida que navegamos la aplicación. Hay un problema con el *caching* y la navegación al estado previo, si no se desabilita entonces la navegación al estado previo no actualiza las opciones del menú.
+
+¿Hay una mejor manera?
+
+<style>
+.phone {
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url("/assets/img/phone.png") no-repeat right top;
+  margin-left: 20px;
+}
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 578px;
+  top: 114px;
+  left: 37px;
+}
+</style>
+<div>
+  <div class="phone">
+  	<iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/ZbmYev/?height=578&theme-id=20842&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/ZbmYev/'>Uso de menú tipo Drawer</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
+	</iframe>
+  </div>
+</div>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+[1]: http://ionicframework.com/docs/api/directive/ionSideMenus/ "ion-side-menus"
+[2]: http://ionicframework.com "ionic Framework"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
