@@ -365,7 +365,7 @@ Como se puede dar cuenta todavía falta algo. Eso es el controlador de la nueva 
 
 Ya tenemos la aplicación completamente funcional.
 
-Si desea, puede ver el [resultado][2]. Hicimos [otro ejemplo][3] un poco más funcional.
+Si desea, puede ver el [resultado][2]. Hicimos [otro ejemplo][3] un poco más funcional. Otro ejemplo donde [el menú está gestionado por el padre][].
 
 Veamos el resultado.
 
@@ -414,3 +414,4 @@ Veamos el resultado.
 [18]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.router.$urlRouterProvider "$urlRouterProvider"
 [19]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.directive:ui-sref "ui-sref"
 [20]: https://github.com/angular-ui/ui-router/wiki/URL-Routing#stateparams-service "$stateParams"
+[21]: http://play.ionic.io/app/96905135d65a "Menú gestionado por el padre"
