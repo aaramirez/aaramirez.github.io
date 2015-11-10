@@ -94,12 +94,9 @@ Primero definamos nuestro contenedor principal con la directiva [__ion-nav-view_
 </script>
 {% endhighlight %}
 
-{% highlight html linenos %}
-<ion-nav-view>
-</ion-nav-view>
-
 Ahora dentro del [__ion-side-menu-content__][] definamos una barra de navegación con sus botones y la vista de navegación que servirá para desplegar las vistas. Esta vista de navegación [__ion-nav-view__][] es la que se utiliza en cada plantilla para desplegar contenido.
 
+{% highlight html linenos %}
 <script id="templates/menu.html" type="text/ng-template">
   <ion-side-menus>
     <ion-side-menu-content>
@@ -125,9 +122,6 @@ Ahora dentro del [__ion-side-menu-content__][] definamos una barra de navegació
 Completemos la barra de navegación incluyendo el botón para navegar al estado previo [__ion-nav-back-button__][] y agreguemos el botón que va a activar el menú. Ese botón que activa el menú debe utilizar la directiva [__menu-toggle__][] que es la que activa el menú del lado que se indique. Esta directiva se coloca en un link o un botón.
 
 {% highlight html linenos %}
-<ion-nav-view>
-</ion-nav-view>
-
 <script id="templates/menu.html" type="text/ng-template">
   <ion-side-menus>
     <ion-side-menu-content>
@@ -156,9 +150,6 @@ Completemos la barra de navegación incluyendo el botón para navegar al estado 
 Ahora vamos a definir el contenido del menú. Este menú es un contenedor que permite definir un [__ion-header-bar__][], [__ion-footer-bar__][] y [__ion-content__][]. También se podría definir un sub-footer o sub-header. Es una plantilla contenedora que se puede generar dinámicamente utilizando el controlador del menú. Defina una lista con tres elementos que nos permitan navegar a las tres vistas que vamos a crear.
 
 {% highlight html linenos %}
-<ion-nav-view>
-</ion-nav-view>
-
 <script id="templates/menu.html" type="text/ng-template">
   <ion-side-menus>
     <ion-side-menu-content>
@@ -241,7 +232,6 @@ Vamos al modulo principal y definamos los estados y los controladores respectivo
       templateUrl: "templates/menu.html",
       controller: 'appController'
     });
-    
 });
 {% endhighlight %}
 
@@ -292,19 +282,15 @@ Ahora definamos los controladores respectivos.
 
 {% highlight js linenos %}
 .controller('appController', function($scope) {
-
 })  
 
 .controller('presentaController', function($scope) {
-
 })
 
 .controller('empleadosController', function($scope) {
-
 })
 
 .controller('contactoController', function($scope) {
-
 })
 {% endhighlight %}
 
@@ -351,7 +337,7 @@ Ahora vamos a crear la vista nueva de *Empleado* y mostremos el parámetro que n
 <script id="templates/empleado.html" type="text/ng-template">
   <ion-view view-title="Empleado">
     <ion-content>
-      <h1>Empleado {{id}}</h1>
+      <h1>Empleado { { id } }</h1>
     </ion-content>
   </ion-view>
 </script>
@@ -371,6 +357,32 @@ Ya tenemos la aplicación completamente funcional.
 
 Si desea, puede ver el [resultado][2].
 
+Veamos el resultado.
+
+<style>
+.phone {
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url("/assets/img/phone.png") no-repeat right top;
+  margin-left: 20px;
+}
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 578px;
+  top: 114px;
+  left: 37px;
+}
+</style>
+<div>
+  <div class="phone">
+  <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/KdrgYQ/?height=578&theme-id=20842&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/KdrgYQ/'>Tutorial - uso de menú lateral</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+  </div>
+</div>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 [1]: http://play.ionic.io/app/528e2a0aa18f "Inicio del tutorial"
 [2]: http://play.ionic.io/app/6e861bffb2e8 "Resultado del tutorial"
