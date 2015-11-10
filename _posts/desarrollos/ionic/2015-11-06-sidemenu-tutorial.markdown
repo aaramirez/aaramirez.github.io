@@ -18,12 +18,29 @@ En las aplicaciones móviles hay un patrón de navegación muy común que es med
 El ejemplo sólo tiene la complejidad de entender la estructura de la aplicación utilizando estas directivas. Podríamos verlo de forma jerarquica...
 
 
-
-````
+<pre>
 .
++--	ion-nav-bar
+|	|
+|	+-- ion-nav-back-button
+|	|
+|	+-- ion-nav-buttons
+|
 +-- ion-nav-view
 	|
+	+-- ion-tabs
+	|	|
+	|	+-- ion-tab
+	|		|
+	|		+-- ion-nav-view (named)
+	|			|
+	|			+-- ion-view
+	|
 	+-- ion-view
+	|	|
+	|	+-- ion-nav-buttons
+	|	|
+	|	+-- ion-nav-title
 	|	|
 	|	+-- ion-content
 	|
@@ -35,15 +52,17 @@ El ejemplo sólo tiene la complejidad de entender la estructura de la aplicació
    		|	|
 		|	+-- ion-nav-bar
 		|	|	|
-		|	|	+-- ion-nav-bar-button
-		|	|	|	|
-		|	|	|	+-- ion-nav-back-button
+		|	|	+-- ion-nav-back-button
 		|	|	|	
 		|	|	+-- ion-nav-buttons
-		|	|	|
+		|	|
 		|	+-- ion-nav-view
 		|		|
 		|		+-- ion-view
+		|			|
+		|			+-- ion-nav-buttons
+		|			|
+		|			+-- ion-nav-title
 		|			|
 		|			+-- ion-content
 		|
@@ -54,7 +73,7 @@ El ejemplo sólo tiene la complejidad de entender la estructura de la aplicació
 			+-- ion-content
 			|
 			+-- ion-footer-bar
-````
+</pre>
 
 
 
