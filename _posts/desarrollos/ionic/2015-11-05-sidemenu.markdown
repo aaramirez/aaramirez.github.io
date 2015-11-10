@@ -4,7 +4,7 @@ date: 2015-11-05 08:00:00
 categories: ionic angularjs cordova tutorial
 ---
 
-Los menús laterales (tipo Drawer) o en [__ionic__][2] [__ion-side-menus__][1] son una de las maneras más frecuentes de navegar dentro de una aplicación.
+Los menús laterales (tipo Drawer) o [__ion-side-menus__][1] en [__ionic__][2], son una de las maneras más frecuentes de navegar dentro de una aplicación móvil. El uso de esta opción como viene es muy simple. Es por ello que comparto algo más elaborado como el cambio de la opción seleccionada cada vez que se navega.
 
 Les dejo un *pen* que cambia la opción en la medida que navegamos la aplicación. Hay un problema con el *caching* y la navegación al estado previo, si no se desabilita entonces la navegación al estado previo no actualiza las opciones del menú.
 
