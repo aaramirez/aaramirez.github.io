@@ -10,6 +10,8 @@ Les dejo un *pen* que cambia la opción en la medida que navegamos la aplicació
 
 ¿Hay una mejor manera?
 
+P.D: Si la hay. Básicamente en lugar de deshabilitar el *cache* en toda la aplicación se puede capturar el evento (puede ser cualquiera de ellos, beforeEnter o afterEnter) y ejecutar la rutina que cambia la opción del menú que está activa.
+
 <style>
 .phone {
   position: relative;
