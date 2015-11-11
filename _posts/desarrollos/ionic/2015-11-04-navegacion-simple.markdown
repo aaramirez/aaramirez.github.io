@@ -368,7 +368,7 @@ Esta facilidad es útil cuando se desea colocar un título que proviene de los d
 
 Como nota aparte hay un servicio que provee __ionic__ denominado [__$ionicConfigProvider__][14]. Este servicio ofrece opciones de configuración en la aplicación que permite cambiar el comportamiento del botón de regreso (Back button). Se puede cambiar el ícono, el texto por defecto o si el título de la pantalla previa debería ser el texto del botón para regresar.
 
-Si desea, puede ver el [resultado][4] en play.ionic.io.
+Si desea, puede ver el [resultado][4] en play.ionic.io. El que [hicimos en clase][15].
 
 Veamos el resultado.
 
@@ -437,4 +437,5 @@ Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
 [12]: http://ionicframework.com/docs/api/directive/navTransition/ "nav-transition"
 [13]: http://ionicframework.com/docs/api/directive/navDirection/ "nav-direction"
 [14]: http://ionicframework.com/docs/api/provider/$ionicConfigProvider/ "$ionicConfigProvider"
+[15]: http://play.ionic.io/app/e6c5015816b4 "Hecho en clase"
 
