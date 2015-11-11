@@ -4,13 +4,7 @@ date: 2015-11-05 08:00:00
 categories: ionic angularjs cordova tutorial
 ---
 
-Los menús laterales (tipo Drawer) o [__ion-side-menus__][1] en [__ionic__][2], son una de las maneras más frecuentes de navegar dentro de una aplicación móvil. El uso de esta opción como viene es muy simple. Es por ello que comparto algo más elaborado como el cambio de la opción seleccionada cada vez que se navega.
-
-Les dejo un *pen* que cambia la opción en la medida que navegamos la aplicación. Hay un problema con el *caching* y la navegación al estado previo, si no se desabilita entonces la navegación al estado previo no actualiza las opciones del menú.
-
-¿Hay una mejor manera?
-
-P.D: Si la hay. Básicamente en lugar de deshabilitar el *cache* en toda la aplicación se puede capturar el evento en el padre y el menú es autogestionado por el padre y los hijos no tienen que hacer nada para gestionar el estado del menú.
+Los menús laterales (tipo Drawer) o [__ion-side-menus__][1] en [__ionic__][2], son una de las maneras más frecuentes de navegar dentro de una aplicación móvil. El uso de esta opción como viene es muy simple. Es por ello que comparto algo más elaborado como el cambio de la opción seleccionada cada vez que se navega manejado por el padre sólamente. Es un menú que funciona sin la intervención de los hijos.
 
 <style>
 .phone {
