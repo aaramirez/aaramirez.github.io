@@ -15,6 +15,8 @@ La jerarquía de estos elementos es la siguiente:
 |   +-- ion-nav-back-button
 |   |
 |   +-- ion-nav-buttons
+|   |
+|   +-- ion-nav-title
 |
 +-- ion-nav-view
     |
@@ -25,6 +27,25 @@ La jerarquía de estos elementos es la siguiente:
             +-- ion-nav-view (named)
                 |
                 +-- ion-view
+</pre>
+
+Le estructura de un __ion-view__ permite cambiar el comportamiento definido por el padre para la barra de navegación, el título, los botones y el uso de headers o footers.
+
+<pre>
+.
++-- ion-view
+    |
+    +-- ion-nav-buttons
+    |
+    +-- ion-nav-title
+    |
+    +-- ion-header-bar
+    |
+    +-- ion-footer-bar
+    |
+    +-- div class="sub-header"
+    |
+    +-- div class="sub-footer"
 </pre>
 
 Vamos a seguir el mismo ejemplo que hicimos con [__ion-side-menus__][5] pero con [__ion-tabs__][3].
