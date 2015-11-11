@@ -30,7 +30,9 @@ La jerarquía de estos elementos es la siguiente:
 Vamos a seguir el mismo ejemplo que hicimos con [__ion-side-menus__][5] pero con [__ion-tabs__][3].
 
 
+Puede [consultar el resultado][2] del tutorial.
 
+Les dejo un ejemplo que utiliza tabs y side-menu.
 
 <style>
 .phone {
@@ -63,9 +65,8 @@ Vamos a seguir el mismo ejemplo que hicimos con [__ion-side-menus__][5] pero con
 [2]: http://play.ionic.io/app/6efe2433bb02 "Resultado del tutorial"
 [3]: http://ionicframework.com/docs/api/directive/ionTabs/ "ion-tabs"
 [4]: http://ionicframework.com "ionic Framework"
-
-
 [5]: http://ionicframework.com/docs/api/directive/ionSideMenus/ "ion-side-menus"
+
 [6]: http://ionicframework.com/docs/api/directive/ionSideMenuContent/ "ion-side-menu-content"
 [7]: http://ionicframework.com/docs/api/directive/ionSideMenu/ "ion-side-menu"
 [8]: http://ionicframework.com/docs/api/directive/exposeAsideWhen/ "expose-aside-when"
