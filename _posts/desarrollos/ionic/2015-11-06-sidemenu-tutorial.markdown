@@ -24,6 +24,8 @@ El ejemplo sólo tiene la complejidad de entender la estructura de la aplicació
 |   +-- ion-nav-back-button
 |   |
 |   +-- ion-nav-buttons
+|   |
+|   +-- ion-nav-title
 |
 +-- ion-nav-view
     |
@@ -41,6 +43,14 @@ El ejemplo sólo tiene la complejidad de entender la estructura de la aplicació
     |   |
     |   +-- ion-nav-title
     |   |
+    |   +-- ion-header-bar
+    |   |
+    |   +-- div class="sub-header"
+    |   |
+    |   +-- ion-footer-bar
+    |   |
+    |   +-- div class="sub-footer"
+    |   |
     |   +-- ion-content
     |
     +-- ion-pane
@@ -55,7 +65,7 @@ El ejemplo sólo tiene la complejidad de entender la estructura de la aplicació
         |   |   | 
         |   |   +-- ion-nav-buttons
         |   |
-        |   +-- ion-nav-view
+        |   +-- ion-nav-view (named)
         |       |
         |       +-- ion-view
         |           |
@@ -365,7 +375,7 @@ Como se puede dar cuenta todavía falta algo. Eso es el controlador de la nueva 
 
 Ya tenemos la aplicación completamente funcional.
 
-Si desea, puede ver el [resultado][2]. Hicimos [otro ejemplo][3] un poco más funcional. Otro ejemplo donde [el menú está gestionado por el padre][21].
+Si desea, puede ver el [resultado][2]. Hicimos [otro ejemplo][3] un poco más funcional. Otro ejemplo donde [el menú está gestionado por el padre][21]. Otro ejemplo donde [juntamos menú lateral y tabs][22].
 
 Veamos el resultado.
 
@@ -415,3 +425,4 @@ Veamos el resultado.
 [19]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.directive:ui-sref "ui-sref"
 [20]: https://github.com/angular-ui/ui-router/wiki/URL-Routing#stateparams-service "$stateParams"
 [21]: http://play.ionic.io/app/96905135d65a "Menú gestionado por el padre"
+[22]: http://play.ionic.io/app/ada0854acdff "Menú lateral y tabs"

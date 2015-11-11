@@ -1,0 +1,83 @@
+---
+title: "Uso de tabs en Ionic"
+date: 2015-11-11 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+
+Otro patrón de navegación muy frecuente en las aplicaciones es el uso de tabs. En [__ionic__][4] esto se logra mediante el uso de la directiva [__ion-tabs__][3]. 
+
+La jerarquía de estos elementos es la siguiente:
+
+<pre>
+.
++-- ion-nav-bar
+|   |
+|   +-- ion-nav-back-button
+|   |
+|   +-- ion-nav-buttons
+|
++-- ion-nav-view
+    |
+    +-- ion-tabs
+        |
+        +-- ion-tab
+            |
+            +-- ion-nav-view (named)
+                |
+                +-- ion-view
+</pre>
+
+Vamos a seguir el mismo ejemplo que hicimos con [__ion-side-menus__][5] pero con [__ion-tabs__][3].
+
+
+
+
+<style>
+.phone {
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url("/assets/img/phone.png") no-repeat right top;
+  margin-left: 20px;
+}
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 578px;
+  top: 114px;
+  left: 37px;
+}
+</style>
+<div>
+  <div class="phone">
+  <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/ojQOMO/?height=578&theme-id=20842&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/ojQOMO/'>Uso de menú lateral y tabs</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+  </div>
+</div>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
+
+[1]: http://play.ionic.io/app/528e2a0aa18f "Inicio del tutorial"
+[2]: http://play.ionic.io/app/6efe2433bb02 "Resultado del tutorial"
+[3]: http://ionicframework.com/docs/api/directive/ionTabs/ "ion-tabs"
+[4]: http://ionicframework.com "ionic Framework"
+
+
+[5]: http://ionicframework.com/docs/api/directive/ionSideMenus/ "ion-side-menus"
+[6]: http://ionicframework.com/docs/api/directive/ionSideMenuContent/ "ion-side-menu-content"
+[7]: http://ionicframework.com/docs/api/directive/ionSideMenu/ "ion-side-menu"
+[8]: http://ionicframework.com/docs/api/directive/exposeAsideWhen/ "expose-aside-when"
+[9]: http://ionicframework.com/docs/api/directive/menuToggle/ "menu-toggle"
+[10]: http://ionicframework.com/docs/api/directive/menuClose/ "menu-close"
+[11]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
+[12]: http://ionicframework.com/docs/api/directive/ionNavView/ "ion-nav-view"
+[13]: http://ionicframework.com/docs/api/directive/ionNavBackButton/ "ion-nav-back-button"
+[14]: http://ionicframework.com/docs/api/directive/ionHeaderBar/ "ion-header-bar"
+[15]: http://ionicframework.com/docs/api/directive/ionFooterBar/ "ion-footer-bar"
+[16]: http://ionicframework.com/docs/api/directive/ionContent/ "ion-content"
+[17]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.$stateProvider "$stateProvider"
+[18]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.router.$urlRouterProvider "$urlRouterProvider"
+[19]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.directive:ui-sref "ui-sref"
+[20]: https://github.com/angular-ui/ui-router/wiki/URL-Routing#stateparams-service "$stateParams"
