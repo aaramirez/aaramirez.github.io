@@ -10,7 +10,7 @@ Les dejo un *pen* que cambia la opción en la medida que navegamos la aplicació
 
 ¿Hay una mejor manera?
 
-P.D: Si la hay. Básicamente en lugar de deshabilitar el *cache* en toda la aplicación se puede capturar el evento (puede ser cualquiera de ellos, beforeEnter o afterEnter) y ejecutar la rutina que cambia la opción del menú que está activa.
+P.D: Si la hay. Básicamente en lugar de deshabilitar el *cache* en toda la aplicación se puede capturar el evento en el padre y el menú es autogestionado por el padre y los hijos no tienen que hacer nada para gestionar el estado del menú.
 
 <style>
 .phone {
@@ -31,7 +31,7 @@ P.D: Si la hay. Básicamente en lugar de deshabilitar el *cache* en toda la apli
 </style>
 <div>
   <div class="phone">
-  	<iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/ZbmYev/?height=578&theme-id=20842&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/ZbmYev/'>Uso de menú tipo Drawer</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
+    <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/ZbmeKv/?height=578&theme-id=20842&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">See the Pen <a href='http://codepen.io/aaramirez/pen/ZbmeKv/'>Menú gestionado por el padre</a> by Alexander A. Ramírez M. (<a href='http://codepen.io/aaramirez'>@aaramirez</a>) on <a href='http://codepen.io'>CodePen</a>.
 	</iframe>
   </div>
 </div>
