@@ -121,9 +121,6 @@ Ahora dentro del [__ion-side-menu-content__][6] definamos una barra de navegaci�
   <ion-side-menus>
     <ion-side-menu-content>
       <ion-nav-bar class="bar-assertive">
-        <ion-nav-bar-button>
-
-        </ion-nav-bar-button>
         <ion-nav-buttons side="left">
  
         </ion-nav-buttons>
@@ -146,10 +143,8 @@ Completemos la barra de navegación incluyendo el botón para navegar al estado 
   <ion-side-menus>
     <ion-side-menu-content>
       <ion-nav-bar class="bar-assertive">
-        <ion-nav-bar-button>
-          <ion-nav-back-button>
-          </ion-nav-back-button>
-        </ion-nav-bar-button>
+        <ion-nav-back-button>
+        </ion-nav-back-button>
         <ion-nav-buttons side="left">
           <button class="button button-icon button-clear ion-navicon"
             menu-toggle="left">
@@ -174,10 +169,8 @@ Ahora vamos a definir el contenido del menú. Este menú es un contenedor que pe
   <ion-side-menus>
     <ion-side-menu-content>
       <ion-nav-bar class="bar-assertive">
-        <ion-nav-bar-button>
-          <ion-nav-back-button>
-          </ion-nav-back-button>
-        </ion-nav-bar-button>
+        <ion-nav-back-button>
+        </ion-nav-back-button>
         <ion-nav-buttons side="left">
           <button class="button button-icon button-clear ion-navicon"
             menu-toggle="left">
