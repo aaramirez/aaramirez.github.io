@@ -29,11 +29,11 @@ La jerarquía de estos elementos es la siguiente:
                 +-- ion-view
 </pre>
 
-Le estructura de un __ion-view__ permite cambiar el comportamiento definido por el padre para la barra de navegación, el título, los botones y el uso de headers o footers.
+Le estructura de un [__ion-view__][6] permite cambiar el comportamiento definido por el padre para la barra de navegación, el título, los botones y el uso de headers o footers.
 
 <pre>
 .
-+-- ion-view
++-- ion-view (class="has-subheader has-subfooter")
     |
     +-- ion-nav-buttons
     |
@@ -50,7 +50,212 @@ Le estructura de un __ion-view__ permite cambiar el comportamiento definido por 
 
 Vamos a seguir el mismo ejemplo que hicimos con [__ion-side-menus__][5] pero con [__ion-tabs__][3].
 
-Uno de los aspectos más resaltantes es que en la definición de los [__ion-tabs__][3] cada __ion-tab__ contiene una vista de navegación __ion-nav-view__ con un nombre específico. Esto implica que cada vista de navegación mantiene su propio estado. Es decir que la historia de navegación es distinta, lo cual implica que cada vez que cambiamos de tab lo vamos a encontrar en el estado que lo dejamos y podemos navegar desde ese punto a las vistas previas que hayamos navegado. Esa es una de las ventajas fundamentales de los tabs.
+Uno de los aspectos más resaltantes es que en la definición de los [__ion-tabs__][3] cada [__ion-tab__][7] contiene una vista de navegación [__ion-nav-view__][8] con un nombre específico. Esto implica que cada vista de navegación mantiene su propio estado. Es decir que la historia de navegación es distinta, lo cual implica que cada vez que cambiamos de tab lo vamos a encontrar en el estado que lo dejamos y podemos navegar desde ese punto a las vistas previas que hayamos navegado. Esa es una de las ventajas fundamentales de los tabs.
+
+Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.
+
+  > El objetivo es:
+
+  > - Crear una aplicación con múltiples tabs (o vistas) y con navegación a través de los mismos.
+  > - Crear la plantilla inicial con los tabs y el resto de las vistas.
+  > - Definir los estados de la aplicación.
+  > - Definir los controladores.
+  > - Hacer un pantalla con parámetros que se envían a través de ui-router.
+
+Primero vamos a definir la vista de navegación que va a contener toda la aplicación.
+
+{% highlight html linenos %}
+<body ng-app="app">
+<ion-nav-view>
+</ion-nav-view>
+{% endhighlight %}
+
+Ahora vamos a crear la plantilla donde definimos los tabs con la directiva [__ion-tabs__][3].
+
+{% highlight html linenos %}
+<script id="templates/tabs.html" type="text/ng-template">
+  <ion-tabs class="tabs-assertive tabs-icon-top">
+
+  </ion-tabs>
+</script>
+{% endhighlight %}
+
+Ahora vamos a definir cada tab con la directiva [__ion-tab__][7].
+
+{% highlight html linenos %}
+<script id="templates/tabs.html" type="text/ng-template">
+  <ion-tabs class="tabs-assertive tabs-icon-top">
+    <ion-tab title="Presentación" href="#/tabs/presenta" icon="ion-monitor">
+
+    </ion-tab>
+    <ion-tab title="Empleados" href="#/tabs/empleados" icon="ion-person-stalker">
+
+    </ion-tab>
+    <ion-tab title="Contacto" href="#/tabs/contacto" icon="ion-location">
+
+    </ion-tab>
+  </ion-tabs>
+</script>
+{% endhighlight %}
+
+Ahora en cada tab hay que definir las vistas de navegación mediante la directiva [__ion-nav-view__][8] y donde se mantendrá la historia de navegación.
+
+{% highlight html linenos %}
+<script id="templates/tabs.html" type="text/ng-template">
+  <ion-tabs class="tabs-assertive tabs-icon-top">
+    <ion-tab title="Presentación" href="#/tabs/presenta" icon="ion-monitor">
+      <ion-nav-view name="presenta-tabs">
+      </ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Empleados" href="#/tabs/empleados" icon="ion-person-stalker">
+      <ion-nav-view name="empleados-tabs">
+      </ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Contacto" href="#/tabs/contacto" icon="ion-location">
+      <ion-nav-view name="contacto-tabs">
+      </ion-nav-view>
+    </ion-tab>
+  </ion-tabs>
+</script>
+{% endhighlight %}
+
+Ya tenemos la plantilla principal donde definimos la navegación. Fíjese que cada tab cuenta con un __href__ que direcciona a una ruta correspondiente a cada tab. Dicha ruta deberá definirse en nuestra configuración en el *JS*.
+
+Vamos a definir las plantillas correspondientes a cada estado.
+
+{% highlight html linenos %}
+<script id="templates/presenta.html" type="text/ng-template">
+  <ion-view view-title="Presentación">
+    <ion-content>
+      <h1>Aquí presentamos</h1>
+    </ion-content>
+  </ion-view>
+</script>
+
+<script id="templates/empleados.html" type="text/ng-template">
+  <ion-view view-title="Empleados">
+    <ion-content>
+      <ion-list>
+        <ion-item>
+          Empleado del mes
+        </ion-item>
+        <ion-item>
+          Otro empleado
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-view>
+</script>
+
+<script id="templates/contacto.html" type="text/ng-template">
+  <ion-view view-title="Contacto">
+    <ion-content>
+      <h1>Contacto</h1>
+    </ion-content>
+  </ion-view>
+</script>
+{% endhighlight %}
+
+Ahora vamos a definir nuestros estados y rutas para ver la aplicación funcionando con los tabs definidos y los cambios de estado.
+
+{% highlight javascript linenos %}
+.config(function($stateProvider, $urlRouterProvider) {
+  $stateProvider
+    .state('tabs', {
+      url: "/tabs",
+      abstract: true,
+      templateUrl: "templates/tabs.html",
+      controller: 'appController'
+    })
+    .state('tabs.presenta', {
+      url: "/presenta",
+      views: {
+        'presenta-tabs': {
+          templateUrl: "templates/presenta.html",
+          controller: "presentaController"
+        }
+      }
+    })
+    .state('tabs.empleados', {
+      url: "/empleados",
+      views: {
+        'empleados-tabs': {
+          templateUrl: "templates/empleados.html",
+          controller: "empleadosController"
+        }
+      }
+    })
+    .state('tabs.contacto', {
+      url: "/contacto",
+      views: {
+        'contacto-tabs': {
+          templateUrl: "templates/contacto.html",
+          controller: 'contactoController'
+        }
+      }
+    });
+    
+    $urlRouterProvider.otherwise('/tabs/presenta');
+});
+{% endhighlight %}
+
+Definamos los controladores respectivos de acuerdo a la configuración que acabamos de hacer.
+
+{% highlight javascript linenos %}
+angular.module('app', ['ionic'])
+
+.controller('appController', function($scope) {
+
+})  
+
+.controller('presentaController', function($scope) {
+
+})
+
+.controller('empleadosController', function($scope) {
+
+})
+
+.controller('contactoController', function($scope) {
+
+})
+{% endhighlight %}
+
+Finalmente vamos a definir una plantilla de detalles de un empleado que recibe parámetros de la plantilla empleados.
+Primero debemos indicar al estado que vamos a navegar con [__ui-sref__][19] que provee __ui-router__ y enviamos un parámetro que va a recibir la pantalla de detalles de empleado. 
+
+{% highlight html linenos %}
+<script id="templates/empleados.html" type="text/ng-template">
+  <ion-view view-title="Empleados">
+    <ion-content>
+      <ion-list>
+        <ion-item ui-sref="tabs.empleado({id:1})">
+          Empleado del mes
+        </ion-item>
+        <ion-item ui-sref="tabs.empleado({id:2})">
+          Otro empleado
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-view>
+</script>
+
+<script id="templates/empleado.html" type="text/ng-template">
+  <ion-view view-title="Empleado">
+    <ion-content>
+      <h1>Empleado {{id}}</h1>
+    </ion-content>
+  </ion-view>
+</script>
+{% endhighlight %}
+
+El parámetro no llega hasta que se defina en el controlador correspondiente. Debemos inyectar [__$stateParams__][20] y rescatar el parámetro para crearlo en el modelo (__$scope__).
+
+{% highlight javascript linenos %}
+.controller('empleadoController', function($scope, $stateParams) {
+  $scope.id = $stateParams.id;
+})
+{% endhighlight %}
 
 Puede [consultar el resultado][2] del tutorial.
 
@@ -88,19 +293,10 @@ Les dejo un ejemplo que utiliza tabs y side-menu.
 [3]: http://ionicframework.com/docs/api/directive/ionTabs/ "ion-tabs"
 [4]: http://ionicframework.com "ionic Framework"
 [5]: http://ionicframework.com/docs/api/directive/ionSideMenus/ "ion-side-menus"
+[6]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
+[7]: http://ionicframework.com/docs/api/directive/ionTab/ "ion-tab"
+[8]: http://ionicframework.com/docs/api/directive/ionNavView/ "ion-nav-view"
 
-[6]: http://ionicframework.com/docs/api/directive/ionSideMenuContent/ "ion-side-menu-content"
-[7]: http://ionicframework.com/docs/api/directive/ionSideMenu/ "ion-side-menu"
-[8]: http://ionicframework.com/docs/api/directive/exposeAsideWhen/ "expose-aside-when"
-[9]: http://ionicframework.com/docs/api/directive/menuToggle/ "menu-toggle"
-[10]: http://ionicframework.com/docs/api/directive/menuClose/ "menu-close"
-[11]: http://ionicframework.com/docs/api/directive/ionView/ "ion-view"
-[12]: http://ionicframework.com/docs/api/directive/ionNavView/ "ion-nav-view"
-[13]: http://ionicframework.com/docs/api/directive/ionNavBackButton/ "ion-nav-back-button"
-[14]: http://ionicframework.com/docs/api/directive/ionHeaderBar/ "ion-header-bar"
-[15]: http://ionicframework.com/docs/api/directive/ionFooterBar/ "ion-footer-bar"
-[16]: http://ionicframework.com/docs/api/directive/ionContent/ "ion-content"
-[17]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.$stateProvider "$stateProvider"
 [18]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.router.$urlRouterProvider "$urlRouterProvider"
 [19]: http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.directive:ui-sref "ui-sref"
 [20]: https://github.com/angular-ui/ui-router/wiki/URL-Routing#stateparams-service "$stateParams"
