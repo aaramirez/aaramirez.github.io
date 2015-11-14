@@ -50,6 +50,7 @@ Le estructura de un __ion-view__ permite cambiar el comportamiento definido por 
 
 Vamos a seguir el mismo ejemplo que hicimos con [__ion-side-menus__][5] pero con [__ion-tabs__][3].
 
+Uno de los aspectos más resaltantes es que en la definición de los [__ion-tabs__][3] cada __ion-tab__ contiene una vista de navegación __ion-nav-view__ con un nombre específico. Esto implica que cada vista de navegación mantiene su propio estado. Es decir que la historia de navegación es distinta, lo cual implica que cada vez que cambiamos de tab lo vamos a encontrar en el estado que lo dejamos y podemos navegar desde ese punto a las vistas previas que hayamos navegado. Esa es una de las ventajas fundamentales de los tabs.
 
 Puede [consultar el resultado][2] del tutorial.
 
