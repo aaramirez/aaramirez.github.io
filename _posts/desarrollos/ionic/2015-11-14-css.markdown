@@ -13,15 +13,14 @@ Les dejo el resultado del repaso de todas las clases CSS que ofrece el framework
 
 Puedes revisar todo lo que hicimos:
 
-- [play.ionic.io][1]
-- [play.ionic.io][2]
-- [play.ionic.io][3]
-- [play.ionic.io][4]
-- [play.ionic.io][5]
+- [Headers, Footers y Botones - 1][5]
+- [Headers, Footers y Botones - 2][2]
+- [Listas y Cards][1]
+- [Formas y Grid][4]
+
 
 [1]: http://play.ionic.io/app/e2fe954b9c8b "Uso de estilos CSS"
 [2]: http://play.ionic.io/app/56f38d3d0ba8 "Uso de estilos CSS"
-[3]: http://play.ionic.io/app/e2fe954b9c8b "Uso de estilos CSS"
 [4]: http://play.ionic.io/app/b36b1540b688 "Uso de estilos CSS"
 [5]: http://play.ionic.io/app/012201220465 "Uso de estilos CSS"
 [6]: http://ionicframework.com "ionic Framework"
