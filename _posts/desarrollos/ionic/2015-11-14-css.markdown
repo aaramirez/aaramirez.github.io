@@ -1,0 +1,27 @@
+---
+title: "Ionic CSS"
+date: 2015-11-14 08:00:00
+categories: ionic angularjs cordova tutorial
+---
+Un aspecto fundamental en [__ionic__][6] es el trabajo que han hecho definiendo un estilo que funcione y sea atractivo en los dispositivos móviles. En particular se adapta muy bien a Android y iOS.
+
+La mejor fuente es la documentación oficial. Sobretodo repasen las notas que hay recomendaciones muy importantes que se deben seguir para que todo funcione bien.
+
+Hicimos un taller para explorar todas las opciones y principalmente exploramos toda la documentación.
+
+Les dejo el resultado del repaso de todas las clases CSS que ofrece el framework.
+
+Puedes revisar todo lo que hicimos:
+
+- [play.ionic.io][1]
+- [play.ionic.io][2]
+- [play.ionic.io][3]
+- [play.ionic.io][4]
+- [play.ionic.io][5]
+
+[1]: http://play.ionic.io/app/e2fe954b9c8b "Uso de estilos CSS"
+[2]: http://play.ionic.io/app/56f38d3d0ba8 "Uso de estilos CSS"
+[3]: http://play.ionic.io/app/e2fe954b9c8b "Uso de estilos CSS"
+[4]: http://play.ionic.io/app/b36b1540b688 "Uso de estilos CSS"
+[5]: http://play.ionic.io/app/012201220465 "Uso de estilos CSS"
+[6]: http://ionicframework.com "ionic Framework"
