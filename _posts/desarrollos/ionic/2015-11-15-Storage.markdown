@@ -94,6 +94,13 @@ app.factory('$appCookieStorage', function ($cookieStore) {
 
 Puede [revisar el código implementado][9].
 
+Les dejo otros links de interés:
+
+- El [mejor post][13] que he visto sobre el tema 
+- [adamweeks.com][12] y el repositorio [ion-scanner][11]
+- [marsbomber.com][10]
+
+
 [1]: https://github.com/angular-translate/angular-translate "Angular Translate"
 [2]: https://github.com/angular-translate/angular-translate/blob/master/src/service/storage-local.js "$translateLocalStorage"
 [3]: https://github.com/angular-translate/angular-translate/blob/master/src/service/storage-cookie.js "$translateCookieStorage"
@@ -103,5 +110,10 @@ Puede [revisar el código implementado][9].
 [7]: https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage "Windows.sessionStorage"
 [8]: https://developer.mozilla.org/en-US/docs/Web/API/Storage "Storage Object"
 [9]: http://play.ionic.io/app/3a72efac109c "appLocalStorage Code"
+
+[10]: http://marsbomber.com/2014/05/29/BarcodeScanner-With-Ionic/ "marsbomber.com"
+[11]: https://github.com/adamweeks/ion-scanner "ion-scanner"
+[12]: http://adamweeks.com/2015/05/12/ionic-framework-introduction/ "adamweeks.com"
+[13]: http://www.sitepoint.com/scanning-qr-code-cordova/ "scanning qr code cordova"
 
 
