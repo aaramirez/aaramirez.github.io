@@ -107,7 +107,9 @@ Ahora vamos a crear el controlador y definamos en el modelo *resultText* y *resu
   };
 {% endhighlight %}
 
-Ya puede probar la aplicación.
+Ya puede probar la aplicación con el código siguiente:
+
+<img src"/assets/img/qrcode.png">
 
 Este proceso es similar para todos los plugin de Cordova que se pueden utilizar mediante ngCordova.
 
