@@ -12,7 +12,9 @@ Vamos a crear un proyecto que use el plugin para la lectura de códigos QR desde
 Primero vamos a iniciar un proyecto [__ionic__][1] con la plantilla *blank* mediante el comando:
 
   > ionic start QRReader blank
+
   > cd QRReader
+
   > ionic platform add [ios | android]
 
 Entre al directorio QRReader y se va a conseguir con el esqueleto de una aplicación [__ionic__][1]. Ahora ejecute:
@@ -59,10 +61,6 @@ En el archivo __index.html__ dentro del directorio __www__ vamos a agregar ngCor
 
 Ahora vamos a incluir el plugin [phonegap-plugin-barcodescanner][7] siguiendo las instrucciones o alternativamente el comando siguiente:
 
-  > ionic plugin add <plugin name>
-
-En nuestro caso es:
-
   > ionic plugin add phonegap-plugin-barcodescanner
 
 En el cuerpo del __index.html__ vamos a definir el controlador y vamos a crear una lista con un botón para activar el scanner y dos items con el resultado:
@@ -74,10 +72,10 @@ En el cuerpo del __index.html__ vamos a definir el controlador y vamos a crear u
       Scan QRCode
     </div>
     <div class="item">
-      {{ resultText }}
+      { { resultText } }
     </div>
     <div class="item">
-      {{ resultFormat }}
+      { { resultFormat } }
     </div>
   </div>
 </ion-content>
