@@ -1,0 +1,107 @@
+---
+title: "Almacenamiento de información"
+date: 2015-11-15 08:00:00
+categories: ionic angularjs javascript tutorial
+---
+Cada vez que interactuamos con alguna aplicación usualmente es necesario almacenar algún tipo de información de forma permanente o temporal. A veces requerimos que está accesible desde distintos dispositivos o sencillamente en el mismo dispositivo.
+
+En el caso de almacenar información en el mismo dispositivo vamos a revisar la opción de almacenamiento local de forma permanente o durante la sesión. Hay dos opciones muy conocidas:
+
+- Uso del API Web Storage
+- Uso de Cookies
+
+Como filosofía de trabajo me parece que para escribir bien hay que aprender a leer. Hay muchas fuentes de distintas librerías de uso extendido que nos ofrecen muchas lecciones de cómo desarrollar.
+
+En particular revisemos las fuentes de [__Angular Translate__][1] y revisemos cómo se implementan los servicios [$translateLocalStorage][2] y [$translateCookieStorage][3].
+
+Hay varios trucos que se utilizan para definir el servicio de almacenamiento que vale la pena revisar. Les dejo el código reducido y comentado del módulo principal de la aplicación y la definición del factory.
+
+Les dejo los links a la documentación:
+
+- [Using Web Storage API][5]
+- [Window.localStorage][4]
+- [Windows.sessionStorage][7]
+- [localStorage][6]
+- [Storage Object][8]
+
+Si se fijan varias de las prácticas definidas en la documentación se aplican en el factory. Eso es lo bueno de seguir la documentación oficial para luego desarrollar alguna funcionalidad.
+
+{% highlight javascript linenos %}
+(function() {
+  
+var app = angular.module('app', ['ionic']);
+
+// Definimos un servicio $appLocalStorage el cual se le inyecta $appCookieStorage
+// $appCookieStorage se define más abajo
+// $appLocalStorage es un Factory
+app.factory('$appLocalStorage', function ($window, $appCookieStorage) {
+  'use strict';
+  // El factory tiene tres métodos: get, set, put
+  // get sirve para obtener un valor
+  // set para crear o modificar valores
+  // Fíjese que sólo se usan getItem y setItem
+  
+  // Se define un adapter
+  var localStorageAdapter = (function(){
+    return {
+      get: function (name) {
+        return $window.localStorage.getItem(name);
+      },
+      set: function (name, value) {
+        $window.localStorage.setItem(name, value);
+      }
+    };
+  }());
+  
+  //Esta parte prueba la existencia del objeto localStorage
+  //de acuerdo a la documentación 
+  var hasLocalStorageSupport = 'localStorage' in $window;
+  if (hasLocalStorageSupport) {
+    var testKey = 'foo';
+    try {
+      if ($window.localStorage !== null) {
+        $window.localStorage.setItem(testKey, 'bar');
+        $window.localStorage.removeItem(testKey);
+        hasLocalStorageSupport = true;
+      } else {
+        hasLocalStorageSupport = false;
+      }
+    } catch (e){
+      hasLocalStorageSupport = false;
+    }
+  }
+  // Si el objeto localStorage existe y puede almacenar información entonces se utiliza, sino se usan los cookies
+  var $appLocalStorage = hasLocalStorageSupport ? localStorageAdapter : $appCookieStorage;
+  return $appLocalStorage;
+});
+
+// De manera análoga se utiliza el $cookieStore con sus dos métodos
+app.factory('$appCookieStorage', function ($cookieStore) {
+  'use strict';
+  var $appCookieStorage = {
+    get: function (name) {
+      return $cookieStore.get(name);
+    },
+    set: function (name, value) {
+      $cookieStore.put(name, value);
+    }
+  };
+  return $appCookieStorage;
+});
+
+})();
+{% endhighlight %}
+
+Puede [revisar el código implementado][9].
+
+[1]: https://github.com/angular-translate/angular-translate "Angular Translate"
+[2]: https://github.com/angular-translate/angular-translate/blob/master/src/service/storage-local.js "$translateLocalStorage"
+[3]: https://github.com/angular-translate/angular-translate/blob/master/src/service/storage-cookie.js "$translateCookieStorage"
+[4]: https://developer.mozilla.org/en/docs/Web/API/Window/localStorage "Window.localStorage"
+[5]: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API "Using Web Storage API"
+[6]: https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage "localStorage"
+[7]: https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage "Windows.sessionStorage"
+[8]: https://developer.mozilla.org/en-US/docs/Web/API/Storage "Storage Object"
+[9]: http://play.ionic.io/app/3a72efac109c "appLocalStorage Code"
+
+
