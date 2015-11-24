@@ -15,7 +15,9 @@ Primero vamos a iniciar un proyecto [__ionic__][1] con la plantilla *blank* medi
 
   > cd QRReader
 
-  > ionic platform add [ios | android]
+  > ionic platform add ios 
+
+  > ionic platform add android
 
 Entre al directorio QRReader y se va a conseguir con el esqueleto de una aplicación [__ionic__][1]. Ahora ejecute:
 
@@ -42,7 +44,9 @@ Es importante entender que cuando se utilizan las funcionalidades del dispositiv
 
 Como podemos ver hay dos opciones de interés que nos ayudan al proceso de desarrollo y a entender lo que pasa en la aplicación mediante mensajes en la cónsola. Estas son las opciones -l y -c. Entonces la opción -l usa livereload, lo cual implica que cuando se modifica algún archivo del proyecto este se carga en el dispositivo inmediatamente. La opción -c permite que los mensajes enviados a la cónsola mediante el comando *console.log()* se impriman en el terminal. Entonces la forma de utilizar el emulador es mediante la línea de comando siguiente:
 
-  > ionic emulate [android | ios] -lc
+  > ionic emulate android -lc
+
+  > ionic emulate ios -lc
 
 Por otra parte la forma de instalar [__ngCordova__][2] es, preferiblemente, mediante bower utilizando la línea de comando:
 
@@ -55,8 +59,8 @@ Puede fijarse en el directorio "www/lib" y se dará cuenta de que ngCordova est�
 En el archivo __index.html__ dentro del directorio __www__ vamos a agregar ngCordova antes de la inclusión de __cordova.js__.
 
 {% highlight html linenos %}
-<script src="cordova.js"></script>
 <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+<script src="cordova.js"></script>
 {% endhighlight %}
 
 Ahora vamos a incluir el plugin [phonegap-plugin-barcodescanner][7] siguiendo las instrucciones o alternativamente el comando siguiente:
