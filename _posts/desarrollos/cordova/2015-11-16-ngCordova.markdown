@@ -113,7 +113,7 @@ Ya puede probar la aplicación con el código siguiente:
 
 Este proceso es similar para todos los plugin de Cordova que se pueden utilizar mediante ngCordova.
 
-Espero que les sirva.
+Espero les sirva.
 
 [1]: http://ionicframework.com/ "ionic Framework"
 [2]: http://ngcordova.com/ "ngCordova"
