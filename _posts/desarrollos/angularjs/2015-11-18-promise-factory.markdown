@@ -157,6 +157,8 @@ angular.module('app', ['ionic'])
 
 Ahora ya cuenta con la estructura básica para manejar servicios con promesas. Esta es una herramienta muy importante para las aplicaciones web que obtienen sus datos principalmente de la nube y la mejor manera de utilizarlo es de forma asíncrona.
 
+Como ejercicio defina un servicio para obtener datos sin acoplarlo a Yahoo Finance.
+
 Espero les sirva.
 
 [1]: http://play.ionic.io/app/428bc43d928d "Fuentes del ejemplo"
