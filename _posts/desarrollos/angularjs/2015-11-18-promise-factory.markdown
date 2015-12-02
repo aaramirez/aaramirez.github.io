@@ -159,6 +159,6 @@ Ahora ya cuenta con la estructura básica para manejar servicios con promesas. E
 
 Como ejercicio defina un servicio para obtener datos sin acoplarlo a Yahoo Finance.
 
-Espero les sirva.
+Espero les sirva. Les dejo el [ejemplo en play.ionic.io][1].
 
 [1]: http://play.ionic.io/app/428bc43d928d "Fuentes del ejemplo"
