@@ -21,6 +21,7 @@ Puedes revisar todo lo que hicimos:
 El grupo hizo lo siguiente como ejercicio, hay temas por resolver, pero poco a poco:
 
 - [Whatsapp][7]
+- [Udemy][8]
 
 [1]: http://play.ionic.io/app/e2fe954b9c8b "Uso de estilos CSS"
 [2]: http://play.ionic.io/app/56f38d3d0ba8 "Uso de estilos CSS"
@@ -28,3 +29,4 @@ El grupo hizo lo siguiente como ejercicio, hay temas por resolver, pero poco a p
 [5]: http://play.ionic.io/app/012201220465 "Uso de estilos CSS"
 [6]: http://ionicframework.com "ionic Framework"
 [7]: http://play.ionic.io/app/1db7031a56a4 "Alejandro Guillén"
+[8]: http://play.ionic.io/app/e332144079e7 "Geraldine Ganaim"
