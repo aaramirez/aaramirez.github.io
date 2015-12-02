@@ -1,0 +1,24 @@
+---
+title: "Taller datos con $http"
+date: 2015-11-17 08:00:00
+categories: ionic angularjs javascript taller
+---
+La forma de acceder datos con [__AngularJS__][3] es mediante el servicio [__$http__][2].
+
+En este taller vamos a hacer una aplicación con las características siguientes:
+
+- Haga una aplicación con una pantalla que muestra la información sobre la cotización de un grupo de acciones en la bolsa utilizando el API de Yahoo. 
+URL: http://finance.yahoo.com/webservice/v1/symbols/'+ 'AAPL,YHOO' +'/quote?format=json&view=detail 
+- Incorpore la funcionalidad de agregar acciones a la lista y eliminar acciones de la lista.
+- Incorpore la funcionalidad de pull to refresh y de actualizaciones automáticas cada minuto.
+- Agregue una pantalla para ver los detalles de una acción específica.
+- Ofrezca una opción para cambiar la frecuencia de las actualizaciones a que se realicen cada 1min, 2min y 5min.
+- Cree un servicio de acceso a los datos del API de Yahoo.
+- Agregue los estilos para mostrar la información en pantalla de forma similar a como lo hace la aplicación del iPhone.
+- Utilice el servicio de persistencia para almacenar la lista de acciones a revisar.
+
+Les dejo un [ejemplo de uso del API][1] de Yahoo para acceder la información.
+
+[1]: http://play.ionic.io/app/6d92827a5c49 "Resultado del tutorial" 
+[2]: https://docs.angularjs.org/api/ng/service/$http "$http"
+[3]: https://angularjs.org "AngularJS"
