@@ -5,11 +5,11 @@ categories: ionic angularjs javascript tutorial
 ---
 En muchos casos es necesario acceder información de forma asíncrona. Hoy en día es posible hacer este trabajo mediante el uso de las promesas (promises).
 
-Las promesas permiten definir servicios que no devuelven información inmediatamente y que son resueltas luego. Durante el flujo de la aplicación la promesa sirve para mandar a ejecutar una actividad y manejar su flujo luego que retorna sin esperar por el resultado. Es decir, sigue la ejecución de la aplicación y cuando se resuelve la promesa (ya sea con éxito o error) entonces se ejecutan las acciones que dependen de la promesa.
+Las promesas permiten definir servicios que no devuelven información inmediatamente y que se resuelven luego. Durante el flujo de la aplicación la promesa sirve para mandar a ejecutar una actividad y manejar su flujo luego que retorna, sin esperar por el resultado. Es decir, sigue la ejecución de la aplicación y cuando se resuelve la promesa (ya sea con éxito o error) entonces se ejecutan las acciones que dependen de la promesa.
 
 Vamos a dar un ejemplo del uso de las promesas a través de un servicio (factory) para descargar información de Yahoo Finance.
 
-Primero debemos declarar nuestro servicio (factory), denominado getYahooData, mediante el método __factory__ en nuestro módulo de AngularJS. Adicionalmente debemos declarar el uso del servicio en nuestro controlador. En el servicio debemos inyectar __$q__ y __$http__. El primero es para definir promesas y manejarlas y el segundo para acceder datos.
+Primero debemos declarar nuestro servicio (factory), denominado getYahooData, mediante el método __factory__ en nuestro módulo de AngularJS. Adicionalmente debemos declarar el uso del servicio en nuestro controlador. En el servicio debemos inyectar [__$q__][2] y [__$http__][3]. El primero es para definir promesas y manejarlas y el segundo para acceder datos.
 
 {% highlight javascript linenos %}
 angular.module('app', ['ionic'])
@@ -161,4 +161,8 @@ Como ejercicio defina un servicio para obtener datos sin acoplarlo a Yahoo Finan
 
 Espero les sirva. Les dejo el [ejemplo en play.ionic.io][1].
 
+Nota: Si leen la documentación se darán cuenta que los métodos __success__ y __error__ de [__$http__][3] ya están obsoletos. Así que el ejemplo sirve sólo para ilustrar el uso de [__$q__][2].
+
 [1]: http://play.ionic.io/app/428bc43d928d "Fuentes del ejemplo"
+[2]: https://docs.angularjs.org/api/ng/service/$q "$q"
+[3]: https://docs.angularjs.org/api/ng/service/$http "$http"
