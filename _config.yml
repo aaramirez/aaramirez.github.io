@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Compartir algo de lo que pienso, aprendo y hago, relacionado con la vida, la tecnología,
   las aplicaciones, desarrollo de software, especulación, inversiones y finanzas.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://aaramirez.github.io" # the base hostname & protocol for your site
+url: "http://alexanderamirez.me" # the base hostname & protocol for your site
 twitter_username: aaramirez
 github_username:  aaramirez
 # Additional settings
