@@ -2,6 +2,7 @@
 title: "Ciberespacios"
 date: 2010-02-14 08:16:10
 categories: ideas
+comments: true
 ---
 Todo lo que esta en la red vive en el ciberespacio. El ciberespacio es "virtual" aunque su contenido hace referencia a la realidad que nos rodea. Bien vale la pena revisar la definición en Wikipedia [Ciberespacio](https://es.wikipedia.org/wiki/Ciberespacio). 
 

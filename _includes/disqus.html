@@ -1,0 +1,20 @@
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+// https://harringa.com/posts/2015/12/19/adding-disqus-to-jekyll-site/
+var disqus_config = function () {
+this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//volveralfuturo.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Por favor habilite JavaScript para consultar los <a href="https://disqus.com/?ref_noscript" rel="nofollow">comentarios powered by Disqus.</a></noscript>
+{% endif %}
