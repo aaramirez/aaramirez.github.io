@@ -2,6 +2,7 @@
 title: "Diseño y construcción de interfases de usuario"
 date: 2010-08-10 08:00:00
 categories: diseno interfases
+comments: true
 ---
 
 Quiero compartir algunas ideas sobre la construcción de interfaces de usuario.

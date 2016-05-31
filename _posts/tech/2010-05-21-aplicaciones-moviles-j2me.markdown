@@ -2,6 +2,7 @@
 title: "Aplicaciones Móviles - ¿J2ME o no?"
 date: 2010-05-21 08:00:00
 categories: movil aplicaciones j2me blackberry
+comments: true
 ---
 La aplicaciones móviles son posibles de diversas maneras:
 

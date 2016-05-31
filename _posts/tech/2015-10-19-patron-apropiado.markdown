@@ -2,6 +2,7 @@
 title: "Patrón apropiado"
 date: 2015-10-19 08:00:00
 categories: ionic angularjs cordova tutorial
+comments: true
 ---
 Partiendo el tutorial anterior vamos a hacer una modificación para dar la idea de un uso más apropiado de los controladores e introducir el concepto de servicios.
 

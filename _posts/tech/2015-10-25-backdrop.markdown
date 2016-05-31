@@ -2,6 +2,7 @@
 title: "Uso del Backdrop y Loading"
 date: 2015-10-25 08:00:00
 categories: ionic angularjs cordova tutorial
+comments: true
 ---
 A veces hace falta llamar la atención sobre alguna información emergente o sencillamente quitarle un poco de relevancia a lo que está en la pantalla actualmente, por ejemplo cuando se están cargando nuevos datos.
 

@@ -2,6 +2,7 @@
 title: "Side menu en Ionic"
 date: 2015-11-05 08:00:00
 categories: ionic angularjs cordova tutorial
+comments: true
 ---
 
 Los menús laterales (tipo Drawer) o [__ion-side-menus__][1] en [__ionic__][2], son una de las maneras más frecuentes de navegar dentro de una aplicación móvil. El uso de esta opción como viene es muy simple. Es por ello que comparto algo más elaborado como el cambio de la opción seleccionada cada vez que se navega manejado por el padre sólamente. Es un menú que funciona sin la intervención de los hijos.

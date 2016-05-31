@@ -2,6 +2,7 @@
 title: "Diálogos Modales (Modals)"
 date: 2015-11-01 08:00:00
 categories: ionic angularjs cordova tutorial
+comments: true
 ---
 Los diálogos modales son ventanas emergentes, temporales, que demandan la atención del usuario que interactua con la aplicación, normalmente para que tome una decisión o proporcione información.
 

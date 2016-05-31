@@ -2,6 +2,7 @@
 title: "Diseño y construcción de interfases de usuario - 5"
 date: 2010-12-10 08:00:00
 categories: diseno interfases
+comments: true
 ---
 
 En el mundo 2.0 el hecho Social es de relevancia suprema. Hoy en día siguen surgiendo una infinidad de aplicaciones Web que desarrollan el aspecto Social en una diversidad de interacciones y relaciones casuales o de negocio.

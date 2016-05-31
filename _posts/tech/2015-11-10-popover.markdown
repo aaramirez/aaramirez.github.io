@@ -2,6 +2,7 @@
 title: "Uso de Popover"
 date: 2015-11-10 08:00:00
 categories: ionic angularjs cordova tutorial
+comments: true
 ---
 
 Hay otro artefacto que permite presentar información emergente aparte de los Popups y estos son los [__Poppover__][3].

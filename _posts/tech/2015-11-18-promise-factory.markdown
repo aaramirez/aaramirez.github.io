@@ -2,6 +2,7 @@
 title: "Uso de promesas en un servicio (factory)"
 date: 2015-11-18 08:00:00
 categories: ionic angularjs javascript tutorial
+comments: true
 ---
 En muchos casos es necesario acceder información de forma asíncrona. Hoy en día es posible hacer este trabajo mediante el uso de las promesas (promises).
 

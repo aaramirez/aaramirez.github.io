@@ -2,6 +2,7 @@
 title: "Uso de tabs en Ionic"
 date: 2015-11-11 08:00:00
 categories: ionic angularjs cordova tutorial
+comments: true
 ---
 
 Otro patrón de navegación muy frecuente en las aplicaciones es el uso de tabs. En [__ionic__][4] esto se logra mediante el uso de la directiva [__ion-tabs__][3]. 
