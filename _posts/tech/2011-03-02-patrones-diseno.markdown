@@ -1,7 +1,8 @@
 ---
 title: "Patrones de diseño"
 date: 2011-03-02 08:00:00
-categories: patrones disemo
+categories: patrones diseno
+comments: true
 ---
 Últimamente me ha tocado cumplir con un rol que tenía mucho tiempo sin ejercer, a veces hay que lidiar con lo sublime y lo profano, que consiste en revisar la programación de un sistema. En concreto ver el código fuente de las aplicaciones que estamos desarrollando.
 

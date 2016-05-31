@@ -2,6 +2,7 @@
 title: "Diseño y construcción de interfases de usuario - 3"
 date: 2010-10-07 08:00:00
 categories: diseno interfases
+comments: true
 ---
 
 Ahora nos corresponde hablar de interfaces intuitivas. Cuando el usuario sabe que hacer sin que nadie se lo diga, se logra el objetivo de que el usuario pueda usar la aplicación. Si la interfaz es innovadora y atractiva, entonces es posible que la curva de aprendizaje sea acelerada.

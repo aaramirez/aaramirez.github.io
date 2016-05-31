@@ -2,6 +2,7 @@
 title: "Algunos trucos con git"
 date: 2015-01-01 08:00:00
 categories: git
+comments: true
 ---
 
 Les dejo una lista de algunos trucos con git, básicos, pero que seguro de interés.

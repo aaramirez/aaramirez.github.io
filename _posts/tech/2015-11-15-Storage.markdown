@@ -2,6 +2,7 @@
 title: "Almacenamiento de información"
 date: 2015-11-15 08:00:00
 categories: ionic angularjs javascript tutorial
+comments: true
 ---
 Cada vez que interactuamos con alguna aplicación usualmente es necesario almacenar algún tipo de información de forma permanente o temporal. A veces requerimos que está accesible desde distintos dispositivos o sencillamente en el mismo dispositivo.
 

@@ -2,6 +2,7 @@
 title: "Ionic CSS"
 date: 2015-11-14 08:00:00
 categories: ionic angularjs cordova tutorial
+comments: true
 ---
 Un aspecto fundamental en [__ionic__][6] es el trabajo que han hecho definiendo un estilo que funcione y sea atractivo en los dispositivos móviles. En particular se adapta muy bien a Android y iOS.
 

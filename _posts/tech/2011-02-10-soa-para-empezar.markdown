@@ -2,6 +2,7 @@
 title: "SOA para empezar"
 date: 2011-02-10 08:00:00
 categories: tecnologia SOA servicios
+comments: true
 ---
 ¿Será una necesidad o una moda?, ¿Será una necesidad creada por los consultores?, ¿Será una moda tecnológica?. Independientemente de las respuestas, en todas las empresas que me ha tocado trabajar o visitar, tienen como factor común la proliferación de aplicaciones verticales para atender distintos tipos de requerimientos. El mundo de hoy "todo conectado" y la proliferación de accesos vía internet, web o móvil requiere la integración de muchos de esos canales, antes aislados.
 

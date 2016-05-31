@@ -2,6 +2,7 @@
 title:  "Navegación en Ionic"
 date:   2015-10-10 08:16:10
 categories: ionic angularjs cordova tutorial
+comments: true
 ---
 Vamos a iniciar con una serie de tutoriales sobre Ionic y la construcción de aplicaciones móviles basadas en tecnología Web.
 

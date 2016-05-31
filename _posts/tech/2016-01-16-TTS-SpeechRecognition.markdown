@@ -1,7 +1,8 @@
 ---
 title: "Síntesis de voz y reconocimiento de voz con Ionic y Cordova"
 date: 2016-01-16 08:00:00
-categories: ionic angularjs javascript tutorial QR
+categories: ionic angularjs javascript tutorial
+comments: true
 ---
 
 Es interesante la cantidad de plugins de cordova que existen y las posibilidades que se pueden explorar y explotar en aplicaciones móviles. Me conseguí con un post de Simon Reimler muy reciente sobre el uso de dos plugin de cordova.
