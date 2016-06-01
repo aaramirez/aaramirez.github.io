@@ -7,7 +7,7 @@ layout: default
   <h1 class="page-heading">Artículos</h1>
 
   <ul class="post-list">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
