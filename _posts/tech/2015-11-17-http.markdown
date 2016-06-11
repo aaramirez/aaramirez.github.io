@@ -20,6 +20,9 @@ URL: http://finance.yahoo.com/webservice/v1/symbols/'+ 'AAPL,YHOO' +'/quote?form
 
 Les dejo un [ejemplo de uso del API][1] de Yahoo para acceder la información.
 
+Por otra parte a veces es necesario realizar una autenticación básica (Auth Basic) para acceder a un recurso en la red. Les dejo un [ejemplo de Auth Basic][4] que básicamente utiliza Base64 para codificar las credenciales y enviarlas al servicio con [__$http__][2].
+
 [1]: http://play.ionic.io/app/6d92827a5c49 "Resultado del tutorial" 
 [2]: https://docs.angularjs.org/api/ng/service/$http "$http"
 [3]: https://angularjs.org "AngularJS"
+[4]: http://play.ionic.io/app/f63226eb5706 "Uso de Auth Basic"
