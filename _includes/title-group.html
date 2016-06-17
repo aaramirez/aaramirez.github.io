@@ -1,0 +1,45 @@
+{% if page.featured_image or page.featured_video_id or page.local_featured_image %}
+    <div class="topper">
+        {% if page.featured_image %}
+        <span class="img" style="background-image: url('{{ page.featured_image }}');">
+        {% endif %}
+
+        {% if page.local_featured_image %}
+        <span class="img" style="background-image: url('{{ page.local_featured_image | prepend: "/img/" | prepend: site.data.global.url }}');">
+        {% endif %}
+
+        {% if page.featured_video_id %}
+        <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+    </div>
+{% endif %}
+
+<div class="title-group">
+    <h1 class="special">
+        <span>
+        {% if page.title %}
+            {{ page.title }}
+        {% else %}
+            {{ site.data.global.title }}
+        {% endif %}
+        </span>
+    </h1>
+    {% if page.id %}
+    <div class="author">
+        <a href="mailto:{{ site.data.global.author_email }}">
+            <img class="img-rounded" src="{{ site.data.global.author_pic | prepend: '/img/autores/' | prepend: site.url }}" height="32">
+            <span class="author-name">{{ site.data.global.author }}</span>
+        </a>
+    </div>
+    <aside>
+        {{ page.date | date: "%m.%d.%y" }}
+        {% if page.categories != empty %}
+            &middot;
+            {% for category in page.categories %}
+                <span>{{ category }}</span>
+            {% endfor %}
+        {% endif %}
+        &middot; {% include tweet-share.html %} {% include tweet-follow.html %}
+    </aside>
+    {% endif %}
+</div>

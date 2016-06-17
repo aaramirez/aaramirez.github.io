@@ -19,13 +19,13 @@ Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y 
 
 En el *HTML* hay que agregar el atributo [__show-reorder__][3] al [tag __ion-list__][3].
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-list show-reorder="showReorder">
 {% endhighlight %}
 
 Ahora vamos a crear un botón que permita al usuario indicar si desea borrar un elemento de la lista.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-header-bar class="bar-positive">
   <div class="buttons">
     <button class="button button-icon icon ion-shuffle"
@@ -38,7 +38,7 @@ Ahora vamos a crear un botón que permita al usuario indicar si desea borrar un 
 
 Ahora puede ver que hay un botón en la barra superior, pero no hace nada. Nos corresponde ahora indicar en cada elemento de la lista qué debe hacer cuando se presiona el botón. Eso lo hacemos agregando el tag __ion-reorder-button__ dentro de cada elemento de la lista, es decir, dentro del __ion-item__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-item ng-repeat="item in items">
   <ion-reorder-button class="ion-navicon">
   </ion-reorder-button>
@@ -48,7 +48,7 @@ Ahora puede ver que hay un botón en la barra superior, pero no hace nada. Nos c
 
 Ahora si presiona de nuevo el botón en la barra superior para reordenar, aparece en cada elemento de la lista el ícono para reordenarlo, pero mueve un elemento de la lista todavía no pasa nada. Ahora hay que manejar el evento __on-reorder__ de Ionic al tab __ion-reorder-button__ y especificar la función en el controlador que va a realizar la operación de reordenar los elementos.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-item ng-repeat="item in items">
   <ion-reorder-button class="ion-navicon"
     on-reorder="reorderItem(item, $fromIndex, $toIndex)">
@@ -61,7 +61,7 @@ Ahora en *JS* cree la función *reorderItem* para ejecutar la acción de reorden
 
 Tenemos que agregar una función en el controlador y otra en el servicio. Vamos con la primera.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.reorderItem = function(item, fromIndex, toIndex) {
   dataService.reorderDataItem(item, fromIndex, toIndex);
 };
@@ -69,7 +69,7 @@ $scope.reorderItem = function(item, fromIndex, toIndex) {
 
 Ahora modifiquemos el servicio para reordenar la lista.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 getData: function() {
   return this.data;
 },

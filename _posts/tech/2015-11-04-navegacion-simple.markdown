@@ -19,13 +19,13 @@ Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y 
 
 Estamos partiendo de una aplicación sin nada. Entonces debemos definir el controlador de la aplicación en *HTML*.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <body ng-app="app" ng-controller="viewController">
 {% endhighlight %}
 
 Ahora hay que implementar el controlador (vacio por ahora) en *JS*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('viewController', function($scope) {
 });
 {% endhighlight %}
@@ -45,7 +45,7 @@ Las directivas que hay que estudiar son:
 
 Dentro del cuerpo del *HTML* definamos la barra de navegación mediante la directiva [__ion-nav-bar__][8], el contenedor de las plantillas [__ion-nav-view__][2]. Además definamos una primera plantilla que será la presentación de la empresa *pres.html*.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-nav-bar  class="bar-assertive">
 <ion-nav-title>
   Padre
@@ -72,7 +72,7 @@ Hay varias pruebas que debe hacer para entender la prioridad de los títulos, co
 Para ver el resulado ahora definamos el estado. La definición de un estado básicamente consiste en asociar una plantilla con un controlador bajo un nombre. Además se puede asociar una ruta. Esto se hace mediante la rutina config.
 Se deben inyectar los servicios __$stateProvider__ y __$urlRouterProvider__. La rutina __state__ toma como parámetros el nombre del estado y el objeto que especifica sus atributos. En particular __url__, __templateUrl__ y __controller__. __url__ sirve como ruta para ser utilizada con __href__. El nombre del estado se puede utilizar con __ui-sref__. __templateUrl__ es la plantilla que se utiliza y __controller__ el controlador que asocia a la plantilla con el objeto __$scope__.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .config(function($stateProvider, $urlRouterProvider){
   $stateProvider
     .state('pres', {
@@ -86,7 +86,7 @@ Se deben inyectar los servicios __$stateProvider__ y __$urlRouterProvider__. La 
 
 Ahora en la plantilla que ya definimos vamos a agregar un botón para navegar a la lista de empleados.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-content class="padding">
   <h1>Presentación contenido</h1>
   <button ui-sref="empleados" class="button button-block">Ver el equipo de trabajo</button>
@@ -98,7 +98,7 @@ En este caso estamos usando la directiva __ui-sref__ que permite navegar de un e
 
 Agreguemos la plantilla de la lista de empleados y definamos el estado *empleados*.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="states/empleados/empleados.html" type="text/ng-template">
   <ion-view view-title="Empleados">
     <ion-content class="padding">
@@ -120,7 +120,7 @@ Agreguemos la plantilla de la lista de empleados y definamos el estado *empleado
 
 En el controlador debemos definir el estado y también la lógica del controlador.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .state('empleados', {
   url: '/empleados',
   templateUrl: 'states/empleados/empleados.html',
@@ -130,7 +130,7 @@ En el controlador debemos definir el estado y también la lógica del controlado
 
 Y el controlador queda de la siguiente manera.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('emplController', function($scope, datoFactory) {
   $scope.empleados = datoFactory.empleados();
 })
@@ -138,7 +138,7 @@ Y el controlador queda de la siguiente manera.
 
 Haga un *Factory* con los datos y los métodos *empleados* y *empleado* que toma el identificador del empleado.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .factory('datoFactory', function() {
 return {
   datos: [
@@ -184,7 +184,7 @@ return {
 
 Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado y la otra pantalla para la información de contacto. De forma análoga debemos, crear las plantillas, configurar los dos nuevos estados y crear los controladores. En cada controlador hay que colocar en el modelo (__$scope__) los datos que consume la vista. Agreguemos adicionalmente un botón en la pantalla de presentación para acceder a los datos de contacto.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-nav-bar  class="bar-assertive">
 <ion-nav-title>
   Padre
@@ -252,7 +252,7 @@ Ahora nos corresponde hacer la pantalla para mostrar el detalle de cada empleado
 
 El *JS* debe quedar de la forma siguiente:
 
-{% highlight js linenos %}
+{% highlight js  %}
 angular.module('app', ['ionic'])
 
 .controller('presController', function($scope) {
@@ -345,7 +345,7 @@ angular.module('app', ['ionic'])
 
 Si se dan cuenta en la aplicación no se puede navegar a la pantalla previa. Esto se hace de una manera muy sencilla en __ionic__ y además ofrecen algunas opciones de configuración.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-nav-bar class="bar-positive">
  <ion-nav-back-button></ion-nav-back-button>
 </ion-nav-bar>
@@ -355,13 +355,13 @@ Ahora después de navegar se puede ir al estado previo utilizando el botón supe
 
 Hemos configurado el título de forma estática. La verdad es que se puede colocar un título dinámico. Modifique una de las plantillas y agregue una expresión para colocar en el título el valor de la variable *titulo*.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-view view-title="{{titulo}}">
 {% endhighlight %}
 
 Defina la variabla *titulo* en el controlador correspondiente.
 
-{% highlight js linenos %}
+{% highlight js  %}
   $scope.titulo = 'EL TITULO QUE DESEE COLOCAR';
 {% endhighlight %}
 
@@ -379,7 +379,7 @@ Veamos el resultado.
   z-index: 1;
   width: 380px;
   height: 810px;
-  background: url("/assets/img/phone.png") no-repeat right top;
+  background: url("/img/phone.png") no-repeat right top;
   margin-left: 20px;
 }
 .embed_iframe {
@@ -406,7 +406,7 @@ Adicionalmente pueden ver el ejemplo de la página de [__ionic__][2].
   z-index: 1;
   width: 380px;
   height: 810px;
-  background: url("/assets/img/phone.png") no-repeat right top;
+  background: url("/img/phone.png") no-repeat right top;
   margin-left: 20px;
 }
 .embed_iframe {

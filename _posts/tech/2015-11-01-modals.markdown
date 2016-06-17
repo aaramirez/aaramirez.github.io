@@ -19,7 +19,7 @@ Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y 
 
 En el botón de la pantalla principal agregue la directiva __ng-click__ e indique la rutina que va a manejar el evento.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <button ng-click="abrirModal()" 
     class="button button-block button-assertive">Abrir el Modal
 </button>
@@ -27,7 +27,7 @@ En el botón de la pantalla principal agregue la directiva __ng-click__ e indiqu
 
 Ahora vamos a crear la plantilla de angular debajo del tag __ion-content__ utilizando el tag __script__ de la manera siguiente. Recuerde el uso del tag __ion-modal-view__ en lugar de __ion-view__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="modal.html" type="text/ng-template">
   <ion-modal-view>
     <ion-header-bar>
@@ -58,7 +58,7 @@ Ahora vamos a crear la plantilla de angular debajo del tag __ion-content__ utili
 
 Coloque en *CSS* la definición de la clase *onlytopborder*.
 
-{% highlight css linenos %}
+{% highlight css  %}
 .onlytopborder {
   border-top: 1px dotted #cccccc;
   border-bottom: none;
@@ -69,13 +69,13 @@ Coloque en *CSS* la definición de la clase *onlytopborder*.
 
 Ahora en el controlador (*JS*) inyecte el servicio [__$ionicModal__][2].
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('contentController', function($scope, $ionicModal) {
 {% endhighlight %}
 
 Luego vamos a definir la ventana modal mediante el método *fromTemplateUrl* del servicio [__$ionicModal__][2] de la manera siguiente:
 
-{% highlight js linenos %}
+{% highlight js  %}
 $ionicModal.fromTemplateUrl('modal.html', {
   scope: $scope,
   animation: 'slide-in-up'
@@ -88,7 +88,7 @@ Fíjese que se define cual es la plantilla de Angular que va a proporcionar el L
 
 Ahora definamos nuestra rutina *abrirModal*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.abrirModal = function() {
   $scope.modal.show();
 };
@@ -96,7 +96,7 @@ $scope.abrirModal = function() {
 
 Si se fija ya el diálogo funciona, pero no lo puede cerrar. Explore y defina la rutina que hace falta para cerrar la ventana Modal.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.cerrarModal = function() {
   $scope.modal.hide();
 };
@@ -106,7 +106,7 @@ Por último, vamos a manejar los eventos que el servicio [__$ionicModal__][2]
 
 Su controlador debe quedar de la manera siguiente:
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('contentController', function($scope, $ionicModal) {
   $ionicModal.fromTemplateUrl('modal.html', {
       scope: $scope,

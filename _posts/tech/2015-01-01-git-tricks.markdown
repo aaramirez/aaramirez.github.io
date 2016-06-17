@@ -47,6 +47,13 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 
 - [Flow][11]
 
+- [Crear tags][12]
+
+	> git tag -a v1.4 -m "my version 1.4"
+	> git tag
+	> git push origin v1.4
+	> git push origin --tags
+
 
 [1]: https://help.github.com/articles/set-up-git/ "Set up git"
 [2]: https://help.github.com/articles/adding-a-file-to-a-repository-from-the-command-line/ "Add files"
@@ -59,3 +66,4 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 [9]: https://help.github.com/articles/which-remote-url-should-i-use/ "Remote url to use"
 [10]: https://help.github.com/articles/github-flow-in-the-browser/ "Github flow in the browser"
 [11]: https://guides.github.com/introduction/flow/ "Flow"
+[12]: https://git-scm.com/book/en/v2/Git-Basics-Tagging "Tags"

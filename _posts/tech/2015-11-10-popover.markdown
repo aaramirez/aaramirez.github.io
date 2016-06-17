@@ -19,7 +19,7 @@ Ingrese a [play.ionic.io][1] e inicie un proyecto desde cero.
 
 Vamos a iniciar con el contenido de la pantalla principal y agreguemos tres botones que activen el Popover.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <body ng-app="app" ng-controller="contentController">
 <ion-pane>
   <ion-header-bar class="bar-stable">
@@ -41,7 +41,7 @@ Ahora vamos a definir la plantilla del [__$ionicPopover__][3]. Fíjese que debe 
 
 De resto es como definir una vista normal en __ionic__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="popover.html" type="text/ng-template">
   <ion-popover-view>
     <ion-header-bar>
@@ -60,7 +60,7 @@ De resto es como definir una vista normal en __ionic__.
 
 Primero vamos a crear el Popover inyectando el servicio [__$ionicPopover__][3]. Es muy similar al uso de Poppups.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $ionicPopover.fromTemplateUrl('popover.html', {
   scope: $scope
 }).then(function(p) {
@@ -70,13 +70,13 @@ $ionicPopover.fromTemplateUrl('popover.html', {
 
 No olvide inyectar el servicio en el controlador.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('contentController', function($scope, $ionicPopover){
 {% endhighlight %}
 
 Ahora vamos a trabajar el controlador. Hay que definir las funciones *abrirPopover* y *cerrarPopover*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.abrirPopover = function($event) {
   $scope.popover.show($event);
 };
@@ -87,7 +87,7 @@ $scope.cerrarPopover = function() {
 
 También se pueden manejar los eventos que se generan en el ciclo de vida del [__$ionicPopover__][3].
 
-{% highlight js linenos %}
+{% highlight js  %}
 //Limpiar el popover cuando ya no lo necesitemos
 $scope.$on('$destroy', function() {
   $scope.popover.remove();

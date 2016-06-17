@@ -1,0 +1,53 @@
+<div class="tile">
+    <div class="inner-guts">
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <div class="author">
+            <a href="mailto:{{ site.data.global.author_email }}">
+                <img class="img-rounded" src="{{ site.data.global.author_pic | prepend: '/img/autores/' | prepend: site.url }}" height="32">
+                <span class="author-name">{{ site.data.global.author }}</span>
+            </a>
+        </div>
+        <aside>
+            {{ post.date | date: "%d.%m.%y" }}
+            {% if post.categories != empty %}
+                &middot;
+                {% for category in post.categories %}
+                    <span>{{ category }}</span>
+                {% endfor %}
+            {% endif %}
+            &middot; {% include tweet-share.html %} {% include tweet-follow.html %}
+        </aside>
+
+        <div style="display: inline;">
+        {% if post.featured_image or post.featured_video_id or post.local_featured_image %}
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="featurette float-left">
+            {% if post.featured_image %}
+            <span class="img" style="background-image: url('{{ post.featured_image }}');"></span>
+            {% endif %}
+
+            {% if post.local_featured_image %}
+            <span class="img" style="background-image: url('{{ post.local_featured_image | prepend: "/img/" | prepend: site.data.global.url }}');">
+            {% endif %}
+
+            {% if post.featured_video_id %}
+            <iframe src="https://www.youtube.com/embed/{{ post.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
+            {% endif %}
+        </a>
+        {% endif %}
+        <p class="excerpt float-right">{{ post.excerpt }}</p>
+        </div>
+
+        {% if post.categories != empty %}
+        <div class="tags">
+            {% for tag in post.tags %}
+            <span>{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="read-more btn btn-info btn-lg">
+            Ver más... 
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </div>
+</div>

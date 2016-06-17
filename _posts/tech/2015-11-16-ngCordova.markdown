@@ -12,17 +12,19 @@ Vamos a crear un proyecto que use el plugin para la lectura de códigos QR desde
 
 Primero vamos a iniciar un proyecto [__ionic__][1] con la plantilla *blank* mediante el comando:
 
-  > ionic start QRReader blank
-
-  > cd QRReader
-
-  > ionic platform add ios 
-
-  > ionic platform add android
+<pre>
+  ionic start QRReader blank
+  cd QRReader
+  ionic platform add ios 
+  ionic platform add android
+</pre>
 
 Entre al directorio QRReader y se va a conseguir con el esqueleto de una aplicación [__ionic__][1]. Ahora ejecute:
 
-  > ionic serve -l
+<pre>
+  ionic serve -l
+</pre>
+ 
 
 De esta manera ya tiene un proyecto funcional sobre el cual vamos a partir para hacer la aplicación que utiliza [__ngCordova__][2] para leer códigos QR desde su aplicación.
 
@@ -30,7 +32,10 @@ Antes de iniciar podemos revisar algunas cosas previas, como por ejemplo los plu
 
 La forma de conocer cuales son los plugins instalados es mediante la línea de comando en la carpeta del proyecto:
 
-  > ionic plugin list
+<pre>
+  ionic plugin list
+</pre>
+
 
 Normalmente están instalados los plugins siguientes:
 
@@ -41,17 +46,22 @@ Normalmente están instalados los plugins siguientes:
 
 Es importante entender que cuando se utilizan las funcionalidades del dispositivo hay que utilizar los emuladores o los dispositivos reales para probar. Por ejemplo deberíamos conocer la línea de comandos de [__ionic__][1] para aprovechas las funcionalidades que nos ofrece el emulador. Esto se hace mediante la línea de comandos:
 
-  > ionic help emulate
+<pre>
+  ionic help emulate
+</pre>
 
 Como podemos ver hay dos opciones de interés que nos ayudan al proceso de desarrollo y a entender lo que pasa en la aplicación mediante mensajes en la cónsola. Estas son las opciones -l y -c. Entonces la opción -l usa livereload, lo cual implica que cuando se modifica algún archivo del proyecto este se carga en el dispositivo inmediatamente. La opción -c permite que los mensajes enviados a la cónsola mediante el comando *console.log()* se impriman en el terminal. Entonces la forma de utilizar el emulador es mediante la línea de comando siguiente:
 
-  > ionic emulate android -lc
-
-  > ionic emulate ios -lc
+<pre>
+  ionic emulate android -lc
+  ionic emulate ios -lc
+</pre>
 
 Por otra parte la forma de instalar [__ngCordova__][2] es, preferiblemente, mediante bower utilizando la línea de comando:
 
-  > bower install ngCordova --save-dev
+<pre>
+  bower install ngCordova --save-dev
+</pre>
 
 La opción *--save-dev* guarda la dependencia en el bower.json. Así que si alguien instala el proyecto sólo debe ejecutar __bower install__ para instalar las dependencias.
 
@@ -59,18 +69,20 @@ Puede fijarse en el directorio "www/lib" y se dará cuenta de que ngCordova est�
 
 En el archivo __index.html__ dentro del directorio __www__ vamos a agregar ngCordova antes de la inclusión de __cordova.js__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
 <script src="cordova.js"></script>
 {% endhighlight %}
 
 Ahora vamos a incluir el plugin [phonegap-plugin-barcodescanner][7] siguiendo las instrucciones o alternativamente el comando siguiente:
 
-  > ionic plugin add phonegap-plugin-barcodescanner
+<pre>
+  ionic plugin add phonegap-plugin-barcodescanner
+</pre>
 
 En el cuerpo del __index.html__ vamos a definir el controlador y vamos a crear una lista con un botón para activar el scanner y dos items con el resultado:
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-content ng-controller="contentController">
   <div class="list">
     <div class="item" ng-click="scanQRCode()">
@@ -88,13 +100,13 @@ En el cuerpo del __index.html__ vamos a definir el controlador y vamos a crear u
 
 Primero vamos a inyectar la dependencia en la definición del módulo principal:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 angular.module('starter', ['ionic', 'ngCordova'])
 {% endhighlight %}
 
 Ahora vamos a crear el controlador y definamos en el modelo *resultText* y *resultFormat* utilizando la documentación.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 .controller('contentController', ['$scope','$cordovaBarcodeScanner', function($scope, $cordovaBarcodeScanner) {
   $scope.scanQRCode = function()  {
     $cordovaBarcodeScanner.scan().then(function(result) {
@@ -110,7 +122,7 @@ Ahora vamos a crear el controlador y definamos en el modelo *resultText* y *resu
 
 Ya puede probar la aplicación con el código siguiente:
 
-<img src="/assets/img/qrcode.png">
+<img src="/img/qrcode.png">
 
 Este proceso es similar para todos los plugin de Cordova que se pueden utilizar mediante ngCordova.
 

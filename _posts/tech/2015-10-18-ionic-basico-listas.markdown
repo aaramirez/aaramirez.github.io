@@ -14,7 +14,7 @@ Se va a conseguir con una mini aplicación con una pantalla con un encabezado co
 
 El código del *HTML* es el siguiente:
 
-{% highlight html linenos %}
+{% highlight html  %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -48,13 +48,13 @@ El código del *HTML* es el siguiente:
 
 El código del *JS* es el siguiente:
 
-{% highlight js linenos %}
+{% highlight js  %}
 angular.module('app', ['ionic'])
 {% endhighlight %}
 
 Vamos a crear una lista dentro del tag __ion-content__ utilizando el tag __ion-list__ y cree un primer *item* utilizando el tag __ion-item__, en el contenido del *item* agregue la palabra *Item*.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-content>
   <ion-list>
     <ion-item>
@@ -70,7 +70,7 @@ Como lo usual es que la vista (nuestra pantalla) muestre los datos que se propor
 
 Primero definamos el controlador agregando al tag __ion-content__ la directiva *ng-controller* e indique que el nombre del controlador es *contentController*. Esta directiva (que proporciona AngularJS) permite asociar un controlador a este segmento de contenido (al contenido en __ion-content__) en la pantalla.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-content ng-controller="contentController">
 
 </ion-content>
@@ -86,7 +86,7 @@ Ahora vamos a definir *contentController* en *JS*. Esto se hace definiendo un co
 
 Normalmente a los controladores se le inyecta *$scope*, nuestro controlador quedaría:
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('contentController', function($scope){
   // Contenido del controlador
 });
@@ -94,7 +94,7 @@ Normalmente a los controladores se le inyecta *$scope*, nuestro controlador qued
 
 Ahora debemos especificar los datos que le vamos a exponer a la pantalla (la vista) a través de *$scope*. Vamos a definir un arreglo denominado *items* (*$scope.items*) y le vamos a asignar los valores. El arreglo va a estar compuesto por 10 *items* con un atributo de nombre *id* y un valor numérico.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 .controller('contentController', function($scope){
   // Contenido del controlador
   $scope.items = [
@@ -114,7 +114,7 @@ Ahora debemos especificar los datos que le vamos a exponer a la pantalla (la vis
 
 Ahora debemos utilizar *items* en la vista. Para ello vamos a recorrer el arreglo de *items* utilizando la directiva *ng-repeat* que proporciona *AngularJS* de la siguiente manera:
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-item ng-repeat="item in items">
   Item { { item.id } }
 </ion-item>

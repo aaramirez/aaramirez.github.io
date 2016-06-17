@@ -1,0 +1,28 @@
+<style>
+.phone {
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url("{{ include.phone-image }}") no-repeat right top;
+  margin-left: 20px;
+}
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 578px;
+  top: 114px;
+  left: 37px;
+}
+</style>
+<div class="row">
+<div class="col-md-4">
+  <div class="phone">
+  <iframe height='578' scrolling='no' src='//codepen.io/aaramirez/embed/{{ include.penid }}/?height=578&theme-id=20842&default-tab=result' frameborder='1px' allowtransparency='true' allowfullscreen='true' style="width: 100%; overflow: hidden;" class="embed_iframe">Ver el CodePen <a href='http://codepen.io/aaramirez/pen/{{ include.penid }}/'>{{ include.pentitle }}</a> by {{ include.penauthor }} (<a href='http://codepen.io/{{ include.penuser }}'>@{{ include.penuser }}</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
+  </div>
+</div>
+<div class="col-md-8">
+<p class="excerpt float-right" style="margin-left: 95px;">{{ include.text }}</p>
+</div>
+</div>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>

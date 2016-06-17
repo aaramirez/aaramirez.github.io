@@ -1,0 +1,28 @@
+# Site Settings
+title: 'Volver al futuro ...'
+email: timoto@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Compartir algo de lo que pienso, aprendo y hago, relacionado con la vida, la tecnología,
+  las aplicaciones, desarrollo de software, especulación, inversiones y finanzas.
+logo: 
+url: '' # the base hostname & protocol for your site
+footer_text: 'Copyright &copy; 2002-2016. Alexander A. Ramírez M. All Rights Reserved.'
+
+# Admin Settings
+admin_name: 'Alexander A. Ramírez M.'
+admin_email: 'alexander.ramirez@synergy-gb.com'
+
+author: Alexander A. Ramírez M.
+author_pic: Alexander_Ramirez1.jpg
+author_email: alexander.ramirez@synergy-gb.com
+
+# Google Analytics inserted in analytics.html
+tracking_id: UA-78557915-1
+
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://alexanderramirez.me" # the base hostname & protocol for your site
+github_username:  aaramirez
+# Twitter.. inserted in tweet-follow and tweet-share
+twitter_username: aaramirez
+

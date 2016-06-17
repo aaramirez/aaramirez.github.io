@@ -65,7 +65,7 @@ Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y 
 
 Primero vamos a definir la vista de navegación que va a contener toda la aplicación.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <body ng-app="app">
 <ion-nav-view>
 </ion-nav-view>
@@ -73,7 +73,7 @@ Primero vamos a definir la vista de navegación que va a contener toda la aplica
 
 Ahora vamos a crear la plantilla donde definimos los tabs con la directiva [__ion-tabs__][3].
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/tabs.html" type="text/ng-template">
   <ion-tabs class="tabs-assertive tabs-icon-top">
 
@@ -83,7 +83,7 @@ Ahora vamos a crear la plantilla donde definimos los tabs con la directiva [__io
 
 Ahora vamos a definir cada tab con la directiva [__ion-tab__][7].
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/tabs.html" type="text/ng-template">
   <ion-tabs class="tabs-assertive tabs-icon-top">
     <ion-tab title="Presentación" href="#/tabs/presenta" icon="ion-monitor">
@@ -101,7 +101,7 @@ Ahora vamos a definir cada tab con la directiva [__ion-tab__][7].
 
 Ahora en cada tab hay que definir las vistas de navegación mediante la directiva [__ion-nav-view__][8] y donde se mantendrá la historia de navegación.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/tabs.html" type="text/ng-template">
   <ion-tabs class="tabs-assertive tabs-icon-top">
     <ion-tab title="Presentación" href="#/tabs/presenta" icon="ion-monitor">
@@ -124,7 +124,7 @@ Ya tenemos la plantilla principal donde definimos la navegación. Fíjese que ca
 
 Vamos a definir las plantillas correspondientes a cada estado.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/presenta.html" type="text/ng-template">
   <ion-view view-title="Presentación">
     <ion-content>
@@ -159,7 +159,7 @@ Vamos a definir las plantillas correspondientes a cada estado.
 
 Ahora vamos a definir nuestros estados y rutas para ver la aplicación funcionando con los tabs definidos y los cambios de estado.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('tabs', {
@@ -202,7 +202,7 @@ Ahora vamos a definir nuestros estados y rutas para ver la aplicación funcionan
 
 Definamos los controladores respectivos de acuerdo a la configuración que acabamos de hacer.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope) {
@@ -225,7 +225,7 @@ angular.module('app', ['ionic'])
 Finalmente vamos a definir una plantilla de detalles de un empleado que recibe parámetros de la plantilla empleados.
 Primero debemos indicar al estado que vamos a navegar con [__ui-sref__][19] que provee __ui-router__ y enviamos un parámetro que va a recibir la pantalla de detalles de empleado. 
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/empleados.html" type="text/ng-template">
   <ion-view view-title="Empleados">
     <ion-content>
@@ -252,7 +252,7 @@ Primero debemos indicar al estado que vamos a navegar con [__ui-sref__][19] que 
 
 El parámetro no llega hasta que se defina en el controlador correspondiente. Debemos inyectar [__$stateParams__][20] y rescatar el parámetro para crearlo en el modelo (__$scope__).
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 .controller('empleadoController', function($scope, $stateParams) {
   $scope.id = $stateParams.id;
 })
@@ -268,7 +268,7 @@ Les dejo un ejemplo que utiliza tabs y side-menu.
   z-index: 1;
   width: 380px;
   height: 810px;
-  background: url("/assets/img/phone.png") no-repeat right top;
+  background: url("/img/phone.png") no-repeat right top;
   margin-left: 20px;
 }
 .embed_iframe {

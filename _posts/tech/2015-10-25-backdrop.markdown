@@ -17,7 +17,7 @@ Ingrese a [play.ionic.io][4] para obtener el código para iniciar el tutorial y 
 
 En el *HTML*, en el contenido cree un botón para activar el Backdrop. Debe especificar a través de la directiva __ng-click__ de AngularJS la rutina que se va a ejecutar para iniciar el Backdrop.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <p>
   Como usar el Backdrop...  y el Loading de Ionic
 </p>
@@ -30,13 +30,13 @@ Fíjese que a la rutina *showBackdrop* le estamos especificando un número 5000.
 
 Ahora en el *JS* inyecte el servicio para utilizar el Backdrop [__$ionicBackdrop__][2] y también el servicio [__$timeout__][6] de AngularJS. El servicio [__$timeout__][6] nos devuelve una promesa que retorna después de que pasa el tiempo especificado y se ejecuta la función especificada. Sirve para ejecutar alguna acción o sencillamente devolver una promesa después de un tiempo definido. 
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 .controller('contentController', function($scope, $ionicBackdrop, $timeout) {
 {% endhighlight %}
 
 Ahora vamos a definir nuestra rutina *showBackdrop*.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.showBackdrop = function(milis) {
   $ionicBackdrop.retain();
   $timeout(function(){
@@ -47,14 +47,14 @@ $scope.showBackdrop = function(milis) {
 
 Ahora vamos a usar el servicio [__$ionicLoading__][3]. Primero lo debemos inyectar al controlador.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 .controller('contentController', function($scope, $ionicBackdrop, 
   $timeout, $ionicLoading) {
 {% endhighlight %}
 
 Los métodos de [__$ionicLoading__][3] son *show* y *hide*. En el caso de *show*  se especifica un objeto con los parámetros que utiliza el servicio. Ahora vamos a incorporarlo en la rutina *showBackdrop*.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.showBackdrop = function(milis) {
   $ionicBackdrop.retain();
   $ionicLoading.show({

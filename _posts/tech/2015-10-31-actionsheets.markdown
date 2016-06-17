@@ -19,13 +19,13 @@ Ingrese a [play.ionic.io][6] para obtener el código para iniciar el tutorial y 
 
 En el *HTML*, se debe definir qué acción o interacción por parte del usuario va a activar el [__Action Sheet__][5]. Hemos decidido utilizar un gesto denominado [__on-hold__][8] que consiste en que el usuario mantiene presionado un elemento o un botón por más de 500ms. La forma de capturarlo es especificar en el elemento la directiva [__on-hold__][8] e indicar la rutina que va a manejar el evento en el controlador.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-item on-hold="showActionSheet(item)" ng-repeat="item in items">
 {% endhighlight %}
 
 A continuación la rutina que lo maneja
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.showActionSheet = function (i) {
   alert('Action Sheet '+i.id);
 }
@@ -35,7 +35,7 @@ Como puede observar al mantener presionado el elemento de la lista aparece una a
 
 Ahora vamos a inyectar el servicio [__$ionicActionSheet__][5] en el controlador. Para fines del ejercicio también vamos a inyectar [__$timeout__][9]
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('contentController', 
   function($scope, dataService, $ionicListDelegate, 
     $ionicActionSheet, $timeout){
@@ -43,7 +43,7 @@ Ahora vamos a inyectar el servicio [__$ionicActionSheet__][5] en el controlador.
 
 Ahora vamos a implementar *showActionSheet* agregando un botón para cancelar, otro para borrar, uno para mover un item arriba y otro para mover un item abajo, aprovechando el código de los tutoriales previos.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.showActionSheet = function (item) {
   $ionicActionSheet.show({
     titleText: 'Manipula elementos de la lista...',
@@ -78,7 +78,7 @@ Por último leyendo la documentación resulta que __$ionicActionSheet.show()__ r
 
 La rutina *showActionSheet* queda así:
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.showActionSheet = function (item) {
   var functionToHideSheet = $ionicActionSheet.show({
     titleText: 'Manipula elementos de la lista...',

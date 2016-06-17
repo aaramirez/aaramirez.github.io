@@ -13,7 +13,7 @@ Los menús laterales (tipo Drawer) o [__ion-side-menus__][1] en [__ionic__][2], 
   z-index: 1;
   width: 380px;
   height: 810px;
-  background: url("/assets/img/phone.png") no-repeat right top;
+  background: url("/img/phone.png") no-repeat right top;
   margin-left: 20px;
 }
 .embed_iframe {
