@@ -41,7 +41,7 @@ Los funcionarios del gobierno que conocen este fenómeno se aprovechan de este p
 
 Es fácil observar el discurso de muchos políticos en campaña y luego de ganar las elecciones. Cuando son candidatos suelen comparar y confrontar ideas, se busca la diferencia y se hace hincapié en las ventajas de las propuestas. Cuando se ganan las elecciones, el primer discurso, cambia de tono y se comienza a reconocer la diferencia no como una rivalidad, sino como un ingrediente necesario en la democracia. La diferencia o divergencia de opiniones es un valor que garantiza la preeminencia de la individualidad. Su fomento, es el fomento del desarrollo del hombre en su esplendor. El gobierno debe servir a éste, como un fin y no usarlo como un mero medio. 
 
-> El ciudadano debe tener conciencia de que el gobierno es su servidor y no lo contrario.
+> El ciudadano debe tener conciencia de que el gobierno es su servidor y no al contrario.
 
 Al toparnos con la individualidad manifiesta en mí y patente en el otro, surge la moral. La moral definida como: un conjunto de reglas que debemos seguir, nos impone el respeto por el otro. Esta es una actitud meramente individual. En la sociedad se manifiesta por el respeto a las instituciones que representan, al menos deben, los intereses de todos. Las instituciones son los mecanismos que crea un estado para actuar. La acción en el hombre es una decisión personal. La acción del gobierno se manifiesta en las instituciones. Si las instituciones no funcionan bien, la democracia no funciona bien.
 

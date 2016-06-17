@@ -19,13 +19,13 @@ Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y 
 
 En el *HTML* hay que agregar el atributo [__show-delete__][3] al tag __ion-list__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-list show-delete="showDeleteItem">
 {% endhighlight %}
 
 Ahora vamos a crear un botón que permita al usuario indicar si desea borrar un elemento de la lista.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-header-bar class="bar-positive">
   <div class="buttons">
     <button class="button button-icon icon ion-ios-minus-outline"
@@ -37,7 +37,7 @@ Ahora vamos a crear un botón que permita al usuario indicar si desea borrar un 
 
 Ahora puede ver que hay un botón en la barra superior, pero no hace nada. Nos corresponde ahora indicar en cada elemento de la lista qué debe hacer cuando se presiona el botón borrar.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-item ng-repeat="item in items">
   <ion-delete-button class="ion-minus-circled">
   </ion-delete-button>
@@ -47,7 +47,7 @@ Ahora puede ver que hay un botón en la barra superior, pero no hace nada. Nos c
 
 Ahora si presiona de nuevo el botón en la barra superior para borrar, aparece en cada elemento de la lista el ícono para borrar el elemento, pero si el botón de un elemento de la lista no pasa nada. Ahora hay que manejar el evento __ng-click__ de Angular al tab __ion-delete-button__ y especificar la función en el controlador que va a realizar la operación de borrar el elemento de la lista.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-item ng-repeat="item in items">
   <ion-delete-button class="ion-minus-circled" ng-click="deleteItem(item)">
   </ion-delete-button>
@@ -59,7 +59,7 @@ Ahora en *JS* cree la función *deleteItem* para ejecutar la acción de borrar. 
 
 Tenemos que agregar una función en el controlador y otra en el servicio. Vamos con la primera.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.deleteItem = function(item) {
   dataService.deleteDataItem($scope.items.indexOf(item));
 };
@@ -67,7 +67,7 @@ $scope.deleteItem = function(item) {
 
 Ahora modifiquemos el servicio para borrar un elemento de la lista.
 
-{% highlight js linenos %}
+{% highlight js  %}
 getData: function() {
   return this.data;
 },

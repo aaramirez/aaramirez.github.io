@@ -25,9 +25,9 @@ Les dejo los links a la documentación:
 - [localStorage][6]
 - [Storage Object][8]
 
-Si se fijan varias de las prácticas definidas en la documentación se aplican en el factory. Eso es lo bueno de seguir la documentación oficial para luego desarrollar alguna funcionalidad.
+Si se fijan, varias de las prácticas definidas en la documentación se aplican en el factory. Eso es lo bueno de seguir la documentación oficial para luego desarrollar alguna funcionalidad.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 (function() {
   
 var app = angular.module('app', ['ionic']);

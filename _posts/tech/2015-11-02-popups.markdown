@@ -20,13 +20,13 @@ Ingrese a [play.ionic.io][3] para obtener el código para iniciar el tutorial y 
 
 Primero en *JS* inyecta el servicio [__$ionicPopup__][2] en el controlador.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('contentController', function($scope, $ionicPopup) {
 {% endhighlight %}
 
 Ahora vamos a definir la rutina *showAlert* que va a manejar la alerta en el modelo. Revise los parámetros que recibe [__$ionicPopup.alert__][2].
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.showAlert = function() {
   var alertPopupPromise = $ionicPopup.alert({
     title: 'Alerta de Seguridad',
@@ -47,7 +47,7 @@ Fíjese que [__$ionicPopup.alert__][2] devuelve una promesa y esta se resuelve c
 
 Ahora en *HTML* indique en el primer botón el nombre de la rutina que va a generar la alerta utilizando la directiva de Angular __ng-click__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <button ng-click="showAlert()" class="button button-block button-assertive">Alert</button>
 {% endhighlight %}
 
@@ -55,13 +55,13 @@ Ahora si puede presionar el primer botón y ver el resultado de la alerta.
 
 Aprovechando que estamos en el *HTML* vamos a agregar al segundo botón la directiva __ng-click__ y especifiquemos la rutina que va a manejar el evento con el nombre *showConfirm*.
 
-{% highlight html linenos %}
+{% highlight html  %}
 
 {% endhighlight %}
 
 Y por su parte en el *JS* definamos en el modelo *showConfirm*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.showConfirm = function() {
   var confirmPopupPromise = $ionicPopup.confirm({});
 };
@@ -69,7 +69,7 @@ $scope.showConfirm = function() {
 
 De la misma manera verifique la documentación y los parámetros que puede usar para el título, subtítulo, contenido y los botones de *ok* y *cancel*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.showConfirm = function() {
   var confirmPopupPromise = $ionicPopup.confirm({
     title: 'Transferencias y Pagos',
@@ -89,7 +89,7 @@ $scope.showConfirm = function() {
 
 Si se fija bien es la misma estructura del *Alert*. Sin embargo, la promesa cuando se resuelve nos proporciona información sobre la selección del usuario en una variable. Ud. puede tomar esa variable y ejecutar distintas acciones que se basen en la respuesta del usuario de la forma siguiente.
 
-{% highlight js linenos %}
+{% highlight js  %}
 confirmPopupPromise.then(function(res) {
   if (res)
     alert('Operación realizada!!');
@@ -100,7 +100,7 @@ confirmPopupPromise.then(function(res) {
 
 Ahora sigamos de manera análoga con *prompt()*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.showPrompt = function() {
   var promptPopupPromise = $ionicPopup.prompt({
     title: 'Chequeo de Seguridad',

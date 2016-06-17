@@ -18,7 +18,7 @@ Ingrese a [play.ionic.io][2] para obtener el código para iniciar el tutorial y 
 
 En el *HTML*, después la directiva [__ion-list__][5] agregue la directiva [__ion-infinite-scroll__][4] y especifique la rutina que busca y agrega los datos con el atributo __on-infinite__ y la distancia en que se activa la rutina con el atributo __distance__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 </ion-list>
 <ion-infinite-scroll on-infinite="moreData()" distance="10%">
 </ion-infinite-scroll>
@@ -26,7 +26,7 @@ En el *HTML*, después la directiva [__ion-list__][5] agregue la directiva [__io
 
 Ahora vamos a agregar la rutina *moreData* en el controlador y agreguemos 10 elementos a la lista utilizando el método *push* de JavaScript.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.moreData = function() {
   var l = $scope.items.length;
   for (var i=l+1; i<=l+10; i++) {
@@ -37,7 +37,7 @@ $scope.moreData = function() {
 
 Como podemos ver cada vez que se llega al final de la lista se cargan más elementos, pero queda el *Spinner* dando vueltas. Esto es debido a que no hemos hecho *broadcast* del evento que indica que ya se cargaron los datos. Esto se hace a través de [__$scope.$broadcast__][6] del evento [__scroll.infiniteScrollComplete__][4].
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.moreData = function() {
   var l = $scope.items.length;
   for (var i=l+1; i<=l+10; i++) {
@@ -49,13 +49,13 @@ $scope.moreData = function() {
 
 Ahora vamos a explorar otra funcionalidad. Hasta ahora hemos agregado elementos sin límite, pero es posible en muchos casos que se desee limitar la cantidad de elementos o que exista un límite en la cantidad de datos. Para lograr este comportamiento ahora nos valemos de *AngularJS* y utilizamos la directiva [__ng-if__][7]. Esta permite remover o recrear una porción del DOM (la estructura de elementos de una página) basado en el valor de una expresión (__expression__). La vamos a colocar en la directiva [__ion-infinite-scroll__][4] y vamos a indicar la rutina que provee dicha información.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-infinite-scroll ng-if="dataAvailable()" on-infinite="moreData()" distance="10%">
 {% endhighlight %}
 
 Ahora vamos a implementar la rutina *dataAvailable* en el controlador indicando que no se carguen más de 40 elementos.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.dataAvailable = function() {
   return $scope.items.length<40;
 };

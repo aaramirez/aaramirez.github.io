@@ -14,7 +14,7 @@ Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y 
 
 En el *HTML* hay que agregar el tag [__ion-refresher__][3] luego del tag __ion-content__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-content ng-controller="contentController">
   <ion-refresher
     pulling-text="Pull to refresh..."
@@ -25,7 +25,7 @@ En el *HTML* hay que agregar el tag [__ion-refresher__][3] luego del tag __ion-c
 
 Luego modifique el controlador y agregue la definición de la función *doListUpdate*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 $scope.doListUpdate = function() {
   var newItemId = $scope.items[0].id + "1";
   $scope.items.unshift({ id: newItemId });

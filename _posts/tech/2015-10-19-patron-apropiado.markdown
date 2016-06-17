@@ -12,7 +12,7 @@ Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y 
 
 En el *JS* defina el servicio que va a exponer los datos a través de un método *getData*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .service('dataService', function() {
   return {
     data: [
@@ -36,7 +36,7 @@ En el *JS* defina el servicio que va a exponer los datos a través de un método
 
 Borre la definición de *$scope.items* del controlador. Debe quedar como sigue:
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 .controller('contentController', function($scope){
   
 });
@@ -44,7 +44,7 @@ Borre la definición de *$scope.items* del controlador. Debe quedar como sigue:
 
 Para poder utilizar el servicio en el controlador se debe inyectar el servicio de la forma siguiente:
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 .controller('contentController', function($scope, dataService){
   
 });
@@ -52,7 +52,7 @@ Para poder utilizar el servicio en el controlador se debe inyectar el servicio d
 
 Ahora utilice el servicio y obtenga los datos mediante el método *getData* del servicio *dataService* y asígnelo a *$scope.items*.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('contentController', function($scope, dataService){
   $scope.items = dataService.getData();
 })

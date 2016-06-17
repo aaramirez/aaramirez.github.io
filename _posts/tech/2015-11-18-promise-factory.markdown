@@ -12,7 +12,7 @@ Vamos a dar un ejemplo del uso de las promesas a través de un servicio (factory
 
 Primero debemos declarar nuestro servicio (factory), denominado getYahooData, mediante el método __factory__ en nuestro módulo de AngularJS. Adicionalmente debemos declarar el uso del servicio en nuestro controlador. En el servicio debemos inyectar [__$q__][2] y [__$http__][3]. El primero es para definir promesas y manejarlas y el segundo para acceder datos.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
@@ -26,7 +26,7 @@ angular.module('app', ['ionic'])
 
 Ahora vamos a definir el método getTickerData. En el método declaremos la variable que vamos a usar para la promesa (deferred) y utilice el servicio __$http__ para acceder a los datos de acuerdo al ejemplo previo en el blog. Les dejo la estructura típica como referencia. Básicamente el servicio __$http__ también devuelve una promesa y se puede utilizar el método __success__ y __error__ de la promesa. Cada uno de esos métodos devuelve los datos si es exitoso o el error.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
@@ -56,7 +56,7 @@ angular.module('app', ['ionic'])
 
 Ahora defina lo que va a retornar el servicio, que es un objeto con la lista de métodos que se desean exponer en el servicio. El servicio debe retornar una estructura como esta siempre.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
@@ -89,7 +89,7 @@ angular.module('app', ['ionic'])
 
 Ahora vamos a implementar los métodos __success__ y __error__ utilizando los métodos __resolve__ y __reject__. Adicionalmente el método __getTickerData__ debe retornar la promesa.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
@@ -122,7 +122,7 @@ angular.module('app', ['ionic'])
 
 Ahora implemente el controlador, manejando la promesa y tomando el resultado utilizando el método __then__. Debe enviar el parámetro que espera el método y colocar en el modelo la información que viene del servicio.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {

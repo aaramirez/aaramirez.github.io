@@ -22,13 +22,13 @@ Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y 
 
 En el *HTML*, en la directiva [__ion-list__][3] de Ionic agregue el atributo y especifique el nombre de la lista "my-list".
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-list delegate-handle="my-list">
 {% endhighlight %}
 
 En el *HTML*, en cada elemento agregue tres opciones, una para borrar, una para subir un elemento y otra para bajarlo en el orden.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-item ng-repeat="item in items">
   <ion-option-button class="button-assertive icon ion-trash-a">
   </ion-option-button>
@@ -42,7 +42,7 @@ En el *HTML*, en cada elemento agregue tres opciones, una para borrar, una para 
 
 Ahora en cada opción agreguemos el manejo del evento a través de la directiva __ng-click__.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <ion-item ng-repeat="item in items">
   <ion-option-button class="button-assertive icon ion-trash-a" 
     ng-click="deleteClick(item)"></ion-option-button>
@@ -56,13 +56,13 @@ Ahora en cada opción agreguemos el manejo del evento a través de la directiva 
 
 Lo primero que debemos hacer es inyectar el servicio para manejar las listas [__$ionicListDelegate__][5].
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 .controller('contentController', function($scope, $ionicListDelegate) {
 {% endhighlight %}
 
 Una vez agregado el servicio ahora debemos definir las funciones *deleteClick*, *upClick* y *downClick* en el controlador.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
   $scope.deleteClick = function(item) {
     
   };
@@ -76,7 +76,7 @@ Una vez agregado el servicio ahora debemos definir las funciones *deleteClick*, 
 
 Ahora vamos a cerrar el menú de opciones cada vez que se haga click a alguna opción.
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
   $scope.deleteClick = function(item) {
     $ionicListDelegate.$getByHandle('my-list').closeOptionButtons();
   };
@@ -94,7 +94,7 @@ Ahora falta ejecutar la acción correspondiente en cada controlador.
 
 ### deleteClick
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.deleteClick = function(item) {
   $scope.items.splice($scope.items.indexOf(item), 1);
   $ionicListDelegate.$getByHandle('my-list').closeOptionButtons();
@@ -103,7 +103,7 @@ $scope.deleteClick = function(item) {
 
 ### upClick
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.upClick = function(item) {
   var index = $scope.items.indexOf(item);
   if (index>0) {
@@ -116,7 +116,7 @@ $scope.upClick = function(item) {
 
 ### downClick
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 $scope.downClick = function(item) {
   var index = $scope.items.indexOf(item);
   if (index<$scope.items.length) {

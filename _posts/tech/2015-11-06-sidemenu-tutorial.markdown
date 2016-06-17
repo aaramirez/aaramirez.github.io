@@ -98,7 +98,7 @@ Estamos partiendo de una aplicación sin nada.
 
 Primero definamos nuestro contenedor principal con la directiva [__ion-nav-view__] y luego nuestra primera plantilla *menu.html*. Dentro de nuestra plantilla hay que definir el contenedor del menú [__ion-side-menus__][5]. Este contenedor cuenta con dos directivas hijas [__ion-side-menu-content__][6] y [__ion-side-menu__][7]. [__ion-side-menu-content__][6] puede tener dos hermanas (siblings) del tipo [__ion-side-menu__][7] que pueden colocarse a la derecha o a la izquierda.
 
-{% highlight html linenos %}
+{% highlight html %}
 <ion-nav-view>
 </ion-nav-view>
 
@@ -117,7 +117,7 @@ Primero definamos nuestro contenedor principal con la directiva [__ion-nav-view_
 
 Ahora dentro del [__ion-side-menu-content__][6] definamos una barra de navegación con sus botones y la vista de navegación que servirá para desplegar las vistas. Esta vista de navegación [__ion-nav-view__][12] es la que se utiliza en cada plantilla para desplegar contenido.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/menu.html" type="text/ng-template">
   <ion-side-menus>
     <ion-side-menu-content>
@@ -139,7 +139,7 @@ Ahora dentro del [__ion-side-menu-content__][6] definamos una barra de navegaci�
 
 Completemos la barra de navegación incluyendo el botón para navegar al estado previo [__ion-nav-back-button__][13] y agreguemos el botón que va a activar el menú. Ese botón que activa el menú debe utilizar la directiva [__menu-toggle__][9] que es la que activa el menú del lado que se indique. Esta directiva se coloca en un link o un botón.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/menu.html" type="text/ng-template">
   <ion-side-menus>
     <ion-side-menu-content>
@@ -165,7 +165,7 @@ Completemos la barra de navegación incluyendo el botón para navegar al estado 
 
 Ahora vamos a definir el contenido del menú. Este menú es un contenedor que permite definir un [__ion-header-bar__][14], [__ion-footer-bar__][15] y [__ion-content__][16]. También se podría definir un sub-footer o sub-header. Es una plantilla contenedora que se puede generar dinámicamente utilizando el controlador del menú. Defina una lista con tres elementos que nos permitan navegar a las tres vistas que vamos a crear. Fíjese en el uso de la directiva [__menu-close__][10]. Sin ella el menú no se cierra solo. Esta se debe usar en cada elemento del menú.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/menu.html" type="text/ng-template">
   <ion-side-menus>
     <ion-side-menu-content>
@@ -209,7 +209,7 @@ Ahora vamos a definir el contenido del menú. Este menú es un contenedor que pe
 
 Ahora vamos a crear las plantillas de las tres vistas que vamos a utilizar de la manera usual.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/presenta.html" type="text/ng-template">
   <ion-view view-title="Presentación">
     <ion-content>
@@ -237,7 +237,7 @@ Ahora vamos a crear las plantillas de las tres vistas que vamos a utilizar de la
 
 Vamos al modulo principal y definamos los estados y los controladores respectivos. Esto se hace con la rutina __.config__. Primero se define el estado principal o padre que es donde está el menú. Esto lo que significa es que todos los estados (en esta aplicación) van a ser hijos de este principal. Hay que utilizar el atributo __abstract__ para indicar que no es un estado al que se navega directamente sino que es un padre. Luego definamos 
 
-{% highlight js linenos %}
+{% highlight js  %}
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('app', {
@@ -251,7 +251,7 @@ Vamos al modulo principal y definamos los estados y los controladores respectivo
 
 Como puede ver todavía no aparece nada en pantalla. Ahora definamos el resto de los estados y mediante el servicio [__$urlRouterProvider__][18] indiquemos cual es la pantalla por defecto. Revise también la documentación de [__$stateProvider__][17] como referencia.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('app', {
@@ -294,7 +294,7 @@ Como puede ver todavía no aparece nada en pantalla. Ahora definamos el resto de
 
 Ahora definamos los controladores respectivos.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('appController', function($scope) {
 })  
 
@@ -314,7 +314,7 @@ Para darle un poco de más funcionalidad vamos a agregar una lista de empleados 
 
 Tenemos que crear un estado nuevo y un controlador nuevo para la plantilla de información específica de un empleado. La particularidad de este estado es que en el __url__ podemos indicar que se reciben parámetros que luego vamos a utilizar en el controlador y en la vista.
 
-{% highlight js linenos %}
+{% highlight js  %}
 .state('app.empleado', {
   url: "/empleado/{id:int}",
   views: {
@@ -328,7 +328,7 @@ Tenemos que crear un estado nuevo y un controlador nuevo para la plantilla de in
 
 Ahora vamos a definir la vista nueva y modificamos la de *Empleados* para crear una lista de empleados y cambiar de estado con [__ui-sref__][19] y el parámetro respectivo.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/empleados.html" type="text/ng-template">
   <ion-view view-title="Empleados">
     <ion-content>
@@ -347,7 +347,7 @@ Ahora vamos a definir la vista nueva y modificamos la de *Empleados* para crear 
 
 Ahora vamos a crear la vista nueva de *Empleado* y mostremos el parámetro que nos envió la pantalla de *Empleados*.
 
-{% highlight html linenos %}
+{% highlight html  %}
 <script id="templates/empleado.html" type="text/ng-template">
   <ion-view view-title="Empleado">
     <ion-content>
@@ -361,7 +361,7 @@ Este es un flujo muy usual para manejar parámetros a las pantallas siguientes y
 
 Como se puede dar cuenta todavía falta algo. Eso es el controlador de la nueva pantalla que es el que toma el parámetro que envió la pantalla anterior y define en el modelo el que va a consumir la vista. Los parámetros son accesibles a través de [__$stateParams__][20].
 
-{% highlight js linenos %}
+{% highlight js  %}
 .controller('empleadoController', function($scope, $stateParams) {
   $scope.id = $stateParams.id;
 })
@@ -379,7 +379,7 @@ Veamos el resultado.
   z-index: 1;
   width: 380px;
   height: 810px;
-  background: url("/assets/img/phone.png") no-repeat right top;
+  background: url("/img/phone.png") no-repeat right top;
   margin-left: 20px;
 }
 .embed_iframe {
