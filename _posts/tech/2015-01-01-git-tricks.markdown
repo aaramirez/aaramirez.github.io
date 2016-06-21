@@ -15,7 +15,9 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 
 - [Crear un nuevo branch][4]
 
-	- git checkout -b BRANCHNAME
+<pre>
+	$ git checkout -b BRANCHNAME
+</pre>
 
 - [Hacer merge de un branch][13]
 
@@ -25,23 +27,31 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 
 - Hacer un clone de un branch específico
 
-	- git clone -b BRANCHNAME --single-branch git://sub.domain.com/repo.git
+<pre>
+	$ git clone -b BRANCHNAME --single-branch git://sub.domain.com/repo.git
+</pre>
 
 ### Configurar un "remote" de un fork y sincronizar
 
 - Para consultar
 
-	- git remote -v
+<pre>
+	$ git remote -v
+</pre>
 
 - Para asociar un upstream
 
-	- git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+<pre>
+	$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+</pre>
 
 - Para [sincronizar][6]
 
-	- git fetch upstream
-	- git checkout master
-	- git merge upstream/master
+<pre>
+	$ git fetch upstream
+	$ git checkout master
+	$ git merge upstream/master
+</pre>
 
 - Para hacer [push a un remote][7]
 
@@ -53,11 +63,12 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 
 - [Crear tags][12]
 
-	- git tag -a v1.4 -m "my version 1.4"
-	- git tag
-	- git push origin v1.4
-	- git push origin --tags
-
+<pre>
+	$ git tag -a v1.4 -m "my version 1.4"
+	$ git tag
+	$ git push origin v1.4
+	$ git push origin --tags
+</pre>
 
 [1]: https://help.github.com/articles/set-up-git/ "Set up git"
 [2]: https://help.github.com/articles/adding-a-file-to-a-repository-from-the-command-line/ "Add files"
