@@ -15,29 +15,33 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 
 - [Crear un nuevo branch][4]
 
-	> git checkout -b BRANCHNAME
+	- git checkout -b BRANCHNAME
+
+- [Hacer merge de un branch][13]
+
+- [Mejor manera de hacer Merge][14]
 
 - Hacer un [fork de un reporitorio][5]
 
 - Hacer un clone de un branch específico
 
-	> git clone -b BRANCHNAME --single-branch git://sub.domain.com/repo.git
+	- git clone -b BRANCHNAME --single-branch git://sub.domain.com/repo.git
 
 ### Configurar un "remote" de un fork y sincronizar
 
 - Para consultar
 
-	> git remote -v
+	- git remote -v
 
 - Para asociar un upstream
 
-	> git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+	- git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 
 - Para [sincronizar][6]
 
-	> git fetch upstream
-	> git checkout master
-	> git merge upstream/master
+	- git fetch upstream
+	- git checkout master
+	- git merge upstream/master
 
 - Para hacer [push a un remote][7]
 
@@ -49,10 +53,10 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 
 - [Crear tags][12]
 
-	> git tag -a v1.4 -m "my version 1.4"
-	> git tag
-	> git push origin v1.4
-	> git push origin --tags
+	- git tag -a v1.4 -m "my version 1.4"
+	- git tag
+	- git push origin v1.4
+	- git push origin --tags
 
 
 [1]: https://help.github.com/articles/set-up-git/ "Set up git"
@@ -67,3 +71,5 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 [10]: https://help.github.com/articles/github-flow-in-the-browser/ "Github flow in the browser"
 [11]: https://guides.github.com/introduction/flow/ "Flow"
 [12]: https://git-scm.com/book/en/v2/Git-Basics-Tagging "Tags"
+[13]: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging "Merging a branch"
+[14]: http://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master "Best way to merge"
