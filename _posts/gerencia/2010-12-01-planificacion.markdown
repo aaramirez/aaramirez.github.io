@@ -1,7 +1,7 @@
 ---
 title: "With open eyes..."
 date: 2010-12-01 08:00:00
-categories: planificacion estrategica
+categories: gerencia planificación
 ---
 En el ambiente corporativo es muy común que se requiera de consultoría para implementar el proceso de planificación estratégico que termina siendo un ciclo de planificación.
 

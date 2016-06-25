@@ -1,7 +1,7 @@
 ---
 title: "Diseño y construcción de interfases de usuario - 4"
 date: 2010-11-10 08:00:00
-categories: diseno interfases
+categories: diseño interfaces
 comments: true
 ---
 Ya hablamos de la Simplicidad como uno de los atributos importantes a la hora de crear interfaces de usuario. Sin tratar de ser exhaustivos ahora nos toca la Flexibilidad.

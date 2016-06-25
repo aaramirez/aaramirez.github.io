@@ -1,7 +1,7 @@
 ---
 title: "Canvas en Ionic"
 date: 2015-10-28 08:00:00
-categories: ionic angularjs cordova tutorial
+categories: desarrollo ionic angularjs
 comments: true
 ---
 Haciendo pruebas con el talento de la oficina usamos [play.ionic.io][1] para ver el funcionamiento de tag *canvas*. Tomamos un ejemplo y lo montamos. Este es el [resultado][2].

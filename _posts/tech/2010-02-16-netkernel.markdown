@@ -1,7 +1,7 @@
 ---
 title: "REST en NetKernel"
 date: 2010-02-16 08:16:10
-categories: ideas computacion servicios rest
+categories: tecnología
 comments: true
 ---
 Entendiendo y estudiando cómo se implementa SOA en una empresa y específicamente las distintas alternativas que existen para publicar un servicio o un recurso, me he conseguido con un concepto que tiene algún tiempo, REST.

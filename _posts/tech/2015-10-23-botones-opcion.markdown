@@ -1,7 +1,7 @@
 ---
 title: "Ofreciendo opciones en las listas"
 date: 2015-10-23 08:00:00
-categories: ionic angularjs cordova tutorial
+categories: desarrollo ionic angularjs
 comments: true
 ---
 Otra forma de trabajar con la lista es ofrecer al usuario la opción de delizamiento a la izquierda (swipe left) en cada elemento de la lista.

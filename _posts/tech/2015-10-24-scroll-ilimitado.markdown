@@ -1,7 +1,7 @@
 ---
 title: "Listas con deslizamiento (scroll) ilimitado"
 date: 2015-10-24 08:00:00
-categories: ionic angularjs cordova tutorial
+categories: desarrollo ionic angularjs
 comments: true
 ---
 En [__Ionic__][1] es posible cargar datos parcialmente en una lista y si el usuario llega al último elemento es posible cargar más datos y agregarlos a la lista. Esto se logra con la directiva [__ion-infinite-scroll__][4]. Esta permite llamar alguna rutina cada vez que llegamos al final de la lista o estamos cerca de llegar al final.

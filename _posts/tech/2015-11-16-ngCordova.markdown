@@ -1,7 +1,7 @@
 ---
 title: "Uso de plugins de Cordova en Ionic - Códigos QR"
 date: 2015-11-16 08:00:00
-categories: ionic angularjs javascript tutorial QR
+categories: desarrollo ionic angularjs
 comments: true
 ---
 La forma de comunicarse con las funcionalidades del dispositivo, en [__ionic__][1], es a través de Cordova. En particular hay un wrapper para usar los plugins de Cordova denominado [__ngCordova__][2].

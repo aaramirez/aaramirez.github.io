@@ -1,7 +1,7 @@
 ---
 title: "Jekyll Multi idioma"
 date: 2016-06-21 08:00:00
-categories: jekyll
+categories: desarrollo web jekyll
 comments: true
 ---
 

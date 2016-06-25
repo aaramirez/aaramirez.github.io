@@ -1,7 +1,7 @@
 ---
 title: "Ciclos, van y vienen"
 date: 2011-01-03 08:00:00
-categories: gerencia planificacion trading
+categories: gerencia trading
 ---
 
 En los mercados, en los paises, en las empresas, en las industrias, en los sectores, en todo existen ciclos. Estos ciclos se manifiestan en épocas buenas, de bonanza, ganancia, éxito, crecimiento, desarrollo, prosperidad y épocas malas, de decrecimiento, depresión, pérdidas, recesión, fracaso, involución, etc.

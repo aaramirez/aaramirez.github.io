@@ -1,7 +1,7 @@
 ---
 title: "Crea tu Blog con Jekyll"
 date: 2016-06-08 08:00:00
-categories: jekyll bootstrap
+categories: desarrollo web jekyll
 comments: true
 ---
 

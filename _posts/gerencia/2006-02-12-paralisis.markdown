@@ -1,7 +1,7 @@
 ---
 title: "Parálisis by Analysis"
 date: 2006-02-12 08:00:00
-categories: gerencia planificacion
+categories: gerencia
 ---
 El día a día de un Gerente es la toma de decisiones. Normalmente existen una serie de herramientas que ayudan y despejan el camino sobre las posibles alternativas y sus consecuencias previsibles; en la medida en que está claro el objetivo que se persigue, debería quedar claro el curso de acción, sin embargo hay momentos que este proceso (evaluar alternativas) consume muchos recursos sin conclusión aparente.
 

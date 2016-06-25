@@ -1,7 +1,7 @@
 ---
 title: "Divergencias"
 date: 2008-08-07 08:00:00
-categories: trading inversion indicadores divergencias
+categories: trading
 ---
 ¿De que manera los indicadores nos pueden ayudar a identificar cambios del momentum? ¿De que manera podemos identificar posibles cambios de dirección con un indicador?
 

@@ -1,7 +1,7 @@
 ---
 title: "Reordenar elementos de una lista"
 date: 2015-10-22 08:00:00
-categories: ionic angularjs cordova tutorial
+categories: desarrollo ionic angularjs
 comments: true
 ---
 Otra de las facilidades que ofrece __Ionic__ es la posibilidad para reordenar elementos de una lista. Esto se hace a través del atributo __show-reorder__ de __ion-list__.

@@ -1,7 +1,7 @@
 ---
 title: "El que se equivoca gana mas"
 date: 2006-02-13 08:00:00
-categories: gerencia planificacion
+categories: gerencia
 ---
 Efectivamente la reflexión está más presente en una situación de equívoco que en una de éxito. Los que se equivocan desarrollan un olfato y una entereza ante la adversidad que no se ve obligado a desarrollar, el que tiene éxito.
 

@@ -1,7 +1,7 @@
 ---
 title: "Indicadores"
 date: 2008-08-04 08:00:00
-categories: trading inversion indicadores
+categories: trading
 ---
 En el blog pasado hablamos de las tendencias y hay una afirmación que me gustaría retomar. Les he indicado que cuando el mercado se mueve en tendencia, la mayoría de los indicadores funcionan.
 

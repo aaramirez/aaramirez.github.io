@@ -1,7 +1,7 @@
 ---
 title: "Diseño y construcción de interfases de usuario - 2"
 date: 2010-09-11 08:00:00
-categories: diseno interfases
+categories: diseño interfaces 
 comments: true
 ---
 Ya hablamos de la Simplicidad como uno de los atributos importantes a la hora de crear interfaces de usuario. Nos toca la Relevancia.

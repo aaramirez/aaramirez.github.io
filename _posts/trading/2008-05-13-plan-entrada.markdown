@@ -1,7 +1,7 @@
 ---
 title: "Plan de Operación - Entrada"
 date: 2008-05-13 08:00:00
-categories: trading inversion entrada plan
+categories: trading
 ---
 El primer elemento de su Plan de Operación son las reglas para determinar el punto de entrada al mercado. 
 

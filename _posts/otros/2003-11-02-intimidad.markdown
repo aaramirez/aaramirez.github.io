@@ -1,7 +1,7 @@
 ---
 title: "Sobre la intimidad"
 date: 2003-11-02 08:00:00
-categories: relaciones pareja sexo intimidad
+categories: relaciones
 ---
 La intimidad no es lo mismo que el sexo. De hecho la diferencia radica en la vinculación de cada uno, en una pareja.
 

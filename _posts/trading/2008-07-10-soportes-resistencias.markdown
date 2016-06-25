@@ -1,7 +1,7 @@
 ---
 title: "Soportes y Resistencias"
 date: 2008-07-10 08:00:00
-categories: trading inversion soportes resistencias
+categories: trading
 ---
 El juego que presenciamos todos los días al observar los gráficos es el juego de Soporte y Resistencia. Este juego se produce entre dos equipos el equipo de los toros y el equipo de los osos.
 

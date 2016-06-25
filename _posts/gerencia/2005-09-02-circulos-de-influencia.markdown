@@ -1,7 +1,7 @@
 ---
 title: "Círculos de influencia"
 date: 2005-09-02 08:00:00
-categories: gerencia planificacion
+categories: gerencia
 ---
 No es evidente para el ingenuo que las relaciones son muy importantes para desarrollar la actividad gerencial. No voy a declarar maestría en el tema, pero si voy a declarar que el relacionamiento que logres como gerente es de suma importancia para armar equipos y lograr las metas.
 

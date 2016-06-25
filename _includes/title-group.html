@@ -36,10 +36,10 @@
         {% if page.categories != empty %}
             &middot;
             {% for category in page.categories %}
-                <span>{{ category }}</span>
+                <span><a class="cat" href="/indice/#{{ category | slugify }}">{{ category }}</a></span> &middot;
             {% endfor %}
         {% endif %}
-        &middot; {% include tweet-share.html %} {% include tweet-follow.html %}
+         {% include tweet-share.html %} {% include tweet-follow.html %}
     </aside>
     {% endif %}
 </div>

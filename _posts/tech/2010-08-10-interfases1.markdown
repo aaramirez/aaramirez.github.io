@@ -1,7 +1,7 @@
 ---
 title: "Diseño y construcción de interfases de usuario"
 date: 2010-08-10 08:00:00
-categories: diseno interfases
+categories: diseño interfaces
 comments: true
 ---
 

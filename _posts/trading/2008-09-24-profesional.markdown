@@ -1,7 +1,7 @@
 ---
 title: "¿Profesional o Apostador?"
 date: 2008-09-24 08:00:00
-categories: trading inversion
+categories: trading
 ---
 Espero que ante una pregunta como esta, los estudiantes y operadores que han trabajado sus estrategias conmigo respondan Profesional. 
 
