@@ -1,7 +1,7 @@
 ---
 title: "Yo soy Bolivariano como todos los Venezolanos"
 date: 2002-12-10 08:00:00
-categories: politica
+categories: política
 ---
 Reducir el destino de un país a la doctrina de un hombre, por muy ilustre que sea, es injusto con todos los hombres que han hecho algo útil por el país, por muy humilde que sea. 
 
