@@ -1,7 +1,7 @@
 ---
 title: "No a la violencia"
 date: 2002-12-05 08:00:00
-categories: politica
+categories: política
 ---
 La violencia en nuestros tiempos tiene varios matices, pero en una democracia se puede definir fundamentalmente como la imposición de unos sobre otros. 
 

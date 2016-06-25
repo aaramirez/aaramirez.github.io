@@ -1,7 +1,7 @@
 ---
 title: "Imperio del pueblo"
 date: 2002-12-07 08:00:00
-categories: politica
+categories: política
 ---
 En varias ocasiones hemos escuchado el concepto de democracia como el imperio de la ley, sin embargo tenemos un problema de principio en esta afirmación.
 

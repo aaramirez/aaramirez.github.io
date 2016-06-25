@@ -1,7 +1,7 @@
 ---
 title: "Cesen los partidos"
 date: 2002-12-03 08:00:00
-categories: politica
+categories: política
 ---
 Que cesen los partidos solamente puede significar que se respete la voluntad del pueblo a pesar de la línea del partido de gobierno o de cualquier otro. 
 
