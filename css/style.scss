@@ -37,6 +37,15 @@ a {
     &:hover { color: #a1a1a1; }
 }
 
+.cat {
+    outline: none !important;
+    text-decoration: none !important;
+    transition: all 225ms ease;
+    color: #484848;
+
+    &:hover { color: #a1a1a1; }
+}
+
 .btn {
     text-transform: uppercase;
     font-weight: 400;

@@ -40,7 +40,8 @@ permalink: /indice/
 		 <a href="{{ post.url }}">
 		 <small>{{ post.date | date_to_string }}</small>
 		 {{ post.title }}
-		 </a> | 
+		 </a>
+		 <small>|</small> 
 		 {% for cat in post.categories %}
 			 <small><a class="cat" href="#{{ cat | slugify }}">{{ cat }}</a>{% unless forloop.last %} &middot; {% endunless %}</small>
 		 {% endfor %}
