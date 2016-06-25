@@ -1,7 +1,7 @@
 ---
 title: "Taller datos con $http"
 date: 2015-11-17 08:00:00
-categories: ionic angularjs javascript taller
+categories: desarrollo ionic angularjs
 comments: true
 ---
 La forma de acceder datos con [__AngularJS__][3] es mediante el servicio [__$http__][2].

@@ -1,7 +1,7 @@
 ---
 title: "Plan de Operación - Salida"
 date: 2008-05-14 08:00:00
-categories: trading plan salida inversion
+categories: trading
 ---
 Su plan de Salida considera dos aspectos:
 

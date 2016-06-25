@@ -1,7 +1,7 @@
 ---
 title: "Lateral"
 date: 2008-07-17 08:00:00
-categories: trading inversion lateral
+categories: trading
 ---
 En la entrega pasada halamos de la situación en la que la reversión se forma luego de una consolidación. Cuando el mercado se consolida o crea un rango de operación con soporte y resistencia identificado, este rango o consolidación, normalmente forma parte de un swing ya sea alcista o bajista.
 

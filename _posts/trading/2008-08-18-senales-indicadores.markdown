@@ -1,7 +1,7 @@
 ---
 title: "Señales de los indicadores"
 date: 2008-08-18 08:00:00
-categories: trading inversion indicadores
+categories: trading
 ---
 Hay diversas señales que generan los indicadores y dependiendo de su estrategia algunas de ellas son más útiles que otras para Ud.
 

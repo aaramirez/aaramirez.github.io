@@ -1,7 +1,7 @@
 ---
 title: "Ciclo mortal"
 date: 2006-02-23 08:00:00
-categories: gerencia planificacion operacion
+categories: gerencia
 ---
 Es muy común que en las grandes organizaciones la planificación, la ejecución (ingeniería) y operación estén separadas. Esto genera un reto muy importante para el directivo de crear un tren gerencial que sea capaz de trabajar en equipo.
 

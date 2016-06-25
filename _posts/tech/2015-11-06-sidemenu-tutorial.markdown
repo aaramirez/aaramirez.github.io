@@ -1,7 +1,7 @@
 ---
 title: "Tutorial con menú lateral (ion-side-menus)" 
 date: 2015-11-06 08:00:00
-categories: ionic angularjs cordova tutorial
+categories: desarrollo ionic angularjs
 comments: true
 ---
 

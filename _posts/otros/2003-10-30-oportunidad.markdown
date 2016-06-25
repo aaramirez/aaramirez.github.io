@@ -1,7 +1,7 @@
 ---
 title: "Sobre la oportunidad"
 date: 2003-10-30 08:00:00
-categories: relaciones pareja sexo intimidad
+categories: relaciones
 ---
 Quiero expresarte lo que significa la oportunidad para un hombre y hablo de un hombre, justamente por que soy uno y a pesar de eso represento también una minúscula fracción de un género que considero, no en pocos casos, piensa y comparte mi sentir y pensar, aunque muy pocos lo logren expresar.
 

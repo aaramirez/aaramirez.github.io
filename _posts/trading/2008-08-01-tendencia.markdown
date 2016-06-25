@@ -1,7 +1,7 @@
 ---
 title: "Tendencia"
 date: 2008-08-01 08:00:00
-categories: trading inversion tendencia
+categories: trading
 ---
 Este blog pretende dejar una reflexión a los operadores para identificar las situaciones de mayor probabilidad a la hora de considerar una operación.
 

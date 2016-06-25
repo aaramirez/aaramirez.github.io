@@ -1,7 +1,7 @@
 ---
 title: "Plan de Operación - Backtesting"
 date: 2008-06-10 08:00:00
-categories: trading plan backtesting
+categories: trading
 ---
 Tal vez uno de los aspectos menos entendidos por los operadores es la necesidad de probar sus estrategias. Muchos operadores sencillamente quieren probar en el mercado su idea más reciente. Si funciona las primeras veces es suficiente para seguirla operando, si no hay que comenzar de nuevo y pensar en una nueva.
 

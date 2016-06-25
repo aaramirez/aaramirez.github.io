@@ -1,7 +1,7 @@
 ---
 title: "Fibonacci"
 date: 2008-07-28 08:00:00
-categories: trading inversion fibonacci
+categories: trading
 ---
 Dentro de la metodología que hemos ido desarrollando en los artículos hay dos herramientas fundamentales para enfrentar los movimientos del mercado. Los números de Fibonacci y Soportes y Resistencias. Ambos tienen propósitos similares en condiciones del mercado distintas.
 

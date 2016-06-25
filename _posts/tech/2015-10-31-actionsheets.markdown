@@ -1,7 +1,7 @@
 ---
 title: "Action Sheets"
 date: 2015-10-31 08:00:00
-categories: ionic angularjs cordova tutorial
+categories: desarrollo ionic angularjs
 comments: true
 ---
 Ya hemos visto que en el caso de las listas ([__ion-list__][1]) es posible utilizar [__ion-delete-button__][3], [__ion-reorder-button__][4], [__ion-option-button__][2].

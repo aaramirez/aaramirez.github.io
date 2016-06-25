@@ -1,7 +1,7 @@
 ---
 title: "Línea de contratendencia"
 date: 2008-07-21 08:00:00
-categories: trading inversion tendencia
+categories: trading
 ---
 Una de las alternativas que se ha planteado para identificar cambios de dirección o continuación de un movimiento son las líneas de contratendencia.
 

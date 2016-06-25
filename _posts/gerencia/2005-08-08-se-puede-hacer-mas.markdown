@@ -1,7 +1,7 @@
 ---
 title: "Siempre se puede hacer más..."
 date: 2005-08-08 08:00:00
-categories: gerencia planificacion
+categories: gerencia
 ---
 En un viaje que hice a China, en una de las visitas a Beijing, tuve la oportunidad de asistir a un espectáculo de Gimnasia acrobática china. Es uno de esos espectáculos interesantes por la agilidad y creatividad que demuestran los Chinos.
 

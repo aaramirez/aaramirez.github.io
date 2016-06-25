@@ -1,7 +1,7 @@
 ---
 title: "Trading ... la primera vez"
 date: 2010-04-01 08:00:00
-categories: inversion trading
+categories: inversion
 ---
 Siempre he tenido curiosidad sobre cómo funcionan los mercados y por suerte me ha tocado vivir dos situaciones similares en distintos momentos. Voy a contarles la primera.
 

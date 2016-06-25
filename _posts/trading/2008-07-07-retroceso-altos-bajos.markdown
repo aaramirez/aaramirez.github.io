@@ -1,7 +1,7 @@
 ---
 title: "Retrocesos en altos o bajos"
 date: 2008-07-07 08:00:00
-categories: trading tendencia retroceso inversion
+categories: trading
 ---
 Continuando nuestro blog sobre la identificación y características del retroceso, hoy vamos a hablar de aquellos que se forman en un alto más bajo o en un bajo más alto.
 

@@ -1,7 +1,7 @@
 ---
 title: "Sobre la infidelidad"
 date: 2003-11-22 08:00:00
-categories: relaciones pareja sexo intimidad
+categories: relaciones
 ---
 Es un tema muy abierto y muy interesante, es algo que vemos todos los días de nuestras vidas y para el cual existe una resistencia tremenda con relación a los sentimientos encontrados que produce el descubrimiento de una infidelidad. 
 

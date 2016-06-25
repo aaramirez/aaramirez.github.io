@@ -1,13 +1,13 @@
 ---
 title: "Algunos trucos con git"
 date: 2015-01-01 08:00:00
-categories: git
+categories: desarrollo git
 comments: true
 ---
 
 Les dejo una lista de algunos trucos con git, básicos, pero que seguro de interés.
 
-- [Seting up][1] Git
+- [Setting up][1] Git
 
 - [Añadiendo archivos][2] a un repositorio
 
@@ -16,7 +16,7 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 - [Crear un nuevo branch][4]
 
 <pre>
-	$ git checkout -b BRANCHNAME
+$ git checkout -b BRANCHNAME
 </pre>
 
 - [Hacer merge de un branch][13]
@@ -28,7 +28,7 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 - Hacer un clone de un branch específico
 
 <pre>
-	$ git clone -b BRANCHNAME --single-branch git://sub.domain.com/repo.git
+$ git clone -b BRANCHNAME --single-branch git://sub.domain.com/repo.git
 </pre>
 
 ### Configurar un "remote" de un fork y sincronizar
@@ -36,21 +36,21 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 - Para consultar
 
 <pre>
-	$ git remote -v
+$ git remote -v
 </pre>
 
 - Para asociar un upstream
 
 <pre>
-	$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 </pre>
 
 - Para [sincronizar][6]
 
 <pre>
-	$ git fetch upstream
-	$ git checkout master
-	$ git merge upstream/master
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
 </pre>
 
 - Para hacer [push a un remote][7]
@@ -64,10 +64,17 @@ Les dejo una lista de algunos trucos con git, básicos, pero que seguro de inter
 - [Crear tags][12]
 
 <pre>
-	$ git tag -a v1.4 -m "my version 1.4"
-	$ git tag
-	$ git push origin v1.4
-	$ git push origin --tags
+$ git tag -a v1.4 -m "my version 1.4"
+$ git tag
+$ git push origin v1.4
+$ git push origin --tags
+</pre>
+
+- Reset a una versión previa
+
+<pre>
+$ git reset --hard commit-id
+$ git push reponame -f
 </pre>
 
 [1]: https://help.github.com/articles/set-up-git/ "Set up git"

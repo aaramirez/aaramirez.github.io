@@ -1,7 +1,7 @@
 ---
 title: "Plan de Operación - Administración de Capital"
 date: 2008-05-20 08:00:00
-categories: trading riesgo plan
+categories: trading
 ---
 Si hay un aspecto que debemos dominar para sobrevivir es la Administración de capital. 
 

@@ -1,7 +1,7 @@
 ---
 title: "Los escurridizos nunca llegan"
 date: 2006-02-17 08:00:00
-categories: gerencia resultados
+categories: gerencia
 ---
 En el mundo gerencial son los resultados los que hablan. Hay "gerentes" que son muy hábiles buscando excusas sobre porque algo no funciona o las dificultades que "impiden" alcanzar un objetivo.
 

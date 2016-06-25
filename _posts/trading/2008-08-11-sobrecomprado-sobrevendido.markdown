@@ -1,7 +1,7 @@
 ---
 title: "Sobrecomprado, sobrevendido"
 date: 2008-08-11 08:00:00
-categories: trading inversion indicadores sobrecompra sobreventa
+categories: trading
 ---
 Los osciladores son los indicadores que definen una zona de sobrecompra o sobreventa. Esas zonas son análogas (no iguales) a alcanzar la extensión de fibonacci. En esas zonas es posible que el mercado produzca un cambio de dirección o una reversión.
 

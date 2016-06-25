@@ -1,7 +1,7 @@
 ---
 title: "Patrones de velas y algo mas"
 date: 2008-04-28 08:00:00
-categories: trading inversion patrones velas japonesas
+categories: trading
 ---
 
 Tal vez el elemento más específico de la entrada es el patrón de velas y dependiendo de su perfil de operador,  estará monitoreando los patrones que se forman en temporalidades mayores o en temporalidades menores, a distintas horas del día, en el medio de un movimiento y con un riesgo definido. Justo quiero llamar la atención sobre lo que debemos observar cuando el mercado forma un patrón de velas.

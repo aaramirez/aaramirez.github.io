@@ -1,7 +1,7 @@
 ---
 title: "Hombro Cabeza Hombro"
 date: 2008-07-25 08:00:00
-categories: trading inversion analisis tecnico retroceso
+categories: trading
 ---
 El patrón hombro cabeza hombro son la expresión más pura y simple del juego entro toros y osos. En términos simples la corona la compone la formación de un alto más bajo o un bajo más alto, el rompimiento de la línea de tendencia interna (línea de contratendencia) y el equipo de los toros anotando resistencia o el equipo de los osos anotando soporte. No es el patrón usual de los libros, es necesario que se formen ondas alcanzando soportes o resistencias para mostrar señales de fuerza en la dirección opuesta.
 

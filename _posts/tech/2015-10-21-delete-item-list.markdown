@@ -1,7 +1,7 @@
 ---
 title: "Borrar elementos de una lista"
 date: 2015-10-21 08:00:00
-categories: ionic angularjs cordova tutorial
+categories: desarrollo ionic angularjs
 comments: true
 ---
 Hay varias facilidades que ofrece Ionic para manipular los elementos de una lista de ionic, es decir dentro del tag __ion-list__. Entre ellas, borrar elementos de una lista.

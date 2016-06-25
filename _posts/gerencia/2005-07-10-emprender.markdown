@@ -1,7 +1,7 @@
 ---
 title: "Emprender"
 date: 2005-07-10 08:00:00
-categories: gerencia planificacion
+categories: gerencia emprendimiento
 ---
 Noto con preocupación que muchos de mis contemporáneos se han conformado con una carrera segura y sin embargo se sienten insatisfechos ya que identifican la inestabilidad e incertidumbre con parálisis.
 

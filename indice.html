@@ -1,0 +1,52 @@
+---
+layout: inner
+title: "Índice de categorías"
+permalink: /indice/
+---
+
+{% assign rawcategories = "" %}
+{% assign posts=site.posts | where:'lang',page.lang %}
+{% for post in posts %}
+	{% assign tcateg = post.categories | join:'|' | append:'|' %}
+	{% assign rawcategories = rawcategories | append:tcateg %}
+{% endfor %}
+{% assign rawcategories = rawcategories | split:'|' | sort %}
+
+{% assign categories = "" %}
+{% for cat in rawcategories %}
+	{% if cat != "" %}
+		{% if categories == "" %}
+			{% assign categories = cat | split:'|' %}
+		{% endif %}
+		{% unless categories contains cat %}
+			{% assign categories = categories | join:'|' | append:'|' | append:cat | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+{% for cat in categories %}
+	<small><a href="#{{ cat | slugify }}"> {{ cat }} </a></small>{% unless forloop.last %} | {% endunless %}
+{% endfor %}
+
+
+{% for cat in categories %}
+	<h2 id="{{ cat | slugify }}">{{ cat }}</h2>
+	<ul>
+	 {% assign posts=site.posts | where:'lang',page.lang %}
+	 {% for post in posts %}
+		 {% if post.categories contains cat %}
+		 <li>
+		 <h3>
+		 <a href="{{ post.url }}">
+		 <small>{{ post.date | date_to_string }}</small>
+		 {{ post.title }}
+		 </a> | 
+		 {% for cat in post.categories %}
+			 <small><a class="cat" href="#{{ cat | slugify }}">{{ cat }}</a>{% unless forloop.last %} &middot; {% endunless %}</small>
+		 {% endfor %}
+		 </h3>
+		 </li>
+		 {% endif %}
+	 {% endfor %}
+	</ul>
+{% endfor %}

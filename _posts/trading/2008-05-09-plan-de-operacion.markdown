@@ -1,7 +1,7 @@
 ---
 title: "Plan de operación..."
 date: 2008-05-09 08:00:00
-categories: trading inversion plan
+categories: trading
 ---
 
 En entregas previas señalamos la importancia de operar con un Plan de Operación, en esta entrega vamos a hablar de los componentes de ese plan.

@@ -1,7 +1,7 @@
 ---
 title: "Consolidaciones antes de revertir"
 date: 2008-07-14 08:00:00
-categories: trading inversión consolidacion
+categories: trading
 ---
 Siguiendo nuestro reciente tema sobre el arte de identificar una entrada después de un retroceso. Esta vez vamos a hablar de las situaciones donde las monedas se consolidan antes de cambiar de dirección o revertir el movimiento previo y justo esa consolidación o movimiento lateral sirve para identificar la entrada.
 

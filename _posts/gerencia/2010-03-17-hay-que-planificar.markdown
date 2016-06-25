@@ -1,7 +1,7 @@
 ---
 title: "Hay que planificar!"
 date: 2010-03-17 08:00:10
-categories: gerencia planificacion
+categories: gerencia planificación
 ---
 En tecnología, como en muchas otras disciplinas, se cuestiona el valor de la planificación. Resulta que los beneficios, de un plan estratégico bien elaborado y en pleno proceso de ejecución, NO SE NOTAN.
 
