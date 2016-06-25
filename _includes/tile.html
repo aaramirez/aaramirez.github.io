@@ -12,7 +12,7 @@
             {% if post.categories != empty %}
                 &middot;
                 {% for category in post.categories %}
-                    <span><a class="cat" href="/indice/#{{ category | slugify }}">{{ category }}</a></span> &middot;
+                    <span><a href="/indice/#{{ category | slugify }}">{{ category }}</a></span> &middot;
                 {% endfor %}
             {% endif %}
              {% include tweet-share.html %} {% include tweet-follow.html %}
