@@ -30,7 +30,10 @@ permalink: /indice/
 
 
 {% for cat in categories %}
-	<h2 id="{{ cat | slugify }}">{{ cat }}</h2>
+	<h2>
+   		<span id="{{ cat | slugify }}"> &nbsp; </span>
+   		{{ cat }}
+	</h2>
 	<ul>
 	 {% assign posts=site.posts | where:'lang',page.lang %}
 	 {% for post in posts %}
