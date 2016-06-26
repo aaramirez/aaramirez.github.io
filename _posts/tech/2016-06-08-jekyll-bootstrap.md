@@ -11,4 +11,6 @@ En el nuestro agregamos algunas funcionalidades nuevas como los botones para com
 
 En GitHub Pages hay información suficiente sobre como [configurar tu sitio](https://help.github.com/categories/customizing-github-pages/) e inclusive colocar un nombre de dominio particular.
 
+**2016-06-25**: También nos conseguimos con [getpoole.com](http://getpoole.com) que no parte de Bootstrap para hacer una plantilla de jekyll pero te ofrecen varios temas que me parecen atractivos para empezar.
+
 [Clona el repositorio en GitHub](https://github.com/SYNERGY-GB/SYNERGY-GB.github.io) y haz tu propio Blog.
