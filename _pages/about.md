@@ -14,7 +14,3 @@ Actualmente estoy cursando la [Maestría en Modelos Aleatorios](http://www.matem
 
 Este blog es el resultado de todo lo que he escrito por alguna razón u otra, en distintos momentos de mi vida. Todo lo que tengo recopilado lo dejo aquí, además he migrado todo el contenido de otro blog que estaba un poco abandonado llamado Ciberespacios. Comparto esto con franqueza y con la idea de que alguien encuente algo que le sirva en mis palabras.
 
-{% 
-   include pdfview.html 
-   filename='http://alexanderramirez.me/assets/pdf/' 
-%}

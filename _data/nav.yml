@@ -1,3 +1,4 @@
 main:
     - { url: '/indice/', text: 'Índice'}
+    - { url: '/cursos/', text: 'Cursos'}
     - { url: '/about/', text: 'Acerca' }
