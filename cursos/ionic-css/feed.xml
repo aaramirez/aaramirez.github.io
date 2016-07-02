@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curso - Componentes de Ionic - CSS</title>
+    <description>Desarrollo con Ionic Framework - Componentes CSS</description>
+    <link>/cursos/ionic-css//</link>
+    <atom:link href="/cursos/ionic-css//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 01 Jul 2016 21:58:02 -0500</pubDate>
+    <lastBuildDate>Fri, 01 Jul 2016 21:58:02 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Componentes de Ionic</title>
+        <description>&lt;p&gt;Bienvenido al Curso - Componentes de Ionic - CSS, Este curso se enfoca en mostrar todos los componentes CSS del framework y cómo se pueden utilizar para construir plantillas (&lt;em&gt;templates&lt;/em&gt;). Los componentes de Ionic - CCS son una serie de directivas (En terminología de Angular) que se pueden utilizar como clases y algunas como etiquetas (tags). La idea es repasarlas e imaginar diferentes casos de uso.&lt;/p&gt;
+
+&lt;h2 id=&quot;temas-del-curso&quot;&gt;Temas del curso&lt;/h2&gt;
+
+&lt;h3 id=&quot;patrn-master-detail-maestro---detalle&quot;&gt;Patrón Master-Detail (Maestro - Detalle)&lt;/h3&gt;
+
+&lt;h4 id=&quot;lists&quot;&gt;Lists&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Listas&lt;/li&gt;
+  &lt;li&gt;Divisores de listas&lt;/li&gt;
+  &lt;li&gt;Listas con íconos&lt;/li&gt;
+  &lt;li&gt;Listas con avatars&lt;/li&gt;
+  &lt;li&gt;Listas con Thumbnails&lt;/li&gt;
+  &lt;li&gt;Listas inset&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tarjetaspanel-cards&quot;&gt;Tarjetas/Panel (Cards)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cards&lt;/li&gt;
+  &lt;li&gt;Cards Headers and Footers&lt;/li&gt;
+  &lt;li&gt;Cards Lists&lt;/li&gt;
+  &lt;li&gt;Cards Images&lt;/li&gt;
+  &lt;li&gt;Card showcase&lt;/li&gt;
+  &lt;li&gt;Pantallas de detalle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;partes-de-la-pantalla&quot;&gt;Partes de la pantalla&lt;/h3&gt;
+
+&lt;h4 id=&quot;encabezados-y-footers&quot;&gt;Encabezados y Footers&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Encabezados&lt;/li&gt;
+  &lt;li&gt;Footers&lt;/li&gt;
+  &lt;li&gt;Botones en Encabezados y Footers&lt;/li&gt;
+  &lt;li&gt;Tabs (icon-only, top-icon, left icon, striped)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;componentes-dentro-de-las-pantallas&quot;&gt;Componentes dentro de las pantallas&lt;/h3&gt;
+
+&lt;h4 id=&quot;botones&quot;&gt;Botones&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tipos de botones (normales, block, fullwitdh, sizes, outlined, clear, icon, barra de botones)&lt;/li&gt;
+  &lt;li&gt;Estilos de CSS&lt;/li&gt;
+  &lt;li&gt;Conexión con el controlador y manejo de eventos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;formas&quot;&gt;Formas&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Formas e Inputs&lt;/li&gt;
+  &lt;li&gt;Placeholders&lt;/li&gt;
+  &lt;li&gt;Inline labels&lt;/li&gt;
+  &lt;li&gt;Staked labels&lt;/li&gt;
+  &lt;li&gt;Floating labels&lt;/li&gt;
+  &lt;li&gt;Inset forms&lt;/li&gt;
+  &lt;li&gt;Inset inputs&lt;/li&gt;
+  &lt;li&gt;Input icons&lt;/li&gt;
+  &lt;li&gt;Header inputs&lt;/li&gt;
+  &lt;li&gt;Toggle&lt;/li&gt;
+  &lt;li&gt;Checkbox&lt;/li&gt;
+  &lt;li&gt;Radio buttons&lt;/li&gt;
+  &lt;li&gt;Range&lt;/li&gt;
+  &lt;li&gt;Select&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;grilla-grid&quot;&gt;Grilla (Grid)&lt;/h3&gt;
+
+&lt;h3 id=&quot;utilidades&quot;&gt;Utilidades&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Colores&lt;/li&gt;
+  &lt;li&gt;Iconos&lt;/li&gt;
+  &lt;li&gt;Padding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;herramientas-de-trabajo&quot;&gt;Herramientas de trabajo&lt;/h2&gt;
+
+&lt;p&gt;Vamos a utilizar &lt;a href=&quot;http://play.ionic.io&quot;&gt;play.ionic.io&lt;/a&gt; y &lt;a href=&quot;http://codepen.io&quot;&gt;Codepen.io&lt;/a&gt; para mostrar el resultado del trabajo de forma ágil sin necesidad de crear proyectos nuevos en la línea de comandos de Ionic. Luego estas plantillas se pueden utilizar en proyectos reales de aplicaciones móviles con Ionic.&lt;/p&gt;
+
+&lt;p&gt;Con &lt;a href=&quot;http://play.ionic.io&quot;&gt;play.ionic.io&lt;/a&gt; y &lt;a href=&quot;http://codepen.io&quot;&gt;Codepen.io&lt;/a&gt; tenemos la posibilidad concentrarnos en trabajar en el markup HTML y CSS de las plantillas y ver el resultado inmediatamente sin ciclos de compilación (build). Esto acelera el proceso de generación de las plantillas y además permite compartir el resultado del trabajo inmediatamente, sin la complejidad de generar una aplicación que luego se debe distribuir.&lt;/p&gt;
+
+&lt;h2 id=&quot;playionicio2&quot;&gt;&lt;a href=&quot;http://play.ionic.io&quot;&gt;play.ionic.io&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;En &lt;a href=&quot;http://play.ionic.io&quot;&gt;play.ionic.io&lt;/a&gt; hay tres pestañas: HTML, CSS y JS. Además cuatro botones: SAVE, FORK, PREVIEW y NEW.&lt;/p&gt;
+
+&lt;p&gt;En cada pestaña se encuentra el código HTML, CSS o Javascript de la aplicación. La aplicación está compuesa sólo por estos tres segmentos de código, más  las librerías o recursos a los cuales se haga referencia desde esas tres ventanas. Es decir, se pueden incluir recursos que están disponibles en la red.&lt;/p&gt;
+
+&lt;p&gt;Los cuatro botones permiten:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;SAVE&lt;/strong&gt;: Salvar el trabajo. Esto no genera un archivo, sencillamente se salva y es accesible a través del URL. Si desea acceder al trabajo realizado o compartirlo sólo debe enviar el URL o guardarlo. El URL es de la forma (http://play.ionic.io/app/&lt;strong&gt;ceba5803d714&lt;/strong&gt;). Cuando se salva se utiliza un identificador que permite hacer referencia de nuevo al código salvado.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;FORK&lt;/strong&gt;: Permite crear una nueva aplicación partiendo del código actual. De hecho cada vez que compartamos un proyecto, lo primero que hay que hacer el FORK para generar una nueva aplicación y modificarla. El resultado se puede salvar para poder acceder al código luego. Para poder ver el trabajo realizado sencillamente se copia el URL.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PREVIEW&lt;/strong&gt;: Muestra el resultado del trabajo en una ventana independiente.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NEW&lt;/strong&gt;: Crea un nuevo proyecto e inicia desde el principio. Este botón genera un nuevo código de la aplicación. Al salvar se debe guardar el URL para poder recuperar la aplicación o compartirla.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-12&quot;&gt;
+    &lt;img class=&quot;img-responsive&quot; src=&quot;/cursos/ionic-css/img/play-ionic-io.png&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;codepenio1&quot;&gt;&lt;a href=&quot;http://codepen.io&quot;&gt;Codepen.io&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Por su parte &lt;a href=&quot;http://codepen.io&quot;&gt;Codepen.io&lt;/a&gt; también nos permite desarrollar y probar ideas basadas en tecnología Web. También cuenta con tres tabs principales donde colocamos el código HTML, CSS y JS, además de una ventana de preview. La buena noticia es que en &lt;a href=&quot;http://codepen.io&quot;&gt;Codepen.io&lt;/a&gt; podemos conseguir infinidad de ejemplos ya hechos que pueden servir de inspiración para hacer nuestros propios experimentos.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-12&quot;&gt;
+    &lt;img class=&quot;img-responsive&quot; src=&quot;/cursos/ionic-css/img/codepen-io.png&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;En &lt;a href=&quot;http://codepen.io&quot;&gt;Codepen.io&lt;/a&gt; vamos a publicar los ejemplos o ejercicios resueltos y los vamos a mostrar en un teléfono para dar una idea de cómo es el resultado y su interacción.&lt;/p&gt;
+
+&lt;style&gt;
+.phone {
+  position: relative;
+  z-index: 1;
+  width: 380px;
+  height: 810px;
+  background: url(&quot;/cursos/ionic-css/img/phone-black.png&quot;) no-repeat right top;
+  margin-left: 20px;
+}
+.embed_iframe {
+  position: absolute;
+  width: 320px !important;
+  height: 578px;
+  top: 114px;
+  left: 37px;
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-4&quot;&gt;
+  &lt;div class=&quot;phone&quot;&gt;
+  &lt;iframe height=&quot;578&quot; scrolling=&quot;no&quot; src=&quot;//codepen.io/aaramirez/embed/ZbmYev/?height=578&amp;amp;theme-id=20842&amp;amp;default-tab=result&quot; frameborder=&quot;1px&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 100%; overflow: hidden;&quot; class=&quot;embed_iframe&quot;&gt;Ver el CodePen &lt;a href=&quot;http://codepen.io/aaramirez/pen/ZbmYev/&quot;&gt;Uso de menú tipo Drawer&lt;/a&gt; by Alexander A. Ramírez M. (&lt;a href=&quot;http://codepen.io/aaramirez&quot;&gt;@aaramirez&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-8&quot;&gt;
+&lt;p class=&quot;excerpt float-right&quot; style=&quot;margin-left: 120px;&quot;&gt;En este caso estamos mostrando a través de Codepen.io un ejemplo de una aplicación con un menú de tipo retractil o drawer.&lt;br /&gt; &lt;br /&gt; Se puede interactuar con el teléfono y ver el código HTML, CSS o JS presionando las pestañas que aparecen en la parte superior, o se puede ver el resultado en la pestaña Result. Adicionalmente, aunque no es muy cómodo se puede editar el código y hacer ajustes. &lt;br /&gt; &lt;br /&gt; Para realizar cambios y pruebas recomendamos en su lugar dirigirse a Codepen.io y lo invitamos a crear sus propios Pen y compartirlos.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;colaborar-y-compartir&quot;&gt;Colaborar y compartir&lt;/h2&gt;
+
+&lt;p&gt;Esperamos que nos compartan el resultado de sus trabajos para que los publiquemos en las páginas de este curso. Después de todo la idea es compartir el resultado del trabajo hecho y que colaboremos si es el caso.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 08 Jun 2016 03:00:00 -0500</pubDate>
+        <link>/cursos/ionic-css//componentes-ionic.html</link>
+        <guid isPermaLink="true">/cursos/ionic-css//componentes-ionic.html</guid>
+        
+        <category>móvil</category>
+        
+        <category>ios</category>
+        
+        <category>android</category>
+        
+        
+        <category>ionic</category>
+        
+      </item>
+    
+  </channel>
+</rss>
