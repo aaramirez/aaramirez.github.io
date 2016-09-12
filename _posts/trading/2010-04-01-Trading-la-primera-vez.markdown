@@ -1,8 +1,10 @@
 ---
-title: "Trading ... la primera vez"
-date: 2010-04-01 08:00:00
-categories: trading
+title: Trading ... la primera vez
+date: 2010-04-01 08:00:00 Z
+categories:
+- trading
 ---
+
 Siempre he tenido curiosidad sobre cómo funcionan los mercados y por suerte me ha tocado vivir dos situaciones similares en distintos momentos. Voy a contarles la primera.
 
 En el año 2000 con el Boom de todas las empresas de Internet cree mi primera cuenta de corretaje, con la particularidad de que la cuenta era una cuenta electrónica manejada desde mi computadora personal y accesible para operar las 24 horas. En el 2000 había mucho movimiento, cualquier acción tecnológica del momento era ganadora. No había manera de perder (pensaba yo!!!).

@@ -1,8 +1,10 @@
 ---
-title: "Plan de Operación - Salida"
-date: 2008-05-14 08:00:00
-categories: trading
+title: Plan de Operación - Salida
+date: 2008-05-14 08:00:00 Z
+categories:
+- trading
 ---
+
 Su plan de Salida considera dos aspectos:
 
 - Determinar dónde tomar ganancias

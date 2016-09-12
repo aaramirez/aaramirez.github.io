@@ -1,9 +1,12 @@
 ---
-title: "Aplicaciones Móviles - ¿J2ME o no?"
-date: 2010-05-21 08:00:00
-categories: tecnología movilidad
+title: Aplicaciones Móviles - ¿J2ME o no?
+date: 2010-05-21 08:00:00 Z
+categories:
+- tecnología
+- movilidad
 comments: true
 ---
+
 La aplicaciones móviles son posibles de diversas maneras:
 
 - Aplicación nativa para una familia de dispositivos (Blackberry, iPhone, Android, Windows Mobile

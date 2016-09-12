@@ -1,8 +1,10 @@
 ---
-title: "Plan de Operación - Administración de Capital"
-date: 2008-05-20 08:00:00
-categories: trading
+title: Plan de Operación - Administración de Capital
+date: 2008-05-20 08:00:00 Z
+categories:
+- trading
 ---
+
 Si hay un aspecto que debemos dominar para sobrevivir es la Administración de capital. 
 
 Las reglas que permiten sobrevivir en el mercado están relacionadas con el manejo, o mejor dicho, con la gerencia del riesgo. Hay tres aspectos que destacar:

@@ -1,8 +1,10 @@
 ---
-title: "Círculos de influencia"
-date: 2005-09-02 08:00:00
-categories: gerencia
+title: Círculos de influencia
+date: 2005-09-02 08:00:00 Z
+categories:
+- gerencia
 ---
+
 No es evidente para el ingenuo que las relaciones son muy importantes para desarrollar la actividad gerencial. No voy a declarar maestría en el tema, pero si voy a declarar que el relacionamiento que logres como gerente es de suma importancia para armar equipos y lograr las metas.
 
 Dentro de las empresas y corporaciones usualmente existen círculos de conocidos que evolucionan con el tiempo y se reconfiguran, la verdad sea dicha, somos seres sociales y nuestra capacidad para relacionarnos e incorporarnos en esos círculos facilitan el proceso de hacer equipo y converncer para lograr un voto de confianza.

@@ -1,8 +1,10 @@
 ---
-title: "Los escurridizos nunca llegan"
-date: 2006-02-17 08:00:00
-categories: gerencia
+title: Los escurridizos nunca llegan
+date: 2006-02-17 08:00:00 Z
+categories:
+- gerencia
 ---
+
 En el mundo gerencial son los resultados los que hablan. Hay "gerentes" que son muy hábiles buscando excusas sobre porque algo no funciona o las dificultades que "impiden" alcanzar un objetivo.
 
 El lenguaje gerencial que se basa en la acción resolutoria, en la superación de circunstancias es el que perdura. Sin embargo, hemos visto también "gerentes" que ascienden por la confianza que inspiran, pero no necesariamente porque han demostrado resultados. Es decir, toman decisiones que luego viven justificando ya que el universo conspira en su contra. Son hábiles para escurrir la responsabilidad y aputar al otro. He visto muchos profesionales ser víctimas de este tipo de mañas, profesionales de primer nivel, para luego ver que el gerente acostumbrado a apuntar al otro, no alcanza metas y no se compromete. Algunos muy hábiles propiciando cambios antes de que se note la falta de efectividad en la acción. Es decir, viven generando buena impresión inicial, afectan a otros profesionales con su accionar y antes de mostrar resultados vuelven a cambiar. Esto es lo que yo llamo escurridizos.

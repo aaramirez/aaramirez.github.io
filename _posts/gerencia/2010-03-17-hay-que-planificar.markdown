@@ -1,8 +1,11 @@
 ---
-title: "Hay que planificar!"
-date: 2010-03-17 08:00:10
-categories: gerencia planificación
+title: Hay que planificar!
+date: 2010-03-17 08:00:10 Z
+categories:
+- gerencia
+- planificación
 ---
+
 En tecnología, como en muchas otras disciplinas, se cuestiona el valor de la planificación. Resulta que los beneficios, de un plan estratégico bien elaborado y en pleno proceso de ejecución, NO SE NOTAN.
 
 Asumiendo un ciclo de cinco años, la falta de planificación es notable en tres a cuatro años. El problema es que cuando se nota, es muy tarde para reaccionar, por una razón muy simple, el ciclo de ejecución de grandes proyectos puede oscilar entre 2 a 3 años.

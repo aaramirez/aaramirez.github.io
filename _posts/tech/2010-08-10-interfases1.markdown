@@ -1,7 +1,9 @@
 ---
-title: "Diseño y construcción de interfases de usuario"
-date: 2010-08-10 08:00:00
-categories: diseño interfaces
+title: Diseño y construcción de interfases de usuario
+date: 2010-08-10 08:00:00 Z
+categories:
+- diseño
+- interfaces
 comments: true
 ---
 

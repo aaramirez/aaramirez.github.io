@@ -1,9 +1,10 @@
 ---
-title: "Probabilidades"
-date: 2016-07-01 08:16:10
-categories: Probabilidades
-comments: true
+title: Probabilidades
+date: 2016-07-01 08:16:10 Z
 published: false
+categories:
+- Probabilidades
+comments: true
 math: true
 ---
 

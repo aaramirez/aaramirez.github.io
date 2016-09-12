@@ -1,7 +1,10 @@
 ---
-title: "Uso de $interval y $ionicModal"
-date: 2015-11-08 08:00:00
-categories: desarrollo ionic angularjs
+title: Uso de $interval y $ionicModal
+date: 2015-11-08 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
 

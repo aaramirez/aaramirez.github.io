@@ -1,18 +1,19 @@
 ---
-layout: inner
 title: Nos mudamos...
-date: 2016-06-01
-categories: blog
-tags: Synergy-GB
+date: 2016-06-01 00:00:00 Z
+published: false
+categories:
+- blog
+tags:
+- Synergy-GB
+layout: inner
 local_featured_image: newhome.jpg
 author: Alexander A. Ramírez M.
 author_pic: Alexander_Ramirez.jpg
 author_email: alexander.ramirez@synergy-gb.com
-lead_text: >-
-  Con un enfoque basado en productos, estamos relanzando nuestra imagen y
-  estamos empezando por nuestra página Web. Queremos darle énfasis a nuestros
-  productos para los sectores de Banca, Seguros y Telecomunicaciones.
-published: false
+lead_text: Con un enfoque basado en productos, estamos relanzando nuestra imagen y
+  estamos empezando por nuestra página Web. Queremos darle énfasis a nuestros productos
+  para los sectores de Banca, Seguros y Telecomunicaciones.
 ---
 
 Mediante un esfuerzo en equipo y el involucramiento de nuestro equipo comercial y diseño, relanzamos nuestra imagen para reflejar nuestro enfoque renovado en productos.

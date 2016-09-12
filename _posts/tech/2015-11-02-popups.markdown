@@ -1,9 +1,13 @@
 ---
-title: "Popups en Ionic"
-date: 2015-11-02 08:00:00
-categories: desarrollo ionic angularjs
+title: Popups en Ionic
+date: 2015-11-02 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 En [__ionic__][1] ofrece el manejo de ventanas de diálogo emergentes (Popups) que requieren de que el usuario interactue y responda para continuar.
 
 [__ionic__][1] ofrece esta facilidad a través del servicio [__$ionicPopup__][2] y los tipos de ventanas de diálogo son: *alert()*, *prompt()*, *confirm()* y *custom*.

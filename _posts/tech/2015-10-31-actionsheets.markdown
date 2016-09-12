@@ -1,9 +1,13 @@
 ---
-title: "Action Sheets"
-date: 2015-10-31 08:00:00
-categories: desarrollo ionic angularjs
+title: Action Sheets
+date: 2015-10-31 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Ya hemos visto que en el caso de las listas ([__ion-list__][1]) es posible utilizar [__ion-delete-button__][3], [__ion-reorder-button__][4], [__ion-option-button__][2].
 
 Ahora vamos a trabajar con un menú emergente denominado [__Action Sheet__][5] que suele aparecer cuando hacemos un gesto de quedar presionando un elemento de usa lista o sencillamente presionamos un botón. Este menú aparece en la parte inferior de la pantalla y ofrece opciones relacionadas con el elemento con el cual se está interactuando, es decir, es un menú contextual, no es general. Es un menú asociado al elemento y suele ofrecer las acciones relacionadas con el elemento con el que se interactua.

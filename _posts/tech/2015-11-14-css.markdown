@@ -1,9 +1,13 @@
 ---
-title: "Ionic CSS"
-date: 2015-11-14 08:00:00
-categories: desarrollo ionic angularjs
+title: Ionic CSS
+date: 2015-11-14 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Un aspecto fundamental en [__ionic__][6] es el trabajo que han hecho definiendo un estilo que funcione y sea atractivo en los dispositivos móviles. En particular se adapta muy bien a Android y iOS.
 
 La mejor fuente es la documentación oficial. Sobretodo repasen las notas que hay recomendaciones muy importantes que se deben seguir para que todo funcione bien.

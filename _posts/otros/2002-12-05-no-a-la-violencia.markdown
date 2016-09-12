@@ -1,8 +1,10 @@
 ---
-title: "No a la violencia"
-date: 2002-12-05 08:00:00
-categories: política
+title: No a la violencia
+date: 2002-12-05 08:00:00 Z
+categories:
+- política
 ---
+
 La violencia en nuestros tiempos tiene varios matices, pero en una democracia se puede definir fundamentalmente como la imposición de unos sobre otros. 
 
 Los términos relacionados con la violencia son muchos: infringir, quebrantar, abusar, penetrar, forzar, coaccionar, arrebatar, invadir, empujar, imponer, etc.

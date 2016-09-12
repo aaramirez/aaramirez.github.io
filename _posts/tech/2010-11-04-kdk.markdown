@@ -1,9 +1,11 @@
 ---
-title: "KDK - Kindle Development Kit"
-date: 2010-11-04 08:00:00
-categories: tecnología
+title: KDK - Kindle Development Kit
+date: 2010-11-04 08:00:00 Z
+categories:
+- tecnología
 comments: true
 ---
+
 Para los amantes de la lectura desde ya hace más de 10 años se comenzaron a ofrecer dispositivos para la lectura de libros en formato digital o electrónico, también conocido como ebooks. Yo compré el eRocket book en que tenía soporte de Amazon para comprar libros principalmente relacionados con el desarrollo de Internet a principios del 2000.
 
 La nueva generación de dispositivos liderada por Amazon, que lleva varios años ofreciendo el Kindle, ahora en su nueva generación de dispositivos lanzados el Julio del 2010 con la versión 3G/Wifi y Wifi, ofrecen varias características interesantes como, su tamaño compacto, conectividad, amplia disponibilidad de títulos, larga duración de la batería, etc, han superado las barreras que existían para el uso de este tipo de dispositivos.

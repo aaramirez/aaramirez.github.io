@@ -1,8 +1,10 @@
 ---
-title: "Fundamentales"
-date: 2008-08-25 08:00:00
-categories: trading
+title: Fundamentales
+date: 2008-08-25 08:00:00 Z
+categories:
+- trading
 ---
+
 En diversas oportunidades se plantea la existencia de dos enfoques para analizar el mercado. El enfoque técnico o análisis técnico y el enfoque fundamental o análisis fundamental. Usualmente se plantean como opuestos para justificar el uso de un enfoque vs. el otro. Sin embargo, me parece absurdo en el siglo XXI que todavía caemos en esa trampa.
 
 Lo que corresponde a los operadores profesionales es aprovechar al máximo lo que cada enfoque puede ofrecer para que podamos alcanzar nuestros objetivos. Es por ello que recientemente los operadores son más conscientes de tanto los aspectos técnicos como fundamentales.

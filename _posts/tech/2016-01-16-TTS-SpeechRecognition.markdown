@@ -1,7 +1,11 @@
 ---
-title: "Síntesis de voz y reconocimiento de voz con Ionic y Cordova"
-date: 2016-01-16 08:00:00
-categories: desarrollo ionic angularjs cordova
+title: Síntesis de voz y reconocimiento de voz con Ionic y Cordova
+date: 2016-01-16 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
+- cordova
 comments: true
 ---
 

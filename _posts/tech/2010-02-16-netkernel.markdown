@@ -1,9 +1,11 @@
 ---
-title: "REST en NetKernel"
-date: 2010-02-16 08:16:10
-categories: tecnología
+title: REST en NetKernel
+date: 2010-02-16 08:16:10 Z
+categories:
+- tecnología
 comments: true
 ---
+
 Entendiendo y estudiando cómo se implementa SOA en una empresa y específicamente las distintas alternativas que existen para publicar un servicio o un recurso, me he conseguido con un concepto que tiene algún tiempo, REST.
 
 Resulta que a pesar de todos los intentos de reinvención y evolución de las TIC el problema fundamental de acoplamiento en las aplicaciones sigue siendo una preocupación primaria. La programación de aplicaciones que sean capaces de adaptarse a nuevos requerimientos, sin que esto implique rehacer toda la aplicación sigue siendo un reto.
