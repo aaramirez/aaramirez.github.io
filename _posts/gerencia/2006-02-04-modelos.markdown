@@ -1,8 +1,10 @@
 ---
-title: "Los modelos son compromisos"
-date: 2006-02-04 08:00:00
-categories: gerencia
+title: Los modelos son compromisos
+date: 2006-02-04 08:00:00 Z
+categories:
+- gerencia
 ---
+
 En las empresas es necesario un conjunto de herramientas que permitan entender el entorno y modelarlo para apoyar la toma de decisiones.
 
 Un ejemplo de este tipo de herramientas es un modelo financiero. 

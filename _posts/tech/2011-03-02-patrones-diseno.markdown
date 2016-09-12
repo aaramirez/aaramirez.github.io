@@ -1,9 +1,12 @@
 ---
-title: "Patrones de diseño"
-date: 2011-03-02 08:00:00
-categories: desarrollo patrones
+title: Patrones de diseño
+date: 2011-03-02 08:00:00 Z
+categories:
+- desarrollo
+- patrones
 comments: true
 ---
+
 Últimamente me ha tocado cumplir con un rol que tenía mucho tiempo sin ejercer, a veces hay que lidiar con lo sublime y lo profano, que consiste en revisar la programación de un sistema. En concreto ver el código fuente de las aplicaciones que estamos desarrollando.
 
 Me llama poderosamente la atención que a pesar que estamos utilizando lenguajes orientados a objeto con primitivas de vanguardia, todavía los programadores no utilizan en sus programas patrones de diseño (Desing Patterns), ni lo reflejan en el diseño de sus aplicaciones.

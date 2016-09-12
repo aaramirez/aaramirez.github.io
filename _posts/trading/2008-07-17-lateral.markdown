@@ -1,8 +1,10 @@
 ---
-title: "Lateral"
-date: 2008-07-17 08:00:00
-categories: trading
+title: Lateral
+date: 2008-07-17 08:00:00 Z
+categories:
+- trading
 ---
+
 En la entrega pasada halamos de la situación en la que la reversión se forma luego de una consolidación. Cuando el mercado se consolida o crea un rango de operación con soporte y resistencia identificado, este rango o consolidación, normalmente forma parte de un swing ya sea alcista o bajista.
 
 El movimiento puede ser una consolidación alrededor de un nivel de fibonacci la cual corresponde operar de acuerdo a las reglas de la consolidación explicadas en el blog previo. Ahora cuando el mercado forma un rango de operación corresponde operar los patrones oso en resistencia o los patrones toro en soporte y luego del rompimiento puede considerar operar la prueba.

@@ -1,9 +1,13 @@
 ---
-title:  "Navegación en Ionic"
-date:   2015-10-10 08:16:10
-categories: desarrollo ionic angularjs
+title: Navegación en Ionic
+date: 2015-10-10 08:16:10 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Vamos a iniciar con una serie de tutoriales sobre Ionic y la construcción de aplicaciones móviles basadas en tecnología Web.
 
 Ionic es un ambiente (framework) que permite desarrollar aplicaciones móviles atractivas y con buen desempeño. Por mucho tiempo el desempeño de las aplicaciones móviles basadas en tecnología web (híbridas) han sufrido de problemas de lentitud en la interacción y de una experiencia limitada. Con Ionic hay un gran avance en ese sentido y por otra parte está basado en AngularJS y Cordova, lo que facilita y enriquece la forma de desarrollar estas aplicaciones.

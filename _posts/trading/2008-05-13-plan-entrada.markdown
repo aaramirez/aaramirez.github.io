@@ -1,8 +1,10 @@
 ---
-title: "Plan de Operación - Entrada"
-date: 2008-05-13 08:00:00
-categories: trading
+title: Plan de Operación - Entrada
+date: 2008-05-13 08:00:00 Z
+categories:
+- trading
 ---
+
 El primer elemento de su Plan de Operación son las reglas para determinar el punto de entrada al mercado. 
 
 Desde una perspectiva general, debemos comprar soporte y vender en resistencia. Sin embargo, estas frases generales se prestan a muchas interpretaciones ya que tenemos varias definiciones de lo que puede convertirse en soporte o resistencia y la verdad es que un nivel se confirma como soporte o resistencia cuando el mercado a partir de el realiza nuevos altos o nuevos bajos.

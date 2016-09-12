@@ -1,9 +1,12 @@
 ---
-title: "Google App Engine Corporativo"
-date: 2010-06-24 08:00:00
-categories: tecnología google
+title: Google App Engine Corporativo
+date: 2010-06-24 08:00:00 Z
+categories:
+- tecnología
+- google
 comments: true
 ---
+
 Dentro de las opciones de cloud computing hay una opción que capta mi atención, ya que resume mucho de lo que hemos hablamos de REST y Netkernel como paradigma para las nuevas aplicaciones.
 
 Cuando comenzamos a diseñar aplicaciones que tienen un componente importante de interacción vía Web, el paradigma de desarrollo de estas aplicaciones cambia, si consideramos como Google diseño el [Google App Engine](https://cloud.google.com/appengine/).

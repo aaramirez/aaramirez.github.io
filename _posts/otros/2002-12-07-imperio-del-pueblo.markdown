@@ -1,8 +1,10 @@
 ---
-title: "Imperio del pueblo"
-date: 2002-12-07 08:00:00
-categories: política
+title: Imperio del pueblo
+date: 2002-12-07 08:00:00 Z
+categories:
+- política
 ---
+
 En varias ocasiones hemos escuchado el concepto de democracia como el imperio de la ley, sin embargo tenemos un problema de principio en esta afirmación.
 
 La ley no las hemos dado nosotros mismos y no dejan de ser convenciones que usamos para estructurar nuestra realidad y resolver nuestros problemas. La ley sirve de marco para garantizar el ejercicio de nuestras obligaciones y la defensa de nuestros derechos.

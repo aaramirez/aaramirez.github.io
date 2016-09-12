@@ -1,7 +1,10 @@
 ---
-title: "Jekyll con Categorias (categories) y Etiquetas (tags)"
-date: 2016-06-25 08:00:00
-categories: desarrollo web jekyll
+title: Jekyll con Categorias (categories) y Etiquetas (tags)
+date: 2016-06-25 08:00:00 Z
+categories:
+- desarrollo
+- web
+- jekyll
 comments: true
 ---
 

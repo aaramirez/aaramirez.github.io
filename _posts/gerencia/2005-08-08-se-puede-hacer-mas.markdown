@@ -1,8 +1,10 @@
 ---
-title: "Siempre se puede hacer más..."
-date: 2005-08-08 08:00:00
-categories: gerencia
+title: Siempre se puede hacer más...
+date: 2005-08-08 08:00:00 Z
+categories:
+- gerencia
 ---
+
 En un viaje que hice a China, en una de las visitas a Beijing, tuve la oportunidad de asistir a un espectáculo de Gimnasia acrobática china. Es uno de esos espectáculos interesantes por la agilidad y creatividad que demuestran los Chinos.
 
 Lo más impactante que pude apreciar en el show era la capacidad para sorprender y llevar cada acto al límite. Recuerdo de una manera muy especial que uno de los actos consistía en mostrar la habilidad de los gimnastas con una bicicleta. Al principio se montaba una persona y hacía alguna acrobacia, luego dos personas, luego tres personas, cada vez se iban montando más personas y en cada ronda mentalmente me decía a mi mismo, que ya eran bastantes, que no era posible montar más, además de lo buenos que eran equilibrando tantas personas en una sola bicicleta; para mi sorpresa hicieron varias rondas adicionales hasta llegar a montar más de veinte personas en una sola bicicleta. Realmente era asombroso que cuando pensaba que ya no se podía más nos sorprendían montando más gente y más gente.

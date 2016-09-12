@@ -1,7 +1,10 @@
 ---
-title: "Jekyll Multi idioma"
-date: 2016-06-21 08:00:00
-categories: desarrollo web jekyll
+title: Jekyll Multi idioma
+date: 2016-06-21 08:00:00 Z
+categories:
+- desarrollo
+- web
+- jekyll
 comments: true
 ---
 

@@ -1,8 +1,10 @@
 ---
-title: "Yo soy Bolivariano como todos los Venezolanos"
-date: 2002-12-10 08:00:00
-categories: política
+title: Yo soy Bolivariano como todos los Venezolanos
+date: 2002-12-10 08:00:00 Z
+categories:
+- política
 ---
+
 Reducir el destino de un país a la doctrina de un hombre, por muy ilustre que sea, es injusto con todos los hombres que han hecho algo útil por el país, por muy humilde que sea. 
 
 Cuando un filósofo se casa con un autor específico comienza a usar unos lentes que aclararán o distorsionaran la visión de acuerdo con la situación que se le presente. 

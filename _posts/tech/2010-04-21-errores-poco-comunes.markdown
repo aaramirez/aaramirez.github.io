@@ -1,9 +1,11 @@
 ---
-title: "Errores poco comunes"
-date: 2010-04-21 08:00:00
-categories: tecnología
+title: Errores poco comunes
+date: 2010-04-21 08:00:00 Z
+categories:
+- tecnología
 comments: true
 ---
+
 Visitando [The ServerSide](http://www.theserverside.com) me conseguí un artículo muy reciente sobre la lista de los errores de programación más peligrosos, muchos de ellos tienen que ver con aplicaciones Web y vale la pena revisarlos en detalle.
 
 Esta iniciativa no es nueva y se ha mantenido generando información sobre cómo evitar las vulnerabilidades más comunes en las aplicaciones tanto tradicionales como las Web.

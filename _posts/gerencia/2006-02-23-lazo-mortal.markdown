@@ -1,8 +1,10 @@
 ---
-title: "Ciclo mortal"
-date: 2006-02-23 08:00:00
-categories: gerencia
+title: Ciclo mortal
+date: 2006-02-23 08:00:00 Z
+categories:
+- gerencia
 ---
+
 Es muy común que en las grandes organizaciones la planificación, la ejecución (ingeniería) y operación estén separadas. Esto genera un reto muy importante para el directivo de crear un tren gerencial que sea capaz de trabajar en equipo.
 
 Esto significa que sean capaces de dar resultado en equipo y esto implica que cada gerente genera ideas, reta al equipo, acuerda cursos de acción y los ejecuta de forma coordinada. Esto suena muy bonito, pero en la realidad no siempre ocurre de esta manera.

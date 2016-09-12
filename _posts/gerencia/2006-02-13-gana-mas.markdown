@@ -1,8 +1,10 @@
 ---
-title: "El que se equivoca gana mas"
-date: 2006-02-13 08:00:00
-categories: gerencia
+title: El que se equivoca gana mas
+date: 2006-02-13 08:00:00 Z
+categories:
+- gerencia
 ---
+
 Efectivamente la reflexión está más presente en una situación de equívoco que en una de éxito. Los que se equivocan desarrollan un olfato y una entereza ante la adversidad que no se ve obligado a desarrollar, el que tiene éxito.
 
 Sin restarle importancia a las decisiones que tomamos es importante recuperarnos ante una equivocación. La carrera Gerencial depende de esto, ya que somos del tamaño de nuestros éxitos y fracasos. A esto hay que sumarle lo que hemos aprendido en ese proceso.

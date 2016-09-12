@@ -1,7 +1,7 @@
 ---
-layout: inner
 title: Acerca
-permalink: /about/
+permalink: "/about/"
+layout: inner
 ---
 
 Soy Alexander A. Ramírez M., Empresario, Ingeniero en Computación de la [USB](http://www.usb.ve), me desempeño como Director de Tecnología en [Synergy-GB](http://www.synergy-gb.com/) y me encargo del diseño y desarrollo de la línea de nuevos productos y servicios [bySynergyGB](http://www.bysynergygb.com) con un enfoque innovador e inclusive disruptivo.

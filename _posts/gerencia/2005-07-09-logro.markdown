@@ -1,8 +1,10 @@
 ---
-title: "Orientación al logro"
-date: 2005-07-09 08:00:00
-categories: gerencia
+title: Orientación al logro
+date: 2005-07-09 08:00:00 Z
+categories:
+- gerencia
 ---
+
 Un aspecto fundamental de la gerencia, es la capacidad para ejecutar. Muchas veces recalco el significado de la palabra ejecutivo para enfatizar su significado primario.
 
 Un ejecutivo tiene muchos atributos, sin embargo, se identifica principalmente con ejecución, siendo el proceso de toma de decisión, el más importante y característico.

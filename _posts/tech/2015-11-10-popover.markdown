@@ -1,7 +1,10 @@
 ---
-title: "Uso de Popover"
-date: 2015-11-10 08:00:00
-categories: desarrollo ionic angularjs
+title: Uso de Popover
+date: 2015-11-10 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
 

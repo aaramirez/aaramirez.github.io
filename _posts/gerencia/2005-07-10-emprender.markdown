@@ -1,8 +1,11 @@
 ---
-title: "Emprender"
-date: 2005-07-10 08:00:00
-categories: gerencia emprendimiento
+title: Emprender
+date: 2005-07-10 08:00:00 Z
+categories:
+- gerencia
+- emprendimiento
 ---
+
 Noto con preocupación que muchos de mis contemporáneos se han conformado con una carrera segura y sin embargo se sienten insatisfechos ya que identifican la inestabilidad e incertidumbre con parálisis.
 
 En las épocas de crisis muchos se repliegan defendiendo lo que tienen, inclusive los que no tienen, también se paralizan. En un país donde el 80% son pobres y la clase pudiente solo el 5%, realmente la mayoría no tiene mucho que perder. Por lo que en momentos de crisis hay que prepararse para emprender.
