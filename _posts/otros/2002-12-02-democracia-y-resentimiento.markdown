@@ -1,8 +1,10 @@
 ---
-title: "Democracia y resentimiento"
-date: 2002-12-02 08:00:00
-categories: política
+title: Democracia y resentimiento
+date: 2002-12-02 08:00:00 Z
+categories:
+- política
 ---
+
 No hay peor acción que la que se basa en el resentimiento; el resentimiento sembrado en los ciudadanos, que tiene origen en el acto de desacreditar y de no reconocer el clamor de los sectores gremiales o representativos, es una mala semilla y a la postre una mala política. Los gobiernos que dejan de reconocer algún sector, por pequeño que parezca, abren una brecha que los debilita y contrarían su valor conciliador y omniabarcador, dejando de atender la voluntad de algún sector. 
 
 Usualmente, los sectores, la gente, se comienzan a identificar con el sector no reconocido o excluido y termina por convertirse en un aluvión de personas que por resentimiento, por falta de reconocimiento exige su espacio. En fin, nadie debe actuar usando como base el resentimiento, ya que lo que comienza mal, termina mal. Las decisiones que se toman, usando la emoción negadora o por instinto de auto preservación, no pueden tender a otra cosa que no sea la violencia, la imposición de uno sobre otro. 

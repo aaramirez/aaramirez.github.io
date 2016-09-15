@@ -1,8 +1,10 @@
 ---
-title: "Anatomía de un retroceso"
-date: 2008-05-09 08:00:00
-categories: trading
+title: Anatomía de un retroceso
+date: 2008-05-09 08:00:00 Z
+categories:
+- trading
 ---
+
 Los operadores que se educan para operar tendencias se encuentran esperando a que se forme un retroceso para considerar una entrada en el mercado. 
 
 Hoy vamos a hablar de cómo se ve ese retroceso, cómo se forma. Conseguir el punto donde culmina el retroceso es importante para definir la entrada al mercado cuando hay tendencia, es decir, ya hay swings alcistas o bajistas formados.

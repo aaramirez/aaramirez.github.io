@@ -1,9 +1,13 @@
 ---
-title: "Navegación en Ionic"
-date: 2015-11-04 08:00:00
-categories: desarrollo ionic angularjs
+title: Navegación en Ionic
+date: 2015-11-04 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Ya hemos avanzado en el uso de muchas de las funcionalidades de Ionic por el lado del JavaScript. Hasta ahora hemos trabajado en una sola pantalla. Las aplicaciones en general tienen varias pantallas y se debe ofrecer una forma de navegar en la aplicación y además de avanzar y poder regresar a pantallas previas.
 
 [__ionic__][1] ofrece para ello la directiva [__ion-nav-view__][2]. Esta permite mantener una o varias historias de navegación. El componente sobre el cual se apoya el framework es [__ui-router__][5] el cual se basa en el concepto de estados en lugar de el concepto de rutas, un estado es un lugar en la aplicación, estos lugares están descritos a través del controlador, plantillas y las vistas. Es decir, es posible mantener una jerarquía de estados, es decir, un estado hereda las propiedades de otro estado padre o dicho de otra manera, es posible tener un estado padre que ofrece elementos que todos sus hijos pueden aprovechar. Además se pueden tener vistas paralelas dentro de un estado (parallel nested views).

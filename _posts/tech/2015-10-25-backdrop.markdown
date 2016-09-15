@@ -1,9 +1,13 @@
 ---
-title: "Uso del Backdrop y Loading"
-date: 2015-10-25 08:00:00
-categories: desarrollo ionic angularjs
+title: Uso del Backdrop y Loading
+date: 2015-10-25 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 A veces hace falta llamar la atención sobre alguna información emergente o sencillamente quitarle un poco de relevancia a lo que está en la pantalla actualmente, por ejemplo cuando se están cargando nuevos datos.
 
 Para ello [__Ionic__][1] ofrece el *Backdrop* y adicionalmente el *Loading*. El punto es que es único en toda la aplicación y lo provee el servicio [__$ionicBackdrop__][2]. Por otra parte cuando estamos cargando datos se suele utilizar un indicador de carga de datos, este servicio se llama [__$ionicLoading__][3]

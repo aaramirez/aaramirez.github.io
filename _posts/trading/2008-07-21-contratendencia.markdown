@@ -1,8 +1,10 @@
 ---
-title: "Línea de contratendencia"
-date: 2008-07-21 08:00:00
-categories: trading
+title: Línea de contratendencia
+date: 2008-07-21 08:00:00 Z
+categories:
+- trading
 ---
+
 Una de las alternativas que se ha planteado para identificar cambios de dirección o continuación de un movimiento son las líneas de contratendencia.
 
 La situación que nos interesa es identificar cambios de dirección, puntos de reverso, utilizando la línea de contratendencia. Resulta que en muchos casos la línea de contratendencia es la misma línea interna del retroceso en un swing alcista o bajista.

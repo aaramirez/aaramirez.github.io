@@ -1,8 +1,10 @@
 ---
-title: "Sobre la intimidad"
-date: 2003-11-02 08:00:00
-categories: relaciones
+title: Sobre la intimidad
+date: 2003-11-02 08:00:00 Z
+categories:
+- relaciones
 ---
+
 La intimidad no es lo mismo que el sexo. De hecho la diferencia radica en la vinculación de cada uno, en una pareja.
 
 Un hombre es capaz de mantener intimidad con muy pocas damas y ampliando el espectro, con muy pocas personas. Sin embargo puede tener sexo, o desear tenerlo, con cualquiera, sin que eso implique alguna complicación posterior. Solamente representa el desahogo de una curiosidad, de un interés casual, o otros términos, nos es vinculante.

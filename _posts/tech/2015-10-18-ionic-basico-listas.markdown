@@ -1,9 +1,13 @@
 ---
-title: "Uso de listas en Ionic"
-date: 2015-10-18 08:00:00
-categories: desarrollo ionic angularjs
+title: Uso de listas en Ionic
+date: 2015-10-18 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Siguiendo con los tutoriales sobre Ionic vamos a trabajar con listas y su uso básico.
 
 Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial.

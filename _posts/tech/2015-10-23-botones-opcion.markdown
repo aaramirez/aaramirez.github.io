@@ -1,9 +1,13 @@
 ---
-title: "Ofreciendo opciones en las listas"
-date: 2015-10-23 08:00:00
-categories: desarrollo ionic angularjs
+title: Ofreciendo opciones en las listas
+date: 2015-10-23 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Otra forma de trabajar con la lista es ofrecer al usuario la opción de delizamiento a la izquierda (swipe left) en cada elemento de la lista.
 
 Esa opción en __Ionic__ se denomina botones de opción  (option buttons) y se logra mediante la directiva [__ion-option-button__][4]. Esta opción es hija de [__item-item__][6].

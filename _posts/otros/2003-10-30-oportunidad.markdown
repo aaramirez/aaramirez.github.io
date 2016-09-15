@@ -1,8 +1,10 @@
 ---
-title: "Sobre la oportunidad"
-date: 2003-10-30 08:00:00
-categories: relaciones
+title: Sobre la oportunidad
+date: 2003-10-30 08:00:00 Z
+categories:
+- relaciones
 ---
+
 Quiero expresarte lo que significa la oportunidad para un hombre y hablo de un hombre, justamente por que soy uno y a pesar de eso represento también una minúscula fracción de un género que considero, no en pocos casos, piensa y comparte mi sentir y pensar, aunque muy pocos lo logren expresar.
 
 La oportunidad es la posibilidad abierta, transparente o no, justa o no, de involucrarte con alguien con quien te identificas en  niveles diversos, desde el deseo, hasta una conversación profunda. Aunque en mi mente muy bien puede mezclarse con algo de placer. Ya que la intimidad es justo llegar a sublimar un vínculo más profundo, en el mejor de los casos, y muy bajo, en otros. En fin, es la realización de estrechez en una relación, un ritual de fusión, de entrega y vulnerabilidad, de tomar y ejercer fuerza, de dejarse llevar, de dominar o ser dominado, de recibir y lo más satisfactorio en mi caso, de dar.

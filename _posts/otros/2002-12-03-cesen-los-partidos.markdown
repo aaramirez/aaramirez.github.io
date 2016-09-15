@@ -1,8 +1,10 @@
 ---
-title: "Cesen los partidos"
-date: 2002-12-03 08:00:00
-categories: política
+title: Cesen los partidos
+date: 2002-12-03 08:00:00 Z
+categories:
+- política
 ---
+
 Que cesen los partidos solamente puede significar que se respete la voluntad del pueblo a pesar de la línea del partido de gobierno o de cualquier otro. 
 
 Los dirigentes que ocupan cargos que se someten a elección se deben subordinar a la voluntad de sus electores y deben preocupar por reflejar la voluntad de sus electores. 

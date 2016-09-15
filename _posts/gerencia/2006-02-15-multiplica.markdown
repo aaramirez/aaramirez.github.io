@@ -1,8 +1,10 @@
 ---
-title: "Multiplica por tres"
-date: 2006-02-15 08:00:00
-categories: gerencia
+title: Multiplica por tres
+date: 2006-02-15 08:00:00 Z
+categories:
+- gerencia
 ---
+
 Es muy común en el talento más joven soslayar detalles cuando se trata de estimar el esfuerzo requerido para realizar una actividad.
 
 En mi caso personal recuerdo con claridad que era muy bueno para estimar cuanto tiempo me tomaría hacer el 80% del trabajo (es decir estimaba el 100% y realmente hacía el 80% del trabajo), pero el último 20% requiere típicamente mucho más trabajo, inclusive hasta triplicar la estimación original. En pocas palabras era muy malo estimando el tiempo de desarrollo de una aplicación.

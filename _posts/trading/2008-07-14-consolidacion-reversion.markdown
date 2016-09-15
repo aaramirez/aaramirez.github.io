@@ -1,8 +1,10 @@
 ---
-title: "Consolidaciones antes de revertir"
-date: 2008-07-14 08:00:00
-categories: trading
+title: Consolidaciones antes de revertir
+date: 2008-07-14 08:00:00 Z
+categories:
+- trading
 ---
+
 Siguiendo nuestro reciente tema sobre el arte de identificar una entrada después de un retroceso. Esta vez vamos a hablar de las situaciones donde las monedas se consolidan antes de cambiar de dirección o revertir el movimiento previo y justo esa consolidación o movimiento lateral sirve para identificar la entrada.
 
 Recapitulando, Ud. sabe de las ondas que se forman y se completan cuando las monedas se mueven en tendencia, ya sea alcista o bajista. Sin embargo, cuando el mercado comienza un movimiento lateral, este puede continuar el movimiento previo o puede revertir su movimiento.

@@ -1,8 +1,11 @@
 ---
-title: "With open eyes..."
-date: 2010-12-01 08:00:00
-categories: gerencia planificación
+title: With open eyes...
+date: 2010-12-01 08:00:00 Z
+categories:
+- gerencia
+- planificación
 ---
+
 En el ambiente corporativo es muy común que se requiera de consultoría para implementar el proceso de planificación estratégico que termina siendo un ciclo de planificación.
 
 En las empresas que tienen que ver con tecnología, los ciclos de 4 a 6 años son muy comunes y esto garantiza que el plan tiene un nivel de revisión frecuente que se adapta a los cambios de requerimientos de mercado, de contexto regulatorio, competitivo y tecnológico, así como los cambios propios de la visión y misión de la empresa.

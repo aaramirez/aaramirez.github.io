@@ -1,7 +1,9 @@
 ---
-title: "Algunos trucos con git"
-date: 2015-01-01 08:00:00
-categories: desarrollo git
+title: Algunos trucos con git
+date: 2015-01-01 08:00:00 Z
+categories:
+- desarrollo
+- git
 comments: true
 ---
 
