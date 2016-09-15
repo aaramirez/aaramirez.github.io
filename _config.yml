@@ -33,30 +33,19 @@ limit_posts: 0
 future: true
 unpublished: false
 whitelist: []
-gems:      [jekyll-paginate]
-
-# Conversion
-markdown:    kramdown
-#highlighter: pygments
-lsi:         false
+gems:
+- jekyll-paginate
+markdown: kramdown
+lsi: false
 excerpt_separator: "\n\n"
-
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-
-# Outputting
-permalink:     none
-#permalink:     /:title.html
-paginate:      5
-paginate_path: /page:num
-timezone:      null
-
-quiet:    false
-#defaults: []
-
+detach: false
+port: 4000
+host: 127.0.0.1
+baseurl: ''
+permalink: none
+paginate: 5
+paginate_path: "/page:num"
+quiet: false
 rdiscount:
   extensions: []
 redcarpet:

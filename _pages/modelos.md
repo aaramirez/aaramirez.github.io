@@ -1,7 +1,7 @@
 ---
-layout: inner
 title: Modelos Aleatorios
-permalink: /modelos/
+permalink: "/modelos/"
+layout: inner
 ---
 
 Base de conocimientos sobre Probabilidades, Estadísticas, Simulación y Modelos.
