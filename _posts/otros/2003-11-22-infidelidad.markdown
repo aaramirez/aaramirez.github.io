@@ -1,8 +1,10 @@
 ---
-title: "Sobre la infidelidad"
-date: 2003-11-22 08:00:00
-categories: relaciones
+title: Sobre la infidelidad
+date: 2003-11-22 08:00:00 Z
+categories:
+- relaciones
 ---
+
 Es un tema muy abierto y muy interesante, es algo que vemos todos los días de nuestras vidas y para el cual existe una resistencia tremenda con relación a los sentimientos encontrados que produce el descubrimiento de una infidelidad. 
 
 La mas común y la que mas hablamos en general tiene que ver con la infidelidad que se produce en el seno de una relación familiar, independientemente de aquel que interrumpe la paz, que interrumpe el convivir, el compartir, en una pareja y se dedica a atender otra relación. 

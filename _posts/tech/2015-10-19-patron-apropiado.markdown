@@ -1,9 +1,13 @@
 ---
-title: "Patrón apropiado"
-date: 2015-10-19 08:00:00
-categories: desarrollo ionic angularjs
+title: Patrón apropiado
+date: 2015-10-19 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Partiendo el tutorial anterior vamos a hacer una modificación para dar la idea de un uso más apropiado de los controladores e introducir el concepto de servicios.
 
 Ingrese a [play.ionic.io][1] para obtener el código para iniciar el tutorial y haga FORK. __No olvide hacer FORK__.

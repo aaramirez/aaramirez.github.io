@@ -1,8 +1,10 @@
 ---
-title: "Soportes y Resistencias"
-date: 2008-07-10 08:00:00
-categories: trading
+title: Soportes y Resistencias
+date: 2008-07-10 08:00:00 Z
+categories:
+- trading
 ---
+
 El juego que presenciamos todos los días al observar los gráficos es el juego de Soporte y Resistencia. Este juego se produce entre dos equipos el equipo de los toros y el equipo de los osos.
 
 Los toros se encargan de formar y defender los niveles de soporte y los osos de encargan de formar y defender los niveles de resistencia. Es decir, cada equipo tiene objetivo de formar nuevos niveles y al mismo tiempo defender los existentes. 

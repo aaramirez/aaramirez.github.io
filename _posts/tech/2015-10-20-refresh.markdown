@@ -1,9 +1,13 @@
 ---
-title: "Refrescando contenido en una pantalla"
-date: 2015-10-20 08:00:00
-categories: desarrollo ionic angularjs
+title: Refrescando contenido en una pantalla
+date: 2015-10-20 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Una de las actividades frecuentes en una pantalla de una aplicación móvil es la actualización de contenido. Para ello Ionic provee la directiva __ionRefresher__.
 
 Partiendo el tutorial anterior vamos a hacer una modificación para mostrar la manera de utilizar __Pull to Refresh__ en una pantalla con una lista..

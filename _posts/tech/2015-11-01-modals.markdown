@@ -1,9 +1,13 @@
 ---
-title: "Diálogos Modales (Modals)"
-date: 2015-11-01 08:00:00
-categories: desarrollo ionic angularjs
+title: Diálogos Modales (Modals)
+date: 2015-11-01 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 Los diálogos modales son ventanas emergentes, temporales, que demandan la atención del usuario que interactua con la aplicación, normalmente para que tome una decisión o proporcione información.
 
 En [__ionic__][1] este comportamiento se logra con el servicio [__$ionicModal__][2]. Es muy sencillo de usar.

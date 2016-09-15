@@ -1,9 +1,12 @@
 ---
-title: "SOA para empezar"
-date: 2011-02-10 08:00:00
-categories: tecnología SOA
+title: SOA para empezar
+date: 2011-02-10 08:00:00 Z
+categories:
+- tecnología
+- SOA
 comments: true
 ---
+
 ¿Será una necesidad o una moda?, ¿Será una necesidad creada por los consultores?, ¿Será una moda tecnológica?. Independientemente de las respuestas, en todas las empresas que me ha tocado trabajar o visitar, tienen como factor común la proliferación de aplicaciones verticales para atender distintos tipos de requerimientos. El mundo de hoy "todo conectado" y la proliferación de accesos vía internet, web o móvil requiere la integración de muchos de esos canales, antes aislados.
 
 En particular, la Banca ha desarrollado múltiples canales como: redes de agencias, centro de atención telefónico, puntos de ventas, cajeros automáticos, redes de agencias comunitarias, banca por internet y más recientemente Banca Móvil. Cada uno de estos canales ofrece una interfaz hacia el usuario distintas, con distintas reglas de presentación de la información, de acceso a la información, de seguridad, de operación, de transaccionalidad, etc. Sin embargo los componentes que ejecutan las operaciones de forma transaccional casi siempre son los mismos. A saber, o es un débito o un crédito, un pago o una comisión, etc. Sin caer en detalles, podemos diferenciar dos familias de reglas: las relativas a la forma como se interactua con el cliente y sus capacidades o limitaciones, las reglas del negocio bancario, débitos, créditos, comisiones, conciliación, cortes, etc.

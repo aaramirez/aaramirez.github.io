@@ -1,8 +1,10 @@
 ---
 title: "¿Profesional o Apostador?"
-date: 2008-09-24 08:00:00
-categories: trading
+date: 2008-09-24 08:00:00 Z
+categories:
+- trading
 ---
+
 Espero que ante una pregunta como esta, los estudiantes y operadores que han trabajado sus estrategias conmigo respondan Profesional. 
 
 Muchos de los operadores novatos inician pensando en convertirse en apostadores profesionales. Ya que entran y salen del mercado sin entender la dinámica y la pauta de las monedas. Sus emociones dictan pauta y dominan la acción. El Profesional es la antítesis de este tipo de operadores.

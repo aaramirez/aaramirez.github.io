@@ -1,8 +1,10 @@
 ---
-title: "Fibonacci"
-date: 2008-07-28 08:00:00
-categories: trading
+title: Fibonacci
+date: 2008-07-28 08:00:00 Z
+categories:
+- trading
 ---
+
 Dentro de la metodología que hemos ido desarrollando en los artículos hay dos herramientas fundamentales para enfrentar los movimientos del mercado. Los números de Fibonacci y Soportes y Resistencias. Ambos tienen propósitos similares en condiciones del mercado distintas.
 
 Si el mercado está en tendencia alcista o bajista, los números de Fibonacci nos sirven para identificar posibles niveles donde el mercado puede conseguir Soporte o Resistencia para cambiar de dirección, finalizar el retroceso y comenzar la extensión.

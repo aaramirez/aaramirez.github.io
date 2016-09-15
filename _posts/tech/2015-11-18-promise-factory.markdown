@@ -1,9 +1,13 @@
 ---
-title: "Uso de promesas en un servicio (factory)"
-date: 2015-11-18 08:00:00
-categories: desarrollo ionic angularjs
+title: Uso de promesas en un servicio (factory)
+date: 2015-11-18 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
+
 En muchos casos es necesario acceder información de forma asíncrona. Hoy en día es posible hacer este trabajo mediante el uso de las promesas (promises).
 
 Las promesas permiten definir servicios que no devuelven información inmediatamente y que se resuelven luego. Durante el flujo de la aplicación la promesa sirve para mandar a ejecutar una actividad y manejar su flujo luego que retorna, sin esperar por el resultado. Es decir, sigue la ejecución de la aplicación y cuando se resuelve la promesa (ya sea con éxito o error) entonces se ejecutan las acciones que dependen de la promesa.

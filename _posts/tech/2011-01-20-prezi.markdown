@@ -1,7 +1,8 @@
 ---
-title: "prezi.com"
-date: 2011-01-20 08:00:00
-categories: diseño
+title: prezi.com
+date: 2011-01-20 08:00:00 Z
+categories:
+- diseño
 comments: true
 ---
 

@@ -1,8 +1,10 @@
 ---
-title: "Plan de Operación - Backtesting"
-date: 2008-06-10 08:00:00
-categories: trading
+title: Plan de Operación - Backtesting
+date: 2008-06-10 08:00:00 Z
+categories:
+- trading
 ---
+
 Tal vez uno de los aspectos menos entendidos por los operadores es la necesidad de probar sus estrategias. Muchos operadores sencillamente quieren probar en el mercado su idea más reciente. Si funciona las primeras veces es suficiente para seguirla operando, si no hay que comenzar de nuevo y pensar en una nueva.
 
 Es evidente que no es suficiente tener las reglas, también tenemos que probarlas con el histórico de las velas en nuestros gráficos, eso sería “Backtest”, y con la cuenta demo, eso sería “Forward test”.  Una vez que Ud. ha realizado las pruebas respectivas entonces puede considerar su operación en el mercado real.

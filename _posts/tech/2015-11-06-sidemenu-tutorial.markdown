@@ -1,7 +1,10 @@
 ---
-title: "Tutorial con menú lateral (ion-side-menus)" 
-date: 2015-11-06 08:00:00
-categories: desarrollo ionic angularjs
+title: Tutorial con menú lateral (ion-side-menus)
+date: 2015-11-06 08:00:00 Z
+categories:
+- desarrollo
+- ionic
+- angularjs
 comments: true
 ---
 

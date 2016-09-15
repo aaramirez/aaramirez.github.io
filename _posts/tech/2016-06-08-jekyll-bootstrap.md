@@ -1,7 +1,10 @@
 ---
-title: "Crea tu Blog con Jekyll"
-date: 2016-06-08 08:00:00
-categories: desarrollo web jekyll
+title: Crea tu Blog con Jekyll
+date: 2016-06-08 08:00:00 Z
+categories:
+- desarrollo
+- web
+- jekyll
 comments: true
 ---
 

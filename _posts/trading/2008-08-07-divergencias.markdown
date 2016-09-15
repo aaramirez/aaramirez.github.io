@@ -1,8 +1,10 @@
 ---
-title: "Divergencias"
-date: 2008-08-07 08:00:00
-categories: trading
+title: Divergencias
+date: 2008-08-07 08:00:00 Z
+categories:
+- trading
 ---
+
 ¿De que manera los indicadores nos pueden ayudar a identificar cambios del momentum? ¿De que manera podemos identificar posibles cambios de dirección con un indicador?
 
 Una de las formas que Ud. puede identificar estas situaciones es mediante las divergencias. Este tipo de señales se identifican en los indicadores osciladores y ocurren cuando, por ejemplo: La moneda realiza un alto más alto y el indicador no. O cuando la moneda realiza un bajo más bajo y el indicador no. Esta es la divergencia normal o positiva.

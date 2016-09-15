@@ -1,8 +1,10 @@
 ---
-title: "Tendencia"
-date: 2008-08-01 08:00:00
-categories: trading
+title: Tendencia
+date: 2008-08-01 08:00:00 Z
+categories:
+- trading
 ---
+
 Este blog pretende dejar una reflexión a los operadores para identificar las situaciones de mayor probabilidad a la hora de considerar una operación.
 
 Al analisis técnico surge con el fin de identificar patrones en los gráficos que se repiten frecuentemente y le permiten a los operadores, que los siguen, identificar oportunidades de sacarle provecho al mercado.
