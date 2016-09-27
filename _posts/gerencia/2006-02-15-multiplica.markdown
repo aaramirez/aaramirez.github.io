@@ -1,7 +1,8 @@
 ---
 title: Multiplica por tres
 date: 2006-02-15 08:00:00 Z
-categories: gerencia
+categories:
+- gerencia
 ---
 
 Es muy común en el talento más joven soslayar detalles cuando se trata de estimar el esfuerzo requerido para realizar una actividad.
