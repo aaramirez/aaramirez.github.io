@@ -6,9 +6,15 @@ layout: inner
 
 Base de conocimientos sobre Probabilidades, Estadísticas, Simulación y Modelos.
 
-# [Probabilidades](/modelos/probabilidades/)
+# [Probabilidades - Básica](/modelos/probabilidades/)
 
-# [Estadísticas](/modelos/estadisticas/)
+# [Probabilidades - Teoría](/modelos/probabilidades/teoria/)
+
+# [Probabilidades - Procesos Estocásticos](/modelos/probabilidades/procesos/)
+
+# [Estadísticas - Estimación](/modelos/estadisticas/estimacion/)
+
+# [Estadísticas - Series de Tiempo](/modelos/estadisticas/series/)
 
 # [Métodos Computacionales](/modelos/metodos/)
 
