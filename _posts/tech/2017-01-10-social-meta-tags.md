@@ -1,12 +1,12 @@
 ---
 title: Social Meta Tags
 date: 2017-01-10 08:00:00 Z
+published: false
 categories:
 - desarrollo
 - tecnología
 - web
 comments: true
-published: false
 ---
 
 Para que el contenido de tus páginas web sea amigable con las redes sociales, es necesario, 
