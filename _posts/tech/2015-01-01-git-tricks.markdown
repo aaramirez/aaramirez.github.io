@@ -79,6 +79,18 @@ $ git reset --hard commit-id
 $ git push reponame -f
 </pre>
 
+- Descargar cambios de forma interactiva
+
+<pre>
+git checkout -p
+</pre>
+
+- Incorporar cambios de forma interactiva
+
+<pre>
+  git add -p
+</pre>
+
 [1]: https://help.github.com/articles/set-up-git/ "Set up git"
 [2]: https://help.github.com/articles/adding-a-file-to-a-repository-from-the-command-line/ "Add files"
 [3]: https://help.github.com/articles/generating-ssh-keys/ "Generating ssh-keys"
