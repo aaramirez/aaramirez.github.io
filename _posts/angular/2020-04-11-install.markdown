@@ -1,0 +1,247 @@
+---
+title: Instalación de Angular
+date: 2020-04-11 08:00:00 Z
+categories:
+- desarrollo
+- angular
+- javascript
+comments: true
+published: false
+permalink: /angular/intro
+---
+
+Las páginas web consisten de secciones de contenido que sigue una jerarquía de elementos que se anidan. El contenido está enmarcado dentro de otros elementos de contenido y esto crea una jerarquía de elementos en la página.
+
+## Páginas Web
+
+Las páginas web consisten de secciones de contenido que sigue una jerarquía de elementos que se anidan. El contenido está enmarcado dentro de otros elementos de contenido y esto crea una jerarquía de elementos en la página.
+
+**HTML** se utiliza para describir esta jerarquía y cada elemento de **HTML** consiste en una etiqueta (__tag__) que consiste en un elemento de contenido, como un párrafo, un título, una lista, una sección, entre otros.
+
+Por ejemplo, una lista de productos consiste en un conjunto de categorías que contienen cada uno de los productos y cada producto contiene una imagen del producto, el nombre del producto, su descripción y el precio. Cada uno de estos elementos consiste en un contenido específico, una imagen, texto o algún dato sobre el producto.
+
+## Instalación
+
+{% highlight bash %}
+npm install -g @angular/cli
+{% endhighlight %}
+
+## Comandos útiles
+
+{% highlight bash %}
+ng --version
+{% endhighlight %}
+
+{% highlight bash %}
+ng --help
+{% endhighlight %}
+
+## Nuevo proyecto
+
+
+{% highlight bash %}
+ng new <nombre del proyecto>
+cd <nombre del proyecto>
+{% endhighlight %}
+
+
+
+Lo más
+
+- Interacción
+Puedes seleccionar el contenido (hacer click o doble click) para generar una acción. Cambiar algo en la página, apariencia, contenido
+
+- Dinamismo
+El elemento puede cambiar el mismo elemento o cambiar otras secciones de contenido en la misma página.
+
+¿Qué puede cambiar?
+
+- Puede cambiar la estructura, un elemento aparece o no aparece en pantalla.
+- Puede cambiar su contenido o el contenido de otros elementos en la página
+- Puede cambiar la apariencia, el estilo, tipo de letra, color, posición, márgenes, etc.
+- Puede cambiar su comportamiento
+
+## Estados enlazados
+
+Cada estado consiste en una estructura de contenido y esta estructura muestra datos de una o varias fuentes de información.
+
+Mediantela interacción puedes modificar el estado actual o pasar a otro estado. Cada interacción puede implicar la búsqueda de datos que son necesarios para el nuevo estado.
+
+Por ejemplo, estamos en la lista de productos y cuando presionamos un producto aparecen los detalles del producto. Son dos estados distintos y el contenido es distinto en cada estado. El programador debe conocer el estado en el que se encuentra para buscar los datos necesarios en el estado actual.
+
+## Angular
+
+A lo largo de los años el contenido de las páginas web proviene de múltiples fuentes, ya que los portales componen contenido de distinta naturaleza para ofrecer una experiencia dinámica y personalizada, lo más posible. La idea es que el contenido represente lo más pertienente para el usuario que la consulta. Es por ello que ha evolucionado la forma de lograr el dinamismo en las páginas web.
+
+El equipo de Google dedicado a **Angular** ha dado varias iteraciones para definir un ambiente (framework) de desarrollo que permite:
+
+- crear elementos de contenido y
+- controlar el comportamiento de los elementos de contenido que componen la página web.
+
+Los elementos de contenido se denominan **directivas** y las que tienen alguna plantilla asociada se denominan **componentes**.
+
+### Directivas
+
+
+
+### Componentes
+
+- Apariencia: Estilo.
+- Estructura: Elementos de contenido que la componen.
+- Control y Modelo: Lógica y estructuras de datos.
+
+{% highlight javascript %}
+angular.module('app', ['ionic'])
+
+.controller('appController', function($scope, getYahooData) {
+
+})
+
+.factory('getYahooData', function($q, $http) {
+
+});
+{% endhighlight %}
+
+Ahora vamos a definir el método getTickerData. En el método declaremos la variable que vamos a usar para la promesa (deferred) y utilice el servicio __$http__ para acceder a los datos de acuerdo al ejemplo previo en el blog. Les dejo la estructura típica como referencia. Básicamente el servicio __$http__ también devuelve una promesa y se puede utilizar el método __success__ y __error__ de la promesa. Cada uno de esos métodos devuelve los datos si es exitoso o el error.
+
+{% highlight javascript  %}
+angular.module('app', ['ionic'])
+
+.controller('appController', function($scope, getYahooData) {
+
+})
+
+.factory('getYahooData', function($q, $http) {
+
+  var getTickerData = function(ticker) {
+    var deferred = $q.defer();
+
+    var url = 'http://finance.yahoo.com/webservice/v1/symbols/'+ ticker +'/quote?format=json&view=detail';
+
+    $http.get(url)
+      .success(function(json) {
+
+      })
+      .error(function(error){
+
+      });
+
+    return deferred.promise;
+  };
+
+});
+{% endhighlight %}
+
+Ahora defina lo que va a retornar el servicio, que es un objeto con la lista de métodos que se desean exponer en el servicio. El servicio debe retornar una estructura como esta siempre.
+
+{% highlight javascript  %}
+angular.module('app', ['ionic'])
+
+.controller('appController', function($scope, getYahooData) {
+
+})
+
+.factory('getYahooData', function($q, $http) {
+
+  var getTickerData = function(ticker) {
+    var deferred = $q.defer();
+
+    var url = 'http://finance.yahoo.com/webservice/v1/symbols/'+ ticker +'/quote?format=json&view=detail';
+
+    $http.get(url)
+      .success(function(json) {
+
+      })
+      .error(function(error){
+
+      });
+
+    return deferred.promise;
+  };
+
+  return {
+    getTickerData: getTickerData
+  };
+});
+{% endhighlight %}
+
+Ahora vamos a implementar los métodos __success__ y __error__ utilizando los métodos __resolve__ y __reject__. Adicionalmente el método __getTickerData__ debe retornar la promesa.
+
+{% highlight javascript  %}
+angular.module('app', ['ionic'])
+
+.controller('appController', function($scope, getYahooData) {
+
+})
+
+.factory('getYahooData', function($q, $http) {
+
+  var getTickerData = function(ticker) {
+    var deferred = $q.defer();
+    var url = 'http://finance.yahoo.com/webservice/v1/symbols/'+ ticker +'/quote?format=json&view=detail';
+    $http.get(url)
+      .success(function(json) {
+        console.log(json);
+        var data = json.list.resources[0].resource.fields;
+        deferred.resolve(data);
+      })
+      .error(function(error){
+        console.log('getTickerData error ' + error);
+        deferred.reject();
+      });
+    return deferred.promise;
+  };
+
+  return {
+    getTickerData: getTickerData
+  };
+});
+{% endhighlight %}
+
+Ahora implemente el controlador, manejando la promesa y tomando el resultado utilizando el método __then__. Debe enviar el parámetro que espera el método y colocar en el modelo la información que viene del servicio.
+
+{% highlight javascript  %}
+angular.module('app', ['ionic'])
+
+.controller('appController', function($scope, getYahooData) {
+  var promise = getYahooData.getTickerData('AAPL');
+  promise.then(function(data) {
+    $scope.tickerData = data;
+  });
+})
+
+.factory('getYahooData', function($q, $http) {
+
+  var getTickerData = function(ticker) {
+    var deferred = $q.defer();
+    var url = 'http://finance.yahoo.com/webservice/v1/symbols/'+ ticker +'/quote?format=json&view=detail';
+    $http.get(url)
+      .success(function(json) {
+        console.log(json);
+        var data = json.list.resources[0].resource.fields;
+        deferred.resolve(data);
+      })
+      .error(function(error){
+        console.log('getTickerData error ' + error);
+        deferred.reject();
+      });
+    return deferred.promise;
+  };
+
+  return {
+    getTickerData: getTickerData
+  };
+});
+{% endhighlight %}
+
+Ahora ya cuenta con la estructura básica para manejar servicios con promesas. Esta es una herramienta muy importante para las aplicaciones web que obtienen sus datos principalmente de la nube y la mejor manera de utilizarlo es de forma asíncrona.
+
+Como ejercicio defina un servicio para obtener datos sin acoplarlo a Yahoo Finance.
+
+Espero les sirva. Les dejo el [ejemplo en play.ionic.io][1].
+
+Nota: Si leen la documentación se darán cuenta que los métodos __success__ y __error__ de [__$http__][3] ya están obsoletos. Así que el ejemplo sirve sólo para ilustrar el uso de [__$q__][2].
+
+[1]: https://angular.io "Sitio Web oficial de Angular"
+[2]: https://docs.angularjs.org/api/ng/service/$q "$q"
+[3]: https://docs.angularjs.org/api/ng/service/$http "$http"

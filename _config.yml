@@ -1,5 +1,5 @@
 ---
-title: Aaramirez.Github.Io
+title: alexanderramirez.me
 timezone: UTC
 collections:
   posts:
@@ -28,13 +28,14 @@ keep_files:
 - ".svn"
 encoding: utf-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
-show_drafts: 
+show_drafts:
 limit_posts: 0
 future: true
 unpublished: false
 whitelist: []
 gems:
 - jekyll-paginate
+plugins: [jekyll-paginate]
 markdown: kramdown
 lsi: false
 excerpt_separator: "\n\n"
@@ -57,11 +58,11 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_number_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+  syntax_highlighter_opts:
+    wrap: div
+    line_numbers: inline
+    line_number_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: style
 url: http://alexanderramirez.me
