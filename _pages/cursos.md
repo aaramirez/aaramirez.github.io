@@ -2,6 +2,7 @@
 title: Cursos
 permalink: "/cursos/"
 layout: inner
+published: false
 ---
 
 Estoy creando una serie de cursos sobre Ionic con [Jonathan Duarte](http://jonathanduarte.rocks) para publicarlos en [udemy.com](http://udemy.com). Estaré publicando algunas partes para compartirla con todos los interesados. Si deseas profundizar te recomiendo tomar el curso oficial.
