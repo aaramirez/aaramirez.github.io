@@ -1,5 +1,5 @@
 ---
-title: Uso de jquery
+title: ¿Cómo usar jquery?
 date: 2020-04-13 08:00:00 Z
 categories:
 - desarrollo
