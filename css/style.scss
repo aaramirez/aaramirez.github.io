@@ -47,10 +47,10 @@ a {
     &:hover { color: #a1a1a1; }
 }
 
-h2 span { 
+h2 span {
   margin-top: -35px;        /* Size of fixed header */
-  padding-bottom: 20px; 
-  display: block; 
+  padding-bottom: 20px;
+  display: block;
 }
 
 .btn {
@@ -358,7 +358,14 @@ aside {
 }
 
 pre {
-    margin: 75px 0px;
+    margin: 0px 0px;
+    border: 0px;
+    border-radius: 0px;
+    width: 100%;
+    right: 1px;
+    .lineno {
+      border-right: 1px solid #ccc;
+    }
 }
 
 
