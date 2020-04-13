@@ -1,12 +1,11 @@
 ---
-title: Instalación de Angular
+title: Introducción a Angular
 date: 2020-04-11 08:00:00 Z
 categories:
 - desarrollo
 - angular
 - javascript
 comments: true
-published: false
 permalink: /angular/intro
 ---
 
@@ -14,37 +13,24 @@ Las páginas web consisten de secciones de contenido que sigue una jerarquía de
 
 ## Páginas Web
 
-Las páginas web consisten de secciones de contenido que sigue una jerarquía de elementos que se anidan. El contenido está enmarcado dentro de otros elementos de contenido y esto crea una jerarquía de elementos en la página.
-
 **HTML** se utiliza para describir esta jerarquía y cada elemento de **HTML** consiste en una etiqueta (__tag__) que consiste en un elemento de contenido, como un párrafo, un título, una lista, una sección, entre otros.
 
 Por ejemplo, una lista de productos consiste en un conjunto de categorías que contienen cada uno de los productos y cada producto contiene una imagen del producto, el nombre del producto, su descripción y el precio. Cada uno de estos elementos consiste en un contenido específico, una imagen, texto o algún dato sobre el producto.
 
-## Instalación
+{% highlight javascript linenos %}
+angular.module('app', ['ionic'])
 
-{% highlight bash %}
-npm install -g @angular/cli
-{% endhighlight %}
+.controller('appController', function($scope, getYahooData) {
 
-## Comandos útiles
+})
 
-{% highlight bash %}
-ng --version
-{% endhighlight %}
+.factory('getYahooData', function($q, $http) {
 
-{% highlight bash %}
-ng --help
-{% endhighlight %}
-
-## Nuevo proyecto
-
-
-{% highlight bash %}
-ng new <nombre del proyecto>
-cd <nombre del proyecto>
+});
 {% endhighlight %}
 
 
+## Elementos de contenido
 
 Lo más
 
@@ -90,7 +76,7 @@ Los elementos de contenido se denominan **directivas** y las que tienen alguna p
 - Estructura: Elementos de contenido que la componen.
 - Control y Modelo: Lógica y estructuras de datos.
 
-{% highlight javascript %}
+{% highlight javascript linenos %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
@@ -104,7 +90,7 @@ angular.module('app', ['ionic'])
 
 Ahora vamos a definir el método getTickerData. En el método declaremos la variable que vamos a usar para la promesa (deferred) y utilice el servicio __$http__ para acceder a los datos de acuerdo al ejemplo previo en el blog. Les dejo la estructura típica como referencia. Básicamente el servicio __$http__ también devuelve una promesa y se puede utilizar el método __success__ y __error__ de la promesa. Cada uno de esos métodos devuelve los datos si es exitoso o el error.
 
-{% highlight javascript  %}
+{% highlight javascript linenos  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
@@ -134,7 +120,7 @@ angular.module('app', ['ionic'])
 
 Ahora defina lo que va a retornar el servicio, que es un objeto con la lista de métodos que se desean exponer en el servicio. El servicio debe retornar una estructura como esta siempre.
 
-{% highlight javascript  %}
+{% highlight javascript linenos  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
@@ -167,7 +153,7 @@ angular.module('app', ['ionic'])
 
 Ahora vamos a implementar los métodos __success__ y __error__ utilizando los métodos __resolve__ y __reject__. Adicionalmente el método __getTickerData__ debe retornar la promesa.
 
-{% highlight javascript  %}
+{% highlight javascript linenos  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
@@ -200,7 +186,7 @@ angular.module('app', ['ionic'])
 
 Ahora implemente el controlador, manejando la promesa y tomando el resultado utilizando el método __then__. Debe enviar el parámetro que espera el método y colocar en el modelo la información que viene del servicio.
 
-{% highlight javascript  %}
+{% highlight javascript linenos  %}
 angular.module('app', ['ionic'])
 
 .controller('appController', function($scope, getYahooData) {
