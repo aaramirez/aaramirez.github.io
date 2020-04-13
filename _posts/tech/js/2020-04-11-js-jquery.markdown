@@ -40,8 +40,8 @@ A continuación les dejo un ejemplo completo de una página web con la inclusió
    crossorigin="anonymous"></script>
    <!-- Agregamos un script que lo utiliza -->
    <script type="text/javascript">
-    // Utilizamos el método text para modificar el contenido
-  	$('#ejemplo').text("Hasta la vista baby!");
+   // Utilizamos el método text para modificar el contenido
+    $('#ejemplo').text("Hasta la vista baby!");
    </script>
  </head>
  <body>
