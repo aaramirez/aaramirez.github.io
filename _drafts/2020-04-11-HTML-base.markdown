@@ -1,0 +1,44 @@
+---
+title: index.html
+date: 2020-04-11 08:00:00 Z
+categories:
+- desarrollo
+- angular
+- javascript
+- HTML
+comments: true
+permalink: /angular/html
+---
+
+Las páginas web consisten de secciones de contenido que sigue una jerarquía de elementos que se anidan. El contenido está enmarcado dentro de otros elementos de contenido y esto crea una jerarquía de elementos en la página.
+
+## __index.html__
+
+El index especifica la página web inicial que
+
+{% highlight html linenos %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AngularHelloWorld</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
+</html>
+{% endhighlight %}
+
+
+## Comandos útiles
+
+
+
+
+[1]: https://angular.io "Sitio Web oficial de Angular"
+[2]: https://docs.angularjs.org/api/ng/service/$q "$q"
+[3]: https://docs.angularjs.org/api/ng/service/$http "$http"

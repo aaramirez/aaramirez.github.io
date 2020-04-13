@@ -1,12 +1,11 @@
 ---
-title: Introducción a Angular
+title: Instalación de Angular
 date: 2020-04-11 08:00:00 Z
 categories:
 - desarrollo
 - angular
 - javascript
 comments: true
-published: false
 permalink: /angular/intro
 ---
 
@@ -14,24 +13,37 @@ Las páginas web consisten de secciones de contenido que sigue una jerarquía de
 
 ## Páginas Web
 
+Las páginas web consisten de secciones de contenido que sigue una jerarquía de elementos que se anidan. El contenido está enmarcado dentro de otros elementos de contenido y esto crea una jerarquía de elementos en la página.
+
 **HTML** se utiliza para describir esta jerarquía y cada elemento de **HTML** consiste en una etiqueta (__tag__) que consiste en un elemento de contenido, como un párrafo, un título, una lista, una sección, entre otros.
 
 Por ejemplo, una lista de productos consiste en un conjunto de categorías que contienen cada uno de los productos y cada producto contiene una imagen del producto, el nombre del producto, su descripción y el precio. Cada uno de estos elementos consiste en un contenido específico, una imagen, texto o algún dato sobre el producto.
 
-{% highlight html %}
-angular.module('app', ['ionic'])
+## Instalación
 
-.controller('appController', function($scope, getYahooData) {
+{% highlight bash %}
+npm install -g @angular/cli
+{% endhighlight %}
 
-})
+## Comandos útiles
 
-.factory('getYahooData', function($q, $http) {
+{% highlight bash %}
+ng --version
+{% endhighlight %}
 
-});
+{% highlight bash %}
+ng --help
+{% endhighlight %}
+
+## Nuevo proyecto
+
+
+{% highlight bash %}
+ng new <nombre del proyecto>
+cd <nombre del proyecto>
 {% endhighlight %}
 
 
-## Elementos de contenido
 
 Lo más
 
