@@ -36,7 +36,6 @@ whitelist: []
 gems:
 - jekyll-paginate
 plugins: [jekyll-paginate]
-markdown: kramdown
 lsi: false
 excerpt_separator: "\n\n"
 detach: false
@@ -51,18 +50,14 @@ rdiscount:
   extensions: []
 redcarpet:
   extensions: []
+markdown: kramdown
 kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
-    wrap: div
-    line_numbers: inline
-    line_number_start: 1
-    tab_width: 4
-    bold_every: 10
-    css: style
+    default_lang: javascript
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
 url: http://alexanderramirez.me
