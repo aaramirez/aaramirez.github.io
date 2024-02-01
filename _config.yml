@@ -1,5 +1,5 @@
 ---
-title: alexanderramirez.me
+title: aaramirez.github.io
 timezone: UTC
 collections:
   posts:
@@ -60,4 +60,4 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
-url: http://alexanderramirez.me
+url: https://aaramirez.github.io
