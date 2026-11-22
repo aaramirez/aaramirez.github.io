@@ -11,6 +11,16 @@ description: Cursos interactivos, artículos y el CV de Alexander A. Ramírez M.
 
 {%- assign cat = site.data.catalogo %}
 {%- assign disponibles = cat.cursos | where: "estado", "disponible" %}
+{%- assign destacados = cat.cursos | where_exp: "c", "c.destacado" | sort: "destacado" %}
+<section class="stage" aria-labelledby="destacados">
+  <h2 id="destacados"><span class="pn">Para empezar</span> Cursos destacados</h2>
+  <div class="mods destacados">
+    {%- for c in destacados %}
+    <a class="mod destacado" href="{{ c.url | relative_url }}"><span class="n">{{ c.tipo }}</span><b>{{ c.nombre }}</b><p>{{ c.descripcion }}</p><span class="empezar">Empezar el curso →</span></a>
+    {%- endfor %}
+  </div>
+</section>
+
 <section class="stage" aria-labelledby="cursos">
   <h2 id="cursos"><span class="pn">Índice</span> Cursos y libros</h2>
   <p class="cat-desc">{{ disponibles.size }} disponibles y {{ cat.cursos.size | minus: disponibles.size }} en preparación o próximamente. Las tarjetas punteadas son el plan de publicación: cada curso tendrá figuras, laboratorios, ejemplos, ejercicios y prácticas, como telco y mate.</p>

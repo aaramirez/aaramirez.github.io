@@ -60,6 +60,11 @@ footer{margin-top:44px;font-size:.88rem;color:var(--muted);border-top:1px solid 
 .mod .n{font:600 .76rem var(--f-mono);color:var(--accent)}
 .mod b{font:700 1.12rem var(--f-display)}
 .mod p{font-size:.94rem;color:var(--muted)}
+.mods.destacados{grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))}
+.mod.destacado{padding:24px;border-width:2px;border-color:var(--accent);gap:10px}
+.mod.destacado b{font-size:1.45rem}
+.mod.destacado p{font-size:1rem}
+.mod.destacado .empezar{font:700 .95rem var(--f-display);color:var(--accent);margin-top:4px}
 .mod.pronto{border-style:dashed;background:transparent}
 .mod.pronto:hover{border-color:var(--line)}
 .mod.pronto .n{color:var(--muted)}
