@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+{% include gtm-head.html %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% if page.title and page.url != "/" %}{{ page.title | strip_html }} · {% endif %}{{ site.title }}</title>
+{%- assign desc = page.description | default: page.excerpt | default: site.description -%}
+<meta name="description" content="{{ desc | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/sitio.css' | relative_url }}">
+</head>
+<body>
+{% include gtm-body.html %}
+<div class="wrap">
+<header class="topbar">
+  <a class="brand" href="{{ '/' | relative_url }}">Alexander A. <b>Ramírez M.</b></a>
+  <nav class="nav" aria-label="Principal">
+    {%- for item in site.data.nav -%}
+    {%- assign activo = false -%}
+    {%- if item.url == "/" and page.url == "/" -%}{%- assign activo = true -%}
+    {%- elsif item.url != "/" and page.url contains item.url -%}{%- assign activo = true -%}{%- endif -%}
+    <a href="{{ item.url | relative_url }}"{% if activo %} aria-current="page"{% endif %}>{{ item.texto }}</a>
+    {%- endfor -%}
+  </nav>
+</header>
+<main>
+{{ content }}
+</main>
+<footer>
+  <span>© 2002–{{ site.time | date: "%Y" }} Alexander A. Ramírez M. · <a href="https://www.linkedin.com/in/alexander-ramirez-morales/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/aaramirez" target="_blank" rel="noopener">GitHub</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></span>
+</footer>
+</div>
+<script>
+// Un enlace a #algo abre su grupo desplegable si está plegado
+(function(){
+  function abrir(h){var t=h&&h.length>1&&document.getElementById(decodeURIComponent(h.slice(1)));if(t&&t.tagName==='DETAILS'){t.open=true;return t;}}
+  var t=abrir(location.hash);if(t)t.scrollIntoView();
+  window.addEventListener('hashchange',function(){var t=abrir(location.hash);if(t)t.scrollIntoView();});
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#"]');if(a)abrir(a.getAttribute('href'));});
+})();
+</script>
+</body>
+</html>

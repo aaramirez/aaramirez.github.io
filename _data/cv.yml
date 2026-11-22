@@ -1,0 +1,154 @@
+# Currículum de la página /about/. Fuente: CV de Alexander A. Ramírez M.
+nombre: Alexander A. Ramírez M.
+titular: Director de tecnología · Telecomunicaciones, banca e inteligencia artificial
+linkedin: https://www.linkedin.com/in/alexander-ramirez-morales/
+github: https://github.com/aaramirez
+
+perfil: >-
+  Director de tecnología con más de 25 años de experiencia liderando el desarrollo de plataformas
+  de software, redes de telecomunicaciones y soluciones basadas en inteligencia artificial para los
+  sectores de telecomunicaciones, banca, seguros e inversión. He dirigido equipos técnicos y proyectos
+  de gran escala en empresas como CANTV, Banesco, Synergy-GB, Laboremia y Conectados.ai, combinando
+  arquitectura de soluciones de negocio, gestión de infraestructura de TI y desarrollo de productos
+  digitales. Ingeniero de Computación con estudios de posgrado en Matemáticas y experiencia como
+  analista y formador en mercados financieros.
+
+experiencia:
+  - cargo: Gerente de Desarrollos y Aplicaciones
+    empresa: Fibex
+    periodo: Febrero 2026 – presente
+    logros:
+      - Lidera los desarrollos de software de la empresa y de toda la corporación.
+
+  - cargo: Arquitecto de Tecnología
+    empresa: Fibex
+    periodo: Julio 2025 – febrero 2026
+    logros:
+      - Gestionó proyectos de desarrollo de software con proveedores en India.
+      - Diseñó estándares y arquitectura de software.
+      - Desarrolló especificaciones técnicas, revisó propuestas de proveedores y dio seguimiento a los proyectos de arquitectura tecnológica.
+
+  - cargo: Director de Tecnología
+    empresa: Konectame
+    periodo: Octubre 2024 – enero 2026
+    logros:
+      - Desarrolló un marketplace de servicios para la atención de adultos mayores en Venezuela.
+      - Implementó desarrollos tecnológicos para mercadear los servicios de los proveedores del marketplace.
+
+  - cargo: Director de Tecnología
+    empresa: Conectados.ai
+    periodo: Marzo 2024 – presente
+    logros:
+      - Plataforma de captación de talento con portal de empleo y ATS integrado.
+      - Entrevistas con IA y calificación automática de CV con IA.
+      - Cerca de 70 mil usuarios registrados en la plataforma.
+    tecnologias: Inteligencia artificial, ATS
+
+  - cargo: Director de Tecnología
+    empresa: AGA Social, LLC
+    periodo: Marzo 2021 – presente
+    logros:
+      - Dirige una fábrica de software basada en inteligencia artificial.
+      - Genera contenido para la implementación de soluciones de IA en la empresa.
+    tecnologias: Inteligencia artificial
+
+  - cargo: Director de Tecnología (CTO)
+    empresa: Laboremia Inc
+    periodo: Agosto 2020 – presente
+    logros:
+      - Dirige el desarrollo de un sistema SaaS de nómina para Latinoamérica.
+    tecnologias: SaaS
+
+  - cargo: Director General
+    empresa: Synergy Vision
+    periodo: Abril 2016 – marzo 2020
+    logros:
+      - Desarrolló una oferta de servicios de ciencia de datos aplicada a especulación, inversión, finanzas, economía y riesgo.
+    tecnologias: Ciencia de datos
+
+  - cargo: Instructor de Análisis Técnico, Diplomado de Trading e Inversión
+    empresa: Tecnología Financiera
+    periodo: Abril 2014 – presente
+    logros:
+      - Enseña técnicas de inversión visual para la toma de decisiones en los mercados de acciones, opciones, bonos y forex.
+
+  - cargo: Director de Tecnología
+    empresa: Synergy-GB
+    periodo: Abril 2011 – marzo 2024
+    logros:
+      - Dirigió el área de tecnología para proveer soluciones en canales electrónicos a los sectores de banca, seguros, telecomunicaciones y gobierno.
+      - Desarrolló un producto de banca móvil desplegado en más de 20 bancos en Venezuela, Panamá, República Dominicana y el sur de Florida (EE. UU.).
+    tecnologias: Banca móvil
+
+  - cargo: Planificador de Estrategia
+    empresa: Banesco Banco Universal
+    periodo: Septiembre 2008 – abril 2011
+    logros:
+      - Definió la estrategia para la implementación de Banesco.net.
+      - Lideró el desarrollo y lanzamiento de BanescoMóvil, la primera aplicación móvil de banca en Venezuela.
+
+  - cargo: Analista de Mercado Monetario
+    empresa: Market Traders Institute
+    periodo: Diciembre 2007 – septiembre 2008
+    logros:
+      - Análisis técnico en vivo del mercado monetario para operadores particulares y privados.
+      - Publicación del calendario económico y análisis de las noticias relevantes para el valor de las monedas.
+      - Entrenamiento y clases en línea para operadores, con criterios de disciplina y administración de capital.
+
+  - cargo: Gerente de Planificación de Redes
+    empresa: CANTV
+    periodo: Junio 2006 – diciembre 2007
+    logros:
+      - Planes estratégicos y tácticos para el desarrollo de las redes de banda ancha y su backbone en más de 700 localidades, con un presupuesto de 115 millones de dólares anuales.
+      - Impulsó la transformación de las redes a nivel nacional con tecnologías de nueva generación.
+      - Presupuestos de inversión de la cartera de proyectos y casos de negocio de expansión y modernización de redes.
+      - Presentó y comunicó los objetivos del plan de expansión y modernización de redes en toda la corporación.
+    tecnologias: Banda ancha, backbone
+
+  - cargo: Consultor de Planificación
+    empresa: CANTV
+    periodo: Febrero 2003 – junio 2006
+    logros:
+      - Planes estratégicos y tácticos de la red, incluidos los de acceso y backbone de la red de banda ancha.
+      - Coordinó el presupuesto de la red de 2004 y 2005 y los casos de negocio que soportan los productos de la corporación.
+    tecnologias: Banda ancha, backbone
+
+  - cargo: Gerente de Diseño de Redes · Gerente de Desarrollo de Productos · Supervisor de Redes y Comunicaciones
+    empresa: CANTV.Net
+    periodo: Enero 1998 – febrero 2003
+    logros:
+      - Planes de desarrollo de la red del ISP para los productos de banda ancha; evaluación, prueba y puesta en marcha de nueva infraestructura.
+      - Diseño, desarrollo e implantación de productos para las unidades comercial, e-commerce, empresarial y e-media, incluido el correo vía web del portal cantv.net y el hospedaje de tiendas de comercio electrónico.
+      - Implantó la red de datos de CANTV.Net sobre Cisco y 3Com (núcleo, interconexión internacional, enlaces dedicados y acceso discado) y diseñó la arquitectura que permitió el Acceso a Banda Ancha (ABA) y el transporte de VoIP.
+      - Reconocimiento por Logro Tecnológico en 1999 por la implantación de la plataforma comercial MCIS.
+    tecnologias: Cisco, 3Com, VoIP, banda ancha
+
+formacion:
+  - titulo: Doctorado en Matemáticas
+    lugar: Universidad Central de Venezuela (UCV)
+    periodo: En curso
+  - titulo: Magister Scientiarum, mención Modelos Aleatorios
+    lugar: Universidad Central de Venezuela (UCV)
+    periodo: "2019"
+    enlace: /trabajo-de-grado-modelos-aleatorios/
+  - titulo: Licenciatura en Filosofía (hasta tercer año)
+    lugar: Universidad Central de Venezuela (UCV)
+    periodo: 1998 – 2003
+  - titulo: Ingeniero de la Computación
+    lugar: Universidad Simón Bolívar (USB)
+    periodo: "1997"
+
+habilidades:
+  - area: Redes y telecomunicaciones
+    items: [Planificación y diseño de redes, Banda ancha, Backbone, VoIP, Cisco, 3Com]
+  - area: Inteligencia artificial y software
+    items: [Aplicaciones web y móviles con IA, Inteligencia artificial, SaaS, ATS, Java]
+  - area: Arquitectura y gestión
+    items: [Arquitectura de soluciones de TI y redes, Gestión de proyectos de infraestructura y desarrollo]
+  - area: Finanzas
+    items: [Análisis técnico, Trading e inversión, Ciencia de datos aplicada al riesgo]
+
+idiomas:
+  - { idioma: Español, nivel: Nativo }
+  - { idioma: Inglés, nivel: Avanzado }
+  - { idioma: Papiamento, nivel: Dominio }

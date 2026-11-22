@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Cada vez que interactuamos con alguna aplicación usualmente es necesario almacenar algún tipo de información de forma permanente o temporal. A veces requerimos que está accesible desde distintos dispositivos o sencillamente en el mismo dispositivo.

@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Les dejo un ejemplo de cómo se puede manejar un aviso previo al vencimiento de la sesión, utilizando [__$ionicModal__][1] y [__$interval__][2].

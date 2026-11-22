@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 La forma de acceder datos con [__AngularJS__][3] es mediante el servicio [__$http__][2].

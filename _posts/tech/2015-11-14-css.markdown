@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Un aspecto fundamental en [__ionic__][6] es el trabajo que han hecho definiendo un estilo que funcione y sea atractivo en los dispositivos móviles. En particular se adapta muy bien a Android y iOS.

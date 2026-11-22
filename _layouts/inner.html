@@ -1,22 +1,23 @@
-{% include header.html %}
-
-    {% include title-group.html %}
-
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    {{ content }}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                {% if jekyll.environment == "production" %}
-                    {% include disqus.html %}
-                {% endif %} 
-                </div>
-            </div>
-        </div>
-    </article>
-
-{% include footer.html %}
+---
+layout: base
+---
+<article class="articulo">
+  <header class="page-head">
+    {%- if page.collection == "posts" %}
+    {%- assign tema = page.categories | first -%}
+    <p class="num">{% include fecha.html d=page.date %}{% if tema %} · <a href="{{ '/indice/' | relative_url }}#{{ tema | slugify }}">{{ site.data.es.temas[tema] | default: tema }}</a>{% endif %}</p>
+    {%- endif %}
+    <h1>{{ page.title }}</h1>
+    {%- if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="card prose">
+    {{ content }}
+  </div>
+  {%- if page.collection == "posts" %}
+  <nav class="pager" aria-label="Artículo anterior y siguiente">
+    {%- if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}"><small>← Anterior</small>{{ page.previous.title }}</a>{% endif -%}
+    {%- if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><small>Siguiente →</small>{{ page.next.title }}</a>{% endif -%}
+  </nav>
+  <p class="volver"><a href="{{ '/indice/' | relative_url }}">Todos los artículos</a></p>
+  {%- endif %}
+</article>

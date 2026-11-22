@@ -1,0 +1,25 @@
+# Índice de la página principal. Para agregar un sitio nuevo, agrega una entrada.
+- nombre: Cómo funciona un telco
+  url: /telco/
+  tipo: Curso · 49 capítulos
+  descripcion: De las redes a la cadena de valor de un operador de telecomunicaciones, con laboratorios interactivos, prácticas en la terminal y preguntas para investigar.
+
+- nombre: Mate para ML
+  url: /mate/
+  tipo: Curso · 17 módulos
+  descripcion: Repaso visual e interactivo de las matemáticas que usan el Machine Learning, la inteligencia artificial y las redes neuronales.
+
+- nombre: Trabajo de grado
+  url: /trabajo-de-grado-modelos-aleatorios/
+  tipo: Maestría · UCV, 2019
+  descripcion: Trabajo de grado de la Maestría en Modelos Aleatorios de la Universidad Central de Venezuela, con el documento completo y sus fuentes.
+
+- nombre: Artículos
+  url: /indice/
+  tipo: Archivo · desde 2002
+  descripcion: Lo que he escrito en distintos momentos sobre gerencia, trading, desarrollo de software, tecnología y otros temas.
+
+- nombre: Acerca de y CV
+  url: /about/
+  tipo: Perfil
+  descripcion: Quién soy, mi trayectoria en telecomunicaciones, banca y tecnología, y mi currículum.

@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Una de las actividades frecuentes en una pantalla de una aplicación móvil es la actualización de contenido. Para ello Ionic provee la directiva __ionRefresher__.

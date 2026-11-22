@@ -1,58 +1,22 @@
 ---
-title: Índice de categorías
+title: Artículos
 permalink: "/indice/"
 layout: inner
+description: Todo lo que he escrito desde 2002, agrupado por tema. Toca un tema para desplegar sus artículos.
 ---
-
-{% assign rawcategories = "" %}
-{% assign posts=site.posts %}
-{% for post in posts %}
-	{% assign tcateg = post.categories | join:'|' | append:'|' %}
-	{% assign rawcategories = rawcategories | append:tcateg %}
-{% endfor %}
-{% assign rawcategories = rawcategories | split:'|' | sort %}
-{% assign categories = "" %}
-{% for cat in rawcategories %}
-	{% if cat != "" %}
-		{% if categories == "" %}
-			{% assign categories = cat | split:'|' %}
-		{% endif %}
-		{% unless categories contains cat %}
-			{% assign categories = categories | join:'|' | append:'|' | append:cat | split:'|' %}
-		{% endunless %}
-	{% endif %}
-{% endfor %}
-
-{% for cat in categories %}
-	<small><a href="#{{ cat | slugify }}"> {{ cat }} </a></small>
-	{% unless forloop.last %} &middot; {% endunless %}
-{% endfor %}
-
-
-{% for cat in categories %}
-	<h2>
-   		<span id="{{ cat | slugify }}"> &nbsp; </span>
-   		{{ cat }}
-	</h2>
-	<ul>
-	 {% assign posts=site.posts %}
-	 {% for post in posts %}
-		 {% if post.categories contains cat %}
-		 <li>
-		 <h3>
-		 <a href="{{ post.url }}">
-		 <small>{{ post.date | date_to_string }}</small>
-		 {{ post.title }}
-		 </a>
-		 <p>
-		 {% for cat in post.categories %}
-			 <small><a class="cat" href="#{{ cat | slugify }}">{{ cat }}</a>
-			 	{% unless forloop.last %} &middot; {% endunless %}</small>
-		 {% endfor %}
-		</p>
-		 </h3>
-		 </li>
-		 {% endif %}
-	 {% endfor %}
-	</ul>
-{% endfor %}
+{%- assign grupos = site.posts | group_by_exp: "p", "p.categories.first" | sort: "name" %}
+<p class="temas">
+  {%- for g in grupos %}
+  <a class="tema" href="#{{ g.name | slugify }}">{{ site.data.es.temas[g.name] | default: g.name }} <span class="cuenta">{{ g.size }}</span></a>
+  {%- endfor %}
+</p>
+{%- for g in grupos %}
+<details class="stage" id="{{ g.name | slugify }}"{% if forloop.first %} open{% endif %}>
+  <summary><h2>{{ site.data.es.temas[g.name] | default: g.name }}</h2><span class="cuenta">{{ g.size }} artículo{% if g.size != 1 %}s{% endif %}</span></summary>
+  <ul class="lista">
+    {%- for post in g.items %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%Y" }}</small></li>
+    {%- endfor %}
+  </ul>
+</details>
+{%- endfor %}

@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 En las aplicaciones móviles hay un patrón de navegación muy común que es mediate menú laterales que se activan con algún botón en la barra superior.

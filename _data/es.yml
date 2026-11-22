@@ -1,0 +1,13 @@
+meses: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
+
+# Nombre visible de cada tema (primera categoría del artículo)
+temas:
+  trading: Trading e inversión
+  gerencia: Gerencia
+  desarrollo: Desarrollo de software
+  tecnología: Tecnología
+  diseño: Diseño de interfaces
+  política: Política
+  relaciones: Relaciones
+  ideas: Ideas
+  Probabilidades: Probabilidades

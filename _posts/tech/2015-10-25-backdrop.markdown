@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 A veces hace falta llamar la atención sobre alguna información emergente o sencillamente quitarle un poco de relevancia a lo que está en la pantalla actualmente, por ejemplo cuando se están cargando nuevos datos.

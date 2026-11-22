@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Hay varias facilidades que ofrece Ionic para manipular los elementos de una lista de ionic, es decir dentro del tag __ion-list__. Entre ellas, borrar elementos de una lista.

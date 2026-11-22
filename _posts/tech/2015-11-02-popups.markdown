@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 En [__ionic__][1] ofrece el manejo de ventanas de diálogo emergentes (Popups) que requieren de que el usuario interactue y responda para continuar.

@@ -1,0 +1,65 @@
+---
+layout: base
+---
+{%- assign cv = site.data.cv -%}
+<article class="cv">
+  <header class="page-head">
+    <p class="num">Acerca de</p>
+    <h1>{{ cv.nombre }}</h1>
+    <p class="lede">{{ cv.titular }}</p>
+    <p class="cv-acciones">
+      <a class="boton" href="{{ cv.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="boton" href="{{ cv.github }}" target="_blank" rel="noopener">GitHub</a>
+      <button class="boton" type="button" onclick="window.print()">Descargar CV en PDF</button>
+    </p>
+  </header>
+
+  <div class="card prose">
+    {{ content }}
+  </div>
+
+  <section class="card" aria-labelledby="cv-perfil">
+    <h2 id="cv-perfil">Perfil</h2>
+    <p>{{ cv.perfil }}</p>
+  </section>
+
+  <section class="card" aria-labelledby="cv-exp">
+    <h2 id="cv-exp">Experiencia</h2>
+    <ol class="trayectoria">
+      {%- for x in cv.experiencia %}
+      <li>
+        <p class="periodo">{{ x.periodo }}</p>
+        <h3>{{ x.cargo }} <span class="empresa">· {{ x.empresa }}</span></h3>
+        <ul>{% for l in x.logros %}<li>{{ l }}</li>{% endfor %}</ul>
+        {%- if x.tecnologias %}<p class="tec">{{ x.tecnologias }}</p>{% endif %}
+      </li>
+      {%- endfor %}
+    </ol>
+  </section>
+
+  <div class="cv-cols">
+    <section class="card" aria-labelledby="cv-form">
+      <h2 id="cv-form">Formación</h2>
+      <ul class="lista-cv">
+        {%- for f in cv.formacion %}
+        <li><b>{% if f.enlace %}<a href="{{ f.enlace | relative_url }}">{{ f.titulo }}</a>{% else %}{{ f.titulo }}{% endif %}</b><span>{{ f.lugar }} · {{ f.periodo }}</span></li>
+        {%- endfor %}
+      </ul>
+    </section>
+    <section class="card" aria-labelledby="cv-idi">
+      <h2 id="cv-idi">Idiomas</h2>
+      <ul class="lista-cv">
+        {%- for i in cv.idiomas %}<li><b>{{ i.idioma }}</b><span>{{ i.nivel }}</span></li>{% endfor %}
+      </ul>
+    </section>
+  </div>
+
+  <section class="card" aria-labelledby="cv-hab">
+    <h2 id="cv-hab">Habilidades</h2>
+    <div class="habilidades">
+      {%- for h in cv.habilidades %}
+      <div><h3>{{ h.area }}</h3><p class="chips">{% for i in h.items %}<span>{{ i }}</span>{% endfor %}</p></div>
+      {%- endfor %}
+    </div>
+  </section>
+</article>

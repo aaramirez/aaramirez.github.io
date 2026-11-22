@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Otra forma de trabajar con la lista es ofrecer al usuario la opción de delizamiento a la izquierda (swipe left) en cada elemento de la lista.

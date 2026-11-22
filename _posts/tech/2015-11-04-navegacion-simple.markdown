@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Ya hemos avanzado en el uso de muchas de las funcionalidades de Ionic por el lado del JavaScript. Hasta ahora hemos trabajado en una sola pantalla. Las aplicaciones en general tienen varias pantallas y se debe ofrecer una forma de navegar en la aplicación y además de avanzar y poder regresar a pantallas previas.

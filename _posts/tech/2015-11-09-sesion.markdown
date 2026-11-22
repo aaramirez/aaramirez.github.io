@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Les dejo un ejemplo de cómo se puede manejar la sesión con vencimiento dentro de una aplicación.

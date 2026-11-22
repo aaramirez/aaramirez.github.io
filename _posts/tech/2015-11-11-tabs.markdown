@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Otro patrón de navegación muy frecuente en las aplicaciones es el uso de tabs. En [__ionic__][4] esto se logra mediante el uso de la directiva [__ion-tabs__][3]. 

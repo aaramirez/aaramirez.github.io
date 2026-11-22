@@ -1,63 +1,51 @@
----
-title: aaramirez.github.io
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: inner
-source: "."
-destination: "./_site"
-plugins_dir: "./_plugins"
-layouts_dir: "./_layouts"
-data_dir: "./_data"
-safe: false
-include:
-- _pages
-exclude: []
-keep_files:
-- ".git"
-- ".svn"
-encoding: utf-8
-markdown_ext: markdown,mkdown,mkdn,mkd,md
-show_drafts:
-limit_posts: 0
-future: true
-unpublished: false
-whitelist: []
-gems:
-- jekyll-paginate
-plugins: [jekyll-paginate]
-lsi: false
-excerpt_separator: "\n\n"
-detach: false
-port: 4000
-host: 127.0.0.1
-baseurl: ''
-permalink: none
-paginate: 5
-paginate_path: "/page:num"
-quiet: false
-rdiscount:
-  extensions: []
-redcarpet:
-  extensions: []
+title: Alexander A. Ramírez M.
+description: >-
+  Tecnología, telecomunicaciones, matemáticas y finanzas: cursos interactivos, artículos
+  y el CV de Alexander A. Ramírez M.
+url: https://aaramirez.github.io
+baseurl: ""
+lang: es
+timezone: America/Caracas
+
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    default_lang: javascript
-    css_class: 'highlight'
-    span:
-      line_numbers: false
+    css_class: highlight
     block:
-      line_numbers: true
-url: https://aaramirez.github.io
+      line_numbers: false
+
+# Las URL de los artículos no cambian: /categoría/.../título.html
+permalink: none
+future: true
+
+collections:
+  posts:
+    output: true
+
+include:
+  - _pages
+
+# Páginas sueltas que ya no funcionan (ejemplos en CodePen, demos de terceros):
+# se dejan en el repositorio pero no se publican.
+exclude:
+  - cursos/ionic-css
+  - wowbook
+  - sample-template-master
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: inner
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: inner

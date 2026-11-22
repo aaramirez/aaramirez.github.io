@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Siguiendo con los tutoriales sobre Ionic vamos a trabajar con listas y su uso básico.

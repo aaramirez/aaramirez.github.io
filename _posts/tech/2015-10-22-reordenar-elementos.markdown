@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Otra de las facilidades que ofrece __Ionic__ es la posibilidad para reordenar elementos de una lista. Esto se hace a través del atributo __show-reorder__ de __ion-list__.

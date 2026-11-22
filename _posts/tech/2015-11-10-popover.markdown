@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Hay otro artefacto que permite presentar información emergente aparte de los Popups y estos son los [__Poppover__][3].

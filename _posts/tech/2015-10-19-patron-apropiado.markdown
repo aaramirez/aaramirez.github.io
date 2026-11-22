@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 Partiendo el tutorial anterior vamos a hacer una modificación para dar la idea de un uso más apropiado de los controladores e introducir el concepto de servicios.

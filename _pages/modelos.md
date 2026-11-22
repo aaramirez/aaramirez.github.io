@@ -2,6 +2,7 @@
 title: Modelos Aleatorios
 permalink: "/modelos/"
 layout: inner
+published: false
 ---
 
 Base de conocimientos sobre Probabilidades, Estadísticas, Simulación y Modelos.

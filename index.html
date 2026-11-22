@@ -1,5 +1,29 @@
 ---
-layout: default
+layout: base
+title: Inicio
+description: Cursos interactivos, artículos y el CV de Alexander A. Ramírez M. Tecnología, telecomunicaciones, matemáticas y finanzas.
 ---
+<section class="hero">
+  <p class="eyebrow">Tecnología · telecomunicaciones · matemáticas · finanzas</p>
+  <h1>Aprender viendo cómo funcionan las cosas</h1>
+  <p class="lede">Soy Alexander A. Ramírez M., ingeniero de computación con más de 25 años construyendo redes, plataformas de software y productos digitales para telecomunicaciones, banca y finanzas. Aquí reúno los cursos interactivos que preparo, lo que he escrito a lo largo de los años y mi trayectoria.</p>
+</section>
 
-<!-- BLANK -->
+<section class="stage" aria-labelledby="sitios">
+  <h2 id="sitios"><span class="pn">Índice</span> Sitios disponibles</h2>
+  <div class="mods">
+    {%- for s in site.data.sitios %}
+    <a class="mod" href="{{ s.url | relative_url }}"><span class="n">{{ s.tipo }}</span><b>{{ s.nombre }}</b><p>{{ s.descripcion }}</p></a>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="stage" aria-labelledby="temas">
+  <h2 id="temas"><span class="pn">Artículos</span> Por tema</h2>
+  {%- assign grupos = site.posts | group_by_exp: "p", "p.categories.first" | sort: "name" %}
+  <div class="temas">
+    {%- for g in grupos %}
+    <a class="tema" href="{{ '/indice/' | relative_url }}#{{ g.name | slugify }}">{{ site.data.es.temas[g.name] | default: g.name }} <span class="cuenta">{{ g.size }}</span></a>
+    {%- endfor %}
+  </div>
+</section>

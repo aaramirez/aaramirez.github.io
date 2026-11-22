@@ -6,6 +6,7 @@ categories:
 - ionic
 - angularjs
 comments: true
+published: false
 ---
 
 En muchos casos es necesario acceder información de forma asíncrona. Hoy en día es posible hacer este trabajo mediante el uso de las promesas (promises).
