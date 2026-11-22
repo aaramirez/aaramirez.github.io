@@ -16,8 +16,6 @@ author: Alexander A. Ramírez M.
 author_pic: Alexander_Ramirez1.jpg
 author_email: ar@synergy.vision
 
-# Google Analytics inserted in analytics.html
-tracking_id: UA-78557915-1
 
 
 baseurl: "" # the subpath of your site, e.g. /blog/
