@@ -9,8 +9,43 @@ description: Cursos interactivos, artículos y el CV de Alexander A. Ramírez M.
   <p class="lede">Soy Alexander A. Ramírez M., ingeniero de computación con más de 25 años construyendo redes, plataformas de software y productos digitales para telecomunicaciones, banca y finanzas. Aquí reúno los cursos interactivos que preparo, lo que he escrito a lo largo de los años y mi trayectoria.</p>
 </section>
 
+{%- assign cat = site.data.catalogo %}
+{%- assign disponibles = cat.cursos | where: "estado", "disponible" %}
+<section class="stage" aria-labelledby="cursos">
+  <h2 id="cursos"><span class="pn">Índice</span> Cursos y libros</h2>
+  <p class="cat-desc">{{ disponibles.size }} disponibles y {{ cat.cursos.size | minus: disponibles.size }} en preparación o próximamente. Las tarjetas punteadas son el plan de publicación: cada curso tendrá figuras, laboratorios, ejemplos, ejercicios y prácticas, como telco y mate.</p>
+</section>
+
+{%- for k in cat.categorias %}
+{%- assign propios = cat.cursos | where: "categoria", k.id %}
+{%- assign grupos = propios | group_by: "grupo" %}
+<details class="stage cat" id="{{ k.id }}"{% if k.disponibles > 0 %} open{% endif %}>
+  <summary><h2><span class="pn">{% if k.disponibles == 1 %}1 disponible · {% elsif k.disponibles > 1 %}{{ k.disponibles }} disponibles · {% endif %}{{ k.total }} en el plan</span>{{ k.nombre }}</h2></summary>
+  <p class="cat-desc">{{ k.descripcion }}</p>
+  {%- for g in grupos %}
+  {%- if g.name and g.name != "" %}<h3 class="grupo">{{ g.name }}</h3>{% endif %}
+  {%- assign listos = g.items | where: "estado", "disponible" %}
+  {%- assign resto = g.items | where_exp: "c", "c.estado != 'disponible'" %}
+  <div class="mods">
+    {%- for c in listos %}{% include tarjeta-curso.html c=c %}{% endfor %}
+    {%- for c in resto %}{% include tarjeta-curso.html c=c %}{% endfor %}
+  </div>
+  {%- endfor %}
+</details>
+{%- endfor %}
+
+<section class="stage" aria-labelledby="rutas">
+  <h2 id="rutas"><span class="pn">Rutas</span> Competencias</h2>
+  <p class="cat-desc">Un diagnóstico y el orden recomendado de los cursos para cada competencia. Se abren cuando estén listos los cursos que recorren.</p>
+  <div class="mods">
+    {%- for r in cat.rutas %}
+    <div class="mod pronto"><span class="n">{{ r.etiqueta }}</span><b>{{ r.nombre }}</b><p>{{ r.descripcion }}</p><p class="recorre">{{ r.cursos | join: " → " }}</p></div>
+    {%- endfor %}
+  </div>
+</section>
+
 <section class="stage" aria-labelledby="sitios">
-  <h2 id="sitios"><span class="pn">Índice</span> Sitios disponibles</h2>
+  <h2 id="sitios"><span class="pn">Además</span> Otros sitios</h2>
   <div class="mods">
     {%- for s in site.data.sitios %}
     <a class="mod" href="{{ s.url | relative_url }}"><span class="n">{{ s.tipo }}</span><b>{{ s.nombre }}</b><p>{{ s.descripcion }}</p></a>

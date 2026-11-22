@@ -1,0 +1,481 @@
+# Generado por biblioteca-source/scripts/publicar_catalogo.py. No editar a mano.
+categorias:
+- id: matematica
+  nombre: Matemática
+  descripcion: Libros interactivos que siguen la Licenciatura en Matemáticas y la Maestría en Modelos Aleatorios.
+  disponibles: 2
+  total: 22
+- id: computacion
+  nombre: Computación
+  descripcion: Cómo funciona una computadora por dentro, la terminal, los algoritmos, los datos y su protección.
+  disponibles: 0
+  total: 5
+- id: software
+  nombre: Desarrollo de software
+  descripcion: De la página web a la aplicación móvil, con el servidor y la entrega continua en medio.
+  disponibles: 0
+  total: 9
+- id: ia
+  nombre: Datos e inteligencia artificial
+  descripcion: Ciencia de datos, aprendizaje automático, IA generativa y agentes.
+  disponibles: 0
+  total: 8
+- id: industrias
+  nombre: Industrias y finanzas
+  descripcion: Cómo funcionan por dentro un operador de telecomunicaciones, un banco, una casa de bolsa y la gestión de riesgos.
+  disponibles: 1
+  total: 10
+- id: pensamiento
+  nombre: Pensamiento
+  descripcion: Herramientas para razonar, decidir y resolver problemas.
+  disponibles: 0
+  total: 1
+cursos:
+- slug: elementos
+  nombre: Elementos de la matemática
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Lógica, conjuntos, funciones y el arte de demostrar, el punto de partida de toda la carrera.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: calculo
+  nombre: Cálculo
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Límites, derivadas e integrales en una y varias variables, con gráficas que se mueven.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: algebra-lineal
+  nombre: Álgebra lineal
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Vectores, matrices, transformaciones y valores propios, vistos como movimientos del plano y del espacio.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: geometria
+  nombre: Geometría
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Geometría euclidiana, analítica y vectorial con construcciones interactivas.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: algebra
+  nombre: Álgebra abstracta
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Grupos, anillos y cuerpos, las estructuras que comparten los números, las simetrías y los polinomios.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: analisis-real
+  nombre: Análisis real
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Los números reales, sucesiones, continuidad y convergencia con todo el rigor.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ecuaciones-diferenciales
+  nombre: Ecuaciones diferenciales
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Modelar el cambio, campos de pendientes y soluciones que se pueden explorar.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: variable-compleja
+  nombre: Variable compleja
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Funciones de variable compleja, integración y residuos, con mapas de color del plano complejo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: topologia
+  nombre: Topología
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Espacios, abiertos, compacidad y conexidad, la geometría de lo que no cambia al deformar.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: analisis-numerico
+  nombre: Análisis numérico
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Cómo calcula de verdad una computadora, errores de redondeo, raíces, interpolación e integración numérica.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: probabilidad-estadistica
+  nombre: Probabilidad y estadística
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Azar, variables aleatorias, distribuciones y estimación, con simulaciones en el navegador.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ejercicios
+  nombre: Tres seis cinco
+  categoria: matematica
+  grupo: Licenciatura
+  estado: proximamente
+  descripcion: Un ejercicio resuelto para cada día del año, para matemáticos en formación.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: medida
+  nombre: Teoría de la medida
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: proximamente
+  descripcion: Medida, integral de Lebesgue y los teoremas de convergencia que sostienen la probabilidad moderna.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: probabilidades-avanzadas
+  nombre: Probabilidades avanzadas
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: proximamente
+  descripcion: Leyes de los grandes números, teorema central del límite, martingalas y cadenas de Markov.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: procesos-estocasticos
+  nombre: Procesos estocásticos
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: proximamente
+  descripcion: Cadenas de Markov, procesos de Poisson y movimiento browniano, simulados paso a paso.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: inferencia
+  nombre: Inferencia estadística
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: proximamente
+  descripcion: Estimadores, intervalos de confianza y pruebas de hipótesis, con remuestreo interactivo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: series-de-tiempo
+  nombre: Series de tiempo
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: proximamente
+  descripcion: Tendencia, estacionalidad, modelos ARIMA y pronósticos con datos reales.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: modelos-lineales
+  nombre: Modelos lineales generalizados
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: proximamente
+  descripcion: Regresión lineal, logística y de Poisson bajo un mismo marco.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: multivariante
+  nombre: Estadística multivariante
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: proximamente
+  descripcion: Componentes principales, análisis de conglomerados y discriminante, con datos que se pueden rotar.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: simulacion
+  nombre: Simulación
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: proximamente
+  descripcion: Números pseudoaleatorios, Monte Carlo y simulación de sistemas.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: mate
+  nombre: Mate para ML
+  categoria: matematica
+  grupo: Repasos
+  estado: disponible
+  tipo: Curso · 17 módulos
+  descripcion: Repaso visual e interactivo de las matemáticas que usan el Machine Learning, la inteligencia artificial y las redes neuronales.
+  url: /mate/
+  etiqueta: Disponible
+- slug: trabajo-de-grado-modelos-aleatorios
+  nombre: Trabajo de grado
+  categoria: matematica
+  grupo: Maestría en Modelos Aleatorios
+  estado: disponible
+  tipo: Maestría · UCV, 2019
+  descripcion: Trabajo de grado de la Maestría en Modelos Aleatorios de la Universidad Central de Venezuela, con el documento completo y sus fuentes.
+  url: /trabajo-de-grado-modelos-aleatorios/
+  etiqueta: Disponible
+- slug: arquitectura-del-computador
+  nombre: Arquitectura del computador
+  categoria: computacion
+  estado: proximamente
+  descripcion: De la compuerta lógica al procesador, la memoria y el sistema operativo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: linea-de-comandos
+  nombre: Línea de comandos y PowerShell
+  categoria: computacion
+  estado: proximamente
+  descripcion: La terminal en Windows, macOS y Linux, de los primeros comandos a los scripts que automatizan el trabajo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: algoritmos
+  nombre: Algoritmos y estructuras de datos
+  categoria: computacion
+  estado: proximamente
+  descripcion: Ordenar, buscar, grafos y complejidad, con animaciones que se ejecutan paso a paso.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: bases-de-datos
+  nombre: Bases de datos
+  categoria: computacion
+  estado: proximamente
+  descripcion: Modelo relacional, SQL que se ejecuta en el navegador, índices, transacciones y bases NoSQL.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: proteccion-de-datos
+  nombre: Protección de datos
+  categoria: computacion
+  estado: proximamente
+  descripcion: Cifrado, contraseñas, privacidad y las leyes de protección de datos, explicadas para todos.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: desarrollo-de-aplicaciones
+  nombre: Desarrollo de aplicaciones
+  categoria: software
+  estado: proximamente
+  descripcion: El ciclo de vida de una aplicación, de la idea a producción, con arquitectura, pruebas y equipo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: paginas-web
+  nombre: Páginas web
+  categoria: software
+  estado: proximamente
+  descripcion: HTML, CSS y sitios estáticos publicados gratis, para empezar desde cero.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: frontend
+  nombre: Frontend
+  categoria: software
+  estado: proximamente
+  descripcion: JavaScript, componentes, estado y accesibilidad, la parte de la aplicación que ve el usuario.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: backend
+  nombre: Backend
+  categoria: software
+  estado: proximamente
+  descripcion: Servidores, API, autenticación y colas, lo que pasa detrás de cada clic.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: aplicaciones-web
+  nombre: Aplicaciones web
+  categoria: software
+  estado: proximamente
+  descripcion: Frontend y backend juntos en una aplicación completa, de la base de datos al navegador.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: aplicaciones-moviles
+  nombre: Aplicaciones móviles
+  categoria: software
+  estado: proximamente
+  descripcion: Aplicaciones nativas, híbridas y web progresivas, y cómo llegan a las tiendas.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: devops
+  nombre: DevOps
+  categoria: software
+  estado: proximamente
+  descripcion: Control de versiones, integración y entrega continua, contenedores y monitoreo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: programacion-python
+  nombre: Programación en Python
+  categoria: software
+  estado: proximamente
+  descripcion: Python desde cero, con código que se ejecuta en el navegador.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: programacion-r
+  nombre: R y aplicaciones interactivas
+  categoria: software
+  estado: proximamente
+  descripcion: Programación en R, gráficos dinámicos y aplicaciones Shiny para el análisis de datos.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ciencia-de-datos
+  nombre: Ciencia de datos
+  categoria: ia
+  estado: proximamente
+  descripcion: Del dato crudo a la decisión, con limpieza, visualización, minería de datos y de texto.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: aprendizaje-estadistico
+  nombre: Aprendizaje automático
+  categoria: ia
+  estado: proximamente
+  descripcion: Regresión, clasificación, árboles y validación, los métodos clásicos del Machine Learning.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: aprendizaje-profundo
+  nombre: Aprendizaje profundo
+  categoria: ia
+  estado: proximamente
+  descripcion: Redes neuronales que se entrenan en el navegador, de la neurona a las redes convolucionales.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: aprendizaje-por-refuerzo
+  nombre: Aprendizaje por refuerzo
+  categoria: ia
+  estado: proximamente
+  descripcion: Agentes que aprenden por prueba y error, con entornos que se pueden ver aprender.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: modelos-de-ia
+  nombre: Modelos de IA
+  categoria: ia
+  estado: proximamente
+  descripcion: Cómo funciona un modelo de lenguaje por dentro, tokens, embeddings, entrenamiento y evaluación.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ia-generativa
+  nombre: IA generativa
+  categoria: ia
+  estado: proximamente
+  descripcion: Texto, imagen y código generados por IA, cómo pedirlos bien y cómo usarlos en el trabajo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: agentes-personales
+  nombre: Agentes personales
+  categoria: ia
+  estado: proximamente
+  descripcion: Agentes de IA que trabajan para ti, con herramientas, memoria, permisos y aprobación humana.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: arneses
+  nombre: Cómo construir un arnés
+  categoria: ia
+  estado: proximamente
+  descripcion: El arnés que gobierna a un agente de IA, con reglas, validadores y registros, construido paso a paso.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: telco
+  nombre: Cómo funciona un telco
+  categoria: industrias
+  estado: disponible
+  tipo: Curso · 49 capítulos
+  descripcion: De las redes a la cadena de valor de un operador de telecomunicaciones, con laboratorios interactivos, prácticas en la terminal y preguntas para investigar.
+  url: /telco/
+  etiqueta: Disponible
+- slug: acs
+  nombre: Gestión remota de equipos (ACS)
+  categoria: industrias
+  estado: proximamente
+  descripcion: Cómo un operador configura y diagnostica a distancia los equipos de sus clientes con TR-069 y TR-369.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: banca
+  nombre: Cómo funciona un banco
+  categoria: industrias
+  estado: proximamente
+  descripcion: Captación, crédito, pagos, canales digitales y regulación, la cadena de valor de un banco.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: corretaje
+  nombre: Sociedades de corretaje
+  categoria: industrias
+  estado: proximamente
+  descripcion: Cómo funciona una casa de bolsa, órdenes, custodia, liquidación y la plataforma que lo une.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: finanzas
+  nombre: Finanzas
+  categoria: industrias
+  estado: proximamente
+  descripcion: Valor del dinero en el tiempo, finanzas corporativas y valoración de empresas.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: inversiones
+  nombre: Inversiones
+  categoria: industrias
+  estado: proximamente
+  descripcion: Renta fija, renta variable, derivados y divisas, con calculadoras para cada instrumento.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: finanzas-cuantitativas
+  nombre: Finanzas cuantitativas
+  categoria: industrias
+  estado: proximamente
+  descripcion: Modelos matemáticos y datos financieros, del portafolio óptimo a la valoración de opciones.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: gestion-de-riesgos
+  nombre: Gestión de riesgos
+  categoria: industrias
+  estado: proximamente
+  descripcion: Riesgo de mercado, crédito, liquidez, cambio y operacional, medidos y simulados.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: trading
+  nombre: Análisis técnico y trading algorítmico
+  categoria: industrias
+  estado: proximamente
+  descripcion: Gráficos, indicadores y robots de trading, con pruebas sobre datos históricos.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: actuaria
+  nombre: Ciencia de datos actuariales
+  categoria: industrias
+  estado: proximamente
+  descripcion: Seguros, mortalidad y reservas, con los datos y modelos de un actuario.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: modelos-mentales
+  nombre: Modelos mentales
+  categoria: pensamiento
+  estado: proximamente
+  descripcion: Las ideas de muchas disciplinas que ayudan a pensar mejor, con sesgos, estrategia y casos.
+  tipo: Próximamente
+  etiqueta: Próximamente
+rutas:
+- slug: competencias-matematicas
+  nombre: Competencias de matemáticas
+  estado: proximamente
+  descripcion: Un diagnóstico y el orden recomendado de los libros de matemática, del primer año a la maestría.
+  cursos:
+  - Elementos de la matemática
+  - Cálculo
+  - Álgebra lineal
+  - Probabilidad y estadística
+  - Análisis real
+  - Teoría de la medida
+  - Probabilidades avanzadas
+  - Procesos estocásticos
+  etiqueta: Próximamente
+- slug: competencias-informatica
+  nombre: Competencias de informática
+  estado: proximamente
+  descripcion: Lo que todo profesional necesita saber de computadoras, terminal, datos y seguridad.
+  cursos:
+  - Arquitectura del computador
+  - Línea de comandos y PowerShell
+  - Bases de datos
+  - Protección de datos
+  - IA generativa
+  etiqueta: Próximamente
+- slug: competencias-programacion
+  nombre: Competencias de programación
+  estado: proximamente
+  descripcion: De la primera línea de código a una aplicación en producción.
+  cursos:
+  - Programación en Python
+  - Algoritmos y estructuras de datos
+  - Páginas web
+  - Frontend
+  - Backend
+  - DevOps
+  etiqueta: Próximamente

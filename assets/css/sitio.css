@@ -60,6 +60,13 @@ footer{margin-top:44px;font-size:.88rem;color:var(--muted);border-top:1px solid 
 .mod .n{font:600 .76rem var(--f-mono);color:var(--accent)}
 .mod b{font:700 1.12rem var(--f-display)}
 .mod p{font-size:.94rem;color:var(--muted)}
+.mod.pronto{border-style:dashed;background:transparent}
+.mod.pronto:hover{border-color:var(--line)}
+.mod.pronto .n{color:var(--muted)}
+.mod .recorre{font:500 .8rem var(--f-mono);color:var(--muted)}
+.cat-desc{color:var(--muted);margin:0 0 10px}
+details.cat .grupo{font:600 .78rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 8px}
+details.cat .mods{margin-bottom:6px}
 .temas{display:flex;flex-wrap:wrap;gap:8px}
 .tema{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);text-decoration:none;font:600 .9rem var(--f-display)}
 .tema:hover{border-color:var(--accent)}
