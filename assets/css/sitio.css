@@ -148,3 +148,11 @@ details.stage>summary:hover h2{color:var(--accent)}
   .trayectoria>li{break-inside:avoid}
   a{color:#000;text-decoration:none}
 }
+
+/* Bloques de rouge con números de línea: una sola caja */
+.prose div.highlight,.prose figure.highlight{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px 14px;overflow-x:auto}
+.prose .highlight .highlight{border:0;padding:0;background:none}
+.prose .highlight pre{border:0;background:none;padding:0}
+.prose .rouge-table{border-collapse:collapse;display:table;width:auto;margin:0}
+.prose .rouge-table td{border:0;padding:0 10px 0 0;vertical-align:top}
+.prose .rouge-gutter{color:var(--muted);user-select:none;text-align:right}
