@@ -1,6 +1,8 @@
 {%- assign c = include.c -%}
 {%- if c.estado == "disponible" -%}
 <a class="mod" href="{{ c.url | relative_url }}"><span class="n">{{ c.tipo }}</span><b>{{ c.nombre }}</b><p>{{ c.descripcion }}</p></a>
+{%- elsif c.url -%}
+<a class="mod pronto" href="{{ c.url | relative_url }}"><span class="n">{{ c.etiqueta }}</span><b>{{ c.nombre }}</b><p>{{ c.descripcion }}</p><span class="empezar">Ver la tabla de contenido →</span></a>
 {%- else -%}
 <div class="mod pronto"><span class="n">{{ c.etiqueta }}</span><b>{{ c.nombre }}</b><p>{{ c.descripcion }}</p></div>
 {%- endif -%}

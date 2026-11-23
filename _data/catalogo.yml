@@ -277,10 +277,11 @@ cursos:
 - slug: aplicaciones-web
   nombre: 'Aplicaciones web: de CGI a las SPA'
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 17 capítulos
   descripcion: La historia de la web como aplicación, de CGI a React, contada por los patrones que nacieron en cada época y hoy viven en los frameworks.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /aplicaciones-web/
+  etiqueta: En preparación
 - slug: aplicaciones-moviles
   nombre: Aplicaciones móviles
   categoria: software
@@ -312,10 +313,11 @@ cursos:
 - slug: typescript
   nombre: TypeScript
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Por qué JavaScript necesitó tipos y cómo TypeScript ganó en el frontend y en el backend.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /typescript/
+  etiqueta: En preparación
 - slug: go
   nombre: Go
   categoria: software

@@ -67,6 +67,8 @@ footer{margin-top:44px;font-size:.88rem;color:var(--muted);border-top:1px solid 
 .mod.destacado .empezar{font:700 .95rem var(--f-display);color:var(--accent);margin-top:4px}
 .mod.pronto{border-style:dashed;background:transparent}
 .mod.pronto:hover{border-color:var(--line)}
+a.mod.pronto:hover{border-color:var(--accent)}
+.mod.pronto .empezar{font:600 .9rem var(--f-display);color:var(--accent);margin-top:4px}
 .mod.pronto .n{color:var(--muted)}
 .mod .recorre{font:500 .8rem var(--f-mono);color:var(--muted)}
 .cat-desc{color:var(--muted);margin:0 0 10px}
