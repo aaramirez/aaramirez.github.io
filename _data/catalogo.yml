@@ -133,7 +133,7 @@ cursos:
   grupo: Maestría en Modelos Aleatorios
   estado: disponible
   tipo: Libro interactivo
-  descripcion: Medir conjuntos, la integral de Lebesgue y los teoremas de convergencia, con laboratorios. Ya está la Parte 1.
+  descripcion: Medir conjuntos, la integral de Lebesgue, los teoremas de convergencia, Lp, Radon–Nikodym y Fubini, con 39 laboratorios.
   url: https://aaramirez.github.io/medida/
   etiqueta: Disponible
 - slug: probabilidades-avanzadas
