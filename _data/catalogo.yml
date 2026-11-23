@@ -14,12 +14,12 @@ categorias:
   nombre: Desarrollo de software
   descripcion: De la página web a la aplicación móvil, con el servidor y la entrega continua en medio.
   disponibles: 0
-  total: 9
+  total: 12
 - id: ia
   nombre: Datos e inteligencia artificial
-  descripcion: Ciencia de datos, aprendizaje automático, IA generativa y agentes.
+  descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
   disponibles: 0
-  total: 8
+  total: 13
 - id: industrias
   nombre: Industrias y finanzas
   descripcion: Cómo funcionan por dentro un operador de telecomunicaciones, un banco, una casa de bolsa y la gestión de riesgos.
@@ -247,10 +247,10 @@ cursos:
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: desarrollo-de-aplicaciones
-  nombre: Desarrollo de aplicaciones
+  nombre: Ingeniería de software
   categoria: software
   estado: proximamente
-  descripcion: El ciclo de vida de una aplicación, de la idea a producción, con arquitectura, pruebas y equipo.
+  descripcion: El oficio de construir software en equipo, con requisitos, código limpio, patrones de diseño, pruebas y arquitectura.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: paginas-web
@@ -264,21 +264,21 @@ cursos:
   nombre: Frontend
   categoria: software
   estado: proximamente
-  descripcion: JavaScript, componentes, estado y accesibilidad, la parte de la aplicación que ve el usuario.
+  descripcion: Componentes, estado, estilos, rendimiento y accesibilidad con los frameworks de hoy, la parte de la aplicación que ve el usuario.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: backend
-  nombre: Backend
+  nombre: Backend y APIs
   categoria: software
   estado: proximamente
-  descripcion: Servidores, API, autenticación y colas, lo que pasa detrás de cada clic.
+  descripcion: Servidores, arquitecturas, frameworks, APIs REST e integración entre sistemas, lo que pasa detrás de cada clic.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: aplicaciones-web
-  nombre: Aplicaciones web
+  nombre: 'Aplicaciones web: de CGI a las SPA'
   categoria: software
   estado: proximamente
-  descripcion: Frontend y backend juntos en una aplicación completa, de la base de datos al navegador.
+  descripcion: La historia de la web como aplicación, de CGI a React, contada por los patrones que nacieron en cada época y hoy viven en los frameworks.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: aplicaciones-moviles
@@ -302,11 +302,53 @@ cursos:
   descripcion: Python desde cero, con código que se ejecuta en el navegador.
   tipo: Próximamente
   etiqueta: Próximamente
-- slug: programacion-r
-  nombre: R y aplicaciones interactivas
+- slug: javascript
+  nombre: JavaScript
   categoria: software
   estado: proximamente
+  descripcion: El lenguaje de la web por dentro, con closures, prototipos, el event loop, promesas y módulos.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: typescript
+  nombre: TypeScript
+  categoria: software
+  estado: proximamente
+  descripcion: Por qué JavaScript necesitó tipos y cómo TypeScript ganó en el frontend y en el backend.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: go
+  nombre: Go
+  categoria: software
+  estado: proximamente
+  descripcion: Un lenguaje simple para servicios de red e infraestructura, con goroutines y canales.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: rust
+  nombre: Rust
+  categoria: software
+  estado: proximamente
+  descripcion: Seguridad de memoria sin recolector de basura, con ownership, préstamos y WebAssembly.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: programacion-r
+  nombre: R y aplicaciones interactivas
+  categoria: ia
+  estado: proximamente
   descripcion: Programación en R, gráficos dinámicos y aplicaciones Shiny para el análisis de datos.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ingenieria-de-datos
+  nombre: Ingeniería de datos
+  categoria: ia
+  estado: proximamente
+  descripcion: Pipelines, data warehouse, lakehouse, streaming y orquestación, el camino de un dato desde la fuente hasta el tablero.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: aplicaciones-con-ia
+  nombre: Aplicaciones con IA
+  categoria: ia
+  estado: proximamente
+  descripcion: Modelos dentro de un producto, nivel por nivel, de la generación con contexto a los agentes, con RAG, herramientas, MCP y evaluación.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: ciencia-de-datos
@@ -363,6 +405,20 @@ cursos:
   categoria: ia
   estado: proximamente
   descripcion: El arnés que gobierna a un agente de IA, con reglas, validadores y registros, construido paso a paso.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: mlops
+  nombre: IA en producción (MLOps)
+  categoria: ia
+  estado: proximamente
+  descripcion: Versionar, desplegar y vigilar modelos, con la deriva que los degrada y el reentrenamiento que los recupera.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ia-responsable
+  nombre: IA responsable
+  categoria: ia
+  estado: proximamente
+  descripcion: Sesgo, equidad, transparencia, derechos de autor, regulación y gobierno de la IA en una organización.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: telco
@@ -478,7 +534,10 @@ rutas:
   - Programación en Python
   - Algoritmos y estructuras de datos
   - Páginas web
+  - JavaScript
+  - TypeScript
+  - 'Aplicaciones web: de CGI a las SPA'
   - Frontend
-  - Backend
+  - Backend y APIs
   - DevOps
   etiqueta: Próximamente
