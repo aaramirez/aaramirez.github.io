@@ -249,31 +249,35 @@ cursos:
 - slug: desarrollo-de-aplicaciones
   nombre: Ingeniería de software
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: El oficio de construir software en equipo, con requisitos, código limpio, patrones de diseño, pruebas y arquitectura.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /desarrollo-de-aplicaciones/
+  etiqueta: En preparación
 - slug: paginas-web
   nombre: Páginas web
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: HTML, CSS y sitios estáticos publicados gratis, para empezar desde cero.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /paginas-web/
+  etiqueta: En preparación
 - slug: frontend
   nombre: Frontend
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Componentes, estado, estilos, rendimiento y accesibilidad con los frameworks de hoy, la parte de la aplicación que ve el usuario.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /frontend/
+  etiqueta: En preparación
 - slug: backend
   nombre: Backend y APIs
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 24 capítulos
   descripcion: Servidores, arquitecturas, frameworks, APIs REST e integración entre sistemas, lo que pasa detrás de cada clic.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /backend/
+  etiqueta: En preparación
 - slug: aplicaciones-web
   nombre: 'Aplicaciones web: de CGI a las SPA'
   categoria: software
@@ -285,31 +289,35 @@ cursos:
 - slug: aplicaciones-moviles
   nombre: Aplicaciones móviles
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Aplicaciones nativas, híbridas y web progresivas, y cómo llegan a las tiendas.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /aplicaciones-moviles/
+  etiqueta: En preparación
 - slug: devops
   nombre: DevOps
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Control de versiones, integración y entrega continua, contenedores y monitoreo.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /devops/
+  etiqueta: En preparación
 - slug: programacion-python
   nombre: Programación en Python
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Python desde cero, con código que se ejecuta en el navegador.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /programacion-python/
+  etiqueta: En preparación
 - slug: javascript
   nombre: JavaScript
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: El lenguaje de la web por dentro, con closures, prototipos, el event loop, promesas y módulos.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /javascript/
+  etiqueta: En preparación
 - slug: typescript
   nombre: TypeScript
   categoria: software
@@ -321,108 +329,123 @@ cursos:
 - slug: go
   nombre: Go
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Un lenguaje simple para servicios de red e infraestructura, con goroutines y canales.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /go/
+  etiqueta: En preparación
 - slug: rust
   nombre: Rust
   categoria: software
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: Seguridad de memoria sin recolector de basura, con ownership, préstamos y WebAssembly.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /rust/
+  etiqueta: En preparación
 - slug: programacion-r
   nombre: R y aplicaciones interactivas
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Programación en R, gráficos dinámicos y aplicaciones Shiny para el análisis de datos.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /programacion-r/
+  etiqueta: En preparación
 - slug: ingenieria-de-datos
   nombre: Ingeniería de datos
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Pipelines, data warehouse, lakehouse, streaming y orquestación, el camino de un dato desde la fuente hasta el tablero.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /ingenieria-de-datos/
+  etiqueta: En preparación
 - slug: aplicaciones-con-ia
   nombre: Aplicaciones con IA
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 19 capítulos
   descripcion: Modelos dentro de un producto, nivel por nivel, de la generación con contexto a los agentes, con RAG, herramientas, MCP y evaluación.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /aplicaciones-con-ia/
+  etiqueta: En preparación
 - slug: ciencia-de-datos
   nombre: Ciencia de datos
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Del dato crudo a la decisión, con limpieza, visualización, minería de datos y de texto.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /ciencia-de-datos/
+  etiqueta: En preparación
 - slug: aprendizaje-estadistico
   nombre: Aprendizaje automático
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Regresión, clasificación, árboles y validación, los métodos clásicos del Machine Learning.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /aprendizaje-estadistico/
+  etiqueta: En preparación
 - slug: aprendizaje-profundo
   nombre: Aprendizaje profundo
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Redes neuronales que se entrenan en el navegador, de la neurona a las redes convolucionales.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /aprendizaje-profundo/
+  etiqueta: En preparación
 - slug: aprendizaje-por-refuerzo
   nombre: Aprendizaje por refuerzo
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Agentes que aprenden por prueba y error, con entornos que se pueden ver aprender.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /aprendizaje-por-refuerzo/
+  etiqueta: En preparación
 - slug: modelos-de-ia
   nombre: Modelos de IA
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Cómo funciona un modelo de lenguaje por dentro, tokens, embeddings, entrenamiento y evaluación.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /modelos-de-ia/
+  etiqueta: En preparación
 - slug: ia-generativa
   nombre: IA generativa
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: Texto, imagen y código generados por IA, cómo pedirlos bien y cómo usarlos en el trabajo.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /ia-generativa/
+  etiqueta: En preparación
 - slug: agentes-personales
   nombre: Agentes personales
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
   descripcion: Agentes de IA que trabajan para ti, con herramientas, memoria, permisos y aprobación humana.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /agentes-personales/
+  etiqueta: En preparación
 - slug: arneses
   nombre: Cómo construir un arnés
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
   descripcion: El arnés que gobierna a un agente de IA, con reglas, validadores y registros, construido paso a paso.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /arneses/
+  etiqueta: En preparación
 - slug: mlops
   nombre: IA en producción (MLOps)
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Versionar, desplegar y vigilar modelos, con la deriva que los degrada y el reentrenamiento que los recupera.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mlops/
+  etiqueta: En preparación
 - slug: ia-responsable
   nombre: IA responsable
   categoria: ia
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 8 capítulos
   descripcion: Sesgo, equidad, transparencia, derechos de autor, regulación y gobierno de la IA en una organización.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /ia-responsable/
+  etiqueta: En preparación
 - slug: telco
   nombre: Cómo funciona un telco
   categoria: industrias
