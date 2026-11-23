@@ -3,7 +3,7 @@ categorias:
 - id: matematica
   nombre: Matemática
   descripcion: Libros interactivos que siguen la Licenciatura en Matemáticas y la Maestría en Modelos Aleatorios.
-  disponibles: 2
+  disponibles: 3
   total: 22
 - id: computacion
   nombre: Computación
@@ -131,10 +131,11 @@ cursos:
   nombre: Teoría de la medida
   categoria: matematica
   grupo: Maestría en Modelos Aleatorios
-  estado: proximamente
-  descripcion: Medida, integral de Lebesgue y los teoremas de convergencia que sostienen la probabilidad moderna.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  estado: disponible
+  tipo: Libro interactivo
+  descripcion: Medir conjuntos, la integral de Lebesgue y los teoremas de convergencia, con laboratorios. Ya está la Parte 1.
+  url: https://aaramirez.github.io/medida/
+  etiqueta: Disponible
 - slug: probabilidades-avanzadas
   nombre: Probabilidades avanzadas
   categoria: matematica
