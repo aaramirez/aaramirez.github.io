@@ -541,7 +541,7 @@
     "Distribuciones relacionadas con la normal",
     "Distribucion de formas cuadraticas",
     "Situaciones que requieren de modelos probabilísticos",
-    "Distribución conjunta de varias variables aleatorias, densidad conjunta, distribuciones y ",
+    "Distribución conjunta de varias variables aleatorias, densidad conjunta",
     "Independencia de eventos y variables aleatorias"
    ],
    "url": ""
@@ -590,7 +590,7 @@
     "Procesos de poisson",
     "Cadenas de markov",
     "Repaso de probabilidades",
-    "Procesos de Bernoulli – Paseo al azar – Suma de Variables Aleatorias Independientes",
+    "Procesos de Bernoulli – Paseo al azar – Suma de Variables Aleatorias",
     "Procesos de Poisson",
     "Cadenas de Markov",
     "Teoría de Regeneración",
@@ -617,9 +617,11 @@
     "Generación de variables discretas y continuas",
     "Simulación de estadísticos de orden",
     "Simulación par el método de eventos discretos",
-    "Técnicas de análisis de resultados (media, varianza, intervalos de",
+    "Técnicas de análisis de resultados (media, varianza, intervalos",
     "Mcmc",
-    "Simulación, generalidades, características de los modelos de simulación, generación de núm"
+    "Simulación, generalidades, características de los modelos de simulación",
+    "Mcmc 1",
+    "Mcmc 2"
    ],
    "url": ""
   },
@@ -753,11 +755,11 @@
     "Costos de calidad",
     "Control estadístico de calidad",
     "Muestreo de aceptación",
-    "Muestreo de aceptación simple por atributo, Procedimiento general para establecer Planes d",
-    "Muestreo de Aceptación Doble por Atributo, Procedimiento general para establecer Planes de",
-    "Muestreo Secuencial por Atributo, Procedimiento general para establecer Planes de Muestreo",
-    "Muestreo de Aceptación Variable, Procedimiento general para establecer Planes de Muestreo ",
-    "Planes de Muestreo para producciones continuas, Dificultades en la formación de lotes cuan",
+    "Muestreo de aceptación simple por atributo",
+    "Muestreo de Aceptación Doble por Atributo",
+    "Muestreo Secuencial por Atributo",
+    "Muestreo de Aceptación Variable",
+    "Planes de Muestreo para producciones continuas",
     "Teoría del Gráfico de Control"
    ],
    "url": ""
@@ -825,8 +827,8 @@
    ],
    "habilita": [],
    "temas": [
-    "Estimación paramétrica,",
-    "Selección de modelos,",
+    "Estimación paramétrica",
+    "Selección de modelos",
     "Intervalos de confianza",
     "Introducción",
     "El planteamiento clásico del Modelo Lineal estandar",
@@ -835,8 +837,6 @@
     "El Modelo de regresión no lineal",
     "Modelos lineales con residuos no esféricos",
     "Enfoque Bayesiano",
-    "Mcmc 1",
-    "Mcmc 2",
     "Filtros de Kalman 1",
     "Filtros de Kalman 2",
     "Comparación de Modelos",
@@ -912,12 +912,12 @@
     "teoria-del-riesgo"
    ],
    "temas": [
-    "Introducción a los procesos actuariales, concepto de la teoría de la utilidad, elementos e",
+    "Introducción a los procesos actuariales, concepto de la teoría de la utilidad",
     "Primas únicas de los seguros de muerte",
     "Concepto de prima natural y prima nivelada",
     "Concepto de reserva matemática",
     "Fundamentos del riesgo, riesgo medio lineal, cuadrático y máximo",
-    "Rentas completas, garantizadas y rentas con términos ciertos, cálculo de planes donde la r",
+    "Rentas completas, garantizadas y rentas con términos ciertos",
     "Introducción al cálculo de las primas comerciales, recargo comercial",
     "Las rentas y los seguros al primer fallecimiento",
     "Las rentas y los seguros sobre conjuntos de vidas al último fallecimiento",
@@ -979,13 +979,13 @@
     "Teoría de Redes",
     "Programación Entera y mixta",
     "Programación No Lineal",
-    "Fenómeno de Espera, Conceptos básicos características de un problema de cola (lineal de es",
+    "Fenómeno de Espera",
     "Modelos de un solo servidor",
-    "Modelos con",
+    "Modelos",
     "Teoría de Inventarios",
-    "Modelos determinísticos para uno y para varios artículos (productos), con demanda uniforme",
+    "Modelos determinísticos para uno y para varios artículos (productos)",
     "Problemas de mantenimiento y reemplazos de equipos",
-    "Programación No Lineal y dinámica, el planteamiento del problema, el problema de programac"
+    "Programación No Lineal y dinámica, el planteamiento del problema"
    ],
    "url": "/investigacion-de-operaciones/"
   },
@@ -1015,7 +1015,7 @@
  "materias": [
   {
    "codigo": "4003",
-   "nombre": "Algebra Lineal I",
+   "nombre": "Álgebra Lineal I",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "algebra-lineal",
@@ -1033,7 +1033,7 @@
   },
   {
    "codigo": "4005",
-   "nombre": "Algebra Lineal Ii",
+   "nombre": "Álgebra Lineal II",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "geometria",
@@ -1051,7 +1051,7 @@
   },
   {
    "codigo": "4102",
-   "nombre": "Teoria De La Probabilidad I",
+   "nombre": "Teoría de la Probabilidad I",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "probabilidad"
@@ -1059,7 +1059,7 @@
   },
   {
    "codigo": "4103",
-   "nombre": "Teoria De La Probabilidad Ii",
+   "nombre": "Teoría de la Probabilidad II",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "probabilidad",
@@ -1068,7 +1068,7 @@
   },
   {
    "codigo": "4104",
-   "nombre": "Teoria De La Probabilidad Iii",
+   "nombre": "Teoría de la Probabilidad III",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "probabilidad",
@@ -1085,7 +1085,7 @@
   },
   {
    "codigo": "4106",
-   "nombre": "Procesos Estocasticos",
+   "nombre": "Procesos Estocásticos",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "procesos-estocasticos"
@@ -1093,7 +1093,7 @@
   },
   {
    "codigo": "4107",
-   "nombre": "Metodos Multivariantes",
+   "nombre": "Métodos Multivariantes",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "modelos-lineales"
@@ -1101,7 +1101,7 @@
   },
   {
    "codigo": "4109",
-   "nombre": "Analisis De Datos",
+   "nombre": "Análisis de Datos",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "multivariante"
@@ -1207,7 +1207,7 @@
   },
   {
    "codigo": "Control",
-   "nombre": "Diseño Estadístico",
+   "nombre": "Control Estadístico de Calidad",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "muestreo"
@@ -1215,7 +1215,7 @@
   },
   {
    "codigo": "demografia",
-   "nombre": "Semestre:",
+   "nombre": "Demografía",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "matematica-actuarial"
@@ -1223,7 +1223,7 @@
   },
   {
    "codigo": "econometria",
-   "nombre": "Créditos:",
+   "nombre": "Econometría",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "econometria"
@@ -1231,7 +1231,7 @@
   },
   {
    "codigo": "matematicasi",
-   "nombre": "Matematicas I",
+   "nombre": "Matemáticas I",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "logica-y-conjuntos",
@@ -1241,7 +1241,7 @@
   },
   {
    "codigo": "matematicasii",
-   "nombre": "Matematicas Ii",
+   "nombre": "Matemáticas II",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "calculo",
@@ -1250,7 +1250,7 @@
   },
   {
    "codigo": "matematicasiii",
-   "nombre": "Matematicas Iii",
+   "nombre": "Matemáticas III",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "calculo-varias-variables",
@@ -1267,7 +1267,7 @@
   },
   {
    "codigo": "seriesdetiempo",
-   "nombre": "Series De Tiempo",
+   "nombre": "Series de Tiempo",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
     "series-de-tiempo"
@@ -1275,7 +1275,7 @@
   },
   {
    "codigo": "2273",
-   "nombre": "Matemáticas Generales Iv",
+   "nombre": "Matemáticas Generales IV",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "calculo-varias-variables",
@@ -1286,7 +1286,7 @@
   },
   {
    "codigo": "2286",
-   "nombre": "Matemática Iv",
+   "nombre": "Matemática IV",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "algebra-lineal",
@@ -1298,7 +1298,7 @@
   },
   {
    "codigo": "2288",
-   "nombre": "Métodos Matemáticos De La Física I",
+   "nombre": "Métodos Matemáticos de la Física I",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "ecuaciones-diferenciales",
@@ -1324,7 +1324,7 @@
   },
   {
    "codigo": "8101",
-   "nombre": "Elementos De La Matemática",
+   "nombre": "Elementos de la Matemática",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "logica-y-conjuntos",
@@ -1344,7 +1344,7 @@
   },
   {
    "codigo": "8103",
-   "nombre": "Álgebra Ii",
+   "nombre": "Álgebra II",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "algebra-lineal-avanzada"
@@ -1352,7 +1352,7 @@
   },
   {
    "codigo": "8104",
-   "nombre": "Álgebra Iii",
+   "nombre": "Álgebra III",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "matematicas-discretas",
@@ -1372,7 +1372,7 @@
   },
   {
    "codigo": "8207",
-   "nombre": "Matemática Ii",
+   "nombre": "Matemática II",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "calculo",
@@ -1383,7 +1383,7 @@
   },
   {
    "codigo": "8208",
-   "nombre": "Matemática Iii",
+   "nombre": "Matemática III",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "geometria",
@@ -1403,7 +1403,7 @@
   },
   {
    "codigo": "8402",
-   "nombre": "Análisis Ii",
+   "nombre": "Análisis II",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "calculo-varias-variables",
@@ -1428,7 +1428,7 @@
   },
   {
    "codigo": "8502",
-   "nombre": "Ecuaciones En Derivadas Parciales",
+   "nombre": "Ecuaciones en Derivadas Parciales",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "ecuaciones-en-derivadas-parciales"
@@ -1463,7 +1463,7 @@
   },
   {
    "codigo": "8902",
-   "nombre": "Teoría De La Medida",
+   "nombre": "Teoría de la Medida",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
     "medida"
@@ -1479,7 +1479,7 @@
   },
   {
    "codigo": "CC7120111",
-   "nombre": "Estadistica I",
+   "nombre": "Estadística I",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "inferencia",
@@ -1498,7 +1498,7 @@
   },
   {
    "codigo": "CC7120114",
-   "nombre": "Estadística Ii",
+   "nombre": "Estadística II",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "algebra-lineal-avanzada",
@@ -1506,23 +1506,15 @@
    ]
   },
   {
-   "codigo": "ecobayes",
-   "nombre": "Ecobayes",
+   "codigo": "pos-ecobayes",
+   "nombre": "Econometría Bayesiana",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "estadistica-bayesiana"
    ]
   },
   {
-   "codigo": "econometria",
-   "nombre": "Econometria",
-   "carrera": "Posgrado en Modelos Aleatorios",
-   "recorrido": [
-    "econometria"
-   ]
-  },
-  {
-   "codigo": "estadisticabayesiana",
+   "codigo": "pos-estadisticabayesiana",
    "nombre": "Estadística Bayesiana",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
@@ -1530,8 +1522,8 @@
    ]
   },
   {
-   "codigo": "lasmatematicasdelosderivadosfinancieros",
-   "nombre": "LasMatematicasDeLosDerivadosFinancieros",
+   "codigo": "pos-lasmatematicasdelosderivadosfinancieros",
+   "nombre": "Las Matemáticas de los Derivados Financieros",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "probabilidades-avanzadas",
@@ -1539,16 +1531,17 @@
    ]
   },
   {
-   "codigo": "macroeconomia",
-   "nombre": "Macroeconomia",
+   "codigo": "pos-macroeconomia",
+   "nombre": "Macroeconomía",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
+    "simulacion",
     "estadistica-bayesiana"
    ]
   },
   {
-   "codigo": "metodosgeometricosaplicadosalaestadistica",
-   "nombre": "MetodosGeometricosAplicadosALaEstadistica",
+   "codigo": "pos-metodosgeometricosaplicadosalaestadistica",
+   "nombre": "Métodos Geométricos Aplicados a la Estadística",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "modelos-lineales",
@@ -1556,32 +1549,32 @@
    ]
   },
   {
-   "codigo": "probabilidades",
-   "nombre": "Probabilidades 2012",
+   "codigo": "pos-probabilidades",
+   "nombre": "Probabilidades",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "probabilidades-avanzadas"
    ]
   },
   {
-   "codigo": "simulacion",
-   "nombre": "Programa Simulacion",
+   "codigo": "pos-simulacion",
+   "nombre": "Simulación",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "simulacion"
    ]
   },
   {
-   "codigo": "topicosenmodelosaleatoriosteoriaderiesgoyaplicaciones",
-   "nombre": "TopicosEnModelosAleatoriosTeoriaDeRiesgoYAplicaciones",
+   "codigo": "pos-topicosenmodelosaleatoriosteoriaderiesgoyaplicaciones",
+   "nombre": "Tópicos en Modelos Aleatorios: Teoría de Riesgo",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "teoria-del-riesgo"
    ]
   },
   {
-   "codigo": "topicosespecialesenmodelosaleatoriostrsb",
-   "nombre": "Tópicos Especiales En Modelos Aleatorios:",
+   "codigo": "pos-topicosespecialesenmodelosaleatoriostrsb",
+   "nombre": "Tópicos Especiales en Modelos Aleatorios",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
     "estadistica-bayesiana"
