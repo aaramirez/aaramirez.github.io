@@ -274,7 +274,7 @@ cursos:
   nombre: Frontend
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 12 capítulos
+  tipo: Curso · 13 capítulos
   descripcion: Componentes, estado, estilos, rendimiento y accesibilidad con los frameworks de hoy, la parte de la aplicación que ve el usuario.
   url: /frontend/
   etiqueta: En preparación
@@ -306,7 +306,7 @@ cursos:
   nombre: DevOps
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 12 capítulos
+  tipo: Curso · 13 capítulos
   descripcion: Control de versiones, integración y entrega continua, contenedores y monitoreo.
   url: /devops/
   etiqueta: En preparación
@@ -362,7 +362,7 @@ cursos:
   nombre: Ingeniería de datos
   categoria: ia
   estado: en-preparacion
-  tipo: Curso · 12 capítulos
+  tipo: Curso · 14 capítulos
   descripcion: Pipelines, data warehouse, lakehouse, streaming y orquestación, el camino de un dato desde la fuente hasta el tablero.
   url: /ingenieria-de-datos/
   etiqueta: En preparación
@@ -370,7 +370,7 @@ cursos:
   nombre: Aplicaciones con IA
   categoria: ia
   estado: en-preparacion
-  tipo: Curso · 19 capítulos
+  tipo: Curso · 20 capítulos
   descripcion: Modelos dentro de un producto, nivel por nivel, de la generación con contexto a los agentes, con RAG, herramientas, MCP y evaluación.
   url: /aplicaciones-con-ia/
   etiqueta: En preparación
@@ -434,7 +434,7 @@ cursos:
   nombre: Cómo construir chatbots empresariales
   categoria: ia
   estado: en-preparacion
-  tipo: Curso · 16 capítulos
+  tipo: Curso · 17 capítulos
   descripcion: Diseñar, construir y operar el chatbot de una empresa, con canales como WhatsApp, traspaso a humanos, pagos, métricas y el proyecto de implementación.
   url: /chatbots-empresariales/
   etiqueta: En preparación
@@ -458,7 +458,7 @@ cursos:
   nombre: IA en producción (MLOps)
   categoria: ia
   estado: en-preparacion
-  tipo: Curso · 10 capítulos
+  tipo: Curso · 11 capítulos
   descripcion: Versionar, desplegar y vigilar modelos, con la deriva que los degrada y el reentrenamiento que los recupera.
   url: /mlops/
   etiqueta: En preparación
