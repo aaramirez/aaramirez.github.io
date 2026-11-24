@@ -43,7 +43,7 @@
     var ls = partir(n.nombre);
     el('text', { x: n.x + 10, y: n.y + (ls[1] ? 20 : 29) }, g).textContent = ls[0];
     if (ls[1]) el('text', { x: n.x + 10, y: n.y + 36 }, g).textContent = ls[1];
-    if (n.url) el('text', { x: n.x + W - 9, y: n.y + 15, 'text-anchor': 'end' }, g).textContent = '●';
+    if (n.estado === 'disponible') el('text', { x: n.x + W - 9, y: n.y + 15, 'text-anchor': 'end' }, g).textContent = '●';
     n.paso = el('text', { x: n.x + W - 9, y: n.y + H - 8, 'text-anchor': 'end', 'class': 'paso' }, g);
     g.addEventListener('click', function () { ficha(n.slug); });
     g.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); ficha(n.slug); } });
@@ -51,7 +51,7 @@
 
   var leg = document.getElementById('grafo-leyenda');
   D.areas.forEach(function (a) { leg.insertAdjacentHTML('beforeend', '<span><i style="background:' + color(a) + '"></i>' + a + '</span>'); });
-  leg.insertAdjacentHTML('beforeend', '<span>● ya es un curso del sitio</span>');
+  leg.insertAdjacentHTML('beforeend', '<span>● curso disponible</span>');
 
   function cadena(s, campo, acc) {
     acc = acc || {};
@@ -84,7 +84,9 @@
     n.g.classList.add('sel');
     var mats = D.materias.filter(function (m) { return m.recorrido.indexOf(s) >= 0; });
     fichaEl.innerHTML = '<h2>' + esc(n.nombre) + '</h2><div class="area">' + esc(n.area) +
-      (n.url ? ' · <a href="' + n.url + '">ir al curso</a>' : ' · curso en preparación') + '</div>' +
+      (n.agregado ? ' · agregado: no viene de los programas' : '') +
+      (n.url ? ' · <a href="' + esc(n.url) + (n.estado === 'disponible' ? '">ir al curso</a>' : 'temario.html">ver la tabla de contenido</a>')
+        : ' · curso próximamente') + '</div>' +
       '<h3>Necesita</h3><p>' + enlaces(n.depende_de) + '</p><h3>Habilita</h3><p>' + enlaces(n.habilita) + '</p>' +
       '<h3>Temas que reúne (' + n.temas.length + ')</h3><ul>' + n.temas.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' +
       '<h3>Materias que lo recorren (' + mats.length + ')</h3><ul>' +

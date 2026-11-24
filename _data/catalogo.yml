@@ -2,9 +2,9 @@
 categorias:
 - id: matematica
   nombre: Matemática
-  descripcion: 'Un curso por tema, organizados como un grafo: cada tema se explica una sola vez y cada materia de la licenciatura, de estadística y del posgrado es un recorrido por los cursos.'
+  descripcion: 'Un curso por tema, organizados como un grafo: cada tema se explica una sola vez y cada materia de la licenciatura, de estadística y del posgrado es un recorrido por los cursos. El material está en proceso de curado: puede tener errores.'
   disponibles: 3
-  total: 37
+  total: 41
 - id: computacion
   nombre: Computación
   descripcion: 'El núcleo de un pregrado de computación: matemáticas discretas y lógica, teoría, lenguajes y compiladores, sistemas operativos, redes, sistemas distribuidos, seguridad, gráfica y más.'
@@ -40,98 +40,110 @@ cursos:
   nombre: Lógica y conjuntos
   categoria: matematica
   grupo: Fundamentos
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: 'Lógica, métodos de demostración y teoría de conjuntos: relaciones, funciones como relaciones, cardinalidad y el lema de Zorn.'
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-logica-y-conjuntos/
+  etiqueta: En preparación
 - slug: numeros
   nombre: Sistemas numéricos
   categoria: matematica
   grupo: Fundamentos
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: 'Naturales e inducción, enteros, racionales, reales y complejos: cómo se construyen y qué propiedades tienen.'
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-numeros/
+  etiqueta: En preparación
 - slug: funciones
   nombre: Funciones
   categoria: matematica
   grupo: Fundamentos
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: 'Funciones, gráficas, funciones básicas y composición: el lenguaje que usan el cálculo, el álgebra y la probabilidad.'
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-funciones/
+  etiqueta: En preparación
 - slug: geometria
   nombre: Geometría
   categoria: matematica
   grupo: Geometría y topología
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: Geometría plana, analítica y vectorial, cónicas y cuádricas, y transformaciones afines, isometrías y proyectivas.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-geometria/
+  etiqueta: En preparación
 - slug: algebra-lineal
   nombre: Álgebra lineal
   categoria: matematica
   grupo: Álgebra
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Vectores, matrices, transformaciones y valores propios, vistos como movimientos del plano y del espacio.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-algebra-lineal/
+  etiqueta: En preparación
 - slug: algebra-lineal-avanzada
   nombre: Álgebra lineal avanzada
   categoria: matematica
   grupo: Álgebra
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Espacio dual, determinantes, valores propios, formas bilineales y cuadráticas, producto interno y pseudoinversas.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-algebra-lineal-avanzada/
+  etiqueta: En preparación
 - slug: algebra
   nombre: Álgebra abstracta
   categoria: matematica
   grupo: Álgebra
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Grupos, anillos y cuerpos, las estructuras que comparten los números, las simetrías y los polinomios.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-algebra/
+  etiqueta: En preparación
 - slug: calculo
   nombre: Cálculo en una variable
   categoria: matematica
   grupo: Análisis
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Límites, continuidad, derivadas e integrales en una variable, con sus aplicaciones y el teorema de Taylor.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-calculo/
+  etiqueta: En preparación
 - slug: sucesiones-y-series
   nombre: Sucesiones y series
   categoria: matematica
   grupo: Análisis
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Sucesiones y series numéricas, series de funciones, convergencia uniforme y series de potencias.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-sucesiones-y-series/
+  etiqueta: En preparación
 - slug: analisis-real
   nombre: Análisis real
   categoria: matematica
   grupo: Análisis
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Los números reales, el supremo, la topología de la recta, continuidad, derivada e integral de Riemann con todo el rigor.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-analisis-real/
+  etiqueta: En preparación
 - slug: calculo-varias-variables
   nombre: Cálculo en varias variables
   categoria: matematica
   grupo: Análisis
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Funciones de varias variables, gradiente, integrales múltiples, de línea y de superficie, y los teoremas de Green, Gauss y Stokes.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-calculo-varias-variables/
+  etiqueta: En preparación
 - slug: topologia
   nombre: Topología
   categoria: matematica
   grupo: Geometría y topología
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Espacios, abiertos, compacidad y conexidad, la geometría de lo que no cambia al deformar.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-topologia/
+  etiqueta: En preparación
 - slug: medida
   nombre: Teoría de la medida
   categoria: matematica
@@ -145,170 +157,227 @@ cursos:
   nombre: Análisis funcional
   categoria: matematica
   grupo: Análisis
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: Espacios de Banach y de Hilbert, operadores, dualidad, Hahn-Banach, Baire y topologías débiles.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-analisis-funcional/
+  etiqueta: En preparación
 - slug: variable-compleja
   nombre: Variable compleja
   categoria: matematica
   grupo: Análisis
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Funciones de variable compleja, integración y residuos, con mapas de color del plano complejo.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-variable-compleja/
+  etiqueta: En preparación
 - slug: ecuaciones-diferenciales
   nombre: Ecuaciones diferenciales ordinarias
   categoria: matematica
   grupo: Análisis
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Ecuaciones de primer orden y lineales, transformada de Laplace, soluciones por series, sistemas lineales y estabilidad.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-ecuaciones-diferenciales/
+  etiqueta: En preparación
 - slug: ecuaciones-en-derivadas-parciales
   nombre: Ecuaciones en derivadas parciales
   categoria: matematica
   grupo: Análisis
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
   descripcion: Calor, ondas y Laplace, separación de variables, series de Fourier, funciones armónicas y método de características.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-ecuaciones-en-derivadas-parciales/
+  etiqueta: En preparación
 - slug: analisis-numerico
   nombre: Análisis numérico
   categoria: matematica
   grupo: Numérico
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Cómo calcula de verdad una computadora, errores de redondeo, raíces, interpolación e integración numérica.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-analisis-numerico/
+  etiqueta: En preparación
 - slug: geometria-diferencial
   nombre: Geometría diferencial
   categoria: matematica
   grupo: Geometría y topología
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 10 capítulos
   descripcion: Curvas y superficies, curvatura, triedro de Frenet, formas fundamentales e introducción a la geometría riemanniana.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-geometria-diferencial/
+  etiqueta: En preparación
 - slug: probabilidad
   nombre: Probabilidad
   categoria: matematica
   grupo: Probabilidad
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
   descripcion: Espacios de probabilidad, probabilidad condicional, variables y vectores aleatorios, modelos discretos y continuos y la normal multivariante.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-probabilidad/
+  etiqueta: En preparación
 - slug: probabilidades-avanzadas
   nombre: Probabilidades avanzadas
   categoria: matematica
   grupo: Probabilidad
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 9 capítulos
   descripcion: 'Probabilidad con teoría de la medida: convergencia de variables aleatorias, leyes de los grandes números y teorema central del límite.'
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-probabilidades-avanzadas/
+  etiqueta: En preparación
 - slug: procesos-estocasticos
   nombre: Procesos estocásticos
   categoria: matematica
   grupo: Procesos
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: Cadenas de Markov, procesos de Poisson y movimiento browniano, simulados paso a paso.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-procesos-estocasticos/
+  etiqueta: En preparación
 - slug: simulacion
   nombre: Simulación
   categoria: matematica
   grupo: Procesos
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: Números pseudoaleatorios, Monte Carlo y simulación de sistemas.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-simulacion/
+  etiqueta: En preparación
 - slug: inferencia
   nombre: Inferencia estadística
   categoria: matematica
   grupo: Estadística
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Estimadores, intervalos de confianza y pruebas de hipótesis, con remuestreo interactivo.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-inferencia/
+  etiqueta: En preparación
 - slug: modelos-lineales
   nombre: Modelos lineales
   categoria: matematica
   grupo: Estadística
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Regresión lineal, logística y de Poisson bajo un mismo marco.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-modelos-lineales/
+  etiqueta: En preparación
 - slug: diseno-de-experimentos
   nombre: Diseño de experimentos
   categoria: matematica
   grupo: Estadística
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: Diseños completamente aleatorizados, en bloques, cuadrados latinos, factoriales, confundidos y fraccionales.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-diseno-de-experimentos/
+  etiqueta: En preparación
 - slug: muestreo
   nombre: Muestreo y control de calidad
   categoria: matematica
   grupo: Estadística
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Muestreo aleatorio simple, estratificado, por conglomerados y en etapas, estimadores indirectos y control estadístico de calidad.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-muestreo/
+  etiqueta: En preparación
 - slug: multivariante
   nombre: Análisis multivariante
   categoria: matematica
   grupo: Estadística
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: Componentes principales, análisis de conglomerados y discriminante, con datos que se pueden rotar.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-multivariante/
+  etiqueta: En preparación
 - slug: series-de-tiempo
   nombre: Series de tiempo
   categoria: matematica
   grupo: Estadística
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
   descripcion: Tendencia, estacionalidad, modelos ARIMA y pronósticos con datos reales.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-series-de-tiempo/
+  etiqueta: En preparación
 - slug: estadistica-bayesiana
   nombre: Estadística bayesiana
   categoria: matematica
   grupo: Estadística
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
   descripcion: Inferencia bayesiana, modelos lineales con a priori, MCMC con Metropolis-Hastings y Gibbs, y filtros de Kalman.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-estadistica-bayesiana/
+  etiqueta: En preparación
 - slug: econometria
   nombre: Econometría
   categoria: matematica
   grupo: Estadística
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
   descripcion: El modelo lineal en economía, mínimos cuadrados generalizados, modelos dinámicos, ecuaciones simultáneas y cointegración.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-econometria/
+  etiqueta: En preparación
 - slug: matematica-financiera
   nombre: Matemática financiera
   categoria: matematica
   grupo: Actuarial y finanzas
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Interés simple, compuesto y continuo, descuento, rentas ciertas, amortización, empréstitos y depreciación.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-matematica-financiera/
+  etiqueta: En preparación
 - slug: matematica-actuarial
   nombre: Matemática actuarial
   categoria: matematica
   grupo: Actuarial y finanzas
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Tablas de mortalidad y demografía, seguros y rentas de vida, primas, reservas y contingencias de varias vidas.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-matematica-actuarial/
+  etiqueta: En preparación
 - slug: teoria-del-riesgo
   nombre: Teoría del riesgo
   categoria: matematica
   grupo: Actuarial y finanzas
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 15 capítulos
   descripcion: Teoría individual y colectiva del riesgo, ruina, reaseguro, valores extremos, VaR y medidas coherentes de riesgo.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /mate-teoria-del-riesgo/
+  etiqueta: En preparación
+- slug: teoria-de-categorias
+  nombre: Teoría de categorías
+  categoria: matematica
+  grupo: Álgebra
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: Categorías, funtores y transformaciones naturales, límites y colímites, el lema de Yoneda, adjunciones, categorías cartesianas cerradas, mónadas, álgebras iniciales y la topología algebraica vista con flechas, con las demostraciones completas de los teoremas centrales.
+  url: /mate-teoria-de-categorias/
+  etiqueta: En preparación
+- slug: teoria-de-numeros-analitica
+  nombre: Teoría de números analítica
+  categoria: matematica
+  grupo: Análisis
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Los primos estudiados con análisis: funciones aritméticas y convolución de Dirichlet, órdenes medios, Chebyshev y Mertens, series de Dirichlet, la función zeta de Riemann, el teorema de los números primos, caracteres, el teorema de Dirichlet, sumas de Gauss, cribas y el método del círculo, con las demostraciones completas.'
+  url: /mate-teoria-de-numeros-analitica/
+  etiqueta: En preparación
+- slug: combinatoria-algebraica
+  nombre: Combinatoria algebraica
+  categoria: matematica
+  grupo: Álgebra
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'Contar con álgebra: el anillo de series formales, el método simbólico, particiones y q-análogos, la enumeración de Pólya, funciones simétricas y de Schur, tablas de Young, RSK y la fórmula del gancho, la función de Möbius de un orden parcial, matroides y polinomios de grafos, con las demostraciones completas.'
+  url: /mate-combinatoria-algebraica/
+  etiqueta: En preparación
+- slug: logica-matematica-avanzada
+  nombre: Lógica matemática avanzada
+  categoria: matematica
+  grupo: Fundamentos
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: Ordinales y cardinales, ZFC a fondo, el universo construible, forcing e independencia de la hipótesis del continuo, teoría de modelos (ultraproductos, tipos, eliminación de cuantificadores), aritmética de Peano y teoría de la demostración, con las demostraciones completas de los teoremas centrales.
+  url: /mate-logica-matematica-avanzada/
+  etiqueta: En preparación
 - slug: ejercicios
   nombre: Tres seis cinco
   categoria: matematica

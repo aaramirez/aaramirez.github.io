@@ -10,7 +10,9 @@
     "numeros",
     "funciones",
     "matematicas-discretas",
-    "algebra-lineal"
+    "algebra-lineal",
+    "teoria-de-categorias",
+    "logica-matematica-avanzada"
    ],
    "temas": [
     "Logica",
@@ -18,7 +20,9 @@
     "Noción intuitiva de conjunto",
     "Teoría de conjuntos"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-logica-y-conjuntos/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "numeros",
@@ -31,7 +35,8 @@
    "habilita": [
     "funciones",
     "matematicas-discretas",
-    "geometria"
+    "geometria",
+    "logica-matematica-avanzada"
    ],
    "temas": [
     "Números naturales",
@@ -40,7 +45,9 @@
     "Números complejos",
     "Los números"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-numeros/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "funciones",
@@ -61,7 +68,9 @@
     "Funciones básicas",
     "Composición de funciones"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-funciones/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "matematicas-discretas",
@@ -74,13 +83,17 @@
    ],
    "habilita": [
     "algebra",
-    "probabilidad"
+    "probabilidad",
+    "teoria-de-numeros-analitica",
+    "combinatoria-algebraica"
    ],
    "temas": [
     "Números enteros",
     "El conjunto Z de los números enteros"
    ],
-   "url": "/matematicas-discretas/"
+   "agregado": false,
+   "url": "/matematicas-discretas/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "geometria",
@@ -107,10 +120,11 @@
     "Isométricas",
     "Transformaciones proyectivas",
     "Geometría analítica plana",
-    "Nociones de geometría plana, del espacio y álgebra lineal",
-    "Interpretaciones geometricas"
+    "Nociones de geometría plana, del espacio y álgebra lineal"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-geometria/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "algebra-lineal",
@@ -128,7 +142,8 @@
     "ecuaciones-diferenciales",
     "analisis-numerico",
     "procesos-estocasticos",
-    "investigacion-de-operaciones"
+    "investigacion-de-operaciones",
+    "combinatoria-algebraica"
    ],
    "temas": [
     "Matrices",
@@ -140,7 +155,9 @@
     "Espacios vectoriales de dimensión ﬁnita sobre el cuerpo de los números reales",
     "Álgebra lineal"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-algebra-lineal/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "algebra-lineal-avanzada",
@@ -152,6 +169,7 @@
    ],
    "habilita": [
     "analisis-funcional",
+    "ecuaciones-diferenciales",
     "modelos-lineales",
     "multivariante",
     "series-de-tiempo"
@@ -164,12 +182,15 @@
     "Espacios con producto interno",
     "Autovalores y autovectores",
     "Formas cuadraticas",
+    "Interpretaciones geometricas",
     "Pseudo inversas",
     "Sistemas de ecuaciones lineales",
     "PRODUCTO INTERNO Y ORTOGONALIDAD EN Rn",
-    "Temas de la teoría de las espacios de hilbert"
+    "Espacios Euclídeos"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-algebra-lineal-avanzada/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "algebra",
@@ -180,7 +201,10 @@
     "matematicas-discretas",
     "algebra-lineal"
    ],
-   "habilita": [],
+   "habilita": [
+    "teoria-de-categorias",
+    "combinatoria-algebraica"
+   ],
    "temas": [
     "Grupos",
     "Anillos",
@@ -189,7 +213,9 @@
     "Cuerpos ﬁnitos",
     "Construcciones con regla y compás"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-algebra/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "calculo",
@@ -223,7 +249,9 @@
     "La integral de riemann y sus aplicaciones",
     "Integrales impropias"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-calculo/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "sucesiones-y-series",
@@ -236,7 +264,8 @@
    "habilita": [
     "analisis-real",
     "ecuaciones-diferenciales",
-    "matematica-financiera"
+    "matematica-financiera",
+    "teoria-de-numeros-analitica"
    ],
    "temas": [
     "Sucesiones numéricas",
@@ -247,7 +276,9 @@
     "Sucesiones y series de funciones",
     "Series de potencia"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-sucesiones-y-series/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "analisis-real",
@@ -270,7 +301,9 @@
     "Integral de Riemann",
     "Integrales impropias"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-analisis-real/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "calculo-varias-variables",
@@ -294,18 +327,22 @@
     "Campos escalares",
     "Gradiente de un campo escalar y aplicaciones, máximos y mínimos",
     "Integrales dobles y triples",
+    "TOPOLOGIA EN Rn",
     "Funciones reales de un vector",
     "INTEGRALES EN Rn",
     "Campos vectoriales",
     "Integrales múltiples",
     "Integrales de línea y teorema de Green",
     "Integrales de superﬁcie, teorema de Gauss y teorema de Stokes",
+    "Topología de Rn",
     "Cálculo diferencial en varias variables",
     "Integrales de línea",
     "Análisis vectorial",
     "Funciones vectoriales de una variable real"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-calculo-varias-variables/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "topologia",
@@ -318,21 +355,21 @@
    ],
    "habilita": [
     "medida",
-    "analisis-funcional"
+    "analisis-funcional",
+    "teoria-de-categorias"
    ],
    "temas": [
-    "Topología de Rn",
-    "TOPOLOGIA EN Rn",
     "Espacios topológicos",
     "Espacios métricos",
     "Axiomas de separación",
     "Espacios topológicos conexos",
     "Espacios compactos",
     "Grupos topológicos",
-    "Espacios de funciones",
-    "Espacios Euclídeos"
+    "Espacios de funciones"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-topologia/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "medida",
@@ -357,7 +394,9 @@
     "Diversos Tipos de Convergencia y Espacios Lp",
     "Introducción a la integración en espacios generales"
    ],
-   "url": "/medida/"
+   "agregado": false,
+   "url": "https://aaramirez.github.io/medida/",
+   "estado": "disponible"
   },
   {
    "slug": "analisis-funcional",
@@ -379,9 +418,12 @@
     "Teoremas fundamentales",
     "Topologías débiles",
     "Espacios de Hilbert",
-    "Operadores acotados en espacios de Hilbert"
+    "Operadores acotados en espacios de Hilbert",
+    "Temas de la teoría de las espacios de hilbert"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-analisis-funcional/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "variable-compleja",
@@ -392,7 +434,9 @@
     "analisis-real",
     "calculo-varias-variables"
    ],
-   "habilita": [],
+   "habilita": [
+    "teoria-de-numeros-analitica"
+   ],
    "temas": [
     "Números complejos",
     "Funciones de variable compleja",
@@ -406,7 +450,9 @@
     "Series asintóticas",
     "Representaciones integrales"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-variable-compleja/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "ecuaciones-diferenciales",
@@ -416,10 +462,12 @@
    "depende_de": [
     "calculo",
     "algebra-lineal",
+    "algebra-lineal-avanzada",
     "sucesiones-y-series"
    ],
    "habilita": [
-    "ecuaciones-en-derivadas-parciales"
+    "ecuaciones-en-derivadas-parciales",
+    "geometria-diferencial"
    ],
    "temas": [
     "Ecuaciones diferenciales de primer orden",
@@ -437,7 +485,9 @@
     "Propiedades generales de las ecuaciones diferenciales ordinarias",
     "Clasiﬁcación de ecuaciones"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-ecuaciones-diferenciales/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "ecuaciones-en-derivadas-parciales",
@@ -465,7 +515,9 @@
     "Autofunciones y sus usos",
     "Función de Green para ondas estacionarias"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-ecuaciones-en-derivadas-parciales/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "analisis-numerico",
@@ -486,16 +538,19 @@
     "Cálculo aproximado de integrales",
     "Diferencias finitas y ecuaciones en diferencia"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-analisis-numerico/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "geometria-diferencial",
    "nombre": "Geometría diferencial",
    "area": "geometría y topología",
-   "nivel": 5,
+   "nivel": 6,
    "depende_de": [
     "calculo-varias-variables",
-    "geometria"
+    "geometria",
+    "ecuaciones-diferenciales"
    ],
    "habilita": [],
    "temas": [
@@ -506,7 +561,9 @@
     "Superﬁcies regladas",
     "Geometría Riemanniana"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-geometria-diferencial/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "probabilidad",
@@ -534,6 +591,7 @@
     "Momentos de variables aleatorias",
     "Algunos modelos probabilisticos discretos",
     "Algunos modelos probabilisticos continuos",
+    "Sucesiones de variables aleatorias",
     "Vectores aleatorios",
     "Transformaciones de vectores aleatorios 1",
     "Momentos de vectores aleatorios",
@@ -542,9 +600,12 @@
     "Distribucion de formas cuadraticas",
     "Situaciones que requieren de modelos probabilísticos",
     "Distribución conjunta de varias variables aleatorias, densidad conjunta",
-    "Independencia de eventos y variables aleatorias"
+    "Independencia de eventos y variables aleatorias",
+    "Ley de los grandes números y teorema central del límite"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-probabilidad/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "probabilidades-avanzadas",
@@ -563,11 +624,11 @@
     "Variables aleatorias",
     "Convergencia de variables aleatorias",
     "Teoremas limites",
-    "Sucesiones de variables aleatorias",
-    "Ley de los grandes números y teorema central del límite",
     "Espacios de probabilidad, medibilidad, variables aleatorias"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-probabilidades-avanzadas/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "procesos-estocasticos",
@@ -598,7 +659,9 @@
     "Movimiento Browniano: Definición y Propiedades",
     "Procesos Estocásticos"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-procesos-estocasticos/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "simulacion",
@@ -623,7 +686,9 @@
     "Mcmc 1",
     "Mcmc 2"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-simulacion/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "inferencia",
@@ -663,7 +728,9 @@
     "Comparación de dos muestras",
     "Pruebas basadas en rachas"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-inferencia/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "modelos-lineales",
@@ -690,12 +757,14 @@
     "Elementos de modelos lineales",
     "La distribución normal en espacios de dimensión finita",
     "Modelo lineal",
-    "Modelo lineal multivariante",
     "Modelos de efectos aleatorios, componentes de variancia",
+    "El planteamiento clásico del Modelo Lineal estandar",
     "Regresión multilineal",
     "Estimación paramétrica de superficies de regresión"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-modelos-lineales/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "diseno-de-experimentos",
@@ -722,7 +791,9 @@
     "Experimentos factoriales",
     "Bloques incompletos"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-diseno-de-experimentos/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "muestreo",
@@ -762,7 +833,9 @@
     "Planes de Muestreo para producciones continuas",
     "Teoría del Gráfico de Control"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-muestreo/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "multivariante",
@@ -780,10 +853,13 @@
     "Analisis de componentes principales",
     "Analisis de correspondencias binarias",
     "Analisis de conglomerados",
+    "Modelo lineal multivariante",
     "Grupos de Transformaciones y Geometrías de Klein",
     "Componentes principales multidimensionales"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-multivariante/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "series-de-tiempo",
@@ -813,7 +889,9 @@
     "Predicción",
     "Estimación"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-series-de-tiempo/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "estadistica-bayesiana",
@@ -831,7 +909,6 @@
     "Selección de modelos",
     "Intervalos de confianza",
     "Introducción",
-    "El planteamiento clásico del Modelo Lineal estandar",
     "Selección y validación del Modelo",
     "El modelo lineal gaussiano con diferentes a priori",
     "El Modelo de regresión no lineal",
@@ -842,7 +919,9 @@
     "Comparación de Modelos",
     "Redes Bayesianas: Modelo Probabilístico y Estadística Bayesiana"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-estadistica-bayesiana/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "econometria",
@@ -862,7 +941,9 @@
     "Modelos de ecuaciones simultaneas",
     "Estacionariedad y cointegracion"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-econometria/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "matematica-financiera",
@@ -897,7 +978,9 @@
     "Depreciación",
     "Tópicos especiales"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-matematica-financiera/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "matematica-actuarial",
@@ -912,7 +995,6 @@
     "teoria-del-riesgo"
    ],
    "temas": [
-    "Introducción a los procesos actuariales, concepto de la teoría de la utilidad",
     "Primas únicas de los seguros de muerte",
     "Concepto de prima natural y prima nivelada",
     "Concepto de reserva matemática",
@@ -933,7 +1015,9 @@
     "Tablas de mortalidad",
     "Proyecciones de poblacion"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-matematica-actuarial/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "teoria-del-riesgo",
@@ -950,6 +1034,7 @@
     "Teoría Individual del Riesgo",
     "Teoría Colectiva del Riesgo",
     "El Reaseguro y la Solvencia del Asegurador",
+    "Introducción a los procesos actuariales, concepto de la teoría de la utilidad",
     "Teoría general de Riesgo",
     "Fluctuaciones de valores extremos",
     "Eventos extremos",
@@ -957,7 +1042,9 @@
     "Aplicaciones y ejemplos",
     "Teoría de riesgo coherente"
    ],
-   "url": ""
+   "agregado": false,
+   "url": "/mate-teoria-del-riesgo/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "investigacion-de-operaciones",
@@ -987,7 +1074,9 @@
     "Problemas de mantenimiento y reemplazos de equipos",
     "Programación No Lineal y dinámica, el planteamiento del problema"
    ],
-   "url": "/investigacion-de-operaciones/"
+   "agregado": false,
+   "url": "/investigacion-de-operaciones/",
+   "estado": "en-preparacion"
   },
   {
    "slug": "finanzas-cuantitativas",
@@ -1009,7 +1098,107 @@
     "Optimización de portafolios en mercados multiperiódicos",
     "Tasas de interés"
    ],
-   "url": "/finanzas-cuantitativas/"
+   "agregado": false,
+   "url": "/finanzas-cuantitativas/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "teoria-de-categorias",
+   "nombre": "Teoría de categorías",
+   "area": "álgebra",
+   "nivel": 7,
+   "depende_de": [
+    "logica-y-conjuntos",
+    "algebra",
+    "topologia"
+   ],
+   "habilita": [],
+   "temas": [
+    "Categorías, objetos y morfismos",
+    "Funtores y transformaciones naturales",
+    "Límites y colímites",
+    "Adjunciones",
+    "El lema de Yoneda",
+    "Mónadas",
+    "Categorías en topología algebraica",
+    "Categorías y programación funcional"
+   ],
+   "agregado": true,
+   "url": "/mate-teoria-de-categorias/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "teoria-de-numeros-analitica",
+   "nombre": "Teoría de números analítica",
+   "area": "análisis",
+   "nivel": 7,
+   "depende_de": [
+    "matematicas-discretas",
+    "sucesiones-y-series",
+    "variable-compleja"
+   ],
+   "habilita": [],
+   "temas": [
+    "Funciones aritméticas y convolución de Dirichlet",
+    "Órdenes medios de funciones aritméticas",
+    "Teoremas de Chebyshev y de Mertens",
+    "Series de Dirichlet",
+    "La función zeta de Riemann",
+    "El teorema de los números primos",
+    "Caracteres y el teorema de Dirichlet en progresiones aritméticas",
+    "Sumas de Gauss"
+   ],
+   "agregado": true,
+   "url": "/mate-teoria-de-numeros-analitica/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "combinatoria-algebraica",
+   "nombre": "Combinatoria algebraica",
+   "area": "álgebra",
+   "nivel": 5,
+   "depende_de": [
+    "matematicas-discretas",
+    "algebra",
+    "algebra-lineal"
+   ],
+   "habilita": [],
+   "temas": [
+    "Series formales y funciones generatrices",
+    "Particiones y diagramas de Young",
+    "Acciones de grupos y enumeración de Pólya",
+    "Funciones simétricas",
+    "Tablas de Young y la correspondencia RSK",
+    "Conjuntos parcialmente ordenados y la función de Möbius",
+    "Matroides",
+    "Polinomios de grafos"
+   ],
+   "agregado": true,
+   "url": "/mate-combinatoria-algebraica/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "logica-matematica-avanzada",
+   "nombre": "Lógica matemática avanzada",
+   "area": "fundamentos",
+   "nivel": 2,
+   "depende_de": [
+    "logica-y-conjuntos",
+    "numeros"
+   ],
+   "habilita": [],
+   "temas": [
+    "Ordinales y cardinales",
+    "ZFC a fondo",
+    "El universo construible",
+    "Independencia de la hipótesis del continuo",
+    "Teoría de modelos: ultraproductos y eliminación de cuantificadores",
+    "Teoría de la demostración y aritmética de Peano",
+    "Funciones recursivas y su relación con la lógica"
+   ],
+   "agregado": true,
+   "url": "/mate-logica-matematica-avanzada/",
+   "estado": "en-preparacion"
   }
  ],
  "materias": [
@@ -1036,7 +1225,6 @@
    "nombre": "Álgebra Lineal II",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
-    "geometria",
     "algebra-lineal-avanzada"
    ]
   },
@@ -1062,8 +1250,7 @@
    "nombre": "Teoría de la Probabilidad II",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
-    "probabilidad",
-    "probabilidades-avanzadas"
+    "probabilidad"
    ]
   },
   {
@@ -1178,7 +1365,8 @@
    "nombre": "Matemáticas Actuariales I",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
-    "matematica-actuarial"
+    "matematica-actuarial",
+    "teoria-del-riesgo"
    ]
   },
   {
@@ -1253,8 +1441,7 @@
    "nombre": "Matemáticas III",
    "carrera": "Estadística y Ciencias Actuariales",
    "recorrido": [
-    "calculo-varias-variables",
-    "topologia"
+    "calculo-varias-variables"
    ]
   },
   {
@@ -1278,9 +1465,9 @@
    "nombre": "Matemáticas Generales IV",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
+    "algebra-lineal-avanzada",
     "calculo-varias-variables",
     "ecuaciones-diferenciales",
-    "topologia",
     "ecuaciones-en-derivadas-parciales"
    ]
   },
@@ -1406,8 +1593,7 @@
    "nombre": "Análisis II",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
-    "calculo-varias-variables",
-    "topologia"
+    "calculo-varias-variables"
    ]
   },
   {
@@ -1439,8 +1625,7 @@
    "nombre": "Probabilidades",
    "carrera": "Licenciatura en Matemática",
    "recorrido": [
-    "probabilidad",
-    "probabilidades-avanzadas"
+    "probabilidad"
    ]
   },
   {
@@ -1485,6 +1670,7 @@
     "inferencia",
     "modelos-lineales",
     "diseno-de-experimentos",
+    "multivariante",
     "estadistica-bayesiana"
    ]
   },
@@ -1501,8 +1687,8 @@
    "nombre": "Estadística II",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
-    "algebra-lineal-avanzada",
-    "series-de-tiempo"
+    "series-de-tiempo",
+    "analisis-funcional"
    ]
   },
   {
@@ -1510,6 +1696,7 @@
    "nombre": "Econometría Bayesiana",
    "carrera": "Posgrado en Modelos Aleatorios",
    "recorrido": [
+    "modelos-lineales",
     "estadistica-bayesiana"
    ]
   },

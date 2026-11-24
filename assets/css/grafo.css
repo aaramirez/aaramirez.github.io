@@ -46,3 +46,4 @@
 .grafo-lista button{display:block;width:100%;text-align:left;font:600 .95rem var(--f-display);color:var(--ink);padding:10px 12px;border:1px solid var(--line);border-radius:10px;cursor:pointer}
 .grafo-lista button small{display:block;font-weight:400;color:var(--muted);margin-top:2px}
 .grafo-lista button.dim{opacity:.35}
+.aviso-curado{margin:12px 0;padding:10px 14px;border:1px solid var(--warm);border-left:4px solid var(--warm);border-radius:8px;background:var(--card);font:500 .92rem var(--f-display);color:var(--ink)}
