@@ -2,9 +2,9 @@
 categorias:
 - id: matematica
   nombre: Matemática
-  descripcion: Libros interactivos que siguen la Licenciatura en Matemáticas y la Maestría en Modelos Aleatorios.
+  descripcion: 'Un curso por tema, organizados como un grafo: cada tema se explica una sola vez y cada materia de la licenciatura, de estadística y del posgrado es un recorrido por los cursos.'
   disponibles: 3
-  total: 22
+  total: 37
 - id: computacion
   nombre: Computación
   descripcion: 'El núcleo de un pregrado de computación: matemáticas discretas y lógica, teoría, lenguajes y compiladores, sistemas operativos, redes, sistemas distribuidos, seguridad, gráfica y más.'
@@ -36,171 +36,291 @@ categorias:
   disponibles: 0
   total: 1
 cursos:
-- slug: elementos
-  nombre: Elementos de la matemática
+- slug: logica-y-conjuntos
+  nombre: Lógica y conjuntos
   categoria: matematica
-  grupo: Licenciatura
+  grupo: Fundamentos
   estado: proximamente
-  descripcion: Lógica, conjuntos, funciones y el arte de demostrar, el punto de partida de toda la carrera.
+  descripcion: 'Lógica, métodos de demostración y teoría de conjuntos: relaciones, funciones como relaciones, cardinalidad y el lema de Zorn.'
   tipo: Próximamente
   etiqueta: Próximamente
-- slug: calculo
-  nombre: Cálculo
+- slug: numeros
+  nombre: Sistemas numéricos
   categoria: matematica
-  grupo: Licenciatura
+  grupo: Fundamentos
   estado: proximamente
-  descripcion: Límites, derivadas e integrales en una y varias variables, con gráficas que se mueven.
+  descripcion: 'Naturales e inducción, enteros, racionales, reales y complejos: cómo se construyen y qué propiedades tienen.'
   tipo: Próximamente
   etiqueta: Próximamente
-- slug: algebra-lineal
-  nombre: Álgebra lineal
+- slug: funciones
+  nombre: Funciones
   categoria: matematica
-  grupo: Licenciatura
+  grupo: Fundamentos
   estado: proximamente
-  descripcion: Vectores, matrices, transformaciones y valores propios, vistos como movimientos del plano y del espacio.
+  descripcion: 'Funciones, gráficas, funciones básicas y composición: el lenguaje que usan el cálculo, el álgebra y la probabilidad.'
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: geometria
   nombre: Geometría
   categoria: matematica
-  grupo: Licenciatura
+  grupo: Geometría y topología
   estado: proximamente
-  descripcion: Geometría euclidiana, analítica y vectorial con construcciones interactivas.
+  descripcion: Geometría plana, analítica y vectorial, cónicas y cuádricas, y transformaciones afines, isometrías y proyectivas.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: algebra-lineal
+  nombre: Álgebra lineal
+  categoria: matematica
+  grupo: Álgebra
+  estado: proximamente
+  descripcion: Vectores, matrices, transformaciones y valores propios, vistos como movimientos del plano y del espacio.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: algebra-lineal-avanzada
+  nombre: Álgebra lineal avanzada
+  categoria: matematica
+  grupo: Álgebra
+  estado: proximamente
+  descripcion: Espacio dual, determinantes, valores propios, formas bilineales y cuadráticas, producto interno y pseudoinversas.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: algebra
   nombre: Álgebra abstracta
   categoria: matematica
-  grupo: Licenciatura
+  grupo: Álgebra
   estado: proximamente
   descripcion: Grupos, anillos y cuerpos, las estructuras que comparten los números, las simetrías y los polinomios.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: calculo
+  nombre: Cálculo en una variable
+  categoria: matematica
+  grupo: Análisis
+  estado: proximamente
+  descripcion: Límites, continuidad, derivadas e integrales en una variable, con sus aplicaciones y el teorema de Taylor.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: sucesiones-y-series
+  nombre: Sucesiones y series
+  categoria: matematica
+  grupo: Análisis
+  estado: proximamente
+  descripcion: Sucesiones y series numéricas, series de funciones, convergencia uniforme y series de potencias.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: analisis-real
   nombre: Análisis real
   categoria: matematica
-  grupo: Licenciatura
+  grupo: Análisis
   estado: proximamente
-  descripcion: Los números reales, sucesiones, continuidad y convergencia con todo el rigor.
+  descripcion: Los números reales, el supremo, la topología de la recta, continuidad, derivada e integral de Riemann con todo el rigor.
   tipo: Próximamente
   etiqueta: Próximamente
-- slug: ecuaciones-diferenciales
-  nombre: Ecuaciones diferenciales
+- slug: calculo-varias-variables
+  nombre: Cálculo en varias variables
   categoria: matematica
-  grupo: Licenciatura
+  grupo: Análisis
   estado: proximamente
-  descripcion: Modelar el cambio, campos de pendientes y soluciones que se pueden explorar.
-  tipo: Próximamente
-  etiqueta: Próximamente
-- slug: variable-compleja
-  nombre: Variable compleja
-  categoria: matematica
-  grupo: Licenciatura
-  estado: proximamente
-  descripcion: Funciones de variable compleja, integración y residuos, con mapas de color del plano complejo.
+  descripcion: Funciones de varias variables, gradiente, integrales múltiples, de línea y de superficie, y los teoremas de Green, Gauss y Stokes.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: topologia
   nombre: Topología
   categoria: matematica
-  grupo: Licenciatura
+  grupo: Geometría y topología
   estado: proximamente
   descripcion: Espacios, abiertos, compacidad y conexidad, la geometría de lo que no cambia al deformar.
-  tipo: Próximamente
-  etiqueta: Próximamente
-- slug: analisis-numerico
-  nombre: Análisis numérico
-  categoria: matematica
-  grupo: Licenciatura
-  estado: proximamente
-  descripcion: Cómo calcula de verdad una computadora, errores de redondeo, raíces, interpolación e integración numérica.
-  tipo: Próximamente
-  etiqueta: Próximamente
-- slug: probabilidad-estadistica
-  nombre: Probabilidad y estadística
-  categoria: matematica
-  grupo: Licenciatura
-  estado: proximamente
-  descripcion: Azar, variables aleatorias, distribuciones y estimación, con simulaciones en el navegador.
-  tipo: Próximamente
-  etiqueta: Próximamente
-- slug: ejercicios
-  nombre: Tres seis cinco
-  categoria: matematica
-  grupo: Licenciatura
-  estado: proximamente
-  descripcion: Un ejercicio resuelto para cada día del año, para matemáticos en formación.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: medida
   nombre: Teoría de la medida
   categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
+  grupo: Análisis
   estado: disponible
   tipo: Libro interactivo
   descripcion: Medir conjuntos, la integral de Lebesgue, los teoremas de convergencia, Lp, Radon–Nikodym y Fubini, con 39 laboratorios.
   url: https://aaramirez.github.io/medida/
   etiqueta: Disponible
+- slug: analisis-funcional
+  nombre: Análisis funcional
+  categoria: matematica
+  grupo: Análisis
+  estado: proximamente
+  descripcion: Espacios de Banach y de Hilbert, operadores, dualidad, Hahn-Banach, Baire y topologías débiles.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: variable-compleja
+  nombre: Variable compleja
+  categoria: matematica
+  grupo: Análisis
+  estado: proximamente
+  descripcion: Funciones de variable compleja, integración y residuos, con mapas de color del plano complejo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ecuaciones-diferenciales
+  nombre: Ecuaciones diferenciales ordinarias
+  categoria: matematica
+  grupo: Análisis
+  estado: proximamente
+  descripcion: Ecuaciones de primer orden y lineales, transformada de Laplace, soluciones por series, sistemas lineales y estabilidad.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ecuaciones-en-derivadas-parciales
+  nombre: Ecuaciones en derivadas parciales
+  categoria: matematica
+  grupo: Análisis
+  estado: proximamente
+  descripcion: Calor, ondas y Laplace, separación de variables, series de Fourier, funciones armónicas y método de características.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: analisis-numerico
+  nombre: Análisis numérico
+  categoria: matematica
+  grupo: Numérico
+  estado: proximamente
+  descripcion: Cómo calcula de verdad una computadora, errores de redondeo, raíces, interpolación e integración numérica.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: geometria-diferencial
+  nombre: Geometría diferencial
+  categoria: matematica
+  grupo: Geometría y topología
+  estado: proximamente
+  descripcion: Curvas y superficies, curvatura, triedro de Frenet, formas fundamentales e introducción a la geometría riemanniana.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: probabilidad
+  nombre: Probabilidad
+  categoria: matematica
+  grupo: Probabilidad
+  estado: proximamente
+  descripcion: Espacios de probabilidad, probabilidad condicional, variables y vectores aleatorios, modelos discretos y continuos y la normal multivariante.
+  tipo: Próximamente
+  etiqueta: Próximamente
 - slug: probabilidades-avanzadas
   nombre: Probabilidades avanzadas
   categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
+  grupo: Probabilidad
   estado: proximamente
-  descripcion: Leyes de los grandes números, teorema central del límite, martingalas y cadenas de Markov.
+  descripcion: 'Probabilidad con teoría de la medida: convergencia de variables aleatorias, leyes de los grandes números y teorema central del límite.'
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: procesos-estocasticos
   nombre: Procesos estocásticos
   categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
+  grupo: Procesos
   estado: proximamente
   descripcion: Cadenas de Markov, procesos de Poisson y movimiento browniano, simulados paso a paso.
-  tipo: Próximamente
-  etiqueta: Próximamente
-- slug: inferencia
-  nombre: Inferencia estadística
-  categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
-  estado: proximamente
-  descripcion: Estimadores, intervalos de confianza y pruebas de hipótesis, con remuestreo interactivo.
-  tipo: Próximamente
-  etiqueta: Próximamente
-- slug: series-de-tiempo
-  nombre: Series de tiempo
-  categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
-  estado: proximamente
-  descripcion: Tendencia, estacionalidad, modelos ARIMA y pronósticos con datos reales.
-  tipo: Próximamente
-  etiqueta: Próximamente
-- slug: modelos-lineales
-  nombre: Modelos lineales generalizados
-  categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
-  estado: proximamente
-  descripcion: Regresión lineal, logística y de Poisson bajo un mismo marco.
-  tipo: Próximamente
-  etiqueta: Próximamente
-- slug: multivariante
-  nombre: Estadística multivariante
-  categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
-  estado: proximamente
-  descripcion: Componentes principales, análisis de conglomerados y discriminante, con datos que se pueden rotar.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: simulacion
   nombre: Simulación
   categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
+  grupo: Procesos
   estado: proximamente
   descripcion: Números pseudoaleatorios, Monte Carlo y simulación de sistemas.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: inferencia
+  nombre: Inferencia estadística
+  categoria: matematica
+  grupo: Estadística
+  estado: proximamente
+  descripcion: Estimadores, intervalos de confianza y pruebas de hipótesis, con remuestreo interactivo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: modelos-lineales
+  nombre: Modelos lineales
+  categoria: matematica
+  grupo: Estadística
+  estado: proximamente
+  descripcion: Regresión lineal, logística y de Poisson bajo un mismo marco.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: diseno-de-experimentos
+  nombre: Diseño de experimentos
+  categoria: matematica
+  grupo: Estadística
+  estado: proximamente
+  descripcion: Diseños completamente aleatorizados, en bloques, cuadrados latinos, factoriales, confundidos y fraccionales.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: muestreo
+  nombre: Muestreo y control de calidad
+  categoria: matematica
+  grupo: Estadística
+  estado: proximamente
+  descripcion: Muestreo aleatorio simple, estratificado, por conglomerados y en etapas, estimadores indirectos y control estadístico de calidad.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: multivariante
+  nombre: Análisis multivariante
+  categoria: matematica
+  grupo: Estadística
+  estado: proximamente
+  descripcion: Componentes principales, análisis de conglomerados y discriminante, con datos que se pueden rotar.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: series-de-tiempo
+  nombre: Series de tiempo
+  categoria: matematica
+  grupo: Estadística
+  estado: proximamente
+  descripcion: Tendencia, estacionalidad, modelos ARIMA y pronósticos con datos reales.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: estadistica-bayesiana
+  nombre: Estadística bayesiana
+  categoria: matematica
+  grupo: Estadística
+  estado: proximamente
+  descripcion: Inferencia bayesiana, modelos lineales con a priori, MCMC con Metropolis-Hastings y Gibbs, y filtros de Kalman.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: econometria
+  nombre: Econometría
+  categoria: matematica
+  grupo: Estadística
+  estado: proximamente
+  descripcion: El modelo lineal en economía, mínimos cuadrados generalizados, modelos dinámicos, ecuaciones simultáneas y cointegración.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: matematica-financiera
+  nombre: Matemática financiera
+  categoria: matematica
+  grupo: Actuarial y finanzas
+  estado: proximamente
+  descripcion: Interés simple, compuesto y continuo, descuento, rentas ciertas, amortización, empréstitos y depreciación.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: matematica-actuarial
+  nombre: Matemática actuarial
+  categoria: matematica
+  grupo: Actuarial y finanzas
+  estado: proximamente
+  descripcion: Tablas de mortalidad y demografía, seguros y rentas de vida, primas, reservas y contingencias de varias vidas.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: teoria-del-riesgo
+  nombre: Teoría del riesgo
+  categoria: matematica
+  grupo: Actuarial y finanzas
+  estado: proximamente
+  descripcion: Teoría individual y colectiva del riesgo, ruina, reaseguro, valores extremos, VaR y medidas coherentes de riesgo.
+  tipo: Próximamente
+  etiqueta: Próximamente
+- slug: ejercicios
+  nombre: Tres seis cinco
+  categoria: matematica
+  grupo: Repasos y ejercicios
+  estado: proximamente
+  descripcion: Un ejercicio resuelto para cada día del año, para matemáticos en formación.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: mate
   nombre: Mate para ML
   categoria: matematica
-  grupo: Repasos
+  grupo: Repasos y ejercicios
   estado: disponible
   tipo: Curso · 17 módulos
   descripcion: Repaso visual e interactivo de las matemáticas que usan el Machine Learning, la inteligencia artificial y las redes neuronales.
@@ -210,7 +330,7 @@ cursos:
 - slug: trabajo-de-grado-modelos-aleatorios
   nombre: Trabajo de grado
   categoria: matematica
-  grupo: Maestría en Modelos Aleatorios
+  grupo: Repasos y ejercicios
   estado: disponible
   tipo: Maestría · UCV, 2019
   descripcion: Trabajo de grado de la Maestría en Modelos Aleatorios de la Universidad Central de Venezuela, con el documento completo y sus fuentes.
