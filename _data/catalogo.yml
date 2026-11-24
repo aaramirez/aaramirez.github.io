@@ -14,7 +14,7 @@ categorias:
   nombre: Desarrollo de software
   descripcion: De la página web a la aplicación móvil, con el servidor y la entrega continua en medio.
   disponibles: 0
-  total: 12
+  total: 13
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
@@ -258,9 +258,17 @@ cursos:
   nombre: Páginas web
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 10 capítulos
-  descripcion: HTML, CSS y sitios estáticos publicados gratis, para empezar desde cero.
+  tipo: Curso · 11 capítulos
+  descripcion: HTML, CSS, las herramientas del desarrollador y sitios estáticos publicados gratis, que Google encuentra y se ven bien al compartir.
   url: /paginas-web/
+  etiqueta: En preparación
+- slug: jekyll
+  nombre: Sitios con Jekyll y GitHub Pages
+  categoria: software
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
+  descripcion: Un sitio estático con plantillas, datos y Markdown, publicado en GitHub Pages, y los prompts para que un asistente de IA lo amplíe sin desordenarlo.
+  url: /jekyll/
   etiqueta: En preparación
 - slug: frontend
   nombre: Frontend
@@ -575,6 +583,7 @@ rutas:
   - Programación en Python
   - Algoritmos y estructuras de datos
   - Páginas web
+  - Sitios con Jekyll y GitHub Pages
   - JavaScript
   - TypeScript
   - 'Aplicaciones web: de CGI a las SPA'
