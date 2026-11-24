@@ -1,0 +1,27 @@
+---
+layout: base
+title: Grafo de matemática
+permalink: /matematica/grafo/
+description: Los temas de matemática, estadística y matemática actuarial como un grafo de cursos. Cada tema tiene un solo curso, y cada materia del pensum es un recorrido por ellos.
+---
+<link rel="stylesheet" href="{{ '/assets/css/grafo.css' | relative_url }}">
+<section class="stage grafo-pagina" aria-labelledby="titulo-grafo">
+  <h1 id="titulo-grafo">Grafo de temas de matemática</h1>
+  <p class="cat-desc">Cada rectángulo es un curso y cada tema vive en un solo curso. Las flechas van de un curso a los que lo necesitan. Toca un curso para ver qué temas reúne, qué necesita y qué habilita, o elige una materia del pensum para ver su recorrido. Los temas salen de los programas de la Licenciatura en Matemática, de Estadística y Ciencias Actuariales y del posgrado en Modelos Aleatorios.</p>
+  <div class="grafo-ctl">
+    <label>Materia
+      <select id="grafo-materia"><option value="">Todas</option></select></label>
+    <label class="grafo-check"><input type="checkbox" id="grafo-lista"> Vista de lista</label>
+  </div>
+  <div class="grafo-leyenda" id="grafo-leyenda"></div>
+  <div class="grafo-cuerpo">
+    <div class="grafo-lienzo" id="grafo-lienzo"><svg id="grafo-svg" role="img" aria-label="Grafo de cursos de matemática y sus dependencias"></svg></div>
+    <div class="grafo-lista" id="grafo-vista-lista" hidden></div>
+    <aside class="grafo-ficha" id="grafo-ficha" aria-live="polite">
+      <h2>Elige un curso</h2>
+      <p>Toca un curso del grafo para ver su ficha.</p>
+    </aside>
+  </div>
+</section>
+<script type="application/json" id="grafo-datos">{{ site.data.grafo_matematica | jsonify }}</script>
+<script src="{{ '/assets/js/grafo.js' | relative_url }}"></script>

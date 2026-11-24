@@ -1,0 +1,1602 @@
+{
+ "nodos": [
+  {
+   "slug": "logica-y-conjuntos",
+   "nombre": "Lógica y conjuntos",
+   "area": "fundamentos",
+   "nivel": 0,
+   "depende_de": [],
+   "habilita": [
+    "numeros",
+    "funciones",
+    "matematicas-discretas",
+    "algebra-lineal"
+   ],
+   "temas": [
+    "Logica",
+    "Conjuntos",
+    "Noción intuitiva de conjunto",
+    "Teoría de conjuntos"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "numeros",
+   "nombre": "Sistemas numéricos",
+   "area": "fundamentos",
+   "nivel": 1,
+   "depende_de": [
+    "logica-y-conjuntos"
+   ],
+   "habilita": [
+    "funciones",
+    "matematicas-discretas",
+    "geometria"
+   ],
+   "temas": [
+    "Números naturales",
+    "Números racionales",
+    "Números reales",
+    "Números complejos",
+    "Los números"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "funciones",
+   "nombre": "Funciones",
+   "area": "fundamentos",
+   "nivel": 2,
+   "depende_de": [
+    "logica-y-conjuntos",
+    "numeros"
+   ],
+   "habilita": [
+    "geometria",
+    "algebra-lineal",
+    "calculo"
+   ],
+   "temas": [
+    "Curvas, fórmulas, funciones y gráﬁcas",
+    "Funciones básicas",
+    "Composición de funciones"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "matematicas-discretas",
+   "nombre": "Matemáticas discretas",
+   "area": "fundamentos",
+   "nivel": 2,
+   "depende_de": [
+    "logica-y-conjuntos",
+    "numeros"
+   ],
+   "habilita": [
+    "algebra",
+    "probabilidad"
+   ],
+   "temas": [
+    "Números enteros",
+    "El conjunto Z de los números enteros"
+   ],
+   "url": "/matematicas-discretas/"
+  },
+  {
+   "slug": "geometria",
+   "nombre": "Geometría",
+   "area": "geometría y topología",
+   "nivel": 3,
+   "depende_de": [
+    "numeros",
+    "funciones"
+   ],
+   "habilita": [
+    "calculo-varias-variables",
+    "geometria-diferencial"
+   ],
+   "temas": [
+    "Nociones elementales de geometría",
+    "Circunferencias",
+    "Sistemas de coordenadas",
+    "Producto escalar, vectorial y mixto",
+    "Cónicas",
+    "Cuádricas en el espacio",
+    "Transformaciones lineales",
+    "Tranformación afín",
+    "Isométricas",
+    "Transformaciones proyectivas",
+    "Geometría analítica plana",
+    "Nociones de geometría plana, del espacio y álgebra lineal",
+    "Interpretaciones geometricas"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "algebra-lineal",
+   "nombre": "Álgebra lineal",
+   "area": "álgebra",
+   "nivel": 3,
+   "depende_de": [
+    "logica-y-conjuntos",
+    "funciones"
+   ],
+   "habilita": [
+    "algebra-lineal-avanzada",
+    "algebra",
+    "calculo-varias-variables",
+    "ecuaciones-diferenciales",
+    "analisis-numerico",
+    "procesos-estocasticos",
+    "investigacion-de-operaciones"
+   ],
+   "temas": [
+    "Matrices",
+    "Determinantes",
+    "Resolucion de sistemas de ecuaciones",
+    "Espacios vectoriales",
+    "Transformaciones lineales",
+    "Sistemas de ecuaciones lineales y matrices sobre los números reales",
+    "Espacios vectoriales de dimensión ﬁnita sobre el cuerpo de los números reales",
+    "Álgebra lineal"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "algebra-lineal-avanzada",
+   "nombre": "Álgebra lineal avanzada",
+   "area": "álgebra",
+   "nivel": 4,
+   "depende_de": [
+    "algebra-lineal"
+   ],
+   "habilita": [
+    "analisis-funcional",
+    "modelos-lineales",
+    "multivariante",
+    "series-de-tiempo"
+   ],
+   "temas": [
+    "Espacio dual",
+    "La función determinante",
+    "Valores propios",
+    "Formas bilineales",
+    "Espacios con producto interno",
+    "Autovalores y autovectores",
+    "Formas cuadraticas",
+    "Pseudo inversas",
+    "Sistemas de ecuaciones lineales",
+    "PRODUCTO INTERNO Y ORTOGONALIDAD EN Rn",
+    "Temas de la teoría de las espacios de hilbert"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "algebra",
+   "nombre": "Álgebra abstracta",
+   "area": "álgebra",
+   "nivel": 4,
+   "depende_de": [
+    "matematicas-discretas",
+    "algebra-lineal"
+   ],
+   "habilita": [],
+   "temas": [
+    "Grupos",
+    "Anillos",
+    "Anillos de polinomios",
+    "Cuerpos",
+    "Cuerpos ﬁnitos",
+    "Construcciones con regla y compás"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "calculo",
+   "nombre": "Cálculo en una variable",
+   "area": "análisis",
+   "nivel": 3,
+   "depende_de": [
+    "funciones"
+   ],
+   "habilita": [
+    "sucesiones-y-series",
+    "calculo-varias-variables",
+    "ecuaciones-diferenciales",
+    "analisis-numerico",
+    "matematica-financiera"
+   ],
+   "temas": [
+    "Inecuaciones y aproximaciones",
+    "Límites",
+    "Derivadas",
+    "Continuidad",
+    "Aplicaciones",
+    "Cálculo diferencial en una variable",
+    "Teorema de Taylor y aproximaciones",
+    "La integral indeﬁnida",
+    "La integral deﬁnida",
+    "Aplicaciones del cálculo integral",
+    "Limites y continuidad",
+    "Derivadas y aplicaciones",
+    "La integral indefinida 1",
+    "La integral de riemann y sus aplicaciones",
+    "Integrales impropias"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "sucesiones-y-series",
+   "nombre": "Sucesiones y series",
+   "area": "análisis",
+   "nivel": 4,
+   "depende_de": [
+    "calculo"
+   ],
+   "habilita": [
+    "analisis-real",
+    "ecuaciones-diferenciales",
+    "matematica-financiera"
+   ],
+   "temas": [
+    "Sucesiones numéricas",
+    "Series numéricas",
+    "Sucesiones de numeros reales",
+    "Series de numeros reales y de potencias",
+    "Sucesiones",
+    "Sucesiones y series de funciones",
+    "Series de potencia"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "analisis-real",
+   "nombre": "Análisis real",
+   "area": "análisis",
+   "nivel": 5,
+   "depende_de": [
+    "sucesiones-y-series"
+   ],
+   "habilita": [
+    "topologia",
+    "medida",
+    "variable-compleja"
+   ],
+   "temas": [
+    "Los números reales",
+    "Topología de la recta",
+    "Límites y continuidad de funciones",
+    "Derivada",
+    "Integral de Riemann",
+    "Integrales impropias"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "calculo-varias-variables",
+   "nombre": "Cálculo en varias variables",
+   "area": "análisis",
+   "nivel": 4,
+   "depende_de": [
+    "calculo",
+    "algebra-lineal",
+    "geometria"
+   ],
+   "habilita": [
+    "topologia",
+    "variable-compleja",
+    "ecuaciones-en-derivadas-parciales",
+    "geometria-diferencial",
+    "probabilidad"
+   ],
+   "temas": [
+    "Curvas en el plano y en el espacio",
+    "Campos escalares",
+    "Gradiente de un campo escalar y aplicaciones, máximos y mínimos",
+    "Integrales dobles y triples",
+    "Funciones reales de un vector",
+    "INTEGRALES EN Rn",
+    "Campos vectoriales",
+    "Integrales múltiples",
+    "Integrales de línea y teorema de Green",
+    "Integrales de superﬁcie, teorema de Gauss y teorema de Stokes",
+    "Cálculo diferencial en varias variables",
+    "Integrales de línea",
+    "Análisis vectorial",
+    "Funciones vectoriales de una variable real"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "topologia",
+   "nombre": "Topología",
+   "area": "geometría y topología",
+   "nivel": 6,
+   "depende_de": [
+    "analisis-real",
+    "calculo-varias-variables"
+   ],
+   "habilita": [
+    "medida",
+    "analisis-funcional"
+   ],
+   "temas": [
+    "Topología de Rn",
+    "TOPOLOGIA EN Rn",
+    "Espacios topológicos",
+    "Espacios métricos",
+    "Axiomas de separación",
+    "Espacios topológicos conexos",
+    "Espacios compactos",
+    "Grupos topológicos",
+    "Espacios de funciones",
+    "Espacios Euclídeos"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "medida",
+   "nombre": "Teoría de la medida",
+   "area": "análisis",
+   "nivel": 7,
+   "depende_de": [
+    "analisis-real",
+    "topologia"
+   ],
+   "habilita": [
+    "analisis-funcional",
+    "probabilidades-avanzadas"
+   ],
+   "temas": [
+    "Generalidades y conceptos previos",
+    "La medida de Lebesgue en R",
+    "Funciones medibles",
+    "La Integral de Lebesgue en R",
+    "Diferenciación e Integración",
+    "Medida e integración de Lebesgue en Rn",
+    "Diversos Tipos de Convergencia y Espacios Lp",
+    "Introducción a la integración en espacios generales"
+   ],
+   "url": "/medida/"
+  },
+  {
+   "slug": "analisis-funcional",
+   "nombre": "Análisis funcional",
+   "area": "análisis",
+   "nivel": 8,
+   "depende_de": [
+    "topologia",
+    "medida",
+    "algebra-lineal-avanzada"
+   ],
+   "habilita": [],
+   "temas": [
+    "Espacios normados y de Banach",
+    "Espacios de funciones continuas",
+    "Aplicaciones lineales entre espacios normados",
+    "El espacio dual topológico de un espacio normado",
+    "Bases de Schauder",
+    "Teoremas fundamentales",
+    "Topologías débiles",
+    "Espacios de Hilbert",
+    "Operadores acotados en espacios de Hilbert"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "variable-compleja",
+   "nombre": "Variable compleja",
+   "area": "análisis",
+   "nivel": 6,
+   "depende_de": [
+    "analisis-real",
+    "calculo-varias-variables"
+   ],
+   "habilita": [],
+   "temas": [
+    "Números complejos",
+    "Funciones de variable compleja",
+    "Transformaciones de Moebius",
+    "Series de potencias",
+    "La función exponencial",
+    "Integración compleja",
+    "Versión homológica del teorema de Cauchy",
+    "Desarrollo en serie de Laurent",
+    "Teorema de los residuos",
+    "Series asintóticas",
+    "Representaciones integrales"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "ecuaciones-diferenciales",
+   "nombre": "Ecuaciones diferenciales ordinarias",
+   "area": "análisis",
+   "nivel": 5,
+   "depende_de": [
+    "calculo",
+    "algebra-lineal",
+    "sucesiones-y-series"
+   ],
+   "habilita": [
+    "ecuaciones-en-derivadas-parciales"
+   ],
+   "temas": [
+    "Ecuaciones diferenciales de primer orden",
+    "Ecuaciones diferenciales lineales de orden n",
+    "Transformada de Laplace",
+    "Resolución mediante series",
+    "Introducción a la teoría general de E.D.O",
+    "Sistemas lineales",
+    "Introducción a la teoría de estabilidad",
+    "Ecuaciones diferenciales",
+    "Ecuaciones diferenciales de primer orden y primer grado",
+    "Ecuaciones diferenciales de orden mayor que 1",
+    "La Transformación de Laplace",
+    "Ecuaciones diferenciales con coeﬁcientes variables",
+    "Propiedades generales de las ecuaciones diferenciales ordinarias",
+    "Clasiﬁcación de ecuaciones"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "ecuaciones-en-derivadas-parciales",
+   "nombre": "Ecuaciones en derivadas parciales",
+   "area": "análisis",
+   "nivel": 6,
+   "depende_de": [
+    "ecuaciones-diferenciales",
+    "calculo-varias-variables"
+   ],
+   "habilita": [],
+   "temas": [
+    "Las ecuaciones del calor y Laplace",
+    "Método de separación de variables",
+    "Propiedades de las funciones armónicas",
+    "Series de Fourier",
+    "La ecuación de ondas",
+    "La ecuación de ondas y el método de características",
+    "Ecuaciones en derivadas parciales con tres o mas variables independientes",
+    "Problemas no homogéneos",
+    "Introducción a transformadas integrales",
+    "Ecuaciones en derivadas parciales",
+    "Ecuaciones diferenciales parciales",
+    "Condiciones de frontera y autofunciones",
+    "Autofunciones y sus usos",
+    "Función de Green para ondas estacionarias"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "analisis-numerico",
+   "nombre": "Análisis numérico",
+   "area": "numérico",
+   "nivel": 4,
+   "depende_de": [
+    "calculo",
+    "algebra-lineal"
+   ],
+   "habilita": [],
+   "temas": [
+    "Teoría de los errores",
+    "Soluciones numéricas de ecuaciones no lineales de una variable",
+    "Interpolación",
+    "Teoría de la Aproximación",
+    "Integración numérica y derivación numérica",
+    "Cálculo aproximado de integrales",
+    "Diferencias finitas y ecuaciones en diferencia"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "geometria-diferencial",
+   "nombre": "Geometría diferencial",
+   "area": "geometría y topología",
+   "nivel": 5,
+   "depende_de": [
+    "calculo-varias-variables",
+    "geometria"
+   ],
+   "habilita": [],
+   "temas": [
+    "Curvas planas",
+    "Curvas en el espacio",
+    "Superﬁcies en R3",
+    "Curvas en una superﬁcie",
+    "Superﬁcies regladas",
+    "Geometría Riemanniana"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "probabilidad",
+   "nombre": "Probabilidad",
+   "area": "probabilidad",
+   "nivel": 5,
+   "depende_de": [
+    "matematicas-discretas",
+    "calculo-varias-variables"
+   ],
+   "habilita": [
+    "probabilidades-avanzadas",
+    "procesos-estocasticos",
+    "simulacion",
+    "inferencia",
+    "matematica-actuarial",
+    "investigacion-de-operaciones"
+   ],
+   "temas": [
+    "Naturaleza de la teoria de la probabilidad",
+    "Espacios probabilizados",
+    "Probabilidad condicional",
+    "Variables aleatorias",
+    "Transformaciones de variables aleatorias",
+    "Momentos de variables aleatorias",
+    "Algunos modelos probabilisticos discretos",
+    "Algunos modelos probabilisticos continuos",
+    "Vectores aleatorios",
+    "Transformaciones de vectores aleatorios 1",
+    "Momentos de vectores aleatorios",
+    "Distribucion normal multivariante",
+    "Distribuciones relacionadas con la normal",
+    "Distribucion de formas cuadraticas",
+    "Situaciones que requieren de modelos probabilísticos",
+    "Distribución conjunta de varias variables aleatorias, densidad conjunta, distribuciones y ",
+    "Independencia de eventos y variables aleatorias"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "probabilidades-avanzadas",
+   "nombre": "Probabilidades avanzadas",
+   "area": "probabilidad",
+   "nivel": 8,
+   "depende_de": [
+    "probabilidad",
+    "medida"
+   ],
+   "habilita": [
+    "finanzas-cuantitativas"
+   ],
+   "temas": [
+    "Medida de probabilidad e integracion de lebesgue",
+    "Variables aleatorias",
+    "Convergencia de variables aleatorias",
+    "Teoremas limites",
+    "Sucesiones de variables aleatorias",
+    "Ley de los grandes números y teorema central del límite",
+    "Espacios de probabilidad, medibilidad, variables aleatorias"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "procesos-estocasticos",
+   "nombre": "Procesos estocásticos",
+   "area": "procesos",
+   "nivel": 6,
+   "depende_de": [
+    "probabilidad",
+    "algebra-lineal"
+   ],
+   "habilita": [
+    "simulacion",
+    "series-de-tiempo",
+    "teoria-del-riesgo",
+    "investigacion-de-operaciones",
+    "finanzas-cuantitativas"
+   ],
+   "temas": [
+    "Elementos teoricos",
+    "Procesos de poisson",
+    "Cadenas de markov",
+    "Repaso de probabilidades",
+    "Procesos de Bernoulli – Paseo al azar – Suma de Variables Aleatorias Independientes",
+    "Procesos de Poisson",
+    "Cadenas de Markov",
+    "Teoría de Regeneración",
+    "Matringalas a tiempo discreto",
+    "Movimiento Browniano: Definición y Propiedades",
+    "Procesos Estocásticos"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "simulacion",
+   "nombre": "Simulación",
+   "area": "procesos",
+   "nivel": 7,
+   "depende_de": [
+    "probabilidad",
+    "procesos-estocasticos"
+   ],
+   "habilita": [
+    "estadistica-bayesiana"
+   ],
+   "temas": [
+    "Variables pseudo aleatorias",
+    "Generación de variables discretas y continuas",
+    "Simulación de estadísticos de orden",
+    "Simulación par el método de eventos discretos",
+    "Técnicas de análisis de resultados (media, varianza, intervalos de",
+    "Mcmc",
+    "Simulación, generalidades, características de los modelos de simulación, generación de núm"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "inferencia",
+   "nombre": "Inferencia estadística",
+   "area": "estadística",
+   "nivel": 6,
+   "depende_de": [
+    "probabilidad"
+   ],
+   "habilita": [
+    "modelos-lineales",
+    "muestreo",
+    "series-de-tiempo",
+    "estadistica-bayesiana"
+   ],
+   "temas": [
+    "Caracterización de un conjunto de medidas",
+    "Muestra aleatoria",
+    "Prueba de hipótesis",
+    "Introduccion a la inferencia estadistica",
+    "Estimacion puntual",
+    "Estimacion por intervalo",
+    "Contraste de hipotesis",
+    "Algunos contrastes especiales",
+    "Introducción a la Inferencia Estadística",
+    "Contrastes basados en la Distribución Chi-Cuadrado y F",
+    "Inferencias acerca de Parámetros de Variables Aleatorias Discretas",
+    "Fundamentos de Estadística No Paramétrica",
+    "Estimación puntual",
+    "Estimación de de máxima verosimilitud",
+    "Intervalos de cofianza",
+    "Pruebas de hipótesis",
+    "Estadísticos de orden",
+    "Modelos multinomiales, distribuciones asintóticas",
+    "El proceso empírico y su comportamiento asintótico (sin detalles técnicos)",
+    "Estadísticos lineales de rangos",
+    "Comparación de dos muestras",
+    "Pruebas basadas en rachas"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "modelos-lineales",
+   "nombre": "Modelos lineales",
+   "area": "estadística",
+   "nivel": 7,
+   "depende_de": [
+    "inferencia",
+    "algebra-lineal-avanzada"
+   ],
+   "habilita": [
+    "diseno-de-experimentos",
+    "multivariante",
+    "estadistica-bayesiana",
+    "econometria"
+   ],
+   "temas": [
+    "Modelo de Regresión Lineal Bivariante",
+    "Modelo lineal de rango completo",
+    "Modelo lineal clasico",
+    "Evaluacion de los supuestos del modelo",
+    "Busqueda de la mejor ecuacion de regresion",
+    "Regresion con variables cualitativas",
+    "Elementos de modelos lineales",
+    "La distribución normal en espacios de dimensión finita",
+    "Modelo lineal",
+    "Modelo lineal multivariante",
+    "Modelos de efectos aleatorios, componentes de variancia",
+    "Regresión multilineal",
+    "Estimación paramétrica de superficies de regresión"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "diseno-de-experimentos",
+   "nombre": "Diseño de experimentos",
+   "area": "estadística",
+   "nivel": 8,
+   "depende_de": [
+    "modelos-lineales"
+   ],
+   "habilita": [],
+   "temas": [
+    "Conceptos Básico del Diseño de Experimentos",
+    "El Modelo Lineal Asociado al Diseño de Experimentos",
+    "El Diseño Completamente Aleatorizado",
+    "El Diseño en Bloques Completos al Azar",
+    "El Diseño en Cuadrados Latinos",
+    "Diseño en Bloques Incompletos",
+    "Diseño de Tratamientos para Experimentos con 2 y 3 Factores",
+    "Diseño Factoriales 2n, 3n y Pn",
+    "Diseño Factoriales Confundidos",
+    "Diseños Factoriales Fraccionales",
+    "Diseños de bloques aleatorizados",
+    "Cuadrados latinos y generalizaciones",
+    "Experimentos factoriales",
+    "Bloques incompletos"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "muestreo",
+   "nombre": "Muestreo y control de calidad",
+   "area": "estadística",
+   "nivel": 7,
+   "depende_de": [
+    "inferencia"
+   ],
+   "habilita": [],
+   "temas": [
+    "Elementos de muestreo 1",
+    "Muestreo aleatorio simple",
+    "Muestreo estratificado",
+    "Estimadores indirectos",
+    "Estimadores Indirectos",
+    "Muestreo Sistemático",
+    "Muestreo por Conglomerados Monoetápico",
+    "Submuestreo con Unidades de Igual Tamaño",
+    "Submuestreo con Unidades de Tamaños Diferentes",
+    "Muestreo Doble",
+    "Técnicas de Estratificación",
+    "Estimación con Marcos Imperfectos",
+    "Métodos de Respuesta Aleatorizada",
+    "Método de Captura, Marca y Recaptura",
+    "Errores Ajenos al Muestreo",
+    "Orden y desarrollo",
+    "Concepto de variación en un proceso",
+    "Concepto de calidad",
+    "Costos de calidad",
+    "Control estadístico de calidad",
+    "Muestreo de aceptación",
+    "Muestreo de aceptación simple por atributo, Procedimiento general para establecer Planes d",
+    "Muestreo de Aceptación Doble por Atributo, Procedimiento general para establecer Planes de",
+    "Muestreo Secuencial por Atributo, Procedimiento general para establecer Planes de Muestreo",
+    "Muestreo de Aceptación Variable, Procedimiento general para establecer Planes de Muestreo ",
+    "Planes de Muestreo para producciones continuas, Dificultades en la formación de lotes cuan",
+    "Teoría del Gráfico de Control"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "multivariante",
+   "nombre": "Análisis multivariante",
+   "area": "estadística",
+   "nivel": 8,
+   "depende_de": [
+    "modelos-lineales",
+    "algebra-lineal-avanzada"
+   ],
+   "habilita": [],
+   "temas": [
+    "Introduccion al analisis de datos",
+    "Analisis general",
+    "Analisis de componentes principales",
+    "Analisis de correspondencias binarias",
+    "Analisis de conglomerados",
+    "Grupos de Transformaciones y Geometrías de Klein",
+    "Componentes principales multidimensionales"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "series-de-tiempo",
+   "nombre": "Series de tiempo",
+   "area": "estadística",
+   "nivel": 7,
+   "depende_de": [
+    "procesos-estocasticos",
+    "inferencia",
+    "algebra-lineal-avanzada"
+   ],
+   "habilita": [
+    "econometria"
+   ],
+   "temas": [
+    "Nociones basicas",
+    "Procesos estacionarios",
+    "Procesos integrados",
+    "Procesos estacionales",
+    "Identificacion",
+    "Estimacion y seleccion",
+    "Diagnostico",
+    "Prediccion",
+    "Introducción al estudio de series temporales",
+    "Procesos estacionarios arma",
+    "Representación espectral de un proceso estacionario",
+    "Predicción",
+    "Estimación"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "estadistica-bayesiana",
+   "nombre": "Estadística bayesiana",
+   "area": "estadística",
+   "nivel": 8,
+   "depende_de": [
+    "inferencia",
+    "simulacion",
+    "modelos-lineales"
+   ],
+   "habilita": [],
+   "temas": [
+    "Estimación paramétrica,",
+    "Selección de modelos,",
+    "Intervalos de confianza",
+    "Introducción",
+    "El planteamiento clásico del Modelo Lineal estandar",
+    "Selección y validación del Modelo",
+    "El modelo lineal gaussiano con diferentes a priori",
+    "El Modelo de regresión no lineal",
+    "Modelos lineales con residuos no esféricos",
+    "Enfoque Bayesiano",
+    "Mcmc 1",
+    "Mcmc 2",
+    "Filtros de Kalman 1",
+    "Filtros de Kalman 2",
+    "Comparación de Modelos",
+    "Redes Bayesianas: Modelo Probabilístico y Estadística Bayesiana"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "econometria",
+   "nombre": "Econometría",
+   "area": "estadística",
+   "nivel": 8,
+   "depende_de": [
+    "modelos-lineales",
+    "series-de-tiempo"
+   ],
+   "habilita": [],
+   "temas": [
+    "Naturaleza de la econometria",
+    "Modelo lineal con k variables",
+    "Matrices de covarianzas no escalares",
+    "Modelos dinamicos",
+    "Modelos de ecuaciones simultaneas",
+    "Estacionariedad y cointegracion"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "matematica-financiera",
+   "nombre": "Matemática financiera",
+   "area": "actuarial y finanzas",
+   "nivel": 5,
+   "depende_de": [
+    "calculo",
+    "sucesiones-y-series"
+   ],
+   "habilita": [
+    "matematica-actuarial",
+    "finanzas-cuantitativas"
+   ],
+   "temas": [
+    "Interés Simple",
+    "Descuento Simple",
+    "Equivalencia de Capitales de Vencimientos Diferentes",
+    "Interés Compuesto",
+    "Interés Continuo",
+    "Descuento Compuesto",
+    "Equivalencia de Capital de Vencimientos Diferentes",
+    "Rentas Ciertas",
+    "Rentas Ciertas Fraccionadas",
+    "Rentas Ciertas Variables Anuales o Fraccionadas",
+    "Rentas Ciertas Continuas",
+    "Rentas Ciertas Variables Continuas",
+    "Aplicación de diferencias finitas al cálculo de rentas variables",
+    "Sistemas de amortización",
+    "Empréstitos",
+    "Títulos de capitalización",
+    "Depreciación",
+    "Tópicos especiales"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "matematica-actuarial",
+   "nombre": "Matemática actuarial",
+   "area": "actuarial y finanzas",
+   "nivel": 6,
+   "depende_de": [
+    "matematica-financiera",
+    "probabilidad"
+   ],
+   "habilita": [
+    "teoria-del-riesgo"
+   ],
+   "temas": [
+    "Introducción a los procesos actuariales, concepto de la teoría de la utilidad, elementos e",
+    "Primas únicas de los seguros de muerte",
+    "Concepto de prima natural y prima nivelada",
+    "Concepto de reserva matemática",
+    "Fundamentos del riesgo, riesgo medio lineal, cuadrático y máximo",
+    "Rentas completas, garantizadas y rentas con términos ciertos, cálculo de planes donde la r",
+    "Introducción al cálculo de las primas comerciales, recargo comercial",
+    "Las rentas y los seguros al primer fallecimiento",
+    "Las rentas y los seguros sobre conjuntos de vidas al último fallecimiento",
+    "Definición de contingencia simple",
+    "Definición de contingencia compuesta",
+    "Definición de rentas reversibles",
+    "Fundamentos de la Teoría de la Mortalidad",
+    "Teoría de la Población",
+    "Teoría de la Mortalidad de Varias Vidas",
+    "Naturaleza y metodo de la demografia",
+    "Composicion de la poblacion",
+    "Componentes del crecimiento demografico",
+    "Tablas de mortalidad",
+    "Proyecciones de poblacion"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "teoria-del-riesgo",
+   "nombre": "Teoría del riesgo",
+   "area": "actuarial y finanzas",
+   "nivel": 7,
+   "depende_de": [
+    "matematica-actuarial",
+    "procesos-estocasticos"
+   ],
+   "habilita": [],
+   "temas": [
+    "Teoría de la Utilidad",
+    "Teoría Individual del Riesgo",
+    "Teoría Colectiva del Riesgo",
+    "El Reaseguro y la Solvencia del Asegurador",
+    "Teoría general de Riesgo",
+    "Fluctuaciones de valores extremos",
+    "Eventos extremos",
+    "Métodos de medición de riesgo",
+    "Aplicaciones y ejemplos",
+    "Teoría de riesgo coherente"
+   ],
+   "url": ""
+  },
+  {
+   "slug": "investigacion-de-operaciones",
+   "nombre": "Investigación de operaciones",
+   "area": "numérico",
+   "nivel": 7,
+   "depende_de": [
+    "algebra-lineal",
+    "probabilidad",
+    "procesos-estocasticos"
+   ],
+   "habilita": [],
+   "temas": [
+    "Introducción a la Investigación de Operaciones",
+    "Programación Lineal",
+    "El Algoritmo Simplex",
+    "Dualidad y Sensibilidad",
+    "Problemas de Transporte, Asignación y Transbordo",
+    "Teoría de Redes",
+    "Programación Entera y mixta",
+    "Programación No Lineal",
+    "Fenómeno de Espera, Conceptos básicos características de un problema de cola (lineal de es",
+    "Modelos de un solo servidor",
+    "Modelos con",
+    "Teoría de Inventarios",
+    "Modelos determinísticos para uno y para varios artículos (productos), con demanda uniforme",
+    "Problemas de mantenimiento y reemplazos de equipos",
+    "Programación No Lineal y dinámica, el planteamiento del problema, el problema de programac"
+   ],
+   "url": "/investigacion-de-operaciones/"
+  },
+  {
+   "slug": "finanzas-cuantitativas",
+   "nombre": "Finanzas cuantitativas",
+   "area": "actuarial y finanzas",
+   "nivel": 9,
+   "depende_de": [
+    "probabilidades-avanzadas",
+    "procesos-estocasticos",
+    "matematica-financiera"
+   ],
+   "habilita": [],
+   "temas": [
+    "Introducción a los valores derivados",
+    "Mercados financieros bajo incertidumbre",
+    "Modelo de mercado en tiempo discreto",
+    "Optimización de portafolios con consumo e inversión",
+    "Modelos multiperiódicos de mercado",
+    "Optimización de portafolios en mercados multiperiódicos",
+    "Tasas de interés"
+   ],
+   "url": "/finanzas-cuantitativas/"
+  }
+ ],
+ "materias": [
+  {
+   "codigo": "4003",
+   "nombre": "Algebra Lineal I",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "algebra-lineal",
+    "algebra-lineal-avanzada"
+   ]
+  },
+  {
+   "codigo": "4004",
+   "nombre": "Matemáticas IV",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "analisis-numerico",
+    "ecuaciones-diferenciales"
+   ]
+  },
+  {
+   "codigo": "4005",
+   "nombre": "Algebra Lineal Ii",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "geometria",
+    "algebra-lineal-avanzada"
+   ]
+  },
+  {
+   "codigo": "4101",
+   "nombre": "Estadística II",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "inferencia",
+    "modelos-lineales"
+   ]
+  },
+  {
+   "codigo": "4102",
+   "nombre": "Teoria De La Probabilidad I",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "probabilidad"
+   ]
+  },
+  {
+   "codigo": "4103",
+   "nombre": "Teoria De La Probabilidad Ii",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "probabilidad",
+    "probabilidades-avanzadas"
+   ]
+  },
+  {
+   "codigo": "4104",
+   "nombre": "Teoria De La Probabilidad Iii",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "probabilidad",
+    "inferencia"
+   ]
+  },
+  {
+   "codigo": "4105",
+   "nombre": "Inferencia Estadística",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "inferencia"
+   ]
+  },
+  {
+   "codigo": "4106",
+   "nombre": "Procesos Estocasticos",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "procesos-estocasticos"
+   ]
+  },
+  {
+   "codigo": "4107",
+   "nombre": "Metodos Multivariantes",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "modelos-lineales"
+   ]
+  },
+  {
+   "codigo": "4109",
+   "nombre": "Analisis De Datos",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "multivariante"
+   ]
+  },
+  {
+   "codigo": "4202",
+   "nombre": "Muestreo II",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "muestreo"
+   ]
+  },
+  {
+   "codigo": "4203",
+   "nombre": "Muestreo III",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "muestreo"
+   ]
+  },
+  {
+   "codigo": "4205",
+   "nombre": "Diseño de Experimento",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "diseno-de-experimentos"
+   ]
+  },
+  {
+   "codigo": "4500",
+   "nombre": "Investigación de Operaciones I",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "investigacion-de-operaciones"
+   ]
+  },
+  {
+   "codigo": "4501",
+   "nombre": "Investigación de Operaciones II",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "procesos-estocasticos",
+    "simulacion",
+    "investigacion-de-operaciones"
+   ]
+  },
+  {
+   "codigo": "4600",
+   "nombre": "Matemáticas Financieras I",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "matematica-financiera"
+   ]
+  },
+  {
+   "codigo": "4602",
+   "nombre": "Matemáticas Financieras II",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "matematica-financiera"
+   ]
+  },
+  {
+   "codigo": "4603",
+   "nombre": "Teoría de la Mortalidad",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "matematica-actuarial"
+   ]
+  },
+  {
+   "codigo": "4605",
+   "nombre": "Matemáticas Actuariales I",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "matematica-actuarial"
+   ]
+  },
+  {
+   "codigo": "4607",
+   "nombre": "Teoría Matemática del Riesgo I",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "teoria-del-riesgo"
+   ]
+  },
+  {
+   "codigo": "4608",
+   "nombre": "Matemáticas Actuariales II",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "matematica-actuarial"
+   ]
+  },
+  {
+   "codigo": "4700",
+   "nombre": "Análisis Numérico",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "analisis-numerico"
+   ]
+  },
+  {
+   "codigo": "Control",
+   "nombre": "Diseño Estadístico",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "muestreo"
+   ]
+  },
+  {
+   "codigo": "demografia",
+   "nombre": "Semestre:",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "matematica-actuarial"
+   ]
+  },
+  {
+   "codigo": "econometria",
+   "nombre": "Créditos:",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "econometria"
+   ]
+  },
+  {
+   "codigo": "matematicasi",
+   "nombre": "Matematicas I",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "logica-y-conjuntos",
+    "calculo",
+    "sucesiones-y-series"
+   ]
+  },
+  {
+   "codigo": "matematicasii",
+   "nombre": "Matematicas Ii",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "calculo",
+    "sucesiones-y-series"
+   ]
+  },
+  {
+   "codigo": "matematicasiii",
+   "nombre": "Matematicas Iii",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "calculo-varias-variables",
+    "topologia"
+   ]
+  },
+  {
+   "codigo": "muestreoi",
+   "nombre": "Muestreo I",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "muestreo"
+   ]
+  },
+  {
+   "codigo": "seriesdetiempo",
+   "nombre": "Series De Tiempo",
+   "carrera": "Estadística y Ciencias Actuariales",
+   "recorrido": [
+    "series-de-tiempo"
+   ]
+  },
+  {
+   "codigo": "2273",
+   "nombre": "Matemáticas Generales Iv",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "calculo-varias-variables",
+    "ecuaciones-diferenciales",
+    "topologia",
+    "ecuaciones-en-derivadas-parciales"
+   ]
+  },
+  {
+   "codigo": "2286",
+   "nombre": "Matemática Iv",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "algebra-lineal",
+    "sucesiones-y-series",
+    "calculo-varias-variables",
+    "ecuaciones-diferenciales",
+    "ecuaciones-en-derivadas-parciales"
+   ]
+  },
+  {
+   "codigo": "2288",
+   "nombre": "Métodos Matemáticos De La Física I",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "ecuaciones-diferenciales",
+    "variable-compleja",
+    "ecuaciones-en-derivadas-parciales"
+   ]
+  },
+  {
+   "codigo": "8003",
+   "nombre": "Geometría Diferencial",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "geometria-diferencial"
+   ]
+  },
+  {
+   "codigo": "8005",
+   "nombre": "Geometría Básica",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "geometria"
+   ]
+  },
+  {
+   "codigo": "8101",
+   "nombre": "Elementos De La Matemática",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "logica-y-conjuntos",
+    "numeros",
+    "matematicas-discretas",
+    "geometria"
+   ]
+  },
+  {
+   "codigo": "8102",
+   "nombre": "Álgebra I",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "logica-y-conjuntos",
+    "algebra-lineal"
+   ]
+  },
+  {
+   "codigo": "8103",
+   "nombre": "Álgebra Ii",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "algebra-lineal-avanzada"
+   ]
+  },
+  {
+   "codigo": "8104",
+   "nombre": "Álgebra Iii",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "matematicas-discretas",
+    "algebra"
+   ]
+  },
+  {
+   "codigo": "8206",
+   "nombre": "Matemática I",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "numeros",
+    "funciones",
+    "geometria",
+    "calculo"
+   ]
+  },
+  {
+   "codigo": "8207",
+   "nombre": "Matemática Ii",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "calculo",
+    "sucesiones-y-series",
+    "analisis-numerico",
+    "ecuaciones-diferenciales"
+   ]
+  },
+  {
+   "codigo": "8208",
+   "nombre": "Matemática Iii",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "geometria",
+    "sucesiones-y-series",
+    "calculo-varias-variables",
+    "ecuaciones-diferenciales"
+   ]
+  },
+  {
+   "codigo": "8401",
+   "nombre": "Análisis I",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "sucesiones-y-series",
+    "analisis-real"
+   ]
+  },
+  {
+   "codigo": "8402",
+   "nombre": "Análisis Ii",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "calculo-varias-variables",
+    "topologia"
+   ]
+  },
+  {
+   "codigo": "8403",
+   "nombre": "Funciones Analíticas",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "variable-compleja"
+   ]
+  },
+  {
+   "codigo": "8501",
+   "nombre": "Ecuaciones Diferenciales Ordinarias",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "ecuaciones-diferenciales"
+   ]
+  },
+  {
+   "codigo": "8502",
+   "nombre": "Ecuaciones En Derivadas Parciales",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "ecuaciones-en-derivadas-parciales"
+   ]
+  },
+  {
+   "codigo": "8701",
+   "nombre": "Probabilidades",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "probabilidad",
+    "probabilidades-avanzadas"
+   ]
+  },
+  {
+   "codigo": "8801",
+   "nombre": "Estadística",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "inferencia",
+    "modelos-lineales"
+   ]
+  },
+  {
+   "codigo": "8901",
+   "nombre": "Topología",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "logica-y-conjuntos",
+    "topologia"
+   ]
+  },
+  {
+   "codigo": "8902",
+   "nombre": "Teoría De La Medida",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "medida"
+   ]
+  },
+  {
+   "codigo": "8903",
+   "nombre": "Análisis Funcional",
+   "carrera": "Licenciatura en Matemática",
+   "recorrido": [
+    "analisis-funcional"
+   ]
+  },
+  {
+   "codigo": "CC7120111",
+   "nombre": "Estadistica I",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "inferencia",
+    "modelos-lineales",
+    "diseno-de-experimentos",
+    "estadistica-bayesiana"
+   ]
+  },
+  {
+   "codigo": "CC7120113",
+   "nombre": "Procesos Aleatorios",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "procesos-estocasticos"
+   ]
+  },
+  {
+   "codigo": "CC7120114",
+   "nombre": "Estadística Ii",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "algebra-lineal-avanzada",
+    "series-de-tiempo"
+   ]
+  },
+  {
+   "codigo": "ecobayes",
+   "nombre": "Ecobayes",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "estadistica-bayesiana"
+   ]
+  },
+  {
+   "codigo": "econometria",
+   "nombre": "Econometria",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "econometria"
+   ]
+  },
+  {
+   "codigo": "estadisticabayesiana",
+   "nombre": "Estadística Bayesiana",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "estadistica-bayesiana"
+   ]
+  },
+  {
+   "codigo": "lasmatematicasdelosderivadosfinancieros",
+   "nombre": "LasMatematicasDeLosDerivadosFinancieros",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "probabilidades-avanzadas",
+    "finanzas-cuantitativas"
+   ]
+  },
+  {
+   "codigo": "macroeconomia",
+   "nombre": "Macroeconomia",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "estadistica-bayesiana"
+   ]
+  },
+  {
+   "codigo": "metodosgeometricosaplicadosalaestadistica",
+   "nombre": "MetodosGeometricosAplicadosALaEstadistica",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "modelos-lineales",
+    "multivariante"
+   ]
+  },
+  {
+   "codigo": "probabilidades",
+   "nombre": "Probabilidades 2012",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "probabilidades-avanzadas"
+   ]
+  },
+  {
+   "codigo": "simulacion",
+   "nombre": "Programa Simulacion",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "simulacion"
+   ]
+  },
+  {
+   "codigo": "topicosenmodelosaleatoriosteoriaderiesgoyaplicaciones",
+   "nombre": "TopicosEnModelosAleatoriosTeoriaDeRiesgoYAplicaciones",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "teoria-del-riesgo"
+   ]
+  },
+  {
+   "codigo": "topicosespecialesenmodelosaleatoriostrsb",
+   "nombre": "Tópicos Especiales En Modelos Aleatorios:",
+   "carrera": "Posgrado en Modelos Aleatorios",
+   "recorrido": [
+    "estadistica-bayesiana"
+   ]
+  }
+ ],
+ "areas": [
+  "fundamentos",
+  "geometría y topología",
+  "álgebra",
+  "análisis",
+  "numérico",
+  "probabilidad",
+  "procesos",
+  "estadística",
+  "actuarial y finanzas"
+ ]
+}
