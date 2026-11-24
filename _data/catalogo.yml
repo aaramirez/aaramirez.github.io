@@ -7,9 +7,9 @@ categorias:
   total: 22
 - id: computacion
   nombre: Computación
-  descripcion: Cómo funciona una computadora por dentro, la terminal, los algoritmos, los datos y su protección.
+  descripcion: 'El núcleo de un pregrado de computación: matemáticas discretas y lógica, teoría, lenguajes y compiladores, sistemas operativos, redes, sistemas distribuidos, seguridad, gráfica y más.'
   disponibles: 0
-  total: 5
+  total: 26
 - id: software
   nombre: Desarrollo de software
   descripcion: De la página web a la aplicación móvil, con el servidor y la entrega continua en medio.
@@ -215,7 +215,7 @@ cursos:
   nombre: Arquitectura del computador
   categoria: computacion
   estado: proximamente
-  descripcion: De la compuerta lógica al procesador, la memoria y el sistema operativo.
+  descripcion: De la compuerta lógica al procesador, la memoria y el conjunto de instrucciones, hasta donde empieza el sistema operativo.
   tipo: Próximamente
   etiqueta: Próximamente
 - slug: linea-de-comandos
@@ -246,6 +246,174 @@ cursos:
   descripcion: Cifrado, contraseñas, privacidad y las leyes de protección de datos, explicadas para todos.
   tipo: Próximamente
   etiqueta: Próximamente
+- slug: matematicas-discretas
+  nombre: Matemáticas discretas
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'La matemática de lo que se cuenta y se conecta: inducción, combinatoria, recurrencias y funciones generadoras, relaciones y órdenes, teoría de grafos, teoría de números y probabilidad discreta, sobre la red de una ciudad.'
+  url: /matematicas-discretas/
+  etiqueta: En preparación
+- slug: logica-simbolica
+  nombre: Lógica simbólica
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'La lógica como sistema formal y como herramienta de cómputo: sintaxis y semántica, deducción natural, lógica de predicados, corrección y completitud, resolución y Prolog, SAT y SMT, lógica modal y temporal, verificación de modelos y asistentes de demostración.'
+  url: /logica-simbolica/
+  etiqueta: En preparación
+- slug: teoria-de-la-computacion
+  nombre: Teoría de la computación
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Qué puede calcular una máquina y a qué costo: autómatas finitos y expresiones regulares, gramáticas y autómatas de pila, máquinas de Turing, indecidibilidad, P, NP, el teorema de Cook-Levin y la complejidad en espacio.'
+  url: /teoria-de-la-computacion/
+  etiqueta: En preparación
+- slug: lenguajes-de-programacion
+  nombre: Lenguajes de programación
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'Cómo se diseña y se define un lenguaje: sintaxis, alcance, cálculo lambda, semántica operacional y denotacional, sistemas de tipos con inferencia de Hindley-Milner, continuaciones, efectos, objetos y macros, construyendo con un intérprete un lenguaje pequeño propio, Ceiba.'
+  url: /lenguajes-de-programacion/
+  etiqueta: En preparación
+- slug: compiladores
+  nombre: Compiladores
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'Cómo se traduce un lenguaje a código que ejecuta la máquina: análisis léxico y sintáctico LL y LR, análisis semántico, representación intermedia y SSA, optimizaciones, asignación de registros, WebAssembly, recolección de basura, JIT y LLVM, compilando Ceiba, el lenguaje diseñado en Lenguajes de programación.'
+  url: /compiladores/
+  etiqueta: En preparación
+- slug: sistemas-operativos
+  nombre: Sistemas operativos
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'Qué hace el núcleo entre tus programas y el hardware: procesos e hilos, planificación, sincronización, interbloqueos, memoria virtual, sistemas de archivos, entrada y salida, virtualización y contenedores, con un sistema operativo de juguete que crece en la página.'
+  url: /sistemas-operativos/
+  etiqueta: En preparación
+- slug: redes-de-computadoras
+  nombre: Redes de computadoras
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'Internet por dentro, a nivel universitario: *sockets*, Ethernet, IP, enrutamiento con Dijkstra, Bellman-Ford y BGP, TCP y el control de congestión, QUIC, DNS, NAT y redes definidas por software, con simuladores de paquetes y prácticas con herramientas públicas.'
+  url: /redes-de-computadoras/
+  etiqueta: En preparación
+- slug: sistemas-distribuidos
+  nombre: Sistemas distribuidos
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'Muchas máquinas que se comportan como una sola: fallas, relojes de Lamport y vectoriales, replicación, consistencia, CAP, consenso con Paxos y Raft, transacciones distribuidas y CRDT, con un almacén clave-valor replicado que se ve funcionar.'
+  url: /sistemas-distribuidos/
+  etiqueta: En preparación
+- slug: computacion-paralela
+  nombre: Computación paralela y GPU
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'Cómo se reparte un cálculo entre muchos núcleos, vectores y miles de hilos de una GPU: las leyes de Amdahl y Gustafson, la localidad, los modelos de memoria, OpenMP, SIMD, CUDA y WebGPU, MPI y el paralelismo con que se entrenan los modelos de IA.'
+  url: /computacion-paralela/
+  etiqueta: En preparación
+- slug: seguridad-informatica
+  nombre: Seguridad informática
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'Vulnerabilidades, ataques y defensas en el software, la web, las redes y los sistemas: modelo de amenazas, errores de memoria y su explotación, inyección, autenticación, privilegios, cadena de suministro, *fuzzing* y respuesta a incidentes.'
+  url: /seguridad-informatica/
+  etiqueta: En preparación
+- slug: investigacion-de-operaciones
+  nombre: Investigación de operaciones
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'Cómo se convierten las decisiones de una empresa en modelos que se resuelven: programación lineal y el símplex, dualidad, programación entera, redes, programación dinámica, colas, inventarios, decisiones bajo incertidumbre, metaheurísticas y solucionadores.'
+  url: /investigacion-de-operaciones/
+  etiqueta: En preparación
+- slug: computacion-grafica
+  nombre: Computación gráfica
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Cómo una computadora convierte triángulos en imágenes: transformaciones, cámaras, rasterizado, color, sombreado, texturas, shaders en WebGL y WebGPU, trazado de rayos, curvas y animación, con un renderizador que se escribe desde cero en la página.'
+  url: /computacion-grafica/
+  etiqueta: En preparación
+- slug: interaccion-humano-computador
+  nombre: Interacción humano-computador
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Cómo perciben, piensan y se equivocan las personas frente a una interfaz, y cómo se investiga, prototipa, evalúa y mide un diseño: de la ley de Fitts y las heurísticas de Nielsen a los experimentos controlados y las interfaces con IA.'
+  url: /interaccion-humano-computador/
+  etiqueta: En preparación
+- slug: etica-de-la-computacion
+  nombre: Ética y sociedad de la computación
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: Marcos éticos aplicados, ética profesional, propiedad intelectual y licencias de software, privacidad y vigilancia, poder de las plataformas, trabajo y automatización, accesibilidad, divulgación de vulnerabilidades y sostenibilidad, con casos reales.
+  url: /etica-de-la-computacion/
+  etiqueta: En preparación
+- slug: criptografia
+  nombre: Criptografía
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso optativo · 12 capítulos
+  descripcion: 'Las primitivas criptográficas, su matemática y sus protocolos: seguridad demostrable, AES y sus modos, funciones hash y MAC, Diffie-Hellman, RSA, curvas elípticas, firmas, TLS 1.3, pruebas de conocimiento cero y criptografía poscuántica.'
+  url: /criptografia/
+  etiqueta: En preparación
+- slug: computacion-cuantica
+  nombre: Computación cuántica
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso optativo · 12 capítulos
+  descripcion: Qubits, compuertas y circuitos, entrelazamiento y medición, los algoritmos de Deutsch-Jozsa, Grover y Shor, la transformada cuántica de Fourier, el ruido y la corrección de errores, con un simulador de circuitos en el navegador.
+  url: /computacion-cuantica/
+  etiqueta: En preparación
+- slug: vision-por-computador
+  nombre: Visión por computador
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso optativo · 11 capítulos
+  descripcion: 'Cómo una computadora interpreta imágenes: filtros y bordes, características y correspondencias, geometría de cámaras y calibración, estéreo y reconstrucción 3D, flujo óptico, seguimiento, segmentación y detección de objetos, con una app que usa la cámara del lector.'
+  url: /vision-por-computador/
+  etiqueta: En preparación
+- slug: robotica
+  nombre: Robótica
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso optativo · 12 capítulos
+  descripcion: 'Cómo un robot sabe dónde está y decide cómo moverse: posiciones y giros, cinemática directa e inversa, dinámica, control PID, filtros de Kalman y de partículas, SLAM, planificación de movimiento y ROS.'
+  url: /robotica/
+  etiqueta: En preparación
+- slug: sistemas-embebidos
+  nombre: Sistemas embebidos e IoT
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso optativo · 11 capítulos
+  descripcion: 'Computadores pequeños que miden y actúan sobre el mundo: microcontroladores, entradas y salidas, interrupciones, tiempo real, sensores, energía, los buses I2C y SPI, MQTT y LoRa, seguridad y actualizaciones remotas, de la placa a la nube.'
+  url: /sistemas-embebidos/
+  etiqueta: En preparación
+- slug: teoria-de-la-informacion
+  nombre: Teoría de la información
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso optativo · 12 capítulos
+  descripcion: 'La medida de Shannon y lo que permite: entropía, información mutua, compresión con Huffman, codificación aritmética y LZ, compresión con pérdida, capacidad de canal y códigos correctores de Hamming a LDPC, con un compresor que se construye en el curso.'
+  url: /teoria-de-la-informacion/
+  etiqueta: En preparación
+- slug: algoritmos-avanzados
+  nombre: Algoritmos avanzados
+  categoria: computacion
+  estado: en-preparacion
+  tipo: Curso optativo · 11 capítulos
+  descripcion: 'Las técnicas que siguen después de un primer curso de algoritmos: análisis amortizado, algoritmos aleatorizados, hashing avanzado, estructuras de datos avanzadas, arreglos de sufijos, flujo en redes, programación lineal como herramienta, aproximación, algoritmos en línea, bosquejos para datos masivos y complejidad parametrizada.'
+  url: /algoritmos-avanzados/
+  etiqueta: En preparación
 - slug: desarrollo-de-aplicaciones
   nombre: Ingeniería de software
   categoria: software
@@ -590,4 +758,23 @@ rutas:
   - Frontend
   - Backend y APIs
   - DevOps
+  etiqueta: Próximamente
+- slug: ciencias-computacion
+  nombre: Ciencias de la computación
+  estado: proximamente
+  descripcion: El núcleo de un pregrado de computación, de las matemáticas discretas a la seguridad, en el orden recomendado.
+  cursos:
+  - Elementos de la matemática
+  - Matemáticas discretas
+  - Lógica simbólica
+  - Algoritmos y estructuras de datos
+  - Arquitectura del computador
+  - Sistemas operativos
+  - Redes de computadoras
+  - Teoría de la computación
+  - Lenguajes de programación
+  - Compiladores
+  - Bases de datos
+  - Sistemas distribuidos
+  - Seguridad informática
   etiqueta: Próximamente
