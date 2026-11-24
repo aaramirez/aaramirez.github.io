@@ -44,15 +44,6 @@ description: Cursos interactivos, artículos y el CV de Alexander A. Ramírez M.
 </details>
 {%- endfor %}
 
-<section class="stage" aria-labelledby="rutas">
-  <h2 id="rutas"><span class="pn">Rutas</span> Competencias</h2>
-  <p class="cat-desc">Un diagnóstico y el orden recomendado de los cursos para cada competencia. Se abren cuando estén listos los cursos que recorren.</p>
-  <div class="mods">
-    {%- for r in cat.rutas %}
-    <div class="mod pronto"><span class="n">{{ r.etiqueta }}</span><b>{{ r.nombre }}</b><p>{{ r.descripcion }}</p><p class="recorre">{{ r.cursos | join: " → " }}</p></div>
-    {%- endfor %}
-  </div>
-</section>
 
 <section class="stage" aria-labelledby="sitios">
   <h2 id="sitios"><span class="pn">Además</span> Otros sitios</h2>
