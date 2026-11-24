@@ -214,38 +214,43 @@ cursos:
 - slug: arquitectura-del-computador
   nombre: Arquitectura del computador
   categoria: computacion
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: De la compuerta lógica al procesador, la memoria y el conjunto de instrucciones, hasta donde empieza el sistema operativo.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /arquitectura-del-computador/
+  etiqueta: En preparación
 - slug: linea-de-comandos
   nombre: Línea de comandos y PowerShell
   categoria: computacion
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: La terminal en Windows, macOS y Linux, de los primeros comandos a los scripts que automatizan el trabajo.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /linea-de-comandos/
+  etiqueta: En preparación
 - slug: algoritmos
   nombre: Algoritmos y estructuras de datos
   categoria: computacion
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Ordenar, buscar, grafos y complejidad, con animaciones que se ejecutan paso a paso.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /algoritmos/
+  etiqueta: En preparación
 - slug: bases-de-datos
   nombre: Bases de datos
   categoria: computacion
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Modelo relacional, SQL que se ejecuta en el navegador, índices, transacciones y bases NoSQL.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /bases-de-datos/
+  etiqueta: En preparación
 - slug: proteccion-de-datos
   nombre: Protección de datos
   categoria: computacion
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Cifrado, contraseñas, privacidad y las leyes de protección de datos, explicadas para todos.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /proteccion-de-datos/
+  etiqueta: En preparación
 - slug: matematicas-discretas
   nombre: Matemáticas discretas
   categoria: computacion
