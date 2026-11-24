@@ -664,7 +664,7 @@ cursos:
   nombre: Cómo funciona un banco
   categoria: industrias
   estado: en-preparacion
-  tipo: Curso · 16 capítulos
+  tipo: Curso · 24 capítulos
   descripcion: Captación, crédito, pagos, canales digitales y regulación, la cadena de valor de un banco.
   url: /banca/
   etiqueta: En preparación
@@ -672,7 +672,7 @@ cursos:
   nombre: Sociedades de corretaje
   categoria: industrias
   estado: en-preparacion
-  tipo: Curso · 16 capítulos
+  tipo: Curso · 20 capítulos
   descripcion: Cómo funciona una casa de bolsa, órdenes, custodia, liquidación y la plataforma que lo une.
   url: /corretaje/
   etiqueta: En preparación
@@ -680,7 +680,7 @@ cursos:
   nombre: Finanzas
   categoria: industrias
   estado: en-preparacion
-  tipo: Curso · 15 capítulos
+  tipo: Curso · 20 capítulos
   descripcion: Valor del dinero en el tiempo, finanzas corporativas y valoración de empresas.
   url: /finanzas/
   etiqueta: En preparación
@@ -688,7 +688,7 @@ cursos:
   nombre: Inversiones
   categoria: industrias
   estado: en-preparacion
-  tipo: Curso · 14 capítulos
+  tipo: Curso · 18 capítulos
   descripcion: Renta fija, renta variable, derivados y divisas, con calculadoras para cada instrumento.
   url: /inversiones/
   etiqueta: En preparación
@@ -696,7 +696,7 @@ cursos:
   nombre: Finanzas cuantitativas
   categoria: industrias
   estado: en-preparacion
-  tipo: Curso · 14 capítulos
+  tipo: Curso · 18 capítulos
   descripcion: Modelos matemáticos y datos financieros, del portafolio óptimo a la valoración de opciones.
   url: /finanzas-cuantitativas/
   etiqueta: En preparación
@@ -704,7 +704,7 @@ cursos:
   nombre: Gestión de riesgos
   categoria: industrias
   estado: en-preparacion
-  tipo: Curso · 14 capítulos
+  tipo: Curso · 19 capítulos
   descripcion: Riesgo de mercado, crédito, liquidez, cambio y operacional, medidos y simulados.
   url: /gestion-de-riesgos/
   etiqueta: En preparación
@@ -712,7 +712,7 @@ cursos:
   nombre: Análisis técnico y trading algorítmico
   categoria: industrias
   estado: en-preparacion
-  tipo: Curso · 14 capítulos
+  tipo: Curso · 19 capítulos
   descripcion: Gráficos, indicadores y robots de trading, con pruebas sobre datos históricos.
   url: /trading/
   etiqueta: En preparación
@@ -720,7 +720,7 @@ cursos:
   nombre: Ciencia de datos actuariales
   categoria: industrias
   estado: en-preparacion
-  tipo: Curso · 14 capítulos
+  tipo: Curso · 18 capítulos
   descripcion: Seguros, mortalidad y reservas, con los datos y modelos de un actuario.
   url: /actuaria/
   etiqueta: En preparación
