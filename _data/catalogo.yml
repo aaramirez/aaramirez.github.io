@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 0
+  disponibles: 1
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -595,11 +595,11 @@ cursos:
 - slug: ia-generativa
   nombre: IA generativa
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 10 capítulos
   descripcion: Texto, imagen y código generados por IA, cómo pedirlos bien y cómo usarlos en el trabajo.
   url: /ia-generativa/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: adopcion-de-ia
   nombre: IA en la empresa
   categoria: ia
