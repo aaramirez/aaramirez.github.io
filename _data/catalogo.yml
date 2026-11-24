@@ -25,6 +25,11 @@ categorias:
   descripcion: Cómo funcionan por dentro un operador de telecomunicaciones, un banco, una casa de bolsa y la gestión de riesgos.
   disponibles: 1
   total: 10
+- id: competencias
+  nombre: Competencias
+  descripcion: 'Preparación para los tipos de problemas de los concursos entre equipos: olimpiadas de matemáticas, programación competitiva, CTF, concursos de datos, modelado y hackatones.'
+  disponibles: 0
+  total: 7
 - id: pensamiento
   nombre: Pensamiento
   descripcion: Herramientas para razonar, decidir y resolver problemas.
@@ -731,4 +736,60 @@ cursos:
   descripcion: Las ideas de muchas disciplinas que ayudan a pensar mejor, con sesgos, estrategia y casos.
   tipo: Próximamente
   etiqueta: Próximamente
+- slug: olimpiadas-de-matematicas
+  nombre: Olimpiadas de matemáticas
+  categoria: competencias
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
+  descripcion: 'Preparación para las olimpiadas de matemáticas, de la nacional a la IMO: cómo reconocer cada familia de problemas de combinatoria, teoría de números, álgebra y geometría, las técnicas que la resuelven, problemas resueltos, simulacros con reloj y el trabajo de la delegación.'
+  url: /olimpiadas-de-matematicas/
+  etiqueta: En preparación
+- slug: matematica-universitaria-de-competencia
+  nombre: Matemática universitaria de competencia
+  categoria: competencias
+  estado: en-preparacion
+  tipo: Curso · 15 capítulos
+  descripcion: 'Preparación para el Putnam, la IMC y las competencias iberoamericanas interuniversitarias: las familias de problemas de cálculo, análisis, álgebra lineal, álgebra, teoría de números, probabilidad y combinatoria, con técnicas, problemas resueltos, simulacros con reloj y el trabajo del equipo de la universidad.'
+  url: /matematica-universitaria-de-competencia/
+  etiqueta: En preparación
+- slug: modelado-matematico
+  nombre: Modelado matemático
+  categoria: competencias
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'Preparación para el MCM/ICM, el HiMCM y los concursos de modelado: las familias de problemas continuos, discretos, de redes, de datos y de políticas, con el ciclo del modelado, el código, el informe, el trabajo de un equipo de tres en cuatro días y simulacros completos.'
+  url: /modelado-matematico/
+  etiqueta: En preparación
+- slug: programacion-competitiva
+  nombre: Programación competitiva
+  categoria: competencias
+  estado: en-preparacion
+  tipo: Curso · 18 capítulos
+  descripcion: 'Preparación para el ICPC, las olimpiadas de informática y los concursos en línea como Codeforces y AtCoder: cómo reconocer cada familia de problemas en el enunciado, la técnica que lo resuelve, la plantilla de código, los errores bajo presión y la estrategia de un equipo contra el reloj.'
+  url: /programacion-competitiva/
+  etiqueta: En preparación
+- slug: ctf
+  nombre: CTF de ciberseguridad
+  categoria: competencias
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
+  descripcion: 'Preparación para los concursos de captura de la bandera (CTF), de tipo *jeopardy* y de ataque y defensa: cómo reconocer cada tipo de reto, las herramientas y técnicas de cada categoría (criptografía, web, reversa, explotación de binarios, forense y OSINT) y la estrategia de un equipo durante la prueba.'
+  url: /ctf/
+  etiqueta: En preparación
+- slug: concursos-de-datos
+  nombre: Concursos de datos e IA
+  categoria: competencias
+  estado: en-preparacion
+  tipo: Curso · 17 capítulos
+  descripcion: 'Prepararse para los concursos de aprendizaje automático como los de Kaggle: leer la métrica, validar como el juez, cazar la fuga de datos, resolver cada familia de problemas (tabulares, series de tiempo, imágenes, texto, código con límites) y trabajar en equipo hasta la tabla privada.'
+  url: /concursos-de-datos/
+  etiqueta: En preparación
+- slug: hackatones
+  nombre: Hackatones
+  categoria: competencias
+  estado: en-preparacion
+  tipo: Curso · 17 capítulos
+  descripcion: 'Prepararse para las hackatones de producto, de datos abiertos y de IA: leer el reto, elegir una idea que se pueda demostrar, construir un prototipo en 24 o 48 horas con las herramientas adecuadas, y presentar ante un jurado que puntúa con una rúbrica.'
+  url: /hackatones/
+  etiqueta: En preparación
 rutas: []
