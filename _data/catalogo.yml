@@ -282,7 +282,7 @@ cursos:
   nombre: Backend y APIs
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 24 capítulos
+  tipo: Curso · 25 capítulos
   descripcion: Servidores, arquitecturas, frameworks, APIs REST e integración entre sistemas, lo que pasa detrás de cada clic.
   url: /backend/
   etiqueta: En preparación
@@ -298,7 +298,7 @@ cursos:
   nombre: Aplicaciones móviles
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 10 capítulos
+  tipo: Curso · 11 capítulos
   descripcion: Aplicaciones nativas, híbridas y web progresivas, y cómo llegan a las tiendas.
   url: /aplicaciones-moviles/
   etiqueta: En preparación
