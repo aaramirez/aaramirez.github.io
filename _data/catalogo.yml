@@ -652,69 +652,78 @@ cursos:
   url: /telco/
   destacado: 1
   etiqueta: Disponible
-- slug: acs
+- slug: gestion-remota-de-equipos
   nombre: Gestión remota de equipos (ACS)
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
   descripcion: Cómo un operador configura y diagnostica a distancia los equipos de sus clientes con TR-069 y TR-369.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /gestion-remota-de-equipos/
+  etiqueta: En preparación
 - slug: banca
   nombre: Cómo funciona un banco
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
   descripcion: Captación, crédito, pagos, canales digitales y regulación, la cadena de valor de un banco.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /banca/
+  etiqueta: En preparación
 - slug: corretaje
   nombre: Sociedades de corretaje
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
   descripcion: Cómo funciona una casa de bolsa, órdenes, custodia, liquidación y la plataforma que lo une.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /corretaje/
+  etiqueta: En preparación
 - slug: finanzas
   nombre: Finanzas
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 15 capítulos
   descripcion: Valor del dinero en el tiempo, finanzas corporativas y valoración de empresas.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /finanzas/
+  etiqueta: En preparación
 - slug: inversiones
   nombre: Inversiones
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Renta fija, renta variable, derivados y divisas, con calculadoras para cada instrumento.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /inversiones/
+  etiqueta: En preparación
 - slug: finanzas-cuantitativas
   nombre: Finanzas cuantitativas
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Modelos matemáticos y datos financieros, del portafolio óptimo a la valoración de opciones.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /finanzas-cuantitativas/
+  etiqueta: En preparación
 - slug: gestion-de-riesgos
   nombre: Gestión de riesgos
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Riesgo de mercado, crédito, liquidez, cambio y operacional, medidos y simulados.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /gestion-de-riesgos/
+  etiqueta: En preparación
 - slug: trading
   nombre: Análisis técnico y trading algorítmico
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Gráficos, indicadores y robots de trading, con pruebas sobre datos históricos.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /trading/
+  etiqueta: En preparación
 - slug: actuaria
   nombre: Ciencia de datos actuariales
   categoria: industrias
-  estado: proximamente
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
   descripcion: Seguros, mortalidad y reservas, con los datos y modelos de un actuario.
-  tipo: Próximamente
-  etiqueta: Próximamente
+  url: /actuaria/
+  etiqueta: En preparación
 - slug: modelos-mentales
   nombre: Modelos mentales
   categoria: pensamiento
