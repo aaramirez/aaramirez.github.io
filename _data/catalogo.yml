@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 1
+  disponibles: 2
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -603,11 +603,11 @@ cursos:
 - slug: adopcion-de-ia
   nombre: IA en la empresa
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 14 capítulos
   descripcion: Los pasos que da una empresa para adoptar la IA, del diagnóstico y los primeros casos al modelo operativo, los pilotos que escalan y los KPI.
   url: /adopcion-de-ia/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: chatbots-empresariales
   nombre: Cómo construir chatbots empresariales
   categoria: ia
