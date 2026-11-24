@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 2
+  disponibles: 3
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -627,11 +627,11 @@ cursos:
 - slug: arneses
   nombre: Cómo construir un arnés
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 16 capítulos
   descripcion: El arnés que gobierna a un agente de IA, con reglas, validadores y registros, construido paso a paso.
   url: /arneses/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: mlops
   nombre: IA en producción (MLOps)
   categoria: ia
