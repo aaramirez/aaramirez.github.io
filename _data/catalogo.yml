@@ -23,7 +23,7 @@ categorias:
 - id: industrias
   nombre: Industrias y finanzas
   descripcion: Cómo funcionan por dentro un operador de telecomunicaciones, un banco, una casa de bolsa y la gestión de riesgos.
-  disponibles: 1
+  disponibles: 2
   total: 10
 - id: competencias
   nombre: Competencias
@@ -660,11 +660,11 @@ cursos:
 - slug: gestion-remota-de-equipos
   nombre: Gestión remota de equipos (ACS)
   categoria: industrias
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 16 capítulos
   descripcion: Cómo un operador configura y diagnostica a distancia los equipos de sus clientes con TR-069 y TR-369.
   url: /gestion-remota-de-equipos/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: banca
   nombre: Cómo funciona un banco
   categoria: industrias
