@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 4
+  disponibles: 5
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -736,11 +736,11 @@ cursos:
 - slug: aplicaciones-con-ia
   nombre: Aplicaciones con IA
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 20 capítulos
   descripcion: Modelos dentro de un producto, nivel por nivel, de la generación con contexto a los agentes, con RAG, herramientas, MCP y evaluación.
   url: /aplicaciones-con-ia/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: ciencia-de-datos
   nombre: Ciencia de datos
   categoria: ia
