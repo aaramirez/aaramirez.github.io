@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 8
+  disponibles: 9
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -832,11 +832,11 @@ cursos:
 - slug: ia-responsable
   nombre: IA responsable
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 8 capítulos
   descripcion: Sesgo, equidad, transparencia, derechos de autor, regulación y gobierno de la IA en una organización.
   url: /ia-responsable/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: telco
   nombre: Cómo funciona un telco
   categoria: industrias
