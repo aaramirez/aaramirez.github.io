@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 7
+  disponibles: 8
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -808,11 +808,11 @@ cursos:
 - slug: agentes-personales
   nombre: Agentes personales
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 13 capítulos
   descripcion: Agentes de IA que trabajan para ti, con herramientas, memoria, permisos y aprobación humana.
   url: /agentes-personales/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: arneses
   nombre: Cómo construir un arnés
   categoria: ia
