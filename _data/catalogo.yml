@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 9
+  disponibles: 10
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -728,11 +728,11 @@ cursos:
 - slug: ingenieria-de-datos
   nombre: Ingeniería de datos
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 14 capítulos
   descripcion: Pipelines, data warehouse, lakehouse, streaming y orquestación, el camino de un dato desde la fuente hasta el tablero.
   url: /ingenieria-de-datos/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: aplicaciones-con-ia
   nombre: Aplicaciones con IA
   categoria: ia
