@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 10
+  disponibles: 11
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -744,11 +744,11 @@ cursos:
 - slug: ciencia-de-datos
   nombre: Ciencia de datos
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 10 capítulos
   descripcion: Del dato crudo a la decisión, con limpieza, visualización, minería de datos y de texto.
   url: /ciencia-de-datos/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: aprendizaje-estadistico
   nombre: Aprendizaje automático
   categoria: ia
