@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 14
+  disponibles: 15
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -768,11 +768,11 @@ cursos:
 - slug: aprendizaje-por-refuerzo
   nombre: Aprendizaje por refuerzo
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 12 capítulos
   descripcion: Agentes que aprenden por prueba y error, con entornos que se pueden ver aprender.
   url: /aprendizaje-por-refuerzo/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: modelos-de-ia
   nombre: Modelos de IA
   categoria: ia
