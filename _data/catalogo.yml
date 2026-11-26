@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 11
+  disponibles: 12
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -752,11 +752,11 @@ cursos:
 - slug: aprendizaje-estadistico
   nombre: Aprendizaje automático
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 12 capítulos
   descripcion: Regresión, clasificación, árboles y validación, los métodos clásicos del Machine Learning.
   url: /aprendizaje-estadistico/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: aprendizaje-profundo
   nombre: Aprendizaje profundo
   categoria: ia
