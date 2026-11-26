@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 13
+  disponibles: 14
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -720,11 +720,11 @@ cursos:
 - slug: programacion-r
   nombre: R y aplicaciones interactivas
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 14 capítulos
   descripcion: Programación en R, gráficos dinámicos y aplicaciones Shiny para el análisis de datos.
   url: /programacion-r/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: ingenieria-de-datos
   nombre: Ingeniería de datos
   categoria: ia
