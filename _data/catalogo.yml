@@ -18,7 +18,7 @@ categorias:
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
-  disponibles: 12
+  disponibles: 13
   total: 15
 - id: industrias
   nombre: Industrias y finanzas
@@ -760,11 +760,11 @@ cursos:
 - slug: aprendizaje-profundo
   nombre: Aprendizaje profundo
   categoria: ia
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 10 capítulos
   descripcion: Redes neuronales que se entrenan en el navegador, de la neurona a las redes convolucionales.
   url: /aprendizaje-profundo/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: aprendizaje-por-refuerzo
   nombre: Aprendizaje por refuerzo
   categoria: ia
