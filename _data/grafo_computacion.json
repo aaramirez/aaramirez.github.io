@@ -564,6 +564,12 @@
     "Memoría Virtual Paginación por demanda",
     "Sistemas de archivos Concepto de archivo",
     "Almacenamiento en discos",
+    "♦ Tema 1 Introducción",
+    "♦ Tema 7 Memoria principal",
+    "♦ Tema 8 Memiria Virtual",
+    "♦ Tema 9 Sistemas de archivo",
+    "♦ Tema 10 Administración de memoria secundaria",
+    "♦ Tema 11 Diseño de sistemas de operaciones",
     "Introducción al ambiente de trabajo",
     "Llamadas al sitema para la creación, terminación, sincronización, de procesos y ejecución de nuevos programas",
     "Comunicación de procesos",
@@ -2489,37 +2495,49 @@
    "codigo": "CI-2521",
    "nombre": "Estructuras Discretas I",
    "carrera": "Ingeniería de Computación (USB)",
-   "recorrido": []
+   "recorrido": [
+    "mate:matematicas-discretas"
+   ]
   },
   {
    "codigo": "CI-2522",
    "nombre": "Estructuras Discretas II",
    "carrera": "Ingeniería de Computación (USB)",
-   "recorrido": []
+   "recorrido": [
+    "mate:matematicas-discretas"
+   ]
   },
   {
    "codigo": "CI-2523",
    "nombre": "Estructuras Discretas III",
    "carrera": "Ingeniería de Computación (USB)",
-   "recorrido": []
+   "recorrido": [
+    "mate:matematicas-discretas"
+   ]
   },
   {
    "codigo": "CI-2525",
    "nombre": "Estructuras Discretas I",
    "carrera": "Ingeniería de Computación (USB)",
-   "recorrido": []
+   "recorrido": [
+    "mate:matematicas-discretas"
+   ]
   },
   {
    "codigo": "CI-2526",
    "nombre": "Estructuras Discretas II",
    "carrera": "Ingeniería de Computación (USB)",
-   "recorrido": []
+   "recorrido": [
+    "mate:matematicas-discretas"
+   ]
   },
   {
    "codigo": "CI-2527",
    "nombre": "Estructuras Discretas III",
    "carrera": "Ingeniería de Computación (USB)",
-   "recorrido": []
+   "recorrido": [
+    "mate:matematicas-discretas"
+   ]
   },
   {
    "codigo": "CI-2611",
@@ -2732,6 +2750,14 @@
   },
   {
    "codigo": "CI-3821",
+   "nombre": "Sistemas de Operacion I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "sistemas-operativos"
+   ]
+  },
+  {
+   "codigo": "CI-3825",
    "nombre": "Sistemas de Operacion I",
    "carrera": "Ingeniería de Computación (USB)",
    "recorrido": [
