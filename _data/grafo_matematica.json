@@ -727,7 +727,8 @@
     "modelos-lineales",
     "muestreo",
     "series-de-tiempo",
-    "estadistica-bayesiana"
+    "estadistica-bayesiana",
+    "riesgo-financiero"
    ],
    "temas": [
     "Caracterización de un conjunto de medidas",
@@ -875,7 +876,9 @@
     "modelos-lineales",
     "algebra-lineal-avanzada"
    ],
-   "habilita": [],
+   "habilita": [
+    "riesgo-financiero"
+   ],
    "temas": [
     "Introduccion al analisis de datos",
     "Analisis general",
@@ -902,7 +905,8 @@
     "algebra-lineal-avanzada"
    ],
    "habilita": [
-    "econometria"
+    "econometria",
+    "riesgo-financiero"
    ],
    "temas": [
     "Nociones basicas",
@@ -989,7 +993,8 @@
    ],
    "habilita": [
     "matematica-actuarial",
-    "finanzas-cuantitativas"
+    "finanzas-cuantitativas",
+    "riesgo-financiero"
    ],
    "temas": [
     "Interés Simple",
@@ -1063,7 +1068,9 @@
     "matematica-actuarial",
     "procesos-estocasticos"
    ],
-   "habilita": [],
+   "habilita": [
+    "riesgo-financiero"
+   ],
    "temas": [
     "Teoría de la Utilidad",
     "Teoría Individual del Riesgo",
@@ -1239,6 +1246,44 @@
    ],
    "agregado": true,
    "url": "/mate-logica-matematica-avanzada/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "riesgo-financiero",
+   "nombre": "Matemática del riesgo financiero",
+   "area": "actuarial y finanzas",
+   "categoria": "matematica",
+   "nivel": 9,
+   "depende_de": [
+    "teoria-del-riesgo",
+    "series-de-tiempo",
+    "multivariante",
+    "inferencia",
+    "matematica-financiera"
+   ],
+   "habilita": [],
+   "temas": [
+    "Pérdidas, rendimientos y factores de riesgo",
+    "Volatilidad condicional: EWMA y GARCH",
+    "VaR paramétrico: delta-normal y delta-gamma",
+    "VaR histórico, filtrado y Monte Carlo",
+    "Expected shortfall: estimación, error y horizonte",
+    "Backtesting de VaR y de expected shortfall",
+    "Correlación lineal, correlación de rangos y sus límites",
+    "Cópulas: teoría, dependencia de cola y simulación",
+    "PD, LGD, EAD, pérdida esperada y matrices de migración",
+    "Scoring de crédito: regresión logística, discriminación, calibración y estabilidad",
+    "Modelos de incumplimiento: estructurales y de intensidad",
+    "El modelo de un factor de Vasicek y la fórmula IRB de Basilea",
+    "Modelos de cartera: CreditMetrics y CreditRisk+",
+    "Riesgo de contraparte: exposición futura y CVA",
+    "Riesgo operacional: el enfoque de distribución de pérdidas",
+    "Riesgo de liquidez y de tasa en el balance: brechas, duración y valor económico",
+    "Agregación de riesgos y asignación de capital",
+    "Pruebas de estrés: escenarios, modelos satélite y estrés inverso"
+   ],
+   "agregado": true,
+   "url": "/mate-riesgo-financiero/",
    "estado": "en-preparacion"
   }
  ],

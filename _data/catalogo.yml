@@ -34,7 +34,7 @@ categorias:
   nombre: Matemática
   descripcion: 'Un curso por tema, organizados como un grafo: cada tema se explica una sola vez y cada materia de la licenciatura, de estadística y del posgrado es un recorrido por los cursos. El material está en proceso de curado: puede tener errores.'
   disponibles: 3
-  total: 41
+  total: 42
 - id: competencias
   nombre: Competencias
   descripcion: 'Preparación para los tipos de problemas de los concursos entre equipos: olimpiadas de matemáticas, programación competitiva, CTF, concursos de datos, modelado y hackatones.'
@@ -656,9 +656,18 @@ cursos:
   categoria: matematica
   grupo: Actuarial y finanzas
   estado: en-preparacion
-  tipo: Curso · 15 capítulos
-  descripcion: Teoría individual y colectiva del riesgo, ruina, reaseguro, valores extremos, VaR y medidas coherentes de riesgo.
+  tipo: Curso · 20 capítulos
+  descripcion: Teoría individual y colectiva del riesgo, tarificación con GLM, credibilidad, reservas estocásticas, reaseguro, ruina, valores extremos y catástrofes, VaR, medidas coherentes y agregación del capital de solvencia.
   url: /mate-teoria-del-riesgo/
+  etiqueta: En preparación
+- slug: riesgo-financiero
+  nombre: Matemática del riesgo financiero
+  categoria: matematica
+  grupo: Actuarial y finanzas
+  estado: en-preparacion
+  tipo: Curso · 18 capítulos
+  descripcion: Riesgo de mercado (VaR, expected shortfall y backtesting), dependencia y cópulas, riesgo de crédito del deudor y de la cartera (Merton, Vasicek e IRB, CreditMetrics), contraparte, operacional, liquidez, agregación de capital y pruebas de estrés.
+  url: /mate-riesgo-financiero/
   etiqueta: En preparación
 - slug: teoria-de-categorias
   nombre: Teoría de categorías
