@@ -1,30 +1,40 @@
 # Generado por biblioteca-source/scripts/publicar_catalogo.py. No editar a mano.
 categorias:
-- id: matematica
-  nombre: Matemática
-  descripcion: 'Un curso por tema, organizados como un grafo: cada tema se explica una sola vez y cada materia de la licenciatura, de estadística y del posgrado es un recorrido por los cursos. El material está en proceso de curado: puede tener errores.'
-  disponibles: 3
-  total: 41
-- id: computacion
-  nombre: Computación
-  descripcion: 'El núcleo de un pregrado de computación: matemáticas discretas y lógica, teoría, lenguajes y compiladores, sistemas operativos, redes, sistemas distribuidos, seguridad, gráfica y más.'
+- id: telco
+  nombre: Telco
+  descripcion: 'Cómo funciona un operador de telecomunicaciones por dentro: la red de fibra y sus equipos, los sistemas que la operan y la cobran, y la atención al cliente.'
+  disponibles: 2
+  total: 10
+- id: banca
+  nombre: Banca y Finanzas
+  descripcion: 'Cómo funcionan por dentro un banco, una casa de bolsa y los mercados: el core, los pagos, las tarjetas, los cajeros, el fraude, el cumplimiento, las inversiones y los riesgos.'
   disponibles: 0
-  total: 26
-- id: software
-  nombre: Desarrollo de software
-  descripcion: De la página web a la aplicación móvil, con el servidor y la entrega continua en medio.
+  total: 17
+- id: seguros
+  nombre: Seguros
+  descripcion: 'Cómo funciona una aseguradora: la póliza, la tarifa, los siniestros, los canales de venta y la matemática actuarial.'
   disponibles: 0
-  total: 14
+  total: 6
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
   disponibles: 15
   total: 16
-- id: industrias
-  nombre: Industrias y finanzas
-  descripcion: Cómo funcionan por dentro un operador de telecomunicaciones, un banco, una casa de bolsa y la gestión de riesgos.
-  disponibles: 2
-  total: 10
+- id: software
+  nombre: Desarrollo de software
+  descripcion: De la página web a la aplicación móvil, con el servidor y la entrega continua en medio.
+  disponibles: 0
+  total: 14
+- id: computacion
+  nombre: Computación
+  descripcion: 'El núcleo de un pregrado de computación: matemáticas discretas y lógica, teoría, lenguajes y compiladores, sistemas operativos, redes, sistemas distribuidos, seguridad, gráfica y más.'
+  disponibles: 0
+  total: 26
+- id: matematica
+  nombre: Matemática
+  descripcion: 'Un curso por tema, organizados como un grafo: cada tema se explica una sola vez y cada materia de la licenciatura, de estadística y del posgrado es un recorrido por los cursos. El material está en proceso de curado: puede tener errores.'
+  disponibles: 3
+  total: 41
 - id: competencias
   nombre: Competencias
   descripcion: 'Preparación para los tipos de problemas de los concursos entre equipos: olimpiadas de matemáticas, programación competitiva, CTF, concursos de datos, modelado y hackatones.'
@@ -36,6 +46,305 @@ categorias:
   disponibles: 0
   total: 1
 cursos:
+- slug: telco
+  nombre: Cómo funciona un telco
+  categoria: telco
+  grupo: Visión general
+  estado: disponible
+  tipo: Curso · 49 capítulos
+  descripcion: De las redes a la cadena de valor de un operador de telecomunicaciones, con laboratorios interactivos, prácticas en la terminal y preguntas para investigar.
+  url: /telco/
+  destacado: 1
+  etiqueta: Disponible
+- slug: gpon
+  nombre: 'GPON: la red óptica pasiva'
+  categoria: telco
+  grupo: La red de fibra
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Cómo una sola fibra llega a decenas de casas sin un solo equipo eléctrico en la calle: los estándares GPON y XGS-PON, la red de distribución óptica, los splitters, el presupuesto óptico, cómo se comparte la fibra por turnos y cómo se mide y se repara la planta.'
+  url: /gpon/
+  etiqueta: En preparación
+- slug: olt
+  nombre: 'OLT: la cabecera de la red de fibra'
+  categoria: telco
+  grupo: La red de fibra
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'El equipo de la central que enciende la fibra de miles de casas: el chasis y sus tarjetas, los puertos PON, los perfiles que reparten la capacidad (DBA, T-CONT y GEM), las VLAN de cada servicio, el aprovisionamiento de cada cliente, la seguridad del acceso y la alta disponibilidad.'
+  url: /olt/
+  etiqueta: En preparación
+- slug: ont
+  nombre: 'ONT: el equipo en casa del cliente'
+  categoria: telco
+  grupo: La red de fibra
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'La cajita de la casa donde termina la fibra: tipos de ONT, cómo se activa y se autentica (número de serie y LOID), cómo la configura la OLT por OMCI, los servicios que entrega, el Wi-Fi y la red de la casa, y cómo se diagnostica una falla desde la casa del cliente.'
+  url: /ont/
+  etiqueta: En preparación
+- slug: bng
+  nombre: 'BNG: la puerta de banda ancha'
+  categoria: telco
+  grupo: La red de fibra
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
+  descripcion: 'El equipo que reconoce a cada cliente, le abre su sesión y le aplica lo que pagó: sesiones PPPoE e IPoE, AAA con RADIUS, asignación de direcciones IPv4 e IPv6, políticas de velocidad, CGNAT, escala y alta disponibilidad.'
+  url: /bng/
+  etiqueta: En preparación
+- slug: gestion-remota-de-equipos
+  nombre: Gestión remota de equipos (ACS)
+  categoria: telco
+  grupo: Sistemas del operador
+  estado: disponible
+  tipo: Curso · 16 capítulos
+  descripcion: Cómo un operador configura y diagnostica a distancia los equipos de sus clientes con TR-069 y TR-369.
+  url: /gestion-remota-de-equipos/
+  destacado: 5
+  etiqueta: Disponible
+- slug: bss
+  nombre: 'BSS: los sistemas del negocio del operador'
+  categoria: telco
+  grupo: Sistemas del operador
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Cómo un operador de telecomunicaciones convierte una red en un negocio: el CRM, el catálogo de productos, el pedido, la mediación, la facturación, el prepago y el postpago, los pagos, la cobranza y el aseguramiento de ingresos, ordenados con los marcos de TM Forum (eTOM, SID y Open APIs).'
+  url: /bss/
+  etiqueta: En preparación
+- slug: oss
+  nombre: 'OSS: los sistemas que operan la red'
+  categoria: telco
+  grupo: Sistemas del operador
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'Cómo un operador convierte una venta en un servicio funcionando y lo mantiene vivo: producto, servicio y recurso, inventario físico y lógico, factibilidad y asignación de recursos, la orden de servicio, la orquestación, la activación, la fuerza de campo, la gestión de servicio y el camino hacia la red autónoma.'
+  url: /oss/
+  etiqueta: En preparación
+- slug: nms
+  nombre: 'NMS: la gestión de red'
+  categoria: telco
+  grupo: Sistemas del operador
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Cómo un operador vigila miles de equipos las 24 horas: descubrimiento y topología, SNMP, syslog y telemetría, alarmas y correlación, notificaciones, rendimiento y capacidad, tickets y la operación de un NOC.'
+  url: /nms/
+  etiqueta: En preparación
+- slug: call-center
+  nombre: Cómo funciona un call center
+  categoria: telco
+  grupo: Atención al cliente
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Un centro de contacto por dentro, para operadores y para bancos: la llamada de punta a punta, la central y las troncales SIP, el IVR, la distribución de llamadas, la ficha del cliente, la grabación y la calidad, la gestión de la fuerza de trabajo, los marcadores, la omnicanalidad, las métricas y el contact center en la nube.'
+  url: /call-center/
+  etiqueta: En preparación
+- slug: banca
+  nombre: Cómo funciona un banco
+  categoria: banca
+  grupo: Banca
+  estado: en-preparacion
+  tipo: Curso · 24 capítulos
+  descripcion: Captación, crédito, pagos, canales digitales y regulación, la cadena de valor de un banco.
+  url: /banca/
+  etiqueta: En preparación
+- slug: core-bancario
+  nombre: Core bancario
+  categoria: banca
+  grupo: Banca
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'El sistema que lleva el saldo de cada cuenta y de cada crédito, contado para cualquier área: el libro mayor, las cuentas y los depósitos, los préstamos, la fábrica de productos, el cierre de cada noche, el tiempo real frente a los lotes, y cómo se moderniza o se migra un core sin perder un centavo.'
+  url: /core-bancario/
+  etiqueta: En preparación
+- slug: switch-transaccional
+  nombre: Switch transaccional y pagos inmediatos
+  categoria: banca
+  grupo: Banca
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'Por dónde viaja el dinero entre bancos, contado para cualquier área: el switch que enruta cada transacción, la conexión a las redes nacionales, las cámaras de compensación, la liquidación bruta en tiempo real del banco central, los pagos inmediatos y los pagos móviles entre personas, el estándar ISO 20022 y la alta disponibilidad de una plataforma que no puede caerse.'
+  url: /switch-transaccional/
+  etiqueta: En preparación
+- slug: banca-digital
+  nombre: Banca digital y omnicanal
+  categoria: banca
+  grupo: Banca
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Cómo está hecha la banca que se usa desde el celular y la web, contada para cualquier área: la app y la banca en línea, la apertura digital, la autenticación fuerte, el bus de integración y las APIs que conectan todo, el open banking, la banca para empresas y la omnicanalidad que da la misma historia del cliente en cada canal.'
+  url: /banca-digital/
+  etiqueta: En preparación
+- slug: procesadores-de-tarjetas
+  nombre: Procesadores de tarjetas
+  categoria: banca
+  grupo: Pagos y tarjetas
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'La plataforma que hay detrás de cada tarjeta, contada para cualquier área: los programas y productos, la emisión y el ciclo de vida de la tarjeta, la cuenta de crédito, la autorización y el mensaje ISO 8583 a fondo, el *stand-in*, la compensación y la liquidación, los contracargos, y la decisión de tener un procesador propio o contratarlo.'
+  url: /procesadores-de-tarjetas/
+  etiqueta: En preparación
+- slug: puntos-de-venta
+  nombre: Puntos de venta
+  categoria: banca
+  grupo: Pagos y tarjetas
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'El punto de venta de punta a punta, contado para cualquier área: la adquirencia y la afiliación del comercio, el terminal y su aplicación, PCI PTS, la banda y el chip, el diálogo EMV, el pago sin contacto, las billeteras móviles y SoftPOS, la gestión de terminales a distancia y la conectividad hasta el adquirente.'
+  url: /puntos-de-venta/
+  etiqueta: En preparación
+- slug: cajeros-automaticos
+  nombre: Cajeros automáticos
+  categoria: banca
+  grupo: Pagos y tarjetas
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'El cajero automático de punta a punta, contado para cualquier área: el *hardware*, los depósitos y el reciclaje de billetes, CEN/XFS y el *software* del cajero, el retiro paso a paso, la red de cajeros, el monitoreo del parque, el abastecimiento de efectivo y los ataques físicos y lógicos, del *skimming* al *jackpotting*.'
+  url: /cajeros-automaticos/
+  etiqueta: En preparación
+- slug: pasarelas-de-pago
+  nombre: Pasarelas de pago
+  categoria: banca
+  grupo: Pagos y tarjetas
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
+  descripcion: 'El pago en línea de punta a punta, contado para cualquier área: pasarelas, PSP y agregadores, el *checkout* y la API de pagos, los pagos recurrentes, los otros medios de pago, la tokenización, 3-D Secure, la conciliación del comercio, los *marketplaces* y la orquestación entre varios adquirentes.'
+  url: /pasarelas-de-pago/
+  etiqueta: En preparación
+- slug: gestion-de-riesgos
+  nombre: Gestión de riesgos
+  categoria: banca
+  grupo: Riesgo y cumplimiento
+  estado: en-preparacion
+  tipo: Curso · 19 capítulos
+  descripcion: Riesgo de mercado, crédito, liquidez, cambio y operacional, medidos y simulados.
+  url: /gestion-de-riesgos/
+  etiqueta: En preparación
+- slug: antifraude
+  nombre: Motores antifraude
+  categoria: banca
+  grupo: Riesgo y cumplimiento
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'Cómo decide un banco en milisegundos si una operación es de su cliente o de un ladrón: los tipos de fraude, las reglas y los modelos, los perfiles de comportamiento, la puntuación en tiempo real, la decisión de aprobar, retar o rechazar, el costo de los falsos positivos, el trabajo de los analistas y el fraude en los canales digitales.'
+  url: /antifraude/
+  etiqueta: En preparación
+- slug: prevencion-de-lavado
+  nombre: Prevención de lavado y sanciones
+  categoria: banca
+  grupo: Riesgo y cumplimiento
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'Cómo intenta el dinero sucio pasar por un banco y con qué sistemas y personas se lo detiene: las etapas del lavado, el GAFI y la regulación, conocer al cliente y la debida diligencia, el perfil de riesgo, el monitoreo transaccional, las listas de sanciones y de personas expuestas políticamente, el filtrado de pagos, los reportes de operaciones sospechosas y el oficial de cumplimiento.'
+  url: /prevencion-de-lavado/
+  etiqueta: En preparación
+- slug: corretaje
+  nombre: Sociedades de corretaje
+  categoria: banca
+  grupo: Mercados e inversiones
+  estado: en-preparacion
+  tipo: Curso · 20 capítulos
+  descripcion: Cómo funciona una casa de bolsa, órdenes, custodia, liquidación y la plataforma que lo une.
+  url: /corretaje/
+  etiqueta: En preparación
+- slug: finanzas
+  nombre: Finanzas
+  categoria: banca
+  grupo: Mercados e inversiones
+  estado: en-preparacion
+  tipo: Curso · 20 capítulos
+  descripcion: Valor del dinero en el tiempo, finanzas corporativas y valoración de empresas.
+  url: /finanzas/
+  etiqueta: En preparación
+- slug: inversiones
+  nombre: Inversiones
+  categoria: banca
+  grupo: Mercados e inversiones
+  estado: en-preparacion
+  tipo: Curso · 18 capítulos
+  descripcion: Renta fija, renta variable, derivados y divisas, con calculadoras para cada instrumento.
+  url: /inversiones/
+  etiqueta: En preparación
+- slug: finanzas-cuantitativas
+  nombre: Finanzas cuantitativas
+  categoria: banca
+  grupo: Mercados e inversiones
+  estado: en-preparacion
+  tipo: Curso · 18 capítulos
+  descripcion: Modelos matemáticos y datos financieros, del portafolio óptimo a la valoración de opciones.
+  url: /finanzas-cuantitativas/
+  etiqueta: En preparación
+- slug: trading
+  nombre: Análisis técnico y trading algorítmico
+  categoria: banca
+  grupo: Mercados e inversiones
+  estado: en-preparacion
+  tipo: Curso · 19 capítulos
+  descripcion: Gráficos, indicadores y robots de trading, con pruebas sobre datos históricos.
+  url: /trading/
+  etiqueta: En preparación
+- slug: oms-y-fix
+  nombre: OMS, FIX y conexión a bolsa
+  categoria: banca
+  grupo: Mercados e inversiones
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'La tecnología que lleva una orden desde la pantalla del cliente hasta el motor de la bolsa: el sistema de gestión de órdenes (OMS) y el de ejecución (EMS), los controles previos, el protocolo FIX en su capa de sesión y de aplicación, los *gateways* de la bolsa, el acceso directo al mercado, la latencia y las pruebas de certificación.'
+  url: /oms-y-fix/
+  etiqueta: En preparación
+- slug: seguros
+  nombre: Cómo funciona una aseguradora
+  categoria: seguros
+  grupo: La aseguradora
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
+  descripcion: 'Una aseguradora por dentro, contada para cualquier área: cómo gana dinero quien cobra hoy y paga mañana, los ramos de vida, salud, autos y patrimoniales, las áreas y el mapa de sistemas, el ciclo de la póliza y del siniestro, los canales, el reaseguro, las reservas, la solvencia e IFRS 17, la regulación, los datos, el fraude y las insurtech.'
+  url: /seguros/
+  etiqueta: En preparación
+- slug: core-de-seguros
+  nombre: 'Core de seguros: la póliza de punta a punta'
+  categoria: seguros
+  grupo: La aseguradora
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'El sistema donde vive cada póliza, contado para cualquier área: el modelo de datos de la póliza, el configurador de productos, los colectivos y masivos, la cotización y la emisión, los endosos, las renovaciones y cancelaciones, la facturación y la cobranza de primas, la integración con canales, contabilidad y reaseguro, y la modernización del core.'
+  url: /core-de-seguros/
+  etiqueta: En preparación
+- slug: tarificacion-y-suscripcion
+  nombre: Tarificación y suscripción
+  categoria: seguros
+  grupo: La aseguradora
+  estado: en-preparacion
+  tipo: Curso · 13 capítulos
+  descripcion: 'Cómo una aseguradora le pone precio a cada riesgo y decide a quién aceptar, contado para cualquier área: factores de riesgo y tarifa, el precio final, el motor de tarifas y sus versiones, las reglas de suscripción, la suscripción automática y la manual, los datos externos (buró, registros, geografía, telemática y clima), precios y pruebas A/B en seguros, y el gobierno de los modelos.'
+  url: /tarificacion-y-suscripcion/
+  etiqueta: En preparación
+- slug: siniestros
+  nombre: Siniestros
+  categoria: seguros
+  grupo: La aseguradora
+  estado: en-preparacion
+  tipo: Curso · 12 capítulos
+  descripcion: 'El momento de la verdad de una aseguradora, de punta a punta: el aviso, la apertura y la cobertura, el ajuste y el peritaje, las reservas, los pagos, los talleres y las clínicas, el recobro, el fraude, la automatización con imágenes y reglas, y los indicadores que dicen si el área funciona.'
+  url: /siniestros/
+  etiqueta: En preparación
+- slug: distribucion-de-seguros
+  nombre: Canales y distribución de seguros
+  categoria: seguros
+  grupo: La aseguradora
+  estado: en-preparacion
+  tipo: Curso · 11 capítulos
+  descripcion: 'Cómo llega un seguro a quien lo compra: agentes y corredores, bancaseguros, venta directa y portales, seguros embebidos y afinidades, las comisiones y su cálculo, el portal del intermediario, las APIs para socios, el cumplimiento de la venta y las insurtech.'
+  url: /distribucion-de-seguros/
+  etiqueta: En preparación
+- slug: actuaria
+  nombre: Ciencia de datos actuariales
+  categoria: seguros
+  grupo: Matemática actuarial
+  estado: en-preparacion
+  tipo: Curso · 18 capítulos
+  descripcion: Seguros, mortalidad y reservas, con los datos y modelos de un actuario.
+  url: /actuaria/
+  etiqueta: En preparación
 - slug: logica-y-conjuntos
   nombre: Lógica y conjuntos
   categoria: matematica
@@ -812,6 +1121,7 @@ cursos:
   tipo: Curso · 14 capítulos
   descripcion: Los pasos que da una empresa para adoptar la IA, del diagnóstico y los primeros casos al modelo operativo, los pilotos que escalan y los KPI.
   url: /adopcion-de-ia/
+  destacado: 4
   etiqueta: Disponible
 - slug: chatbots-empresariales
   nombre: Cómo construir chatbots empresariales
@@ -836,6 +1146,7 @@ cursos:
   tipo: Curso · 16 capítulos
   descripcion: El arnés que gobierna a un agente de IA, con reglas, validadores y registros, construido paso a paso.
   url: /arneses/
+  destacado: 3
   etiqueta: Disponible
 - slug: mlops
   nombre: IA en producción (MLOps)
@@ -853,87 +1164,6 @@ cursos:
   descripcion: Sesgo, equidad, transparencia, derechos de autor, regulación y gobierno de la IA en una organización.
   url: /ia-responsable/
   etiqueta: Disponible
-- slug: telco
-  nombre: Cómo funciona un telco
-  categoria: industrias
-  estado: disponible
-  tipo: Curso · 49 capítulos
-  descripcion: De las redes a la cadena de valor de un operador de telecomunicaciones, con laboratorios interactivos, prácticas en la terminal y preguntas para investigar.
-  url: /telco/
-  destacado: 1
-  etiqueta: Disponible
-- slug: gestion-remota-de-equipos
-  nombre: Gestión remota de equipos (ACS)
-  categoria: industrias
-  estado: disponible
-  tipo: Curso · 16 capítulos
-  descripcion: Cómo un operador configura y diagnostica a distancia los equipos de sus clientes con TR-069 y TR-369.
-  url: /gestion-remota-de-equipos/
-  etiqueta: Disponible
-- slug: banca
-  nombre: Cómo funciona un banco
-  categoria: industrias
-  estado: en-preparacion
-  tipo: Curso · 24 capítulos
-  descripcion: Captación, crédito, pagos, canales digitales y regulación, la cadena de valor de un banco.
-  url: /banca/
-  etiqueta: En preparación
-- slug: corretaje
-  nombre: Sociedades de corretaje
-  categoria: industrias
-  estado: en-preparacion
-  tipo: Curso · 20 capítulos
-  descripcion: Cómo funciona una casa de bolsa, órdenes, custodia, liquidación y la plataforma que lo une.
-  url: /corretaje/
-  etiqueta: En preparación
-- slug: finanzas
-  nombre: Finanzas
-  categoria: industrias
-  estado: en-preparacion
-  tipo: Curso · 20 capítulos
-  descripcion: Valor del dinero en el tiempo, finanzas corporativas y valoración de empresas.
-  url: /finanzas/
-  etiqueta: En preparación
-- slug: inversiones
-  nombre: Inversiones
-  categoria: industrias
-  estado: en-preparacion
-  tipo: Curso · 18 capítulos
-  descripcion: Renta fija, renta variable, derivados y divisas, con calculadoras para cada instrumento.
-  url: /inversiones/
-  etiqueta: En preparación
-- slug: finanzas-cuantitativas
-  nombre: Finanzas cuantitativas
-  categoria: industrias
-  estado: en-preparacion
-  tipo: Curso · 18 capítulos
-  descripcion: Modelos matemáticos y datos financieros, del portafolio óptimo a la valoración de opciones.
-  url: /finanzas-cuantitativas/
-  etiqueta: En preparación
-- slug: gestion-de-riesgos
-  nombre: Gestión de riesgos
-  categoria: industrias
-  estado: en-preparacion
-  tipo: Curso · 19 capítulos
-  descripcion: Riesgo de mercado, crédito, liquidez, cambio y operacional, medidos y simulados.
-  url: /gestion-de-riesgos/
-  etiqueta: En preparación
-- slug: trading
-  nombre: Análisis técnico y trading algorítmico
-  categoria: industrias
-  estado: en-preparacion
-  tipo: Curso · 19 capítulos
-  descripcion: Gráficos, indicadores y robots de trading, con pruebas sobre datos históricos.
-  url: /trading/
-  etiqueta: En preparación
-- slug: actuaria
-  nombre: Ciencia de datos actuariales
-  categoria: industrias
-  estado: en-preparacion
-  tipo: Curso · 18 capítulos
-  descripcion: Seguros, mortalidad y reservas, con los datos y modelos de un actuario.
-  url: /actuaria/
-  etiqueta: En preparación
 - slug: modelos-mentales
   nombre: Modelos mentales
   categoria: pensamiento

@@ -24,13 +24,18 @@ description: Cursos interactivos, artículos y el CV de Alexander A. Ramírez M.
 <section class="stage" aria-labelledby="cursos">
   <h2 id="cursos"><span class="pn">Índice</span> Cursos y libros</h2>
   <p class="cat-desc">{{ disponibles.size }} disponibles y {{ cat.cursos.size | minus: disponibles.size }} en preparación o próximamente. Las tarjetas punteadas son el plan de publicación: cada curso tendrá figuras, laboratorios, ejemplos, ejercicios y prácticas, como telco y mate.</p>
+  <nav class="areas" aria-label="Áreas del índice">
+    {%- for k in cat.categorias %}
+    <a class="area" href="#{{ k.id }}"><b>{{ k.nombre }}</b><span class="cuentas">{% if k.disponibles > 0 %}<span class="disp">{{ k.disponibles }} {% if k.disponibles == 1 %}disponible{% else %}disponibles{% endif %}</span> · {% endif %}{{ k.total }} en el plan</span><span class="barra" aria-hidden="true"><i style="width:{{ k.disponibles | times: 100 | divided_by: k.total }}%"></i></span></a>
+    {%- endfor %}
+  </nav>
 </section>
 
 {%- for k in cat.categorias %}
 {%- assign propios = cat.cursos | where: "categoria", k.id %}
 {%- assign grupos = propios | group_by: "grupo" %}
 <details class="stage cat" id="{{ k.id }}"{% if k.disponibles > 0 %} open{% endif %}>
-  <summary><h2><span class="pn">{% if k.disponibles == 1 %}1 disponible · {% elsif k.disponibles > 1 %}{{ k.disponibles }} disponibles · {% endif %}{{ k.total }} en el plan</span>{{ k.nombre }}</h2></summary>
+  <summary><h2>{{ k.nombre }}</h2><span class="chips">{% if k.disponibles > 0 %}<span class="chip ok">{{ k.disponibles }} {% if k.disponibles == 1 %}disponible{% else %}disponibles{% endif %}</span>{% endif %}<span class="chip">{{ k.total }} en el plan</span></span></summary>
   <p class="cat-desc">{{ k.descripcion }}{% if k.id == "matematica" %} <a href="{{ '/matematica/grafo/' | relative_url }}">Ver el grafo de temas →</a>{% elsif k.id == "computacion" or k.id == "software" or k.id == "ia" %} <a href="{{ '/computacion/grafo/' | relative_url }}">Ver el grafo de temas →</a>{% endif %}</p>
   {%- for g in grupos %}
   {%- if g.name and g.name != "" %}<h3 class="grupo">{{ g.name }}</h3>{% endif %}

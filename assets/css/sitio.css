@@ -120,7 +120,19 @@ details.stage>summary{list-style:none;display:flex;align-items:center;gap:12px;p
 details.stage>summary::-webkit-details-marker{display:none}
 details.stage>summary::before{content:"▸";color:var(--accent);transition:transform .15s}
 details.stage[open]>summary::before{transform:rotate(90deg)}
-details.stage>summary>h2{flex:1;min-width:0;font-size:1.25rem}
+details.stage>summary>h2{flex:1;min-width:0;font-size:1.35rem}
+details.stage>summary{flex-wrap:wrap}
+details.stage>summary .chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:600 .74rem var(--f-mono);padding:3px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.chip.ok{border-color:var(--accent);color:var(--accent)}
+.areas{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:10px;margin-top:4px}
+.area{display:grid;gap:8px;align-content:start;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--card);text-decoration:none;color:var(--ink)}
+.area:hover{border-color:var(--accent)}
+.area b{font:700 1.05rem var(--f-display)}
+.area .cuentas{font:500 .78rem var(--f-mono);color:var(--muted)}
+.area .disp{color:var(--accent)}
+.area .barra{height:4px;border-radius:2px;background:var(--line);overflow:hidden}
+.area .barra i{display:block;height:100%;background:var(--accent)}
 details.stage>summary:hover h2{color:var(--accent)}
 @media (prefers-reduced-motion: reduce){details.stage>summary::before{transition:none}}
 .lista{list-style:none;margin:6px 0 10px;padding:0;display:grid;gap:4px}
