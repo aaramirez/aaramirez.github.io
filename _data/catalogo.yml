@@ -647,8 +647,8 @@ cursos:
   categoria: matematica
   grupo: Actuarial y finanzas
   estado: en-preparacion
-  tipo: Curso · 14 capítulos
-  descripcion: Tablas de mortalidad y demografía, seguros y rentas de vida, primas, reservas y contingencias de varias vidas.
+  tipo: Curso · 21 capítulos
+  descripcion: Demografía, mortalidad y su graduación y proyección (Lee-Carter), seguros y rentas de vida, reservas, varias vidas, modelos multiestado e invalidez, pensiones, NIIF 17 y escenarios económicos.
   url: /mate-matematica-actuarial/
   etiqueta: En preparación
 - slug: teoria-del-riesgo
@@ -665,8 +665,8 @@ cursos:
   categoria: matematica
   grupo: Actuarial y finanzas
   estado: en-preparacion
-  tipo: Curso · 18 capítulos
-  descripcion: Riesgo de mercado (VaR, expected shortfall y backtesting), dependencia y cópulas, riesgo de crédito del deudor y de la cartera (Merton, Vasicek e IRB, CreditMetrics), contraparte, operacional, liquidez, agregación de capital y pruebas de estrés.
+  tipo: Curso · 21 capítulos
+  descripcion: Riesgo de mercado (VaR, expected shortfall y backtesting), dependencia y cópulas, riesgo de crédito del deudor y de la cartera (Merton, Vasicek e IRB, CreditMetrics), contraparte, operacional, liquidez, agregación de capital y pruebas de estrés, volatilidad realizada e implícita, sobreajuste en el backtesting y optimización de precios.
   url: /mate-riesgo-financiero/
   etiqueta: En preparación
 - slug: teoria-de-categorias

@@ -1280,7 +1280,10 @@
     "Riesgo operacional: el enfoque de distribución de pérdidas",
     "Riesgo de liquidez y de tasa en el balance: brechas, duración y valor económico",
     "Agregación de riesgos y asignación de capital",
-    "Pruebas de estrés: escenarios, modelos satélite y estrés inverso"
+    "Pruebas de estrés: escenarios, modelos satélite y estrés inverso",
+    "Volatilidad realizada, volatilidad implícita, superficie y VIX",
+    "Sobreajuste en el backtesting de estrategias: sesgo de selección, deflated Sharpe ratio y validación con purga",
+    "Elasticidad de la demanda y optimización de precios con restricciones en banca y seguros"
    ],
    "agregado": true,
    "url": "/mate-riesgo-financiero/",
