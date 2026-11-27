@@ -32,7 +32,7 @@
 {{ content }}
 </main>
 <footer>
-  <span>© 2002–{{ site.time | date: "%Y" }} Alexander A. Ramírez M. · <a href="https://www.linkedin.com/in/alexander-ramirez-morales/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/aaramirez" target="_blank" rel="noopener">GitHub</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></span>
+  <span>Generado, editado y curado por <a href="https://www.linkedin.com/in/alexander-ramirez-morales/" target="_blank" rel="noopener">Alexander A. Ramírez M.</a>.</span><span>El contenido se comparte bajo la licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener">CC BY-SA 4.0, Atribución/Reconocimiento-CompartirIgual 4.0 Internacional</a>.</span><span>© 2002–<span data-anio>{{ site.time | date: "%Y" }}</span> Alexander A. Ramírez M. · <a href="https://www.linkedin.com/in/alexander-ramirez-morales/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/aaramirez" target="_blank" rel="noopener">GitHub</a></span><script>document.querySelectorAll('[data-anio]').forEach(function (e) { e.textContent = new Date().getFullYear(); });</script>
 </footer>
 </div>
 <script>
