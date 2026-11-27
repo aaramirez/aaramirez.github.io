@@ -1096,7 +1096,7 @@ cursos:
   nombre: Aprendizaje automático
   categoria: ia
   estado: disponible
-  tipo: Curso · 12 capítulos
+  tipo: Curso · 16 capítulos (12 escritos)
   descripcion: Regresión, clasificación, árboles y validación, los métodos clásicos del Machine Learning.
   url: /aprendizaje-estadistico/
   etiqueta: Disponible
