@@ -1,18 +1,26 @@
-/* Grafo de matemática (/matematica/grafo/). Colores por área, en claro y oscuro. */
+/* Grafos de temas (/matematica/grafo/, /computacion/grafo/). Colores por área, en claro y oscuro; cada página elige su paleta con data-paleta. */
 :root{
-  --a-fundamentos:#f4d58d; --a-algebra:#b8d4f8; --a-analisis:#c6e6be; --a-geometria:#e3c8f2; --a-numerico:#d6d9de;
-  --a-probabilidad:#ffcfb3; --a-procesos:#ffb9b9; --a-estadistica:#b5e9e2; --a-actuarial:#efdfae;
+  --a-fundamentos:#f4d58d; --a-algebra:#b8d4f8; --a-analisis:#c6e6be; --a-geometria-y-topologia:#e3c8f2; --a-numerico:#d6d9de;
+  --a-probabilidad:#ffcfb3; --a-procesos:#ffb9b9; --a-estadistica:#b5e9e2; --a-actuarial-y-finanzas:#efdfae;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --a-fundamentos:#6b5a22; --a-algebra:#26456e; --a-analisis:#2c5a2a; --a-geometria:#55306b; --a-numerico:#3d4350;
-    --a-probabilidad:#6e3d22; --a-procesos:#6b2a2a; --a-estadistica:#1f5a54; --a-actuarial:#5e5128;
+    --a-fundamentos:#6b5a22; --a-algebra:#26456e; --a-analisis:#2c5a2a; --a-geometria-y-topologia:#55306b; --a-numerico:#3d4350;
+    --a-probabilidad:#6e3d22; --a-procesos:#6b2a2a; --a-estadistica:#1f5a54; --a-actuarial-y-finanzas:#5e5128;
   }
 }
 :root[data-theme="dark"]{
-  --a-fundamentos:#6b5a22; --a-algebra:#26456e; --a-analisis:#2c5a2a; --a-geometria:#55306b; --a-numerico:#3d4350;
-  --a-probabilidad:#6e3d22; --a-procesos:#6b2a2a; --a-estadistica:#1f5a54; --a-actuarial:#5e5128;
+  --a-fundamentos:#6b5a22; --a-algebra:#26456e; --a-analisis:#2c5a2a; --a-geometria-y-topologia:#55306b; --a-numerico:#3d4350;
+  --a-probabilidad:#6e3d22; --a-procesos:#6b2a2a; --a-estadistica:#1f5a54; --a-actuarial-y-finanzas:#5e5128;
 }
+:root{--a-externo:#f1efe9}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--a-externo:#2b2a27}}
+:root[data-theme="dark"]{--a-externo:#2b2a27}
+.grafo-pagina[data-paleta="computacion"]{--a-fundamentos:#bcd7fa; --a-algoritmos:#9fc3f0; --a-lenguajes:#c3e3f2; --a-sistemas:#a8dcd4; --a-datos-y-seguridad:#c6e6be; --a-interaccion:#dcedb3; --a-sociedad:#d6d9de; --a-web:#ffd3a8; --a-lenguajes-de-programacion:#f4d58d; --a-ingenieria-de-software:#ffbfa0; --a-aprendizaje:#e3c8f2; --a-datos:#f4c6de; --a-ia-generativa:#d2c6f6; --a-ia-en-la-empresa:#f6bcc8;}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .grafo-pagina[data-paleta="computacion"]{--a-fundamentos:#26456e; --a-algoritmos:#1f3a5c; --a-lenguajes:#24505e; --a-sistemas:#1f5a54; --a-datos-y-seguridad:#2c5a2a; --a-interaccion:#45561f; --a-sociedad:#3d4350; --a-web:#6e4522; --a-lenguajes-de-programacion:#6b5a22; --a-ingenieria-de-software:#6e3522; --a-aprendizaje:#55306b; --a-datos:#6b2a4e; --a-ia-generativa:#3f3270; --a-ia-en-la-empresa:#6b2a36;}
+}
+:root[data-theme="dark"] .grafo-pagina[data-paleta="computacion"]{--a-fundamentos:#26456e; --a-algoritmos:#1f3a5c; --a-lenguajes:#24505e; --a-sistemas:#1f5a54; --a-datos-y-seguridad:#2c5a2a; --a-interaccion:#45561f; --a-sociedad:#3d4350; --a-web:#6e4522; --a-lenguajes-de-programacion:#6b5a22; --a-ingenieria-de-software:#6e3522; --a-aprendizaje:#55306b; --a-datos:#6b2a4e; --a-ia-generativa:#3f3270; --a-ia-en-la-empresa:#6b2a36;}
 .grafo-ctl{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:14px 0 8px;font:500 .95rem var(--f-display)}
 .grafo-ctl label:first-child{flex:1 1 280px;min-width:0;max-width:560px}
 .grafo-ctl select{display:block;width:100%;max-width:100%;margin-top:4px;font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
@@ -30,6 +38,8 @@
 #grafo-svg .n:focus{outline:none}
 #grafo-svg .n:focus rect,#grafo-svg .n.sel rect{stroke:var(--ink);stroke-width:2.5}
 #grafo-svg .n.dim{opacity:.18}
+#grafo-svg .n.ext rect{stroke:var(--muted);stroke-width:1.5;stroke-dasharray:5 4}
+.grafo-leyenda i.ext,.grafo-lista button.ext{border:1.5px dashed var(--muted)}
 #grafo-svg .n .paso{font-weight:700;font-size:11px}
 #grafo-svg .e{fill:none;stroke:var(--muted);stroke-opacity:.35}
 #grafo-svg .e.on{stroke:var(--accent);stroke-opacity:.95;stroke-width:2}

@@ -1,0 +1,27 @@
+---
+layout: base
+title: Grafo de computación, software e IA
+permalink: /computacion/grafo/
+description: Los temas de computación, desarrollo de software e inteligencia artificial como un grafo de cursos. Cada tema tiene un solo curso, y cada materia de Ingeniería de Computación es un recorrido por ellos.
+---
+<link rel="stylesheet" href="{{ '/assets/css/grafo.css' | relative_url }}">
+<section class="stage grafo-pagina" data-paleta="computacion" aria-labelledby="titulo-grafo">
+  <h1 id="titulo-grafo">Grafo de temas de computación, software e IA</h1>
+  <p class="cat-desc">Cada rectángulo es un curso y cada tema vive en un solo curso. Las flechas van de un curso a los que lo necesitan. Toca un curso para ver qué temas reúne, qué necesita y qué habilita, o elige una materia para ver su recorrido. Los temas salen de los programas de Ingeniería de Computación de la USB, del núcleo del currículo de referencia ACM/IEEE CS2023 y de los temarios de los cursos. Los rectángulos punteados son cursos del <a href="{{ '/matematica/grafo/' | relative_url }}">grafo de Matemática</a>.</p>
+  <div class="grafo-ctl">
+    <label>Materia
+      <select id="grafo-materia"><option value="">Todas</option></select></label>
+    <label class="grafo-check"><input type="checkbox" id="grafo-lista"> Vista de lista</label>
+  </div>
+  <div class="grafo-leyenda" id="grafo-leyenda"></div>
+  <div class="grafo-cuerpo">
+    <div class="grafo-lienzo" id="grafo-lienzo"><svg id="grafo-svg" role="group" aria-label="Grafo de cursos de computación, software e IA y sus dependencias"></svg></div>
+    <div class="grafo-lista" id="grafo-vista-lista" hidden></div>
+    <aside class="grafo-ficha" id="grafo-ficha" aria-live="polite">
+      <h2>Elige un curso</h2>
+      <p>Toca un curso del grafo para ver su ficha.</p>
+    </aside>
+  </div>
+</section>
+<script type="application/json" id="grafo-datos-computacion">{{ site.data.grafo_computacion | jsonify }}</script>
+<script src="{{ '/assets/js/grafo.js' | relative_url }}" data-grafo="grafo-datos-computacion"></script>

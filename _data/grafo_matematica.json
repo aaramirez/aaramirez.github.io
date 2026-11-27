@@ -4,6 +4,7 @@
    "slug": "logica-y-conjuntos",
    "nombre": "Lógica y conjuntos",
    "area": "fundamentos",
+   "categoria": "matematica",
    "nivel": 0,
    "depende_de": [],
    "habilita": [
@@ -28,6 +29,7 @@
    "slug": "numeros",
    "nombre": "Sistemas numéricos",
    "area": "fundamentos",
+   "categoria": "matematica",
    "nivel": 1,
    "depende_de": [
     "logica-y-conjuntos"
@@ -53,6 +55,7 @@
    "slug": "funciones",
    "nombre": "Funciones",
    "area": "fundamentos",
+   "categoria": "matematica",
    "nivel": 2,
    "depende_de": [
     "logica-y-conjuntos",
@@ -76,6 +79,7 @@
    "slug": "matematicas-discretas",
    "nombre": "Matemáticas discretas",
    "area": "fundamentos",
+   "categoria": "matematica",
    "nivel": 2,
    "depende_de": [
     "logica-y-conjuntos",
@@ -99,6 +103,7 @@
    "slug": "geometria",
    "nombre": "Geometría",
    "area": "geometría y topología",
+   "categoria": "matematica",
    "nivel": 3,
    "depende_de": [
     "numeros",
@@ -130,6 +135,7 @@
    "slug": "algebra-lineal",
    "nombre": "Álgebra lineal",
    "area": "álgebra",
+   "categoria": "matematica",
    "nivel": 3,
    "depende_de": [
     "logica-y-conjuntos",
@@ -163,6 +169,7 @@
    "slug": "algebra-lineal-avanzada",
    "nombre": "Álgebra lineal avanzada",
    "area": "álgebra",
+   "categoria": "matematica",
    "nivel": 4,
    "depende_de": [
     "algebra-lineal"
@@ -196,6 +203,7 @@
    "slug": "algebra",
    "nombre": "Álgebra abstracta",
    "area": "álgebra",
+   "categoria": "matematica",
    "nivel": 4,
    "depende_de": [
     "matematicas-discretas",
@@ -221,6 +229,7 @@
    "slug": "calculo",
    "nombre": "Cálculo en una variable",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 3,
    "depende_de": [
     "funciones"
@@ -257,6 +266,7 @@
    "slug": "sucesiones-y-series",
    "nombre": "Sucesiones y series",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 4,
    "depende_de": [
     "calculo"
@@ -284,6 +294,7 @@
    "slug": "analisis-real",
    "nombre": "Análisis real",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 5,
    "depende_de": [
     "sucesiones-y-series"
@@ -309,6 +320,7 @@
    "slug": "calculo-varias-variables",
    "nombre": "Cálculo en varias variables",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 4,
    "depende_de": [
     "calculo",
@@ -348,6 +360,7 @@
    "slug": "topologia",
    "nombre": "Topología",
    "area": "geometría y topología",
+   "categoria": "matematica",
    "nivel": 6,
    "depende_de": [
     "analisis-real",
@@ -375,6 +388,7 @@
    "slug": "medida",
    "nombre": "Teoría de la medida",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "analisis-real",
@@ -402,6 +416,7 @@
    "slug": "analisis-funcional",
    "nombre": "Análisis funcional",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 8,
    "depende_de": [
     "topologia",
@@ -429,6 +444,7 @@
    "slug": "variable-compleja",
    "nombre": "Variable compleja",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 6,
    "depende_de": [
     "analisis-real",
@@ -458,6 +474,7 @@
    "slug": "ecuaciones-diferenciales",
    "nombre": "Ecuaciones diferenciales ordinarias",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 5,
    "depende_de": [
     "calculo",
@@ -493,6 +510,7 @@
    "slug": "ecuaciones-en-derivadas-parciales",
    "nombre": "Ecuaciones en derivadas parciales",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 6,
    "depende_de": [
     "ecuaciones-diferenciales",
@@ -523,6 +541,7 @@
    "slug": "analisis-numerico",
    "nombre": "Análisis numérico",
    "area": "numérico",
+   "categoria": "matematica",
    "nivel": 4,
    "depende_de": [
     "calculo",
@@ -546,6 +565,7 @@
    "slug": "geometria-diferencial",
    "nombre": "Geometría diferencial",
    "area": "geometría y topología",
+   "categoria": "matematica",
    "nivel": 6,
    "depende_de": [
     "calculo-varias-variables",
@@ -569,6 +589,7 @@
    "slug": "probabilidad",
    "nombre": "Probabilidad",
    "area": "probabilidad",
+   "categoria": "matematica",
    "nivel": 5,
    "depende_de": [
     "matematicas-discretas",
@@ -611,6 +632,7 @@
    "slug": "probabilidades-avanzadas",
    "nombre": "Probabilidades avanzadas",
    "area": "probabilidad",
+   "categoria": "matematica",
    "nivel": 8,
    "depende_de": [
     "probabilidad",
@@ -634,6 +656,7 @@
    "slug": "procesos-estocasticos",
    "nombre": "Procesos estocásticos",
    "area": "procesos",
+   "categoria": "matematica",
    "nivel": 6,
    "depende_de": [
     "probabilidad",
@@ -667,6 +690,7 @@
    "slug": "simulacion",
    "nombre": "Simulación",
    "area": "procesos",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "probabilidad",
@@ -694,6 +718,7 @@
    "slug": "inferencia",
    "nombre": "Inferencia estadística",
    "area": "estadística",
+   "categoria": "matematica",
    "nivel": 6,
    "depende_de": [
     "probabilidad"
@@ -736,6 +761,7 @@
    "slug": "modelos-lineales",
    "nombre": "Modelos lineales",
    "area": "estadística",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "inferencia",
@@ -770,6 +796,7 @@
    "slug": "diseno-de-experimentos",
    "nombre": "Diseño de experimentos",
    "area": "estadística",
+   "categoria": "matematica",
    "nivel": 8,
    "depende_de": [
     "modelos-lineales"
@@ -799,6 +826,7 @@
    "slug": "muestreo",
    "nombre": "Muestreo y control de calidad",
    "area": "estadística",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "inferencia"
@@ -841,6 +869,7 @@
    "slug": "multivariante",
    "nombre": "Análisis multivariante",
    "area": "estadística",
+   "categoria": "matematica",
    "nivel": 8,
    "depende_de": [
     "modelos-lineales",
@@ -865,6 +894,7 @@
    "slug": "series-de-tiempo",
    "nombre": "Series de tiempo",
    "area": "estadística",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "procesos-estocasticos",
@@ -897,6 +927,7 @@
    "slug": "estadistica-bayesiana",
    "nombre": "Estadística bayesiana",
    "area": "estadística",
+   "categoria": "matematica",
    "nivel": 8,
    "depende_de": [
     "inferencia",
@@ -927,6 +958,7 @@
    "slug": "econometria",
    "nombre": "Econometría",
    "area": "estadística",
+   "categoria": "matematica",
    "nivel": 8,
    "depende_de": [
     "modelos-lineales",
@@ -949,6 +981,7 @@
    "slug": "matematica-financiera",
    "nombre": "Matemática financiera",
    "area": "actuarial y finanzas",
+   "categoria": "matematica",
    "nivel": 5,
    "depende_de": [
     "calculo",
@@ -986,6 +1019,7 @@
    "slug": "matematica-actuarial",
    "nombre": "Matemática actuarial",
    "area": "actuarial y finanzas",
+   "categoria": "matematica",
    "nivel": 6,
    "depende_de": [
     "matematica-financiera",
@@ -1023,6 +1057,7 @@
    "slug": "teoria-del-riesgo",
    "nombre": "Teoría del riesgo",
    "area": "actuarial y finanzas",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "matematica-actuarial",
@@ -1050,6 +1085,7 @@
    "slug": "investigacion-de-operaciones",
    "nombre": "Investigación de operaciones",
    "area": "numérico",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "algebra-lineal",
@@ -1082,6 +1118,7 @@
    "slug": "finanzas-cuantitativas",
    "nombre": "Finanzas cuantitativas",
    "area": "actuarial y finanzas",
+   "categoria": "matematica",
    "nivel": 9,
    "depende_de": [
     "probabilidades-avanzadas",
@@ -1106,6 +1143,7 @@
    "slug": "teoria-de-categorias",
    "nombre": "Teoría de categorías",
    "area": "álgebra",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "logica-y-conjuntos",
@@ -1131,6 +1169,7 @@
    "slug": "teoria-de-numeros-analitica",
    "nombre": "Teoría de números analítica",
    "area": "análisis",
+   "categoria": "matematica",
    "nivel": 7,
    "depende_de": [
     "matematicas-discretas",
@@ -1156,6 +1195,7 @@
    "slug": "combinatoria-algebraica",
    "nombre": "Combinatoria algebraica",
    "area": "álgebra",
+   "categoria": "matematica",
    "nivel": 5,
    "depende_de": [
     "matematicas-discretas",
@@ -1181,6 +1221,7 @@
    "slug": "logica-matematica-avanzada",
    "nombre": "Lógica matemática avanzada",
    "area": "fundamentos",
+   "categoria": "matematica",
    "nivel": 2,
    "depende_de": [
     "logica-y-conjuntos",
@@ -1201,6 +1242,7 @@
    "estado": "en-preparacion"
   }
  ],
+ "externos": [],
  "materias": [
   {
    "codigo": "4003",
@@ -1778,5 +1820,16 @@
   "procesos",
   "estadística",
   "actuarial y finanzas"
- ]
+ ],
+ "colores": {
+  "fundamentos": "fundamentos",
+  "geometría y topología": "geometria-y-topologia",
+  "álgebra": "algebra",
+  "análisis": "analisis",
+  "numérico": "numerico",
+  "probabilidad": "probabilidad",
+  "procesos": "procesos",
+  "estadística": "estadistica",
+  "actuarial y finanzas": "actuarial-y-finanzas"
+ }
 }

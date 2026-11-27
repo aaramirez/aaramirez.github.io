@@ -1,0 +1,3084 @@
+{
+ "nodos": [
+  {
+   "slug": "arquitectura-del-computador",
+   "nombre": "Arquitectura del computador",
+   "area": "sistemas",
+   "categoria": "computacion",
+   "nivel": 1,
+   "depende_de": [
+    "fundamentos-programacion"
+   ],
+   "habilita": [
+    "sistemas-operativos",
+    "sistemas-embebidos"
+   ],
+   "temas": [
+    "Qué hay dentro de un computador",
+    "Representar información con bits",
+    "Compuertas lógicas y álgebra de Boole",
+    "Circuitos combinacionales: sumar y elegir",
+    "Circuitos secuenciales: el reloj y la memoria",
+    "El conjunto de instrucciones",
+    "Funciones, la pila y el montículo",
+    "La ruta de datos y la unidad de control",
+    "Segmentación: el *pipeline*",
+    "Paralelismo a nivel de instrucción",
+    "La jerarquía de memoria",
+    "La caché por dentro",
+    "Entrada y salida, interrupciones y privilegios",
+    "Muchos núcleos, aceleradores y energía",
+    "Algebras de conmutaciòn",
+    "Funciones booleanas",
+    "Expresiones booleanas",
+    "Optimizaciòn booleana",
+    "Circuitos digitales",
+    "Autòmatas",
+    "Circuitos secuenciales",
+    "Introducciòn",
+    "Diagrama de bloques de una màquina sencilla",
+    "Modos de direccionamiento",
+    "Traps y excepciones",
+    "Teoría Introducción",
+    "Aritmética del Computador",
+    "Repertorio de Instrucciones",
+    "Formato de Instrucciones",
+    "Entrada y Salida (E/S)",
+    "Lenguaje ensamblador MIPS",
+    "Programación en lenguaje ensamblador",
+    "Implementación de estructuras de datos a nivel de lenguaje ensamblador",
+    "Manejo de interrupciones usando el simulador de arquitectura MIPS",
+    "Introducción al Microprocesador FUM",
+    "El lenguaje de la máquina FUM",
+    "Subrutina",
+    "Rutinas Recursivas",
+    "Ensamblaje",
+    "Dispositivos de FUM",
+    "Excepciones",
+    "2 pruebas cortas (20% c/u)",
+    "Un proyecto introductorio a la máquina FUM (10%)",
+    "UN proyecto donde se manejan estructuras de datos complejas en memoria como listas, registros, etc",
+    "Un proyecto para el trabajo con excepciones (30%) Nota",
+    "Digital Logic and Digital Systems (CS2023)",
+    "Machine-Level Data Representation (CS2023)",
+    "Assembly Level Machine Organization (CS2023)",
+    "Memory Hierarchy (CS2023)",
+    "Interfacing and Communication (CS2023)",
+    "Performance and Energy Efficiency (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/arquitectura-del-computador/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "linea-de-comandos",
+   "nombre": "Línea de comandos y PowerShell",
+   "area": "sistemas",
+   "categoria": "computacion",
+   "nivel": 0,
+   "depende_de": [],
+   "habilita": [
+    "sistemas-operativos",
+    "jekyll",
+    "devops"
+   ],
+   "temas": [
+    "Qué es la terminal y por qué todavía se usa",
+    "Moverse por las carpetas: rutas absolutas y relativas",
+    "Crear, copiar, mover y borrar",
+    "Ver archivos y buscar dentro de ellos",
+    "Tuberías y redirección: comandos que se pasan el trabajo",
+    "PowerShell piensa en objetos",
+    "Procesar texto con las herramientas de Unix",
+    "Usuarios, permisos y privilegios",
+    "Procesos, servicios y recursos",
+    "El entorno, el PATH e instalar programas",
+    "La red desde la terminal",
+    "Scripts de PowerShell",
+    "Scripts de Bash",
+    "Scripts robustos, probados y programados",
+    "Introduccion al lenguaje JAVA",
+    "Programación de APPLETS",
+    "Instalación de Servidores HTTP",
+    "Introducción al lenguaje PERL",
+    "Montaje de respondedores CGI",
+    "Acceso a Bases de Datos vía Internet",
+    "Introducción al lenguaje VRML",
+    "Introducción al lenguaje JVA Script",
+    "Páginas HTML dinámicas"
+   ],
+   "agregado": false,
+   "url": "/linea-de-comandos/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "algoritmos",
+   "nombre": "Algoritmos y estructuras de datos",
+   "area": "algoritmos",
+   "categoria": "computacion",
+   "nivel": 1,
+   "depende_de": [
+    "fundamentos-programacion",
+    "mate:matematicas-discretas"
+   ],
+   "habilita": [
+    "bases-de-datos",
+    "teoria-de-la-computacion",
+    "lenguajes-de-programacion",
+    "sistemas-operativos",
+    "computacion-grafica",
+    "criptografia",
+    "algoritmos-avanzados",
+    "desarrollo-de-aplicaciones",
+    "inteligencia-artificial"
+   ],
+   "temas": [
+    "Qué es un algoritmo y cómo se mide",
+    "Recursión y divide y vencerás",
+    "Ordenamiento",
+    "Arreglos, listas, pilas y colas",
+    "Tablas hash",
+    "Árboles binarios de búsqueda y árboles balanceados",
+    "Montículos y colas de prioridad",
+    "Representar y recorrer grafos",
+    "Caminos mínimos",
+    "Árboles generadores mínimos y unión-búsqueda",
+    "Algoritmos voraces",
+    "Programación dinámica",
+    "Búsqueda en cadenas",
+    "Cuando no hay algoritmo rápido: búsqueda exhaustiva y NP-completitud",
+    "Clases y tipos de Datos Abstractos",
+    "Memoria",
+    "Los Tipos Datos Abstractos",
+    "Reexcursión",
+    "Polimorfismo",
+    "Herencia",
+    "Tipos Abstractos de Datos (TAD)",
+    "Tipos Concretos de Datos",
+    "Tipos Algebraicos Libres",
+    "Conceptos de Análisis de Complejidad de Algoritmos (notación O grande, Θ grande y Ω grande",
+    "Algoritmos de Búsqueda y Ordenamiento",
+    "Árboles",
+    "Recursión vs",
+    "Grafos",
+    "Representación de grafos",
+    "Conectividad en grafos",
+    "Recorridos de grafos",
+    "Aplicaciones de recorridos",
+    "Caminos de costos mínimo y máximo",
+    "Grafos de precedencia",
+    "Búsqueda informada",
+    "Árboles y Arborescencias",
+    "Árbol mínimo cobertor",
+    "Estudio de las funciones de complejidad",
+    "Estudio de los conceptos de abstracción de datos, privacidad y encapsulamiento",
+    "Tipos básicos",
+    "Algoritmos de ordenamiento interno",
+    "Taller El objetivo general del taller es servir de apoyo a la teoría para que los estudiantes desarrollen en la pract…",
+    "El taller se desarrolla en la modalidad de taller cerrado con asignaciones semanales (pre-talleres) y tareas a realiz…",
+    "Los estudiantes trabajan en equipos de, a lo sumo, dos personas",
+    "Como lenguaje de programación se utiliza JAVA",
+    "Definición de Grafo y Diágrafo, conceptos fundamentales",
+    "Introducción al lenguaje de programación (imperativo, que permite encapsulamiento y ocultamiento de información) a ut…",
+    "Introducción a la implementación de TAD",
+    "Implementación de tipos algebraicos libres",
+    "Implementación dinámica de tipos sencillos utilizando la operación de referenciación",
+    "Implementación de algunos de los TAD más utilizados",
+    "Implementación de la solución de un problema utilizando los TAD de la biblioteca de software que se construye progres…",
+    "Estudio e implementación de los algoritmos de búsqueda y ordenamiento",
+    "Estudio empírico del costo de un algoritmo",
+    "Introducción al lenguaje de programación (imperativo y orientado a objetos, que permite encapsulamiento y ocultamient…",
+    "Representación eficiente de grafos, estudio de complejidad de las operaciones para varias representaciones",
+    "Foundational Data Structures and Algorithms (CS2023)",
+    "Algorithmic Strategies (CS2023)",
+    "Complexity (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/algoritmos/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "bases-de-datos",
+   "nombre": "Bases de datos",
+   "area": "datos y seguridad",
+   "categoria": "computacion",
+   "nivel": 2,
+   "depende_de": [
+    "algoritmos",
+    "logica-simbolica"
+   ],
+   "habilita": [
+    "proteccion-de-datos",
+    "backend",
+    "ingenieria-de-datos"
+   ],
+   "temas": [
+    "De la hoja de cálculo a la base de datos",
+    "El modelo relacional y el álgebra relacional",
+    "Primeras consultas en SQL",
+    "Reunir tablas y agrupar",
+    "SQL avanzado: CTE, ventanas y recursión",
+    "Definir el esquema y modificar los datos",
+    "Modelar con entidades y relaciones",
+    "Dependencias funcionales y normalización",
+    "Almacenamiento e índices",
+    "Cómo se ejecuta una consulta",
+    "Transacciones y recuperación ante fallas",
+    "Concurrencia y niveles de aislamiento",
+    "Bases NoSQL y cómo modelar para ellas",
+    "Prompts para diseñar y operar una base de datos de producción",
+    "Las bases de datos y los sistemas de informacion",
+    "Introduccion",
+    "-modelos de bases de datos",
+    "-normalizacion",
+    "Modelo relacional",
+    "Modelo de redes",
+    "-modelo jerarquico",
+    "-integracion de visiones",
+    "-vistas",
+    "-diccionario de datos",
+    "-LENGUAJES GENERADORES DE APLICACIONES PARA SISTEMAS DE BASES DE DATOS, 4ta",
+    "-recuperacion",
+    "-integridad y seguridad",
+    "-concurencia",
+    "Introducción y conceptos básicos",
+    "El modelo Identidad-Interrelación",
+    "El modelo Identidad-Interrelación Extendido",
+    "Operaciones del Modelo Relacional, Algebra Relacional y Cálculo Relacional de Tuplas",
+    "Teoría de Normalizción",
+    "Manejadores de bases de datos",
+    "El taller sigue un enfoque basado en un caso de estudio trimestral al que se le aplicarán las fases de modelaje conce…",
+    "Las sesiones de taller están orientadas a enfrentar al estudiante con situaciones que ameriten el uso de bases de datos",
+    "- Modelaje conceptual utilizando extensiones propuestas al modelo ER",
+    "- Traducción de esquemas ER extendidos a esquemas relacionales",
+    "- Normalización de esquemas relacionales",
+    "- Lenguaje de Definición/Manipulación de Datos de SQL",
+    "-Extensiones procedimentales de SQL (depende del DBMS seleccionado para el curso)",
+    "- Uso de librerías cliente/servidor (depende del DBMS utilizado)",
+    "Almacenamiento en memoria secundaria",
+    "Archivos",
+    "Interacción entre dos dispositivos",
+    "Estudiar como las políticas de atención de controladores de discos",
+    "Archivos secuenciales no ordenadores",
+    "Archivos secuenciales ordenados",
+    "Buffer Cache",
+    "Ordenamiento externo externo",
+    "Arboles B",
+    "Hashing Dinamico",
+    "Comparación de rendimiento de métodos de acceso",
+    "Optimizacion de queries",
+    "Control de concurrencia",
+    "Control de seguridad",
+    "Control de recuperacion distribuida",
+    "Diseño de Bases de Datos",
+    "Almacenes de datos",
+    "1 Modelo de datos semi-estructurados",
+    "Modelos de datos NOSQL (Not Only SQL)",
+    "Bases de datos deductivas",
+    "El laboratorio del curso dará apoyo a la teoría en la exploración, del como la tecnología existente hace uso de los f…",
+    "Optimización de interrogaciones",
+    "El concepto de transacción en bases de datos",
+    "Recuperación local",
+    "Recuperación masiva",
+    "Bases de datos distribuidos",
+    "Core Database System Concepts (CS2023)",
+    "Data Modeling (CS2023)",
+    "Relational Databases (CS2023)",
+    "Query Construction (CS2023)",
+    "Query Processing (CS2023)",
+    "NoSQL Systems (CS2023)",
+    "Distributed Databases/Cloud Computing (CS2023)",
+    "Semi-structured and Unstructured Databases (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/bases-de-datos/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "proteccion-de-datos",
+   "nombre": "Protección de datos",
+   "area": "datos y seguridad",
+   "categoria": "computacion",
+   "nivel": 3,
+   "depende_de": [
+    "bases-de-datos"
+   ],
+   "habilita": [],
+   "temas": [
+    "Qué son los datos personales",
+    "El rastro que dejas: cookies, permisos y corredores de datos",
+    "Qué es cifrar: candados, llaves y huellas",
+    "Cifrado en tránsito: HTTPS, wifi público, VPN y mensajería",
+    "Cifrado en reposo: discos, archivos, copias y la nube",
+    "Contraseñas que no se adivinan ni se repiten",
+    "Segundo factor y llaves de acceso",
+    "Engaños: *phishing* e ingeniería social",
+    "Los principios de la protección de datos",
+    "Tus derechos sobre tus datos",
+    "Las leyes en el mundo y en la región",
+    "Privacidad desde el diseño y en el trabajo diario",
+    "Anonimizar de verdad: seudónimos, k-anonimato y privacidad diferencial",
+    "Cuando los datos se escapan: brechas y respuesta",
+    "Data Security and Privacy (CS2023)",
+    "Society, Ethics, and the Profession (CS2023)",
+    "Security Governance (CS2023)",
+    "Privacy and Civil Liberties (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/proteccion-de-datos/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "logica-simbolica",
+   "nombre": "Lógica simbólica",
+   "area": "fundamentos",
+   "categoria": "computacion",
+   "nivel": 1,
+   "depende_de": [
+    "mate:logica-y-conjuntos"
+   ],
+   "habilita": [
+    "bases-de-datos",
+    "teoria-de-la-computacion",
+    "lenguajes-de-programacion",
+    "inteligencia-artificial"
+   ],
+   "temas": [
+    "Un lenguaje formal: sintaxis y semántica",
+    "Tablas de verdad, consecuencia lógica y formas normales",
+    "Deducción natural y cálculo de secuentes",
+    "Predicados, cuantificadores y formalización",
+    "Estructuras, modelos y verdad",
+    "Corrección, completitud y los límites de la lógica",
+    "Resolución y unificación",
+    "Programación lógica con Prolog",
+    "Satisfacibilidad: DPLL y CDCL",
+    "SMT y verificación de programas",
+    "Lógica modal y lógica temporal",
+    "Verificación de modelos",
+    "Asistentes de demostración: Lean y Coq",
+    "Motivación, historia, sistemas formales",
+    "Lenguaje de la lógica del primer orden",
+    "Modelación de discursos proposicionales",
+    "Sistema formal de la lógica proposicional",
+    "Consistencia, solidez y completitud de lógica proposicional",
+    "Variable y cuantificadores",
+    "Modelación de discursos predicativos (de primero orden)",
+    "Semántica de lógica predicativos",
+    "Consistencia y completitud de lógica de predicados",
+    "Sistema formal de la lógica de predicados",
+    "Transformaciones sintácticas de expresiones lógicas"
+   ],
+   "agregado": false,
+   "url": "/logica-simbolica/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "teoria-de-la-computacion",
+   "nombre": "Teoría de la computación",
+   "area": "fundamentos",
+   "categoria": "computacion",
+   "nivel": 2,
+   "depende_de": [
+    "algoritmos",
+    "logica-simbolica"
+   ],
+   "habilita": [
+    "compiladores",
+    "computacion-cuantica"
+   ],
+   "temas": [
+    "Qué es computar: problemas como lenguajes",
+    "Autómatas finitos deterministas",
+    "No determinismo y la construcción de subconjuntos",
+    "Expresiones regulares y el teorema de Kleene",
+    "Los límites de lo regular: bombeo y Myhill-Nerode",
+    "Gramáticas libres de contexto",
+    "Autómatas de pila y la jerarquía de Chomsky",
+    "Máquinas de Turing y la tesis de Church-Turing",
+    "Indecidibilidad y el problema de la parada",
+    "Reducciones y el teorema de Rice",
+    "Tiempo, P y NP",
+    "NP-completitud y el teorema de Cook-Levin",
+    "Complejidad en espacio y el mapa de las clases",
+    "Teoría de Funciones Recursivas",
+    "Teoría de Complejidad",
+    "Computational Models and Formal Languages (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/teoria-de-la-computacion/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "lenguajes-de-programacion",
+   "nombre": "Lenguajes de programación",
+   "area": "lenguajes",
+   "categoria": "computacion",
+   "nivel": 2,
+   "depende_de": [
+    "algoritmos",
+    "logica-simbolica"
+   ],
+   "habilita": [
+    "compiladores"
+   ],
+   "temas": [
+    "Un lenguaje es un acuerdo: sintaxis, semántica y pragmática",
+    "Sintaxis concreta y abstracta",
+    "El primer intérprete: evaluar por recursión estructural",
+    "Ligaduras, entornos y alcance",
+    "Funciones de primera clase y clausuras",
+    "El cálculo lambda",
+    "Semántica formal: operacional, denotacional y axiomática",
+    "Estrategias de evaluación: estricta y perezosa",
+    "Sistemas de tipos: reglas y seguridad",
+    "Polimorfismo e inferencia de Hindley-Milner",
+    "Tipos algebraicos, coincidencia de patrones y subtipos",
+    "Estado mutable y efectos",
+    "Continuaciones, control y concurrencia en el lenguaje",
+    "Objetos, módulos y macros: Ceiba completo",
+    "Corrección de programas",
+    "Introducción Introducción histórica",
+    "Programación Imperativa",
+    "Variables y estados de memoria",
+    "Flujo de Control",
+    "Programación Lógica",
+    "Programación Funcional Características esenciales",
+    "Lenguajes Comparados Comparación entre lenguajes",
+    "Capacitar al participante en el diseño de estructuras de datos puras genéricas y los combinadores para procesarlas",
+    "Capacitar al participante en el aprovechamiento del sustrato funcional para extenderlo de manera consistente tal que …",
+    "Capacitar al participante en el uso, diseño y combinación de valores que representan cómputos, para modelar mecanismo…",
+    "Capacitar al participante en las particularidades de análisis de desempeño, verificación de la calidad y optimización…",
+    "Estudiar la representación de problemas tradicionalmente imperativos como instancias generales de manipulación de val…",
+    "Capacitar al participante en la expresión explícita e implícita del paralelismo y la concurrencia en el entorno funci…",
+    "Programación empleando morfismos",
+    "Cómputos como valores de primera clase (Monads)",
+    "Lenguajes para Dominios Específicos (DSL)",
+    "Gráficos Funcionales",
+    "Pruebas, depuración y análisis de desempeño",
+    "Paralelismo y concurrencia",
+    "Interacción con el mundo exterior",
+    "Tópicos recientes",
+    "Análisis sintáctico avanzado",
+    "Traducción dirigida por sintaxis",
+    "Chequeo de tipos",
+    "Semántica formal Semántica denotacional Semántica Operacional Sistemas basados en axiomas",
+    "Ambientes de ejecución Tópicos relativos al lenguaje fuente (recursión, concurrencia, etc.) Organización de la memoria",
+    "Object-Oriented Programming (CS2023)",
+    "Functional Programming (CS2023)",
+    "Logic Programming (CS2023)",
+    "Event-Driven and Reactive Programming (CS2023)",
+    "Aspect-Oriented Programming (CS2023)",
+    "Type Systems (CS2023)",
+    "Systems Execution and Memory Model (CS2023)",
+    "Program Abstraction and Representation (CS2023)",
+    "Compiler Semantic Analysis (CS2023)",
+    "Advanced Programming Constructs (CS2023)",
+    "Language Pragmatics (CS2023)",
+    "Formal Semantics (CS2023)",
+    "Formal Development Methodologies (CS2023)",
+    "Design Principles of Programming Languages (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/lenguajes-de-programacion/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "compiladores",
+   "nombre": "Compiladores",
+   "area": "lenguajes",
+   "categoria": "computacion",
+   "nivel": 3,
+   "depende_de": [
+    "lenguajes-de-programacion",
+    "teoria-de-la-computacion"
+   ],
+   "habilita": [],
+   "temas": [
+    "Qué hace un compilador: fases, representaciones e historia",
+    "Análisis léxico: de expresiones regulares a autómatas",
+    "Análisis sintáctico descendente: LL(1) y descenso recursivo",
+    "Análisis sintáctico ascendente: LR, SLR y LALR",
+    "Análisis semántico: tablas de símbolos y tipos",
+    "Representación intermedia: código de tres direcciones y grafos de flujo",
+    "La forma SSA",
+    "Análisis de flujo de datos",
+    "Optimizaciones: de la propagación de constantes a la expansión en línea",
+    "Una máquina virtual de pila para Ceiba",
+    "Compilar a WebAssembly",
+    "Selección de instrucciones y asignación de registros",
+    "Recolección de basura",
+    "Compilación JIT y LLVM",
+    "Introducción",
+    "Representación y definición de lenguajes",
+    "Lenguajes regulares",
+    "Lenguajes libres de contexto",
+    "Traducción dirigida por sintaxis",
+    "Language Translation and Execution (CS2023)",
+    "Syntax Analysis (CS2023)",
+    "Program Analysis and Analyzers (CS2023)",
+    "Code Generation (CS2023)",
+    "Run-time Behavior and Systems (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/compiladores/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "sistemas-operativos",
+   "nombre": "Sistemas operativos",
+   "area": "sistemas",
+   "categoria": "computacion",
+   "nivel": 2,
+   "depende_de": [
+    "arquitectura-del-computador",
+    "algoritmos",
+    "linea-de-comandos"
+   ],
+   "habilita": [
+    "redes-de-computadoras",
+    "computacion-paralela"
+   ],
+   "temas": [
+    "Qué hace un sistema operativo",
+    "Llamadas al sistema: cruzar la frontera",
+    "Procesos: un programa en ejecución",
+    "Hilos: varias ejecuciones en un mismo proceso",
+    "Planificación de la CPU",
+    "Condiciones de carrera y cerrojos",
+    "Semáforos, monitores y los problemas clásicos",
+    "Interbloqueos",
+    "Memoria virtual y paginación",
+    "Fallos de página y reemplazo",
+    "Sistemas de archivos",
+    "Entrada y salida y los controladores",
+    "Virtualización y contenedores por dentro",
+    "Protección y seguridad del sistema operativo",
+    "Qué es un sistema de operación ?",
+    "Servicios de los sistemas de operación",
+    "Concepto de multiprogramación",
+    "Planificación (sheduling) del CPU, algoritmos y evaluación de palnificación",
+    "Coordinación de procesos",
+    "Interbloqueo (Deadlock) de procesos",
+    "Memoria principal",
+    "Memoría Virtual Paginación por demanda",
+    "Sistemas de archivos Concepto de archivo",
+    "Almacenamiento en discos",
+    "Introducción al ambiente de trabajo",
+    "Llamadas al sitema para la creación, terminación, sincronización, de procesos y ejecución de nuevos programas",
+    "Comunicación de procesos",
+    "Comunicación Asíncrona entre procesos",
+    "Conceptos básicos del sistema de archivos",
+    "Introducción a los procesos concurrentes",
+    "Especificación de Concurrencia Intraproceso",
+    "Especificación de concurrencia interproceso",
+    "Problemas clásicos de concurrencia",
+    "Primitivas de Sincronizaciones de bajo nivel",
+    "Primitivas de sincronización de alto nivel",
+    "Comunicación entre procesos",
+    "Lenguajes Concurrentes",
+    "Técnicas Diseño de Sistemas de Operación",
+    "Análisis de los sistemas de operación seleccionados como caso de estudios",
+    "- Herramientas para la medición, análisi y entonación de sistemas de computación",
+    "- Tema 1",
+    "Role and Purpose of Operating Systems (CS2023)",
+    "Principles of Operating System (CS2023)",
+    "Concurrency (CS2023)",
+    "Scheduling (CS2023)",
+    "Process Model (CS2023)",
+    "Memory Management (CS2023)",
+    "Device management (CS2023)",
+    "File Systems API and Implementation (CS2023)",
+    "Advanced File systems (CS2023)",
+    "Virtualization (CS2023)",
+    "Fault tolerance (CS2023)",
+    "Overview of Computer Systems (CS2023)",
+    "Basic Concepts (CS2023)",
+    "Resource Management (CS2023)",
+    "System Performance (CS2023)",
+    "Performance Evaluation (CS2023)",
+    "System Design (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/sistemas-operativos/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "redes-de-computadoras",
+   "nombre": "Redes de computadoras",
+   "area": "sistemas",
+   "categoria": "computacion",
+   "nivel": 3,
+   "depende_de": [
+    "sistemas-operativos"
+   ],
+   "habilita": [
+    "sistemas-distribuidos",
+    "seguridad-informatica",
+    "sistemas-embebidos",
+    "backend",
+    "devops"
+   ],
+   "temas": [
+    "Un chat con un *socket*: la red vista desde el programa",
+    "Capas, el principio de extremo a extremo y los números de una red",
+    "La capa de enlace: tramas, acceso al medio y switches",
+    "IP: datagramas, direcciones y el prefijo más largo",
+    "Enrutamiento dentro de una red: estado de enlace y vector distancia",
+    "BGP: el enrutamiento entre las redes que forman Internet",
+    "Transporte confiable sobre una red que pierde",
+    "TCP: conexión, ventanas y temporizadores",
+    "Control de congestión: compartir una red sin colapsarla",
+    "QUIC y HTTP por debajo: del bloqueo en la cabeza de la fila al transporte cifrado",
+    "DNS a fondo: una base de datos distribuida y jerárquica",
+    "NAT y redes de par a par: hablar sin servidor en el medio",
+    "El router por dentro y las redes definidas por software",
+    "Medir la red: ver lo que pasa en Internet",
+    "Tema 1",
+    "Tema 2",
+    "Tema 3",
+    "Tema 4",
+    "Tema 5",
+    "Tema 6",
+    "Tema 7",
+    "Tema 8",
+    "Tema 9",
+    "Tema 10",
+    "red y manejadores de dispositivos (“de vice drivers”)",
+    "mantenimiento del software de DNS",
+    "comunicación",
+    "interiores",
+    "administración de redes",
+    "En la práctica de esta materia se harán instalaciones de redes pequeñas y los estudiantes se ejercitarán en la config…",
+    "Introducción a las Redes Inalámbricas Terminología, elementos y arquitectura de las redes inalámbricas",
+    "Características particulares de las redes Inalámbricas Según el modo de trabajo",
+    "WPAN (IEEE 802.15) Bluetooth (802.15.1) UWB (802.15.3) WSN (802.15.4, Zigbee)",
+    "WLAN (Redes LAN inalámbricas)",
+    "WWAN y Redes Celulares de Datos Sistemas celulares de Segunda generación aplicados a datos",
+    "Otras Tendencias en las Redes Inalámbricas RFID DTN Integración de redes inalámbricas, Hand off Horizontal y Vertical",
+    "Competencia a adquirir en el curso",
+    "Enumerar y describir las características de las principales tecnologías inalámbricas que están disponibles para ser e…",
+    "Describir el impacto que puede tener el uso de las tecnologías inalámbricas en las actividades cotidianas de sus usua…",
+    "Aplicar conceptos como comunicación global, roaming y comunicación ubicua para la resolución de problemas concretos e…",
+    "Identificar los factores que pueden afectar el uso de tecnologías de redes inalámbricas",
+    "Estar en la capacidad de abordar proyectos en los que las tecnologías inalámbricas pueden jugar un rol importante par…",
+    "Comprender el rol que pueden tener las redes inalámbricas en los esquemas futuros de comunicación centrados en Internet",
+    "Fundamentals (CS2023)",
+    "Reliability Support (CS2023)",
+    "Routing and Forwarding (CS2023)",
+    "Single Hop Communication (CS2023)",
+    "Emerging Topics (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/redes-de-computadoras/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "sistemas-distribuidos",
+   "nombre": "Sistemas distribuidos",
+   "area": "sistemas",
+   "categoria": "computacion",
+   "nivel": 4,
+   "depende_de": [
+    "redes-de-computadoras"
+   ],
+   "habilita": [],
+   "temas": [
+    "Qué es un sistema distribuido y por qué cuesta tanto",
+    "Modelos de sistema: tiempo, fallas e imposibilidades",
+    "Tiempo y relojes: físicos, de Lamport y vectoriales",
+    "Difusión, orden de mensajes y estado global",
+    "Replicación: líder, varios líderes o ninguno",
+    "Particionado: repartir los datos entre muchas máquinas",
+    "Modelos de consistencia, CAP y PACELC",
+    "El consenso y Paxos",
+    "Raft: consenso que se puede entender",
+    "Tolerancia a fallas bizantinas: cuando un nodo miente",
+    "Transacciones distribuidas: confirmar en varias particiones",
+    "CRDT: datos que convergen sin coordinarse",
+    "Sistemas reales: almacenamiento, coordinación y procesamiento",
+    "Prompts para generar código distribuido de producción",
+    "- Sistemas Dsitribuidos",
+    "Parte 1",
+    "Parte 2 y 3",
+    "Parte 2",
+    "Parte 3",
+    "Communication (CS2023)",
+    "Coordination (CS2023)",
+    "System Reliability (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/sistemas-distribuidos/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "computacion-paralela",
+   "nombre": "Computación paralela y GPU",
+   "area": "sistemas",
+   "categoria": "computacion",
+   "nivel": 3,
+   "depende_de": [
+    "sistemas-operativos"
+   ],
+   "habilita": [],
+   "temas": [
+    "Por qué todo se volvió paralelo",
+    "Amdahl, Gustafson y el modelo de trabajo y profundidad",
+    "La jerarquía de memoria y el modelo *roofline*",
+    "Coherencia de cachés y modelos de memoria",
+    "Hilos y OpenMP: bifurcar y unir",
+    "SIMD: una instrucción, muchos datos",
+    "Patrones y algoritmos paralelos",
+    "La GPU por dentro",
+    "Programar la GPU: CUDA y WebGPU",
+    "Una multiplicación de matrices, optimizada paso a paso",
+    "Memoria distribuida y MPI",
+    "Paralelismo en el entrenamiento de modelos de IA",
+    "Nociones fundamentales de paralelismo",
+    "Arquitecturas Paralelas",
+    "Aspectos de Rendimiento y Escalabilidad de los Sistemas Paralelos",
+    "Paradigmas de Programación Paralela",
+    "Técnicas de programación paralela",
+    "Heterogeneous Architectures (CS2023)",
+    "Parallel and Distributed Computing (CS2023)",
+    "Programs (CS2023)",
+    "Evaluation (CS2023)",
+    "Algorithms (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/computacion-paralela/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "seguridad-informatica",
+   "nombre": "Seguridad informática",
+   "area": "datos y seguridad",
+   "categoria": "computacion",
+   "nivel": 4,
+   "depende_de": [
+    "redes-de-computadoras",
+    "criptografia"
+   ],
+   "habilita": [],
+   "temas": [
+    "Qué es la seguridad informática y las reglas del juego",
+    "Modelo de amenazas: qué proteger y de quién",
+    "Errores de memoria: desbordamientos, uso tras liberar y compañía",
+    "De la falla al control: explotación",
+    "Defensas del sistema: canarios, ASLR, NX y lenguajes seguros",
+    "Encontrar fallas: análisis de código, sanitizadores y *fuzzing*",
+    "Ataques web: inyección, XSS, CSRF y SSRF desde el lado del atacante",
+    "Atacar la autenticación y las sesiones",
+    "Seguridad de redes: escuchar, suplantar y filtrar",
+    "Privilegios y aislamiento: control de acceso, escalada y *sandbox*",
+    "Ataques a la cadena de suministro",
+    "Detección y respuesta a incidentes",
+    "Prompts para generar código seguro en producción",
+    "Proyecto final: auditar y blindar la tienda",
+    "Proteccion de la informacion digital",
+    "- Seguridad de Datos",
+    "Secure Processor Architectures (CS2023)",
+    "Network Security (CS2023)",
+    "Foundational Security (CS2023)",
+    "Secure Coding (CS2023)",
+    "Security Analysis, Design, and Engineering (CS2023)",
+    "Digital Forensics (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/seguridad-informatica/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "computacion-grafica",
+   "nombre": "Computación gráfica",
+   "area": "interacción",
+   "categoria": "computacion",
+   "nivel": 2,
+   "depende_de": [
+    "algoritmos",
+    "mate:algebra-lineal"
+   ],
+   "habilita": [
+    "vision-por-computador"
+   ],
+   "temas": [
+    "Píxeles, imágenes y el *pipeline* gráfico",
+    "Transformaciones y coordenadas homogéneas",
+    "Cámaras, espacios de coordenadas y proyecciones",
+    "Rasterizado, visibilidad y antialiasing",
+    "Color y luz: del espectro al píxel",
+    "Sombreado e iluminación local",
+    "Texturas y muestreo",
+    "*Shaders* en WebGL",
+    "WebGPU y el *pipeline* moderno",
+    "Trazado de rayos",
+    "Iluminación global y materiales físicos",
+    "Curvas, superficies y mallas",
+    "Animación y física básica",
+    "Introducción (4h)  Aplicaciones gráficas  Sobre la expresión verbal y la expresión visual",
+    "El hardware gráfico (4h)  Tecnología de las pantallas  Tecnologías de las impresoras",
+    "Estructura de un paquete gráfico 2D sencillo (4h)  Estudio del SRGP de Van Dam y Foley",
+    "Primitivas gráficas de salida",
+    "La representación de los elementos geométricos (4h)  Sistemas de coordenadas  El punto y la línea  La representaci…",
+    "Transformaciones geométricas en 2D y 3D",
+    "Visualización y recorte en 2D",
+    "Las proyecciones y la visualización en 3D (6h)  Significado de la proyección en la historia de la representación grá…",
+    "Elementos geométricos y modelaje sencillo (8h)  Las curvas paramétricas 2D y 3D  Las secciones cónicas  Las curvas…",
+    "La arquitectura de un sistema gráfico profesional (aspectos hardware y software)",
+    "Las aplicaciones de postproducción, diseño arquitectónico, de CAD y de cartografía",
+    "Tecnología de los periféricos de entrada",
+    "Tecnología de la visión esteroscópicas",
+    "El hardware de la realidad virtual",
+    "La programación de la interacción",
+    "Estudio de XGL o Open GL",
+    "Estudio del sistema Softimage o Wavefront/Alias",
+    "El sistema perceptual humano",
+    "La física y la optica de la luz",
+    "Los espacios de colores",
+    "La descripción del color",
+    "Los sistemas RGB, CMY, HSV, HSL, YUV",
+    "La medición y los estandares de color",
+    "El modelo físico",
+    "El modelo estandar e iluminación",
+    "La ecuación básica de iluminación",
+    "Iluminar una superficie plana",
+    "Iluminar una red de polígonos",
+    "La iluminación de Gouraud y phong",
+    "El algoritmo básico de trazados de rayos",
+    "Optimización al trazado de rayos",
+    "Plateamieto de la iluminación difusa",
+    "El sistema de ecuaciones de la radiosidad",
+    "El mapeo de texturas",
+    "Prepara mapas de texturas (Mip Map)",
+    "Texturas sólidas",
+    "Figuras articuladas jerárquicas",
+    "La animación jerarquizada",
+    "Calcular matrices de animación",
+    "La cinética directa e inversa",
+    "La dinámica directa e inversa",
+    "Objetos fractales",
+    "Gramáticas para representar estructuras biológicas",
+    "Introducción al Dominio de la Frecuencia Paisajes Fractales en Dominio Espacial y Frecuencal Paisajes en Videos Juego…",
+    "Continuo de Virtualidad (Milgram)",
+    "Definición de Realidad Aumentada",
+    "Ejemplos de Realidad Aumentada",
+    "Realidad Aumentada versus Realidad Virtual",
+    "Historia y evolución de la Realidad Aumentada",
+    "Aplicaciones de Realidad Aumentada 2",
+    "Display",
+    "Tracking",
+    "Registro",
+    "Herramientas de bajo nivel",
+    "Herramientas de Autoría",
+    "Por qué su uso?",
+    "Historia y evolución de la Realidad Aumentada Móvil",
+    "Compañías trabajando en Realidad Aumentada Móvil",
+    "Aplicaciones disponibles en el mundo móvil",
+    "Tecnología de Realidad Aumentada Móvil",
+    "Navegador de Realidad Aumentada",
+    "Layar",
+    "Junaio",
+    "Wikitude 5",
+    "Es posible usar la Realidad Aumentada en Educación? qué necesitamos?",
+    "Aplicaciones Educativas",
+    "Entrenamiento",
+    "Aprendizaje por medio del juego",
+    "Modelado de objetos",
+    "Aprendizaje basado en el descubrimiento",
+    "Ejemplos de aplicaciones",
+    "Experiencias realizadas en la Universidad Carlos III de Madrid 6",
+    "Colaboración Cara a Cara",
+    "Colaboración Remota",
+    "Fundamental Concepts (CS2023)",
+    "Visualization (CS2023)",
+    "Applied Rendering and Techniques (CS2023)",
+    "Geometric Modeling (CS2023)",
+    "Shading and Advanced Rendering (CS2023)",
+    "Computer Animation (CS2023)",
+    "Simulation (CS2023)",
+    "Immersion (CS2023)",
+    "Tangible/Physical Computing (CS2023)",
+    "Game Platforms (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/computacion-grafica/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "interaccion-humano-computador",
+   "nombre": "Interacción humano-computador",
+   "area": "interacción",
+   "categoria": "computacion",
+   "nivel": 1,
+   "depende_de": [
+    "fundamentos-programacion"
+   ],
+   "habilita": [
+    "aplicaciones-moviles"
+   ],
+   "temas": [
+    "Qué es la interacción humano-computador",
+    "Percepción: lo que el ojo ve y lo que el cerebro completa",
+    "Cognición: memoria, atención y modelos que predicen el tiempo",
+    "Modelos mentales y los principios de Norman",
+    "Investigación con usuarios",
+    "Del problema al prototipo",
+    "Diseño de interacción",
+    "Evaluación por inspección: heurísticas y recorrido cognitivo",
+    "Pruebas de usabilidad con personas",
+    "Experimentos controlados y pruebas A/B",
+    "Visualización de información interactiva",
+    "Accesibilidad como diseño: diseño inclusivo y universal",
+    "Interfaces por voz, conversacionales y con IA",
+    "Introducción",
+    "Lenguajes y Canales de Comunicación",
+    "Matáforas",
+    "El hardware de las interfaces",
+    "Estilos de interacción",
+    "Multimedios",
+    "Arquitectura del software de sistemas de inetrfaces",
+    "Nuevas áreas de aplicación de sistemas inetrfaces",
+    "En el taller se dan principios generales de diseño de interfaces y principios de diseño en áreas más particulares com…",
+    "Además se asignara 2 proyectos de mediana complejidad",
+    "El segundo consiste en desarrollar un sistema multimedia",
+    "Importancia del diseño de las interfaces en el ciclo de la vida del software",
+    "Preesntación de los equipos de entrada/salida, su funcionalidad el ergonomía",
+    "Conocimiento de los tres canales principales de la comunicación",
+    "Métodos de diseño y realización de Interfaces",
+    "Métodos de evaluación de Interfaces",
+    "Presentación de algunos sistemas comerciales de interfaces",
+    "Diseñar y realizar una interfaz",
+    "Los sistemas Multimedios",
+    "Revisión del concepto de Interfaces e Interacción",
+    "Tipos de interacción y tipos de Interfaces",
+    "Modelos formales para la especificación de interacción",
+    "Modelos formales para la especificación y diseño de interfaces",
+    "Revisión de propuestas actuales en la especificación y diseño de interfaces para ambientes Web",
+    "Interaction (CS2023)",
+    "Understanding the User: Individual goals and interactions with others (CS2023)",
+    "Accessibility and Inclusive Design (CS2023)",
+    "Evaluating the Design (CS2023)",
+    "System Design (CS2023)",
+    "Interactive Computing Platforms (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/interaccion-humano-computador/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "etica-de-la-computacion",
+   "nombre": "Ética y sociedad de la computación",
+   "area": "sociedad",
+   "categoria": "computacion",
+   "nivel": 0,
+   "depende_de": [],
+   "habilita": [
+    "ia-responsable"
+   ],
+   "temas": [
+    "Por qué la computación necesita ética",
+    "Marcos éticos aplicados",
+    "Ética profesional y códigos de conducta",
+    "Propiedad intelectual y licencias de software",
+    "El código abierto como bien común",
+    "Privacidad y vigilancia",
+    "Plataformas, mercados y poder",
+    "Trabajo, automatización y economía de plataformas",
+    "Accesibilidad, inclusión y brecha digital",
+    "Seguridad, hacking y divulgación responsable",
+    "Sostenibilidad: energía, materiales y residuos",
+    "Caso integrador: el informe ético de la app de reparto",
+    "Las leyes de murphy y su vinculo con la tecnologia digital",
+    "Society, Ethics, and the Profession (CS2023)",
+    "Sustainability Issues (CS2023)",
+    "Social Context (CS2023)",
+    "Methods for Ethical Analysis (CS2023)",
+    "Intellectual Property (CS2023)",
+    "Communication (CS2023)",
+    "Computing History (CS2023)",
+    "Economies of Computing (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/etica-de-la-computacion/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "criptografia",
+   "nombre": "Criptografía",
+   "area": "datos y seguridad",
+   "categoria": "computacion",
+   "nivel": 2,
+   "depende_de": [
+    "algoritmos"
+   ],
+   "habilita": [
+    "seguridad-informatica"
+   ],
+   "temas": [
+    "Cifrados clásicos y por qué fallan",
+    "Seguridad demostrable: secreto perfecto, juegos y reducciones",
+    "Cifrados de flujo y de bloque: ChaCha20 y AES por dentro",
+    "Modos de operación y cifrado autenticado",
+    "Funciones hash, MAC y derivación de claves",
+    "Intercambio de claves: Diffie-Hellman y el logaritmo discreto",
+    "RSA: cifrado y firma con la factorización",
+    "Curvas elípticas",
+    "Firmas digitales, certificados y la infraestructura de clave pública",
+    "TLS 1.3 y la mensajería cifrada por dentro",
+    "Pruebas de conocimiento cero y cómputo entre varios",
+    "Criptografía poscuántica y distribución cuántica de claves",
+    "Introducción Seguridad y confiabilidad de los sistemas de computación",
+    "Criptografía Resumen breve de la tecnología criptográfica tradicional",
+    "Seguridad en Redes Vulnerabilidad de los sistemas en red",
+    "Temas Adicionales Cualquier cosa, por ejemplo",
+    "Cryptography (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/criptografia/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "computacion-cuantica",
+   "nombre": "Computación cuántica",
+   "area": "sistemas",
+   "categoria": "computacion",
+   "nivel": 3,
+   "depende_de": [
+    "mate:algebra-lineal",
+    "teoria-de-la-computacion"
+   ],
+   "habilita": [],
+   "temas": [
+    "Por qué computación cuántica: de probabilidades a amplitudes",
+    "El qubit, la esfera de Bloch y la medición",
+    "Compuertas de un qubit",
+    "Varios qubits: producto tensorial y compuertas controladas",
+    "Entrelazamiento, la desigualdad de Bell y la teleportación",
+    "Oráculos y primeros algoritmos: Deutsch-Jozsa, Bernstein-Vazirani y Simon",
+    "El algoritmo de Grover y la amplificación de amplitud",
+    "La transformada cuántica de Fourier y la estimación de fase",
+    "El algoritmo de Shor",
+    "Ruido, decoherencia y matrices de densidad",
+    "Corrección de errores cuánticos",
+    "El hardware actual y sus límites",
+    "Quantum Architectures (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/computacion-cuantica/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "vision-por-computador",
+   "nombre": "Visión por computador",
+   "area": "interacción",
+   "categoria": "computacion",
+   "nivel": 5,
+   "depende_de": [
+    "computacion-grafica",
+    "aprendizaje-profundo"
+   ],
+   "habilita": [
+    "robotica"
+   ],
+   "temas": [
+    "Imágenes como datos",
+    "Filtros, bordes, umbrales y morfología",
+    "Características, correspondencias y homografías",
+    "Geometría de cámaras y calibración",
+    "Geometría epipolar, estéreo y profundidad",
+    "Reconstrucción 3D: estructura a partir del movimiento",
+    "Segmentación",
+    "Detección de objetos",
+    "Flujo óptico",
+    "Seguimiento de objetos",
+    "La app completa: rendimiento, evaluación y uso responsable",
+    "Perception and Computer Vision (CS2023)",
+    "Image Processing (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/vision-por-computador/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "robotica",
+   "nombre": "Robótica",
+   "area": "interacción",
+   "categoria": "computacion",
+   "nivel": 6,
+   "depende_de": [
+    "vision-por-computador",
+    "sistemas-embebidos",
+    "inteligencia-artificial"
+   ],
+   "habilita": [],
+   "temas": [
+    "Qué es un robot: sentir, pensar, actuar",
+    "Representar posiciones y giros",
+    "Cinemática directa: de las articulaciones y las ruedas a la pose",
+    "Cinemática inversa y el jacobiano",
+    "Dinámica: fuerzas, pares y simulación",
+    "Sensores y actuadores",
+    "Control: del lazo abierto al PID",
+    "Estimación bayesiana y el filtro de Kalman",
+    "Filtro de partículas y localización de Monte Carlo",
+    "Mapeo y SLAM",
+    "Planificación de movimiento",
+    "ROS y los robots reales",
+    "Tipos de sensores y actuadores",
+    "Tipos de Control",
+    "Navegación robótica",
+    "Robotica basada en comportamientos",
+    "Documentación de comportamientos",
+    "Enfoques de robótica",
+    "Aprendizaje en robots",
+    "Comportamiento social",
+    "Introducción a la bio-robótica",
+    "Entender la problemática asociada al uso de robots físicos en ambientes no estructurados y complejos",
+    "Diseñar y construir robots móviles capaces de cumplir tareas específicas utilizando sensores y actuadores",
+    "Realizar documentaciones técnicas de los comportamientos robóticos implementados, así como de las pruebas realizadas …",
+    "Introducción a la robótica",
+    "Robotics (CS2023)",
+    "Robot Platforms (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/robotica/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "sistemas-embebidos",
+   "nombre": "Sistemas embebidos e IoT",
+   "area": "sistemas",
+   "categoria": "computacion",
+   "nivel": 4,
+   "depende_de": [
+    "arquitectura-del-computador",
+    "redes-de-computadoras"
+   ],
+   "habilita": [
+    "robotica"
+   ],
+   "temas": [
+    "Qué es un sistema embebido",
+    "Entradas y salidas: GPIO, ADC y PWM",
+    "Interrupciones, temporizadores y el perro guardián",
+    "Sensores, señales y actuadores",
+    "Sistemas de tiempo real y RTOS",
+    "Consumo de energía y vida de la batería",
+    "UART, I2C, SPI y CAN",
+    "Protocolos de IoT: MQTT, CoAP, BLE y LoRa",
+    "De la placa a la nube",
+    "Seguridad de dispositivos y actualizaciones remotas",
+    "Prompts para generar firmware de producción",
+    "Real-time and Embedded Systems (CS2023)",
+    "Embedded Platforms (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/sistemas-embebidos/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "teoria-de-la-informacion",
+   "nombre": "Teoría de la información",
+   "area": "fundamentos",
+   "categoria": "computacion",
+   "nivel": 1,
+   "depende_de": [
+    "mate:probabilidad"
+   ],
+   "habilita": [],
+   "temas": [
+    "Qué es la información: la medida de Shannon",
+    "Entropía: la sorpresa promedio",
+    "Información mutua, divergencia KL y entropía cruzada",
+    "Códigos de fuente y el primer teorema de Shannon",
+    "El código de Huffman",
+    "Codificación aritmética y ANS",
+    "Compresión por diccionario y por contexto: LZ, DEFLATE y PPM",
+    "Compresión con pérdida: tasa-distorsión, cuantización y transformadas",
+    "Comprimir es predecir: información y aprendizaje automático",
+    "Capacidad de canal y el teorema de Shannon",
+    "Códigos correctores: Hamming, códigos lineales y Reed-Solomon",
+    "Códigos modernos: LDPC, turbo y polares, a un paso de la capacidad"
+   ],
+   "agregado": false,
+   "url": "/teoria-de-la-informacion/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "algoritmos-avanzados",
+   "nombre": "Algoritmos avanzados",
+   "area": "algoritmos",
+   "categoria": "computacion",
+   "nivel": 2,
+   "depende_de": [
+    "algoritmos"
+   ],
+   "habilita": [],
+   "temas": [
+    "Análisis amortizado",
+    "Algoritmos aleatorizados",
+    "Hashing avanzado",
+    "Estructuras de datos avanzadas",
+    "Algoritmos de cadenas: arreglos de sufijos e índices de texto",
+    "Flujo en redes",
+    "La programación lineal como herramienta de diseño",
+    "Algoritmos de aproximación",
+    "Algoritmos en línea y análisis competitivo",
+    "Algoritmos para datos masivos: *streaming* y bosquejos",
+    "Complejidad parametrizada y algoritmos exactos",
+    "Modelo de Grafos",
+    "Algorirmos Ciclos Eulerianos Recorridos de grafos Caminos de costo mínimo Backtracking Modelo general de etiquetamien…",
+    "Planificación de Proyectos (backtraking)",
+    "Arbol Cobertor (greedy)",
+    "Nociones de Algoritmos eficientes sobre grafos",
+    "Introducción a teoría de flujo en redes usando métodos de teoría de grafos",
+    "GRASP (Greedy Randomized Adaptive Search Procedure)",
+    "Algoritmos Genéticos y Evolutivos",
+    "Simmulated Annealing",
+    "Tabu Search",
+    "Otros",
+    "Taller de Modelaje y Solución de Problemas mediante el uso de algoritmos basados en los métodos anteriores",
+    "Modelos de computacion"
+   ],
+   "agregado": false,
+   "url": "/algoritmos-avanzados/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "desarrollo-de-aplicaciones",
+   "nombre": "Ingeniería de software",
+   "area": "ingeniería de software",
+   "categoria": "software",
+   "nivel": 2,
+   "depende_de": [
+    "algoritmos"
+   ],
+   "habilita": [
+    "devops"
+   ],
+   "temas": [
+    "El ciclo de vida de una aplicación",
+    "Lenguajes y paradigmas",
+    "Requisitos e historias de usuario",
+    "Metodologías: cascada, Scrum, Kanban y cómo estimar",
+    "Código limpio, SOLID y refactorización",
+    "Patrones de diseño: creacionales y estructurales",
+    "Patrones de comportamiento e inyección de dependencias",
+    "Manejo de errores: excepciones y el patrón Result",
+    "Pruebas: de la pirámide a TDD",
+    "Arquitectura como decisión: ADR, C4 y atributos de calidad",
+    "Revisión de código y trabajo en equipo",
+    "Programar con asistentes y agentes de IA",
+    "El lenguaje de programaciòn C",
+    "Unix y su entorno para programadores de aplicaciones",
+    "Ejercicio de programaciòn usando pipes y herramientas de UNIX",
+    "Diseño de casos de prueba para el proyecto final de laboratorio",
+    "Ejercicio de anàlisis de un diseño utilizando tècnicas de diseño estructurado (reingenierìa)",
+    "Ejercicio de un diseño a partir de un diagrama DFD",
+    "Diseño de programa usando tècnicas de diseño estructurado",
+    "Inspecciòn formal de los casos de prueba",
+    "Inspecciòn formal del programa",
+    "Introducción a la ingeniería de software",
+    "Modelado orientado a objetos",
+    "Planteamiento del problema, requerimientos funcionales y atributos de un software",
+    "Diagramas de Clases",
+    "Arquitectura de capas",
+    "Introducción al lenguaje de programación a utilizar (C)",
+    "Discusión del proyecto a trabajar",
+    "Revisión del diseño presentado por los estudiantes",
+    "Revisión de elementos de la Ingeniería del software orientada a objetos",
+    "Sistémica de la Ingeniería de Software",
+    "Análisis en un proyecto de mantenimiento",
+    "Crítica de la metodología RPM",
+    "Control de configuración",
+    "Trabajo en equipos y control de proyectos",
+    "Ultima actualización",
+    "Por favor dirija sus comentarios al Prof",
+    "Prueba y mantenimiento de software orientado por objetos",
+    "Gerencia de fallas",
+    "Pruebas de usabilidad",
+    "Programación Java",
+    "Documentación",
+    "Control de proyectos",
+    "Tópicos en arquitectura y diseño de software",
+    "Introducción",
+    "Procesos grupales",
+    "Equipos de Alto Desempeño",
+    "Desarrollo de Software Complejo",
+    "Gerencia de Desarrollo de Software",
+    "Teamwork (CS2023)",
+    "Product Requirements (CS2023)",
+    "Software Design (CS2023)",
+    "Software Construction (CS2023)",
+    "Software Verification and Validation (CS2023)",
+    "Refactoring and Code Evolution (CS2023)",
+    "Software Reliability (CS2023)",
+    "Formal Methods (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/desarrollo-de-aplicaciones/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "paginas-web",
+   "nombre": "Páginas web",
+   "area": "web",
+   "categoria": "software",
+   "nivel": 0,
+   "depende_de": [],
+   "habilita": [
+    "jekyll",
+    "frontend"
+   ],
+   "temas": [
+    "Cómo llega una página a tu pantalla",
+    "Tu primera página y las herramientas del navegador",
+    "HTML semántico",
+    "CSS: cascada, especificidad y modelo de caja",
+    "Texto, color e imágenes",
+    "Maquetación con Flexbox y Grid",
+    "Diseño adaptable y unidades",
+    "Accesibilidad del marcado",
+    "Formularios en HTML puro",
+    "Publicar gratis un sitio estático",
+    "Que Google te encuentre y se vea bien al compartir"
+   ],
+   "agregado": false,
+   "url": "/paginas-web/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "jekyll",
+   "nombre": "Sitios con Jekyll y GitHub Pages",
+   "area": "web",
+   "categoria": "software",
+   "nivel": 1,
+   "depende_de": [
+    "paginas-web",
+    "linea-de-comandos"
+   ],
+   "habilita": [],
+   "temas": [
+    "Por qué un generador de sitios estáticos",
+    "Instalar Jekyll y el primer sitio",
+    "La estructura de un sitio Jekyll",
+    "Liquid: objetos, etiquetas y filtros",
+    "Layouts e includes: no repetir HTML",
+    "Contenido: páginas, artículos y Markdown",
+    "Datos y colecciones",
+    "Estilos, recursos y temas",
+    "Publicar en GitHub Pages",
+    "Dominio propio, buscadores y analítica",
+    "Mantener el sitio: revisiones automáticas",
+    "Qué hace mantenible un sitio Jekyll",
+    "El archivo de instrucciones del sitio",
+    "Prompts para crear: el sitio, una página, una sección",
+    "Prompts para cambiar y revisar",
+    "Proyecto final: tu sitio de punta a punta"
+   ],
+   "agregado": false,
+   "url": "/jekyll/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "frontend",
+   "nombre": "Frontend",
+   "area": "web",
+   "categoria": "software",
+   "nivel": 2,
+   "depende_de": [
+    "paginas-web",
+    "javascript"
+   ],
+   "habilita": [
+    "aplicaciones-web"
+   ],
+   "temas": [
+    "El frontend moderno y su cadena de herramientas",
+    "Componentes: props, composición y ciclo de vida",
+    "React a fondo: hooks, efectos y contexto",
+    "Estado: local, global y del servidor",
+    "Consumir APIs REST con los lineamientos de referencia",
+    "Formularios y validación",
+    "Angular, Vue y Svelte comparados",
+    "Estilos y sistemas de diseño",
+    "Accesibilidad de aplicaciones",
+    "Rendimiento: Core Web Vitals",
+    "Pruebas de interfaz",
+    "Patrones y arquitectura del frontend",
+    "Prompts para generar un frontend de producción"
+   ],
+   "agregado": false,
+   "url": "/frontend/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "backend",
+   "nombre": "Backend y APIs",
+   "area": "web",
+   "categoria": "software",
+   "nivel": 4,
+   "depende_de": [
+    "bases-de-datos",
+    "redes-de-computadoras"
+   ],
+   "habilita": [
+    "aplicaciones-web",
+    "aplicaciones-con-ia"
+   ],
+   "temas": [
+    "Qué hace un servidor",
+    "HTTP a fondo",
+    "Modelos de ejecución y de concurrencia",
+    "Arquitecturas monolíticas",
+    "Arquitecturas centradas en el dominio",
+    "Arquitecturas distribuidas",
+    "Patrones del backend",
+    "Lenguajes y frameworks del servidor",
+    "Persistencia: SQL, ORM y migraciones",
+    "Cachés y trabajos en segundo plano",
+    "Autenticación y autorización",
+    "Qué es una API y cómo se integraban los sistemas antes",
+    "REST de verdad",
+    "Algunos lineamientos de referencia",
+    "Contrato primero con OpenAPI",
+    "Idempotencia y reintentos",
+    "Operaciones asíncronas, SSE y webhooks",
+    "Seguridad de APIs",
+    "Otras formas de API: GraphQL, gRPC y WebSockets",
+    "Mensajería: colas y publicar/suscribir",
+    "Patrones de integración empresarial",
+    "Resiliencia y escala",
+    "API Gateway, BFF, service mesh y la evolución de las APIs",
+    "Pruebas del backend",
+    "Prompts para generar un backend de producción",
+    "Introducción – 4 horas",
+    "Procesos en el servidor – 20 horas",
+    "El Web como repositorio de datos – 20 horas",
+    "XML como metalenguaje",
+    "Definición de lenguajes XML (DTD, DOM y XML Schemas)",
+    "Transformaciones (XPath y XSLT)",
+    "Lenguajes XML de uso específico (XSL-FO, Math-ML, SVG, ebXML)",
+    "Aplicaciones WEB",
+    "Protocolos (SOAP, librería JAX-RPC)",
+    "Servicios WEB"
+   ],
+   "agregado": false,
+   "url": "/backend/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "aplicaciones-web",
+   "nombre": "Aplicaciones web: de CGI a las SPA",
+   "area": "web",
+   "categoria": "software",
+   "nivel": 5,
+   "depende_de": [
+    "frontend",
+    "backend"
+   ],
+   "habilita": [],
+   "temas": [
+    "La web de documentos (1991)",
+    "CGI: un programa por petición (1993)",
+    "Las soluciones del servidor (1995-2005)",
+    "Llega JavaScript (1995)",
+    "Técnicas de manipulación del DOM",
+    "Ajax: la página que no se recarga (1999-2005)",
+    "jQuery y su época (2006)",
+    "El estilo funcional llega al navegador",
+    "Módulos y carga diferida",
+    "MVC en el cliente y Angular (2010-2016)",
+    "Aplicaciones de una sola página (SPA)",
+    "React y el DOM virtual (2013)",
+    "Después de React: Vue, Svelte, señales y Web Components",
+    "De vuelta al servidor",
+    "El árbol genealógico de los patrones",
+    "Seguridad web de punta a punta",
+    "Proyecto integrador",
+    "Common Aspects/Shared Concerns (CS2023)",
+    "Web Platforms (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/aplicaciones-web/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "aplicaciones-moviles",
+   "nombre": "Aplicaciones móviles",
+   "area": "web",
+   "categoria": "software",
+   "nivel": 2,
+   "depende_de": [
+    "interaccion-humano-computador",
+    "javascript"
+   ],
+   "habilita": [],
+   "temas": [
+    "El panorama: nativas, multiplataforma, híbridas y PWA",
+    "iOS nativo: Swift y SwiftUI",
+    "Android nativo: Kotlin y Jetpack Compose",
+    "Multiplataforma: Flutter, React Native, Kotlin Multiplatform y .NET MAUI",
+    "Híbridas y PWA",
+    "Ciclo de vida, permisos y notificaciones",
+    "Datos en el móvil: almacenamiento, offline-first y sincronización",
+    "Patrones de arquitectura móvil",
+    "Seguridad móvil",
+    "Pruebas y publicación",
+    "Prompts para generar una app móvil de producción",
+    "Mobile Platforms (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/aplicaciones-moviles/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "devops",
+   "nombre": "DevOps",
+   "area": "ingeniería de software",
+   "categoria": "software",
+   "nivel": 4,
+   "depende_de": [
+    "linea-de-comandos",
+    "desarrollo-de-aplicaciones",
+    "redes-de-computadoras"
+   ],
+   "habilita": [
+    "mlops"
+   ],
+   "temas": [
+    "Qué es DevOps y por qué",
+    "Git a fondo",
+    "Integración continua",
+    "Contenedores: imágenes, capas y Docker Compose",
+    "Seguridad de la cadena de suministro",
+    "Orquestación con Kubernetes",
+    "Entrega y despliegue continuo",
+    "Infraestructura como código",
+    "La nube: cómputo, almacenamiento, redes y costos",
+    "Observabilidad: logs, métricas y trazas",
+    "SRE: objetivos de servicio e incidentes",
+    "Cambios en producción",
+    "Prompts para generar infraestructura y entrega de producción",
+    "Tools and Environments (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/devops/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "programacion-python",
+   "nombre": "Programación en Python",
+   "area": "lenguajes de programación",
+   "categoria": "software",
+   "nivel": 1,
+   "depende_de": [
+    "fundamentos-programacion"
+   ],
+   "habilita": [
+    "ingenieria-de-datos",
+    "ciencia-de-datos"
+   ],
+   "temas": [
+    "Qué es programar y por qué Python",
+    "Valores, tipos y variables",
+    "Texto: cadenas, f-strings y entrada del usuario",
+    "Condiciones: el programa que decide",
+    "Bucles: repetir sin copiar",
+    "Listas y tuplas",
+    "Diccionarios y conjuntos",
+    "Funciones",
+    "Tus propios tipos: clases y objetos",
+    "Módulos, paquetes y la biblioteca estándar",
+    "Leer y guardar archivos",
+    "Errores, excepciones y depuración",
+    "Tu primera prueba con pytest",
+    "Proyecto final: el registro de gastos completo"
+   ],
+   "agregado": false,
+   "url": "/programacion-python/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "javascript",
+   "nombre": "JavaScript",
+   "area": "lenguajes de programación",
+   "categoria": "software",
+   "nivel": 1,
+   "depende_de": [
+    "fundamentos-programacion"
+   ],
+   "habilita": [
+    "frontend",
+    "aplicaciones-moviles",
+    "typescript"
+   ],
+   "temas": [
+    "Historia: de Netscape a las versiones anuales",
+    "Valores, tipos y coerción",
+    "Funciones, alcance, closures y `this`",
+    "Objetos y prototipos",
+    "JavaScript funcional",
+    "El event loop",
+    "Asincronía: callbacks, promesas y async/await",
+    "Módulos: `import`, `export` y los dos sistemas de Node",
+    "npm y el ecosistema de paquetes",
+    "Node.js como entorno, Deno y Bun"
+   ],
+   "agregado": false,
+   "url": "/javascript/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "typescript",
+   "nombre": "TypeScript",
+   "area": "lenguajes de programación",
+   "categoria": "software",
+   "nivel": 2,
+   "depende_de": [
+    "javascript"
+   ],
+   "habilita": [],
+   "temas": [
+    "El problema de JavaScript a gran escala",
+    "Historia: de Closure Compiler a TypeScript",
+    "Tipos básicos, inferencia y anotaciones",
+    "Tipado estructural, interfaces y alias",
+    "Uniones, estrechamiento y uniones discriminadas",
+    "Genéricos",
+    "Tipos avanzados",
+    "Configuración y herramientas",
+    "Migrar de JavaScript a TypeScript",
+    "TypeScript en el frontend",
+    "TypeScript en el backend",
+    "Tipos de punta a punta"
+   ],
+   "agregado": false,
+   "url": "/typescript/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "go",
+   "nombre": "Go",
+   "area": "lenguajes de programación",
+   "categoria": "software",
+   "nivel": 1,
+   "depende_de": [
+    "fundamentos-programacion"
+   ],
+   "habilita": [],
+   "temas": [
+    "Por qué Google creó Go (2009)",
+    "El lenguaje: tipos, structs y colecciones",
+    "Errores como valores",
+    "Interfaces implícitas y genéricos",
+    "Goroutines: miles de tareas a la vez",
+    "Canales y select",
+    "Context, cancelación y sincronización",
+    "Pruebas, benchmarks y perfiles",
+    "Herramientas, módulos y binarios",
+    "Dónde brilla Go"
+   ],
+   "agregado": false,
+   "url": "/go/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "rust",
+   "nombre": "Rust",
+   "area": "lenguajes de programación",
+   "categoria": "software",
+   "nivel": 1,
+   "depende_de": [
+    "fundamentos-programacion"
+   ],
+   "habilita": [],
+   "temas": [
+    "Por qué Rust: los errores de memoria de C y C++",
+    "La memoria de un programa: pila, montículo y recolección",
+    "Herramientas: rustup, cargo y compañía",
+    "Ownership y movimientos",
+    "Préstamos, lifetimes y punteros inteligentes",
+    "Structs, enums y *pattern matching*",
+    "Traits, genéricos, closures e iteradores",
+    "Errores con `Result` y el operador `?`",
+    "Concurrencia sin miedo",
+    "Rust en la web: WebAssembly",
+    "`unsafe`, FFI y cuándo elegir Rust"
+   ],
+   "agregado": false,
+   "url": "/rust/",
+   "estado": "en-preparacion"
+  },
+  {
+   "slug": "programacion-r",
+   "nombre": "R y aplicaciones interactivas",
+   "area": "datos",
+   "categoria": "ia",
+   "nivel": 1,
+   "depende_de": [
+    "fundamentos-programacion"
+   ],
+   "habilita": [],
+   "temas": [
+    "R y su mundo: de S a webR",
+    "Vectores, tipos y vectorización",
+    "Listas, factores, matrices y data frames",
+    "Funciones, entornos y programación funcional",
+    "El tidyverse y la tubería",
+    "Objetos, paquetes y reproducibilidad",
+    "ggplot2: la gramática de los gráficos en R",
+    "Gráficos dinámicos e htmlwidgets",
+    "Documentos y reportes con Quarto",
+    "La primera aplicación Shiny",
+    "Reactividad: el grafo que mueve a Shiny",
+    "Aplicaciones grandes: módulos, estado y rendimiento",
+    "Probar y publicar aplicaciones Shiny",
+    "Proyecto integrador: el tablero de las bicicletas"
+   ],
+   "agregado": false,
+   "url": "/programacion-r/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "ingenieria-de-datos",
+   "nombre": "Ingeniería de datos",
+   "area": "datos",
+   "categoria": "ia",
+   "nivel": 3,
+   "depende_de": [
+    "bases-de-datos",
+    "programacion-python"
+   ],
+   "habilita": [],
+   "temas": [
+    "El ciclo de vida del dato: de su creación a su destrucción",
+    "Fuentes e ingesta",
+    "Formatos: CSV, JSON, Parquet y Avro",
+    "ETL y ELT, por lotes o en streaming",
+    "Data warehouse y modelado dimensional",
+    "Data lake, lakehouse y arquitectura medallón",
+    "Procesamiento distribuido: de MapReduce a Spark",
+    "Streaming: Kafka como plataforma de datos",
+    "Orquestación: Airflow y Dagster",
+    "Transformación con dbt y pruebas de datos",
+    "Retención, archivo y borrado",
+    "Calidad, linaje y gobierno de datos",
+    "Patrones de plataformas de datos",
+    "Prompts para generar pipelines de producción",
+    "Definiciones y conceptos básicos",
+    "Sistemas para el Procesamiento de Grandes de Volúmenes de Datos",
+    "Modelos de programación para Big Data",
+    "-1- Datasets",
+    "La práctica abarca soluciones a casos de estudio asociados a los contenidos cubiertos en teoría",
+    "The Role of Data and the Data Life Cycle (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/ingenieria-de-datos/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "aplicaciones-con-ia",
+   "nombre": "Aplicaciones con IA",
+   "area": "IA generativa",
+   "categoria": "ia",
+   "nivel": 7,
+   "depende_de": [
+    "ia-generativa",
+    "backend"
+   ],
+   "habilita": [
+    "chatbots-empresariales",
+    "agentes-personales"
+   ],
+   "temas": [
+    "La escalera de la IA en una empresa",
+    "Un modelo probabilístico para necesidades deterministas",
+    "Llamar a un modelo por API",
+    "Contexto e instrucciones",
+    "Salidas estructuradas y esquemas JSON",
+    "Interfaces conversacionales: de UX a AX",
+    "Memoria de los asistentes",
+    "RAG: responder con los documentos de la empresa",
+    "Herramientas: el modelo que pide ejecutar funciones",
+    "MCP primero",
+    "Aprobaciones y mensajería con humano en el bucle",
+    "Flujos de procesos con IA",
+    "Agentes dentro del producto",
+    "¿Ajustar un modelo?",
+    "Patrones de aplicaciones con LLM: el catálogo",
+    "Evaluar una aplicación con IA",
+    "Observabilidad y KPIs",
+    "Seguridad de las aplicaciones con IA",
+    "Prompts para generar una aplicación con IA de producción",
+    "Integrar con el producto y llevarlo a la empresa"
+   ],
+   "agregado": false,
+   "url": "/aplicaciones-con-ia/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "ciencia-de-datos",
+   "nombre": "Ciencia de datos",
+   "area": "datos",
+   "categoria": "ia",
+   "nivel": 2,
+   "depende_de": [
+    "programacion-python",
+    "mate:inferencia"
+   ],
+   "habilita": [
+    "aprendizaje-estadistico"
+   ],
+   "temas": [
+    "Hacer buenas preguntas y el ciclo de un análisis",
+    "Datos tabulares con pandas y Polars",
+    "Limpieza: faltantes, duplicados, tipos y atípicos",
+    "Agrupar, unir y remodelar datos",
+    "Análisis exploratorio",
+    "Visualización: qué gráfico para qué pregunta",
+    "Minería de datos: asociación y segmentación",
+    "Minería de texto clásica",
+    "Comunicar: tableros, reportes e historias con datos",
+    "Proyecto integrador: del pedido al tablero",
+    "¿Qué es la Minería de Datos?",
+    "Proceso de Minería de datos y la metodología CRISP-DM (CROSS-INDUSTRY STANDARD PRACTICE FOR DATA MINING)",
+    "Arquitectura de un sistema de Minería de Datos y sus tipos",
+    "Tipos de datos utilizados",
+    "1-",
+    "Minería de Datos y otras disciplinas",
+    "Funcionalidades de Minería de Datos",
+    "Introducción a la integración de un sistema de extracción de datos con una base de datos o Sistema de Bodega de Datos…",
+    "Los grandes debates de minería de datos",
+    "¿Por qué Preprocesar los datos?",
+    "Descripción del resumen de los datos",
+    "Limpieza de datos",
+    "Tratamiento de datos faltantes",
+    "Introducción a la integración de datos y la transformación",
+    "Reducción de Datos",
+    "Datos de discretización y concepto de jerarquía de la Generación"
+   ],
+   "agregado": false,
+   "url": "/ciencia-de-datos/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "aprendizaje-estadistico",
+   "nombre": "Aprendizaje automático",
+   "area": "aprendizaje",
+   "categoria": "ia",
+   "nivel": 3,
+   "depende_de": [
+    "ciencia-de-datos",
+    "mate:algebra-lineal"
+   ],
+   "habilita": [
+    "aprendizaje-profundo",
+    "mlops",
+    "ia-responsable"
+   ],
+   "temas": [
+    "Qué es aprender de los datos",
+    "Regresión predictiva y regularización",
+    "Clasificación: logística, k vecinos y Bayes ingenuo",
+    "Validación: entrenamiento, validación y prueba",
+    "Métricas: matriz de confusión, ROC y calibración",
+    "Sesgo y varianza, y curvas de aprendizaje",
+    "Árboles y ensambles: bosques y boosting",
+    "Máquinas de soporte vectorial y kernels",
+    "Aprendizaje no supervisado: agrupar y reducir dimensión",
+    "Ingeniería de variables y pipelines con scikit-learn",
+    "Interpretabilidad: explicar un modelo y una predicción",
+    "Patrones de modelos de aprendizaje automático",
+    "Conceptos básicos",
+    "Métodos de minado para conjuntos frecuentes de elementos",
+    "Minando varios tipos de reglas de asociación",
+    "Del minado al análisis de correlación",
+    "Minando asociaciones basadas en restricciones 4",
+    "¿Qué es la clasificación? ¿Qué es la predicción?",
+    "Cuestiones sobre la clasificación y predicción",
+    "Clasificación basada en regresión",
+    "Clasificación basada en reglas",
+    "Aprendizaje Lazy",
+    "Tratamiento de clases no balanceadas",
+    "Evaluación de la exactitud de un clasificador o Predictor 5",
+    "¿Qué es el análisis de agrupamiento?",
+    "Tipos de datos en análisis de agrupamiento",
+    "Una categorización de los métodos principales de agrupamiento",
+    "Métodos de particionamiento",
+    "Métodos jerárquicos y basados en densidad",
+    "Agrupamiento de grafos",
+    "Evaluación de Agrupamiento",
+    "1 Introducción 1.1 ¿Qué es la minería de datos? El proceso de extracción de conocimiento 2 El problema de la extracci…",
+    "Machine Learning (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/aprendizaje-estadistico/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "aprendizaje-profundo",
+   "nombre": "Aprendizaje profundo",
+   "area": "aprendizaje",
+   "categoria": "ia",
+   "nivel": 4,
+   "depende_de": [
+    "aprendizaje-estadistico",
+    "mate:calculo-varias-variables"
+   ],
+   "habilita": [
+    "vision-por-computador",
+    "aprendizaje-por-refuerzo",
+    "modelos-de-ia"
+   ],
+   "temas": [
+    "De la neurona a la red",
+    "Medir el error: salidas y funciones de pérdida",
+    "Retropropagación y grafos de cómputo",
+    "Optimización: SGD, momento, Adam y la tasa de aprendizaje",
+    "Regularización: dropout, normalización, aumento de datos y parada temprana",
+    "Redes convolucionales y visión",
+    "Redes recurrentes y secuencias",
+    "Aprender representaciones: autoencoders, VAE y GAN",
+    "Transferencia de aprendizaje y ajuste de modelos preentrenados",
+    "PyTorch en la práctica: tensores, entrenamiento y GPU",
+    "Conocer las funciones y autonomias básicas del sistema nervioso, así como los tipos de aprendizajes que ocurren en lo…",
+    "Entender el funcionamiento, inspiración biológica y detalles de implementación de diversas redes neurales artificiales",
+    "Realizar documentaciones técnicas de los sistemas implementados, así como de las pruebas realizadas y los resultados …",
+    "Introducción a las redes neurales",
+    "Memoria y Clasificación de patrones",
+    "El Adaline",
+    "Redes a capas",
+    "Selección de Arquitectura en redes a capas",
+    "Funciones de base radial",
+    "Aprendizaje no supervisado",
+    "Aprendizaje Hebbiano no supervisado",
+    "Gas neural",
+    "Modelos de memorias asociativas y autoasociativas"
+   ],
+   "agregado": false,
+   "url": "/aprendizaje-profundo/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "aprendizaje-por-refuerzo",
+   "nombre": "Aprendizaje por refuerzo",
+   "area": "aprendizaje",
+   "categoria": "ia",
+   "nivel": 5,
+   "depende_de": [
+    "aprendizaje-profundo"
+   ],
+   "habilita": [],
+   "temas": [
+    "Aprender por recompensa",
+    "Procesos de decisión de Markov (MDP)",
+    "Valor y política: las ecuaciones de Bellman",
+    "Programación dinámica: evaluar y mejorar políticas",
+    "Métodos de Monte Carlo",
+    "Diferencias temporales: TD(0) y SARSA",
+    "Q-learning",
+    "Aproximación de funciones y DQN",
+    "Gradiente de política y actor-crítico",
+    "PPO: pasos de política seguros",
+    "El puente con RLHF: refuerzo con preferencias humanas",
+    "El refuerzo en el mundo: recompensas, simuladores y límites"
+   ],
+   "agregado": false,
+   "url": "/aprendizaje-por-refuerzo/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "modelos-de-ia",
+   "nombre": "Modelos de IA",
+   "area": "aprendizaje",
+   "categoria": "ia",
+   "nivel": 5,
+   "depende_de": [
+    "aprendizaje-profundo"
+   ],
+   "habilita": [
+    "ia-generativa"
+   ],
+   "temas": [
+    "Del texto a los números: tokenización",
+    "Embeddings y espacios semánticos",
+    "Atención y el Transformer",
+    "Preentrenamiento: predecir la siguiente palabra",
+    "Ajuste fino, instrucciones, RLHF y DPO",
+    "Generar: temperatura, top-p y muestreo",
+    "Modelos multimodales e imágenes: los modelos de difusión",
+    "Razonamiento: cadenas de pensamiento y modelos que piensan antes de responder",
+    "Evaluar modelos: benchmarks, contaminación, personas y jueces",
+    "Modelos abiertos y cerrados, tamaños, cuantización y costo",
+    "Natural Language Processing (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/modelos-de-ia/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "ia-generativa",
+   "nombre": "IA generativa",
+   "area": "IA generativa",
+   "categoria": "ia",
+   "nivel": 6,
+   "depende_de": [
+    "modelos-de-ia"
+   ],
+   "habilita": [
+    "aplicaciones-con-ia"
+   ],
+   "temas": [
+    "Qué puede y qué no puede hacer la IA generativa",
+    "Alucinaciones y cómo verificar",
+    "Pedir bien: contexto, rol, ejemplos y formato",
+    "Trabajar con tus documentos",
+    "Texto: redactar, resumir, traducir y revisar",
+    "Imagen, audio y video",
+    "Datos y hojas de cálculo con IA",
+    "Código para no programadores",
+    "Casos por área",
+    "De usarla a adoptarla: la IA en tu equipo"
+   ],
+   "agregado": false,
+   "url": "/ia-generativa/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "adopcion-de-ia",
+   "nombre": "IA en la empresa",
+   "area": "IA en la empresa",
+   "categoria": "ia",
+   "nivel": 0,
+   "depende_de": [],
+   "habilita": [],
+   "temas": [
+    "Adoptar la IA no es comprar una herramienta",
+    "La escalera de cinco niveles, vista desde el negocio",
+    "Diagnóstico de preparación: datos, personas, procesos y tecnología",
+    "Encontrar casos de uso",
+    "Priorizar el portafolio: valor y factibilidad",
+    "El caso de negocio y el retorno de la inversión",
+    "El modelo operativo: centro de excelencia, roles y campeones",
+    "Comprar, construir o combinar: plataforma y proveedores",
+    "La política de uso y el inventario de usos",
+    "Personas y cambio: formación, adopción y miedo al reemplazo",
+    "Pilotos que escalan: de la prueba a producción",
+    "Medir: KPI por nivel y el tablero de la adopción",
+    "Casos por área en cada nivel de la escalera",
+    "De UX a AX: cómo cambia la experiencia de clientes y empleados"
+   ],
+   "agregado": false,
+   "url": "/adopcion-de-ia/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "chatbots-empresariales",
+   "nombre": "Cómo construir chatbots empresariales",
+   "area": "IA generativa",
+   "categoria": "ia",
+   "nivel": 8,
+   "depende_de": [
+    "aplicaciones-con-ia"
+   ],
+   "habilita": [],
+   "temas": [
+    "Qué es un chatbot empresarial",
+    "Cuatro formas de entender: reglas, NLU, LLM y agentes",
+    "Principios de diseño conversacional, tono y primer mensaje",
+    "Flujos, especificación de casos de uso y manejo de errores",
+    "Las capas de la plataforma y el patrón híbrido",
+    "El gestor de diálogo, el contexto multiturno y la sesión",
+    "La base de conocimiento del bot",
+    "WhatsApp, Telegram, Instagram, la web y la omnicanalidad",
+    "Escalamiento y traspaso a un humano con el contexto",
+    "Atención, enrutamiento entre áreas, prospectos y ventas",
+    "Consultar la deuda, cobrar y abrir tickets: el bot que actúa",
+    "Identidad, pagos seguros y guardrails",
+    "El costo por conversación",
+    "Contención, desvío y satisfacción: medir y mejorar",
+    "Pruebas, versiones de flujos y gobierno de cambios",
+    "Prompts para generar un chatbot de producción",
+    "El proyecto: del descubrimiento al bot estable en producción"
+   ],
+   "agregado": false,
+   "url": "/chatbots-empresariales/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "agentes-personales",
+   "nombre": "Agentes personales",
+   "area": "IA generativa",
+   "categoria": "ia",
+   "nivel": 8,
+   "depende_de": [
+    "aplicaciones-con-ia"
+   ],
+   "habilita": [
+    "arneses"
+   ],
+   "temas": [
+    "Del chat al agente",
+    "Cómo trabaja un agente, sin código",
+    "El panorama de los agentes",
+    "Instrucciones permanentes",
+    "Herramientas y conectores",
+    "Memoria: qué recuerda el agente",
+    "Permisos y seguridad",
+    "Habilidades, comandos y subagentes",
+    "Delegar bien",
+    "Aprobación humana y puntos de control",
+    "Tareas largas, en segundo plano y programadas",
+    "Casos personales",
+    "Casos de equipo y límites"
+   ],
+   "agregado": false,
+   "url": "/agentes-personales/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "arneses",
+   "nombre": "Cómo construir un arnés",
+   "area": "IA generativa",
+   "categoria": "ia",
+   "nivel": 9,
+   "depende_de": [
+    "agentes-personales"
+   ],
+   "habilita": [],
+   "temas": [
+    "Modelo más arnés: qué es un arnés",
+    "El bucle del agente",
+    "El runtime de herramientas y el registro de capacidades",
+    "La puerta a los modelos (*model gateway*)",
+    "El motor de contexto y la compactación",
+    "Sesiones, eventos y ejecución durable",
+    "Reglas y el motor de políticas",
+    "Validadores y ganchos",
+    "El servicio de interacción humana",
+    "Credenciales, aislamiento e idempotencia",
+    "Registros, auditoría y gobierno de datos",
+    "Planificador y ejecutor",
+    "Orquestador y subagentes",
+    "Memoria a corto y largo plazo y la biblioteca de habilidades",
+    "Evaluar un arnés",
+    "Un arnés completo, de punta a punta"
+   ],
+   "agregado": false,
+   "url": "/arneses/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "mlops",
+   "nombre": "IA en producción (MLOps)",
+   "area": "IA en la empresa",
+   "categoria": "ia",
+   "nivel": 5,
+   "depende_de": [
+    "aprendizaje-estadistico",
+    "devops"
+   ],
+   "habilita": [],
+   "temas": [
+    "Por qué falla un modelo en producción",
+    "Versionar datos, código y modelos",
+    "Entrenamiento reproducible y pipelines de ML",
+    "Feature stores",
+    "Servir modelos: por lotes, en línea y en el borde",
+    "Desplegar modelos: *shadow*, canario y pruebas A/B",
+    "Monitoreo: deriva de datos y de concepto",
+    "Reentrenamiento y gobierno del modelo",
+    "LLMOps: lo que cambia con los modelos de lenguaje",
+    "Prompts para llevar un modelo a producción",
+    "La plataforma de MLOps y el proyecto integrador"
+   ],
+   "agregado": false,
+   "url": "/mlops/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "ia-responsable",
+   "nombre": "IA responsable",
+   "area": "IA en la empresa",
+   "categoria": "ia",
+   "nivel": 4,
+   "depende_de": [
+    "aprendizaje-estadistico",
+    "etica-de-la-computacion"
+   ],
+   "habilita": [],
+   "temas": [
+    "Qué es la IA responsable",
+    "Sesgo y equidad: de dónde viene y cómo se mide",
+    "Transparencia y explicabilidad",
+    "Derechos de autor y datos de entrenamiento",
+    "Privacidad en los sistemas de IA",
+    "Regulación: la Ley de IA europea y el panorama de la región",
+    "Gobierno de la IA en una organización",
+    "Evaluación de impacto: el caso completo",
+    "Applications and Societal Impact (CS2023)"
+   ],
+   "agregado": false,
+   "url": "/ia-responsable/",
+   "estado": "disponible"
+  },
+  {
+   "slug": "fundamentos-programacion",
+   "nombre": "Fundamentos de programación",
+   "area": "lenguajes de programación",
+   "categoria": "software",
+   "nivel": 0,
+   "depende_de": [],
+   "habilita": [
+    "arquitectura-del-computador",
+    "algoritmos",
+    "interaccion-humano-computador",
+    "programacion-python",
+    "javascript",
+    "go",
+    "rust",
+    "programacion-r"
+   ],
+   "temas": [
+    "Variables y tipos básicos",
+    "Control de flujo",
+    "Funciones y recursión",
+    "Colecciones",
+    "Errores",
+    "Pruebas elementales",
+    "Cómo se ejecuta un programa",
+    "Introducción al lenguaje algorítmico",
+    "Análisis descendentes y refinanciamiento paso a paso",
+    "7",
+    " definicion de la case  arreglos bidimencionales  acciones parametricas",
+    "Actuales, parametros por valor y parametros por referencias tema 2",
+    " definicion e invocacion de funciones  funciones estándar de pascal",
+    "Declaracion y acceso de datos tipo registros ejercicios tema 4",
+    " definicion  tratamientos de archivos secuenciales  archivo de texto  ejercicio nota",
+    "Funcionamiento de un computador",
+    "Los sistemas repositorios y transmisores de la informacion digital",
+    "Eficacia en el almacenamiento y envio de datos",
+    "Software de productividad personal",
+    "Introducción a la arquitectura del computador",
+    "Introducción a los lenguajes de programación",
+    "Introducción a la programación vs codificación",
+    "Estructuras básicas de control",
+    "Archivos",
+    "Introduccón al lenguaje de programación PASCAL",
+    "Tipos básicos de datos (INTEGER, REAL, CHAR, BOOLEAN, STRING) provistos por PASCAL",
+    "Estructuras básicas ed control",
+    "Empleo de funciones y subrutinas predefinidas",
+    "Definición y utilidad de los arreglos unidimensionales",
+    "Arrelos multidimencionales y registros",
+    "Manejo de archivos",
+    "Introducción al computador",
+    "Introducción a los lenguajes de programación, definición y características",
+    "Introducción a los ambientes de programación",
+    "Definición de un algoritmo",
+    "Introducción al modelaje de problemas bajo el enfoque de programación estructurada",
+    "Estructura general de un programa",
+    "Introducción definitiva de asignación, entrada y salida de datos",
+    "Tipos de datos avanzados y la técnica de programación estructurada",
+    "tipos de datos avanzados",
+    "Introducción al concepto de funciones y operaciones",
+    "Medios de comunicación entre los componentes de un programa",
+    "Definición de variables locales y globales",
+    "Introducción al concepto de reutilización",
+    "Tema 1",
+    "Tema 2",
+    "Tema 3",
+    "Descripcion de valores simples (enteras, bouleanas, caracteres)",
+    "Tema 4",
+    "Noción de Conjuntos, Secuencia y Funciones de Agregación (sumatoria, productoria, máximo, mínimo, conteo)",
+    "Estructura general de un programa en GCL",
+    "Estructuras de control",
+    "Arreglos",
+    "Análisis Descendente",
+    "Recursión",
+    "Especificación formal de problemas mediante precondición y post condición, utilizando el cálculo de predicados de pri…",
+    "Control de Complejidad en la resolución algorítmica de problemas",
+    "Familarización con ambiente de trabajo",
+    "Tipos ordinales",
+    "Verificación de las aserciones y el estado de las variables correspondientes a las precondiciones, postcondiciones y …",
+    "Principios de los procesos de desarrollo ágil",
+    "Archivos secuenciales",
+    "Fundamental Programming Concepts and Practices (CS2023)",
+    "Fundamental Data Structures (CS2023)",
+    "Algorithms (CS2023)",
+    "Software Development Practices (CS2023)"
+   ],
+   "agregado": false,
+   "url": "",
+   "estado": "proximamente"
+  },
+  {
+   "slug": "inteligencia-artificial",
+   "nombre": "Inteligencia artificial clásica",
+   "area": "aprendizaje",
+   "categoria": "ia",
+   "nivel": 2,
+   "depende_de": [
+    "algoritmos",
+    "logica-simbolica",
+    "mate:probabilidad"
+   ],
+   "habilita": [
+    "robotica"
+   ],
+   "temas": [
+    "Busqueda heuristica",
+    "Descomposicion de problemas",
+    "Sastifaccion de resticciones",
+    "Planning 4) representacion de conocimiento",
+    "Logica",
+    "Tradeoffs",
+    "Lenguajes de representacion basados en logica",
+    "Limitaciones de la logica ejemplo",
+    "Lenguajes de modelacion no basados en logica",
+    "Probabilidades, redes bayesianas",
+    "Utilidades, diagramas de influencia organización",
+    "Introduccion a la inteligencia artificial",
+    "Introduccion a la representacion del conocimiento",
+    "Pricipales formalismos",
+    "Estrategias de busqueda en el espacio de estados",
+    "La inteligencia del conocimiento",
+    "Mecanismos avanzados de representacion del concimiento",
+    "Fundamental Issues (CS2023)",
+    "Search (CS2023)",
+    "Fundamental Knowledge Representation and Reasoning (CS2023)",
+    "Logical Representation and Reasoning (CS2023)",
+    "Probabilistic Representation and Reasoning (CS2023)",
+    "Planning (CS2023)"
+   ],
+   "agregado": false,
+   "url": "",
+   "estado": "proximamente"
+  }
+ ],
+ "externos": [
+  {
+   "slug": "mate:matematicas-discretas",
+   "nombre": "Matemáticas discretas",
+   "url": "/matematica/grafo/"
+  },
+  {
+   "slug": "mate:logica-y-conjuntos",
+   "nombre": "Lógica y conjuntos",
+   "url": "/matematica/grafo/"
+  },
+  {
+   "slug": "mate:algebra-lineal",
+   "nombre": "Álgebra lineal",
+   "url": "/matematica/grafo/"
+  },
+  {
+   "slug": "mate:probabilidad",
+   "nombre": "Probabilidad",
+   "url": "/matematica/grafo/"
+  },
+  {
+   "slug": "mate:inferencia",
+   "nombre": "Inferencia estadística",
+   "url": "/matematica/grafo/"
+  },
+  {
+   "slug": "mate:calculo-varias-variables",
+   "nombre": "Cálculo en varias variables",
+   "url": "/matematica/grafo/"
+  }
+ ],
+ "materias": [
+  {
+   "codigo": "CI-1112",
+   "nombre": "Informatica II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-1113",
+   "nombre": "Informatica III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-1114",
+   "nombre": "Introduccion Computacion",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "etica-de-la-computacion",
+    "fundamentos-programacion",
+    "bases-de-datos",
+    "seguridad-informatica"
+   ]
+  },
+  {
+   "codigo": "CI-2121",
+   "nombre": "Programacion Ingenieros",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-2122",
+   "nombre": "Programacion Ingenieros",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-2125",
+   "nombre": "Computacion I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-2126",
+   "nombre": "Computacion II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos"
+   ]
+  },
+  {
+   "codigo": "CI-2127",
+   "nombre": "Algoritmos y Programacion",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-2511",
+   "nombre": "Logica Simbolica",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "logica-simbolica"
+   ]
+  },
+  {
+   "codigo": "CI-2521",
+   "nombre": "Estructuras Discretas I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": []
+  },
+  {
+   "codigo": "CI-2522",
+   "nombre": "Estructuras Discretas II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": []
+  },
+  {
+   "codigo": "CI-2523",
+   "nombre": "Estructuras Discretas III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": []
+  },
+  {
+   "codigo": "CI-2525",
+   "nombre": "Estructuras Discretas I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": []
+  },
+  {
+   "codigo": "CI-2526",
+   "nombre": "Estructuras Discretas II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": []
+  },
+  {
+   "codigo": "CI-2527",
+   "nombre": "Estructuras Discretas III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": []
+  },
+  {
+   "codigo": "CI-2611",
+   "nombre": "Algoritmos y Estructuras I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion",
+    "lenguajes-de-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-2612",
+   "nombre": "Algoritmos y Estructuras II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos"
+   ]
+  },
+  {
+   "codigo": "CI-2613",
+   "nombre": "Algoritmos y Estructuras III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos"
+   ]
+  },
+  {
+   "codigo": "CI-2615",
+   "nombre": "Algoritmos y Estructuras I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-2616",
+   "nombre": "Algoritmos y Estructuras II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos"
+   ]
+  },
+  {
+   "codigo": "CI-2617",
+   "nombre": "Algoritmos y Estructuras III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos"
+   ]
+  },
+  {
+   "codigo": "CI-2691",
+   "nombre": "Laboratorio de Algoritmos I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "fundamentos-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-2692",
+   "nombre": "Laboratorio de Algoritmos II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos"
+   ]
+  },
+  {
+   "codigo": "CI-2693",
+   "nombre": "Laboratorio de Algoritmos III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos"
+   ]
+  },
+  {
+   "codigo": "CI-3311",
+   "nombre": "Sistemas de Bases de Datos I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "bases-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-3315",
+   "nombre": "Sistemas de Bases de Datos I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "bases-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-3321",
+   "nombre": "Interfaces con el Usuario",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "interaccion-humano-computador"
+   ]
+  },
+  {
+   "codigo": "CI-3381",
+   "nombre": "Taller de Interfaces con el Usuario",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "interaccion-humano-computador"
+   ]
+  },
+  {
+   "codigo": "CI-3391",
+   "nombre": "Taller de  Bases de Datos I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "bases-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-3531",
+   "nombre": "Diseño Logico",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "arquitectura-del-computador"
+   ]
+  },
+  {
+   "codigo": "CI-3611",
+   "nombre": "Manejo de Memoria Secundaria",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "bases-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-3621",
+   "nombre": "Grafos y Flujo en Redes",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos-avanzados"
+   ]
+  },
+  {
+   "codigo": "CI-3641",
+   "nombre": "Lenguajes de Programacion",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "lenguajes-de-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-3691",
+   "nombre": "Taller de Manejo de Memoria Secundaria",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "bases-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-3711",
+   "nombre": "Sistemas de Programas HASTA",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "desarrollo-de-aplicaciones"
+   ]
+  },
+  {
+   "codigo": "CI-3715",
+   "nombre": "Ingenieria de Software",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "desarrollo-de-aplicaciones"
+   ]
+  },
+  {
+   "codigo": "CI-3721",
+   "nombre": "Traductores e Interpretadores",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "compiladores"
+   ]
+  },
+  {
+   "codigo": "CI-3725",
+   "nombre": "Traductores e Interpretadores",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "compiladores"
+   ]
+  },
+  {
+   "codigo": "CI-3791",
+   "nombre": "Taller de Sistemas de Programas",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "desarrollo-de-aplicaciones"
+   ]
+  },
+  {
+   "codigo": "CI-3811",
+   "nombre": "Organizacion del Computador",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "arquitectura-del-computador"
+   ]
+  },
+  {
+   "codigo": "CI-3815",
+   "nombre": "Organizacion del Computador",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "arquitectura-del-computador"
+   ]
+  },
+  {
+   "codigo": "CI-3821",
+   "nombre": "Sistemas de Operacion I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "sistemas-operativos"
+   ]
+  },
+  {
+   "codigo": "CI-3881",
+   "nombre": "Taller de Sistemas de Operacion I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "sistemas-operativos"
+   ]
+  },
+  {
+   "codigo": "CI-3891",
+   "nombre": "Taller de Organizacion del Computador",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "arquitectura-del-computador"
+   ]
+  },
+  {
+   "codigo": "CI-4210",
+   "nombre": "Mineria de datos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "ciencia-de-datos",
+    "aprendizaje-estadistico"
+   ]
+  },
+  {
+   "codigo": "CI-4251",
+   "nombre": "Programacion Funcional Avanzada",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "lenguajes-de-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-4312",
+   "nombre": "Sistema de Bases de Datos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "bases-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-4321",
+   "nombre": "Computacion Grafica",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "computacion-grafica"
+   ]
+  },
+  {
+   "codigo": "CI-4325",
+   "nombre": "Interfaces con el Usuario",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "interaccion-humano-computador"
+   ]
+  },
+  {
+   "codigo": "CI-4431",
+   "nombre": "Introduccion a la Robotica",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "robotica"
+   ]
+  },
+  {
+   "codigo": "CI-4644",
+   "nombre": "Herramientas de Programacion",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "linea-de-comandos"
+   ]
+  },
+  {
+   "codigo": "CI-4712",
+   "nombre": "Ingenieria de Software II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "desarrollo-de-aplicaciones"
+   ]
+  },
+  {
+   "codigo": "CI-4713",
+   "nombre": "Ingenieria de Software III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "desarrollo-de-aplicaciones"
+   ]
+  },
+  {
+   "codigo": "CI-4721",
+   "nombre": "Lenguajes de Programacion II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "lenguajes-de-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-4722",
+   "nombre": "Lenguajes de Programacion III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "lenguajes-de-programacion"
+   ]
+  },
+  {
+   "codigo": "CI-4793",
+   "nombre": "Taller de Desarrollo de Software",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "desarrollo-de-aplicaciones"
+   ]
+  },
+  {
+   "codigo": "CI-4821",
+   "nombre": "Sistemas de Operacion II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "sistemas-operativos"
+   ]
+  },
+  {
+   "codigo": "CI-4822",
+   "nombre": "Sistemas de Operacion III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "sistemas-operativos",
+    "sistemas-distribuidos",
+    "seguridad-informatica"
+   ]
+  },
+  {
+   "codigo": "CI-4826",
+   "nombre": "Evaluacion de Desempeño",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "sistemas-operativos"
+   ]
+  },
+  {
+   "codigo": "CI-4835",
+   "nombre": "Redes de Computadoras I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "redes-de-computadoras"
+   ]
+  },
+  {
+   "codigo": "CI-4841",
+   "nombre": "Introduccion al Paralelismo",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "computacion-paralela"
+   ]
+  },
+  {
+   "codigo": "CI-5311",
+   "nombre": "Paradigma en Modelaje de Bases de Datos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "bases-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-5312",
+   "nombre": "Gestion de Grandes Volumenes de Datos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "ingenieria-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-5313",
+   "nombre": "Arquitectura y Administracion de Bases de Datos I",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "bases-de-datos"
+   ]
+  },
+  {
+   "codigo": "CI-5315",
+   "nombre": "Bases de Datos en Internet",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "backend"
+   ]
+  },
+  {
+   "codigo": "CI-5321",
+   "nombre": "Computacion Grafica II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "computacion-grafica"
+   ]
+  },
+  {
+   "codigo": "CI-5325",
+   "nombre": "Topicos Especiales en Computacion Grafica",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "computacion-grafica"
+   ]
+  },
+  {
+   "codigo": "CI-5439",
+   "nombre": "Aprendizaje en Redes Neurales Naturales y Artificiales",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "aprendizaje-profundo"
+   ]
+  },
+  {
+   "codigo": "CI-5646",
+   "nombre": "XML y Servicios en la Web",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "backend"
+   ]
+  },
+  {
+   "codigo": "CI-5652",
+   "nombre": "Diseño de Algoritmos II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos-avanzados"
+   ]
+  },
+  {
+   "codigo": "CI-5832",
+   "nombre": "Redes II",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "redes-de-computadoras"
+   ]
+  },
+  {
+   "codigo": "CI-5833",
+   "nombre": "Redes III",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "redes-de-computadoras"
+   ]
+  },
+  {
+   "codigo": "CI-5835",
+   "nombre": "Introduccion a las Redes Inalambricas",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "redes-de-computadoras"
+   ]
+  },
+  {
+   "codigo": "CI-5852",
+   "nombre": "Topicos Especiales Realidad Aumentada",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "computacion-grafica"
+   ]
+  },
+  {
+   "codigo": "CI-6352",
+   "nombre": "Criptografia y Seguridad de Datos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "criptografia"
+   ]
+  },
+  {
+   "codigo": "CI-6432",
+   "nombre": "Inteligencia Artificial",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "inteligencia-artificial"
+   ]
+  },
+  {
+   "codigo": "CI-6436",
+   "nombre": "Sistemas Expertos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "inteligencia-artificial"
+   ]
+  },
+  {
+   "codigo": "CI-6450",
+   "nombre": "Introduccion a la Robotica",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "robotica"
+   ]
+  },
+  {
+   "codigo": "CI-6741",
+   "nombre": "Topicos Especiales en Ingenieria de Software",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "interaccion-humano-computador"
+   ]
+  },
+  {
+   "codigo": "CI-6831",
+   "nombre": "Sistemas Distribuidos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "sistemas-distribuidos"
+   ]
+  },
+  {
+   "codigo": "CI-7453",
+   "nombre": "Topicos Especiales en Bases de Datos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "aprendizaje-estadistico"
+   ]
+  },
+  {
+   "codigo": "CI-7541",
+   "nombre": "Teoria de Computacion",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "teoria-de-la-computacion"
+   ]
+  },
+  {
+   "codigo": "CI-7621",
+   "nombre": "Teoria de Algoritmos",
+   "carrera": "Ingeniería de Computación (USB)",
+   "recorrido": [
+    "algoritmos-avanzados"
+   ]
+  }
+ ],
+ "areas": [
+  "sistemas",
+  "algoritmos",
+  "datos y seguridad",
+  "fundamentos",
+  "lenguajes",
+  "interacción",
+  "sociedad",
+  "ingeniería de software",
+  "web",
+  "lenguajes de programación",
+  "datos",
+  "IA generativa",
+  "aprendizaje",
+  "IA en la empresa"
+ ],
+ "colores": {
+  "sistemas": "sistemas",
+  "algoritmos": "algoritmos",
+  "datos y seguridad": "datos-y-seguridad",
+  "fundamentos": "fundamentos",
+  "lenguajes": "lenguajes",
+  "interacción": "interaccion",
+  "sociedad": "sociedad",
+  "ingeniería de software": "ingenieria-de-software",
+  "web": "web",
+  "lenguajes de programación": "lenguajes-de-programacion",
+  "datos": "datos",
+  "IA generativa": "ia-generativa",
+  "aprendizaje": "aprendizaje",
+  "IA en la empresa": "ia-en-la-empresa"
+ }
+}

@@ -1,11 +1,14 @@
-// Grafo de matemática: dibuja los cursos por niveles de dependencia, la ficha de cada curso y el recorrido de cada materia.
+// Grafo de temas (/matematica/grafo/, /computacion/grafo/): dibuja los cursos por niveles de dependencia, la ficha de
+// cada curso y el recorrido de cada materia. El <script> dice en data-grafo el id del JSON con los datos.
 (function () {
-  var D = JSON.parse(document.getElementById('grafo-datos').textContent);
-  var AREA = {
-    'fundamentos': 'fundamentos', 'álgebra': 'algebra', 'análisis': 'analisis', 'geometría y topología': 'geometria',
-    'numérico': 'numerico', 'probabilidad': 'probabilidad', 'procesos': 'procesos', 'estadística': 'estadistica',
-    'actuarial y finanzas': 'actuarial'
-  };
+  var yo = document.currentScript;
+  var D = JSON.parse(document.getElementById((yo && yo.dataset.grafo) || 'grafo-datos').textContent);
+  var CATEGORIA = { computacion: 'Computación', software: 'Software', ia: 'Inteligencia artificial' };
+  // Los nodos del grafo de Matemática que este grafo usa: van en el primer paso, con borde punteado.
+  (D.externos || []).forEach(function (e) {
+    D.nodos.push({ slug: e.slug, nombre: e.nombre, area: 'Matemática', nivel: 0, depende_de: [], temas: [], url: e.url, externo: true,
+      habilita: D.nodos.filter(function (n) { return n.depende_de.indexOf(e.slug) >= 0; }).map(function (n) { return n.slug; }) });
+  });
   var W = 172, H = 48, GX = 58, GY = 14, PAD = 18, NS = 'http://www.w3.org/2000/svg';
   var por = {}, niveles = {};
   D.nodos.forEach(function (n) { por[n.slug] = n; (niveles[n.nivel] = niveles[n.nivel] || []).push(n); });
@@ -22,7 +25,7 @@
   var ancho = PAD * 2 + (maxN + 1) * (W + GX) - GX, alto = PAD * 2 + maxF * (H + GY) - GY;
   svg.setAttribute('width', ancho); svg.setAttribute('height', alto); svg.setAttribute('viewBox', '0 0 ' + ancho + ' ' + alto);
   function el(t, a, p) { var e = document.createElementNS(NS, t); for (var k in a) e.setAttribute(k, a[k]); (p || svg).appendChild(e); return e; }
-  function color(area) { return 'var(--a-' + (AREA[area] || 'numerico') + ')'; }
+  function color(area) { return area === 'Matemática' ? 'var(--a-externo)' : 'var(--a-' + ((D.colores || {})[area] || 'numerico') + ')'; }
 
   var aristas = [];
   D.nodos.forEach(function (n) {
@@ -37,7 +40,7 @@
     return [l1, l2];
   }
   D.nodos.forEach(function (n) {
-    var g = el('g', { 'class': 'n', tabindex: '0', role: 'button', 'aria-label': n.nombre });
+    var g = el('g', { 'class': n.externo ? 'n ext' : 'n', tabindex: '0', role: 'button', 'aria-label': n.nombre });
     n.g = g;
     el('rect', { x: n.x, y: n.y, width: W, height: H, rx: 8, fill: color(n.area) }, g);
     var ls = partir(n.nombre);
@@ -51,6 +54,7 @@
 
   var leg = document.getElementById('grafo-leyenda');
   D.areas.forEach(function (a) { leg.insertAdjacentHTML('beforeend', '<span><i style="background:' + color(a) + '"></i>' + a + '</span>'); });
+  if ((D.externos || []).length) leg.insertAdjacentHTML('beforeend', '<span><i class="ext" style="background:' + color('Matemática') + '"></i>grafo de Matemática</span>');
   leg.insertAdjacentHTML('beforeend', '<span>● curso disponible</span>');
 
   function cadena(s, campo, acc) {
@@ -83,12 +87,19 @@
     resaltar(vis);
     n.g.classList.add('sel');
     var mats = D.materias.filter(function (m) { return m.recorrido.indexOf(s) >= 0; });
-    fichaEl.innerHTML = '<h2>' + esc(n.nombre) + '</h2><div class="area">' + esc(n.area) +
+    if (n.externo) {
+      fichaEl.innerHTML = '<h2>' + esc(n.nombre) + '</h2><div class="area">del grafo de Matemática · <a href="' + esc(n.url) +
+        '">ver el grafo de Matemática</a></div><h3>Habilita</h3><p>' + enlaces(n.habilita) + '</p>' +
+        '<p>Sus temas y sus materias están en el grafo de Matemática.</p>';
+      conectar();
+      return;
+    }
+    fichaEl.innerHTML = '<h2>' + esc(n.nombre) + '</h2><div class="area">' + (CATEGORIA[n.categoria] ? esc(CATEGORIA[n.categoria]) + ' · ' : '') + esc(n.area) +
       (n.agregado ? ' · agregado: no viene de los programas' : '') +
       (n.url ? ' · <a href="' + esc(n.url) + (n.estado === 'disponible' ? '">ir al curso</a>' : 'temario.html">ver la tabla de contenido</a>')
         : ' · curso próximamente') + '</div>' +
       '<h3>Necesita</h3><p>' + enlaces(n.depende_de) + '</p><h3>Habilita</h3><p>' + enlaces(n.habilita) + '</p>' +
-      '<h3>Temas que reúne (' + n.temas.length + ')</h3><ul>' + n.temas.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' +
+      '<h3>Temas que reúne (' + n.temas.length + ')</h3>' + (n.temas.length ? '<ul>' + n.temas.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' : '<p>—</p>') +
       '<h3>Materias que lo recorren (' + mats.length + ')</h3><ul>' +
       mats.map(function (m) { return '<li>' + esc(m.nombre) + ' <span class="area">· ' + esc(m.carrera) + '</span></li>'; }).join('') + '</ul>';
     conectar();
@@ -117,7 +128,7 @@
   Object.keys(niveles).sort(function (a, b) { return a - b; }).forEach(function (k) {
     lista.insertAdjacentHTML('beforeend', '<h3>Paso ' + (+k + 1) + '</h3>');
     niveles[k].forEach(function (n) {
-      lista.insertAdjacentHTML('beforeend', '<button type="button" data-s="' + n.slug + '" style="background:' + color(n.area) + '">' +
+      lista.insertAdjacentHTML('beforeend', '<button type="button"' + (n.externo ? ' class="ext"' : '') + ' data-s="' + n.slug + '" style="background:' + color(n.area) + '">' +
         esc(n.nombre) + '<small>' + esc(n.area) + (n.depende_de.length ? ' · necesita ' + n.depende_de.map(function (d) { return esc(por[d].nombre); }).join(', ') : '') + '</small></button>');
     });
   });

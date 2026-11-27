@@ -31,7 +31,7 @@ description: Cursos interactivos, artículos y el CV de Alexander A. Ramírez M.
 {%- assign grupos = propios | group_by: "grupo" %}
 <details class="stage cat" id="{{ k.id }}"{% if k.disponibles > 0 %} open{% endif %}>
   <summary><h2><span class="pn">{% if k.disponibles == 1 %}1 disponible · {% elsif k.disponibles > 1 %}{{ k.disponibles }} disponibles · {% endif %}{{ k.total }} en el plan</span>{{ k.nombre }}</h2></summary>
-  <p class="cat-desc">{{ k.descripcion }}{% if k.id == "matematica" %} <a href="{{ '/matematica/grafo/' | relative_url }}">Ver el grafo de temas →</a>{% endif %}</p>
+  <p class="cat-desc">{{ k.descripcion }}{% if k.id == "matematica" %} <a href="{{ '/matematica/grafo/' | relative_url }}">Ver el grafo de temas →</a>{% elsif k.id == "computacion" or k.id == "software" or k.id == "ia" %} <a href="{{ '/computacion/grafo/' | relative_url }}">Ver el grafo de temas →</a>{% endif %}</p>
   {%- for g in grupos %}
   {%- if g.name and g.name != "" %}<h3 class="grupo">{{ g.name }}</h3>{% endif %}
   {%- assign listos = g.items | where: "estado", "disponible" %}
