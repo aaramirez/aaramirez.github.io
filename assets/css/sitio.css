@@ -75,6 +75,7 @@ a.mod.pronto:hover{border-color:var(--accent)}
 .cat-desc{color:var(--muted);margin:0 0 10px}
 details.cat .grupo{font:600 .78rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 8px}
 details.cat .mods{margin-bottom:6px}
+details.cat .mod p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .temas{display:flex;flex-wrap:wrap;gap:8px}
 .tema{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);text-decoration:none;font:600 .9rem var(--f-display)}
 .tema:hover{border-color:var(--accent)}

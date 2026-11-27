@@ -34,7 +34,7 @@ description: Cursos interactivos, artículos y el CV de Alexander A. Ramírez M.
 {%- for k in cat.categorias %}
 {%- assign propios = cat.cursos | where: "categoria", k.id %}
 {%- assign grupos = propios | group_by: "grupo" %}
-<details class="stage cat" id="{{ k.id }}"{% if k.disponibles > 0 %} open{% endif %}>
+<details class="stage cat" id="{{ k.id }}"{% if k.disponibles > 0 or forloop.index <= 3 %} open{% endif %}>
   <summary><h2>{{ k.nombre }}</h2><span class="chips">{% if k.disponibles > 0 %}<span class="chip ok">{{ k.disponibles }} {% if k.disponibles == 1 %}disponible{% else %}disponibles{% endif %}</span>{% endif %}<span class="chip">{{ k.total }} en el plan</span></span></summary>
   <p class="cat-desc">{{ k.descripcion }}{% if k.id == "matematica" %} <a href="{{ '/matematica/grafo/' | relative_url }}">Ver el grafo de temas →</a>{% elsif k.id == "computacion" or k.id == "software" or k.id == "ia" %} <a href="{{ '/computacion/grafo/' | relative_url }}">Ver el grafo de temas →</a>{% endif %}</p>
   {%- for g in grupos %}
