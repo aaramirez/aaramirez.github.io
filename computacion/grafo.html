@@ -15,12 +15,12 @@ description: Los temas de computación, desarrollo de software e inteligencia ar
   </div>
   <div class="grafo-leyenda" id="grafo-leyenda"></div>
   <div class="grafo-cuerpo">
-    <div class="grafo-lienzo" id="grafo-lienzo"><svg id="grafo-svg" role="group" aria-label="Grafo de cursos de computación, software e IA y sus dependencias"></svg></div>
-    <div class="grafo-lista" id="grafo-vista-lista" hidden></div>
     <aside class="grafo-ficha" id="grafo-ficha" aria-live="polite">
       <h2>Elige un curso</h2>
       <p>Toca un curso del grafo para ver su ficha.</p>
     </aside>
+    <div class="grafo-lienzo" id="grafo-lienzo"><svg id="grafo-svg" role="group" aria-label="Grafo de cursos de computación, software e IA y sus dependencias"></svg></div>
+    <div class="grafo-lista" id="grafo-vista-lista" hidden></div>
   </div>
 </section>
 <script type="application/json" id="grafo-datos-computacion">{{ site.data.grafo_computacion | jsonify }}</script>

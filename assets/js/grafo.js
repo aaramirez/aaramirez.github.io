@@ -48,8 +48,8 @@
     if (ls[1]) el('text', { x: n.x + 10, y: n.y + 36 }, g).textContent = ls[1];
     if (n.estado === 'disponible') el('text', { x: n.x + W - 9, y: n.y + 15, 'text-anchor': 'end' }, g).textContent = '●';
     n.paso = el('text', { x: n.x + W - 9, y: n.y + H - 8, 'text-anchor': 'end', 'class': 'paso' }, g);
-    g.addEventListener('click', function () { ficha(n.slug); });
-    g.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); ficha(n.slug); } });
+    g.addEventListener('click', function () { ficha(n.slug); verFicha(); });
+    g.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); ficha(n.slug); verFicha(); } });
   });
 
   var leg = document.getElementById('grafo-leyenda');
@@ -77,6 +77,8 @@
     return lista.map(function (x) { return '<button type="button" class="ir" data-s="' + x + '">' + esc(por[x].nombre) + '</button>'; }).join(', ') || '—';
   }
   var fichaEl = document.getElementById('grafo-ficha');
+  // La ficha está arriba del grafo: si quedó fuera de la vista al tocar un curso, la página sube hasta ella.
+  function verFicha() { if (fichaEl.getBoundingClientRect().top < 0) fichaEl.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   function conectar() { fichaEl.querySelectorAll('button.ir').forEach(function (b) { b.onclick = function () { ficha(b.dataset.s); }; }); }
   function ficha(s) {
     limpiar();

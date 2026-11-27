@@ -29,8 +29,7 @@
 .grafo-check{display:flex;gap:6px;align-items:center;cursor:pointer}
 .grafo-leyenda{display:flex;flex-wrap:wrap;gap:6px 14px;font:.82rem var(--f-display);color:var(--muted);margin-bottom:12px}
 .grafo-leyenda i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px;border:1px solid var(--line)}
-.grafo-cuerpo{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:14px;align-items:start}
-@media (max-width:900px){.grafo-cuerpo{grid-template-columns:minmax(0,1fr)}}
+.grafo-cuerpo{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
 .grafo-lienzo{overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:12px;max-height:78vh}
 .grafo-lienzo[hidden]{display:none}
 #grafo-svg text{font:12px var(--f-display);fill:var(--ink);pointer-events:none}
@@ -48,6 +47,8 @@
 .grafo-ficha h2{font:700 1.15rem var(--f-display);margin:0 0 4px}
 .grafo-ficha h3{font:700 .72rem var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
 .grafo-ficha ul,.grafo-ficha ol{margin:0;padding-left:20px}
+.grafo-ficha ul{columns:3 240px;column-gap:28px}
+.grafo-ficha li{break-inside:avoid}
 .grafo-ficha .area{color:var(--muted);font:.85rem var(--f-display)}
 .grafo-ficha button.ir{background:none;border:0;padding:0;color:var(--accent);font:inherit;text-decoration:underline;cursor:pointer;text-align:left}
 .grafo-lista{display:grid;gap:10px}
