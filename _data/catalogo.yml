@@ -9,7 +9,7 @@ categorias:
   nombre: Banca y Finanzas
   descripcion: 'Cómo funcionan por dentro un banco, una casa de bolsa y los mercados: el core, los pagos, las tarjetas, los cajeros, el fraude, el cumplimiento, las inversiones y los riesgos.'
   disponibles: 0
-  total: 17
+  total: 18
 - id: seguros
   nombre: Seguros
   descripcion: 'Cómo funciona una aseguradora: la póliza, la tarifa, los siniestros, los canales de venta y la matemática actuarial.'
@@ -209,6 +209,15 @@ cursos:
   tipo: Curso · 11 capítulos
   descripcion: 'El pago en línea de punta a punta, contado para cualquier área: pasarelas, PSP y agregadores, el *checkout* y la API de pagos, los pagos recurrentes, los otros medios de pago, la tokenización, 3-D Secure, la conciliación del comercio, los *marketplaces* y la orquestación entre varios adquirentes.'
   url: /pasarelas-de-pago/
+  etiqueta: En preparación
+- slug: riesgos-en-banca-y-seguros
+  nombre: 'Riesgos en banca y seguros: el mapa completo'
+  categoria: banca
+  grupo: Riesgo y cumplimiento
+  estado: en-preparacion
+  tipo: Curso · 16 capítulos
+  descripcion: 'Todos los riesgos que maneja un banco y una aseguradora en un solo mapa, contado para cualquier área y sin fórmulas: qué es un riesgo, el apetito y los límites, las tres líneas de defensa, los riesgos financieros, los propios del seguro, los no financieros (operacional, ciber, terceros, modelo, cumplimiento, conducta, reputación, clima) y cómo se gestionan todos juntos.'
+  url: /riesgos-en-banca-y-seguros/
   etiqueta: En preparación
 - slug: gestion-de-riesgos
   nombre: Gestión de riesgos
