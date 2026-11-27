@@ -14,12 +14,12 @@ categorias:
   nombre: Desarrollo de software
   descripcion: De la página web a la aplicación móvil, con el servidor y la entrega continua en medio.
   disponibles: 0
-  total: 13
+  total: 14
 - id: ia
   nombre: Datos e inteligencia artificial
   descripcion: Ingeniería y ciencia de datos, aprendizaje automático, IA generativa, aplicaciones con IA y agentes.
   disponibles: 15
-  total: 15
+  total: 16
 - id: industrias
   nombre: Industrias y finanzas
   descripcion: Cómo funcionan por dentro un operador de telecomunicaciones, un banco, una casa de bolsa y la gestión de riesgos.
@@ -617,7 +617,7 @@ cursos:
   nombre: Ingeniería de software
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 12 capítulos
+  tipo: Curso · 11 capítulos
   descripcion: El oficio de construir software en equipo, con requisitos, código limpio, patrones de diseño, pruebas y arquitectura.
   url: /desarrollo-de-aplicaciones/
   etiqueta: En preparación
@@ -657,7 +657,7 @@ cursos:
   nombre: 'Aplicaciones web: de CGI a las SPA'
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 17 capítulos
+  tipo: Curso · 16 capítulos
   descripcion: La historia de la web como aplicación, de CGI a React, contada por los patrones que nacieron en cada época y hoy viven en los frameworks.
   url: /aplicaciones-web/
   etiqueta: En preparación
@@ -673,15 +673,23 @@ cursos:
   nombre: DevOps
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 13 capítulos
+  tipo: Curso · 12 capítulos
   descripcion: Control de versiones, integración y entrega continua, contenedores y monitoreo.
   url: /devops/
+  etiqueta: En preparación
+- slug: fundamentos-programacion
+  nombre: Fundamentos de programación
+  categoria: software
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: 'El primer curso de programación, común a todos los lenguajes: decidir, repetir, dividir el problema, leer errores y probar, con código que corre en la página.'
+  url: /fundamentos-programacion/
   etiqueta: En preparación
 - slug: programacion-python
   nombre: Programación en Python
   categoria: software
   estado: en-preparacion
-  tipo: Curso · 14 capítulos
+  tipo: Curso · 11 capítulos
   descripcion: Python desde cero, con código que se ejecuta en el navegador.
   url: /programacion-python/
   etiqueta: En preparación
@@ -725,6 +733,14 @@ cursos:
   descripcion: Programación en R, gráficos dinámicos y aplicaciones Shiny para el análisis de datos.
   url: /programacion-r/
   etiqueta: Disponible
+- slug: inteligencia-artificial
+  nombre: Inteligencia artificial clásica
+  categoria: ia
+  estado: en-preparacion
+  tipo: Curso · 14 capítulos
+  descripcion: Agentes, búsqueda, juegos, restricciones, lógica, incertidumbre y planificación, con un robot de reparto que aprende a decidir.
+  url: /inteligencia-artificial/
+  etiqueta: En preparación
 - slug: ingenieria-de-datos
   nombre: Ingeniería de datos
   categoria: ia
