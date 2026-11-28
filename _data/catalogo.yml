@@ -3,7 +3,7 @@ categorias:
 - id: telco
   nombre: Telco
   descripcion: 'Cómo funciona un operador de telecomunicaciones por dentro: la red de fibra y sus equipos, los sistemas que la operan y la cobran, y la atención al cliente.'
-  disponibles: 2
+  disponibles: 3
   total: 10
 - id: banca
   nombre: Banca y Finanzas
@@ -69,11 +69,11 @@ cursos:
   nombre: 'OLT: la cabecera de la red de fibra'
   categoria: telco
   grupo: La red de fibra
-  estado: en-preparacion
+  estado: disponible
   tipo: Curso · 12 capítulos
   descripcion: 'El equipo de la central que enciende la fibra de miles de casas: el chasis y sus tarjetas, los puertos PON, los perfiles que reparten la capacidad (DBA, T-CONT y GEM), las VLAN de cada servicio, el aprovisionamiento de cada cliente, la seguridad del acceso y la alta disponibilidad.'
   url: /olt/
-  etiqueta: En preparación
+  etiqueta: Disponible
 - slug: ont
   nombre: 'ONT: el equipo en casa del cliente'
   categoria: telco
